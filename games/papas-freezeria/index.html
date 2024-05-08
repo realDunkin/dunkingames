@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papa's Freezeria</title>
+    <script type="text/javascript" src="awayfl/loader.js"></script>
+</head>
+<body>
+    <div id = 'container'>
+
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+
+			config = {
+				    "width": 800,
+				    "height": 600,
+				    "splash": "awayfl/assets/splash.png",
+				    "baseUrl": "awayfl/",
+				    "runtime": "awayfl/PapaSeries-18.js",
+				    "binary": [
+				        {
+				            "path": "games/papas-freezeria.swf",
+				            "resourceType": "GAME",
+				            "name": "papas-freezeria.swf"
+				        },
+				        {
+				            "path": "games/papas-freezeria-font.swf",
+				            "resourceType": "FONT",
+				            "name": "game/papas-freezeria-font.swf"
+				        }
+				    ]
+				 };
+
+			AWAYFL.LegacyLoader.init(config);
+			AWAYFL.LegacyLoader.runGame((fill) => {
+				window.dispatchEvent(new CustomEvent('awayfl-player-progress', {detail: fill}));
+			}, (config, hideLoader) => {
+				const player = new AWAYFL.Player(document, config);
+				window.dispatchEvent(new CustomEvent('awayfl-player-init', {detail: player}));
+				player
+					.loadAndPlay()
+					.then((_, hide) => {
+						window.dispatchEvent(new CustomEvent('awayfl-player-load'));
+						hide && hide() || window.swfParseComplete && window.swfParseComplete();;
+					});				
+			})
+		});
+    </script>
+</body>
+</html>
