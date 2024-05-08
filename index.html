@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AwayFL Embed Example</title>
-    <script type="text/javascript" src="awayfl/embed.js"></script>
+    <script type="text/javascript" src="awayfl/loader.js"></script>
 </head>
 <body>
     <div id = 'container'>
@@ -12,7 +12,42 @@
     </div>
 
     <script>
-        swfObject.embedSWF('games/papas-freezeria.swf', 'container', 550, 400, '9.0.0');
+        window.addEventListener("load", () => {
+
+			const config = JSON.parse(gameConfig = {
+    width: 550,
+    height: 400,
+    splash: './splash.png',
+    progress: { // optional
+        back: 'cover url(./progressBack.png)',
+        line: #cc0022, // or image, it will passed to progressLine background,
+        rect: [0, 0.9, 1, 0.1] // x, y, width, height of preogress line relative container 
+    },
+    baseUrl: '',
+    runtime: ['awayfl/runtime.js'],
+    binary: [{
+        path: 'games/papas-freezeria.swf',
+        resourceType: 'GAME'
+    },{
+        path: 'games/papas-freezeria-font.swf',
+        resourceType: 'FONT'
+    }],
+});
+
+			AWAYFL.LegacyLoader.init(config);
+			AWAYFL.LegacyLoader.runGame((fill) => {
+				window.dispatchEvent(new CustomEvent('awayfl-player-progress', {detail: fill}));
+			}, (config, hideLoader) => {
+				const player = new AWAYFL.Player(document, config);
+				window.dispatchEvent(new CustomEvent('awayfl-player-init', {detail: player}));
+				player
+					.loadAndPlay()
+					.then((_, hide) => {
+						window.dispatchEvent(new CustomEvent('awayfl-player-load'));
+						hide && hide() || window.swfParseComplete && window.swfParseComplete();;
+					});				
+			})
+		});
     </script>
 </body>
 </html>
