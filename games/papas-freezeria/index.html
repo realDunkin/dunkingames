@@ -57,21 +57,7 @@
     <script>
         window.addEventListener("load", () => {
 
-			const config = JSON.parse({
-				    "width": 800,
-				    "height": 600,
-				    "splash": "../../awayfl/assets/splash.png",
-				    "binary": [
-				        {
-				            "path": "papas-freezeria.swf",
-				            "resourceType": "GAME"
-				        },
-				        {
-				            "path": "papas-freezeria-font.swf",
-				            "resourceType": "FONT"
-				        }
-				    ]
-				 });
+			const config = JSON.parse("config.json");
 
 			AWAYFL.LegacyLoader.init(config);
 			AWAYFL.LegacyLoader.runGame((fill) => {
