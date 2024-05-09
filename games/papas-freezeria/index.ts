@@ -1,6 +1,6 @@
 //@ts-ignore
-import template from "./embed.html";
-import {AwayPlayerComponent, IBindingConfig} from './AwayPlayerComponent';
+import template from "index.html";
+import {AwayPlayerComponent, IBindingConfig} from 'AwayPlayerComponent';
 
 const NOT_IMPLEMENTED = (name) =>
     console.warn("AwayFL loader does not support " + name);
