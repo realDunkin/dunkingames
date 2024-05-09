@@ -55,7 +55,7 @@
     <script>
         window.addEventListener("load", () => {
 
-			const config = JSON.parse('{"width": 800,"height": 600,"splash": "../../awayfl/assets/splash.jpg","runtime": "../../awayfl/runtime.js","baseUrl": "../../awayfl","binary": [{"path": "game.swf","resourceType": "GAME"},{"path": "font.swf","resourceType": "FONT"}]}');
+			const config = JSON.parse('{"width": 800,"height": 600,"splash": "../../awayfl/assets/splash.jpg","baseUrl": "../../awayfl","binary": [{"path": "game.swf","resourceType": "GAME"},{"path": "font.swf","resourceType": "FONT"}]}');
 
 			AWAYFL.LegacyLoader.init(config);
 			AWAYFL.LegacyLoader.runGame((fill) => {
