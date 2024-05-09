@@ -57,7 +57,7 @@
     <script>
         window.addEventListener("load", () => {
 
-			const config = JSON.parse('config.txt');
+			const config = JSON.parse('{"width": 800,"height": 600,"splash": "../../awayfl/assets/splash.png","runtime": "../../awayfl/runtime.js","binary": [{"path": "game.swf","resourceType": "GAME"},{"path": "font.swf","resourceType": "FONT"}]}');
 
 			AWAYFL.LegacyLoader.init(config);
 			AWAYFL.LegacyLoader.runGame((fill) => {
