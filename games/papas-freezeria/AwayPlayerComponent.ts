@@ -1,7 +1,7 @@
 //@ts-ignore
 import template from "index.html";
 
-import { IGameConfigBase } from "../loader/iConfigBase";
+import { IGameConfigBase } from "../../loader/iConfigBase";
 
 interface IAwayPlayer {
     new(config: IGameConfigBase);
@@ -13,7 +13,7 @@ interface IAwayPlayer {
 
 const scriptSrc = (<HTMLScriptElement>document.currentScript).src;
 const scriptBaseUrl = new URL('.', scriptSrc).href;
-const defaultSplashUrl = new URL('./assets/splash.jpg', scriptBaseUrl).href;
+const defaultSplashUrl = new URL('../../assets/splash.jpg', scriptBaseUrl).href;
 const defaultProgress = {
     "direction": "lr",
     "back": "#130d02",
