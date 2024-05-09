@@ -3,18 +3,12 @@
 		<meta name="viewport"
 			content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
 		<title>Papa's Freezeria</title>
-		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	</head>
 	<body>
-		<script>
-			window.RufflePlayer = window.RufflePlayer || {};
-			window.addEventListener("load", (event) => {
-				const ruffle = window.RufflePlayer.newest();
-				const player = ruffle.createPlayer();
-				const container = document.getElementById("container");
-				container.appendChild(player);
-				player.load("game.swf");
-			});
-		</script>
+		<object>
+			<embed src="game.swf" width="550" height="400" />
+		</object>
+	
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	</body>
 </html>
