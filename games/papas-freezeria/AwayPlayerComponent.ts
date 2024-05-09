@@ -1,5 +1,5 @@
 //@ts-ignore
-import template from "./embed.html";
+import template from "index.html";
 
 import { IGameConfigBase } from "../loader/iConfigBase";
 
