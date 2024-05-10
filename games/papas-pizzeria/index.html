@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport"
+			content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+		<title id="title">Dunkin's Games</title>
+		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	</head>
+	<body background="../../background.png">
+		<div>
+			<center>
+			<script>
+			function openFullscreen() {
+				document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+			}
+			</script>
+			<a href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
+			<p id="heading" style="text-align: center;"><strong> </strong></p>
+			<a title="Click to open in full screen" href="#" onclick="openFullscreen();return false;" style="display:block;"><-- FULL SCREEN --></a>
+			<script>
+				let name = "Papa's Pizzeria";
+				document.getElementById("title").innerHTML = name + " - Dunkin's Games";
+				document.getElementById("heading").innerHTML = name;
+			</script>
+		</div>
+		<div>
+			<center>
+			<object width="800" height="600" id="game.swf">
+			<param name="movie" value="game.swf" />
+			<param name="quality" value="high" />
+			
+			<param name="play" value="true" />
+			<param name="loop" value="true" />
+			<param name="wmode" value="window" />
+			<param name="scale" value="showall" />
+			<param name="menu" value="true" />
+			<param name="devicefont" value="false" />
+			<param name="salign" value="" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="game.swf" width="800" height="600">
+				<param name="movie" value="game.swf" />
+				<param name="quality" value="high" />
+			
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+			<!--<![endif]-->
+				<div style="margin:auto;background-color:gray;width:800px;height:600px;">
+				<br><br>
+					Click to Enable or Download Adobe Flash<br>
+				<br><br>	
+					<a href="https://www.adobe.com/go/getflash">
+						<img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a><br>
+				<br><br>
+			</object>
+		</div>
+	</body>
+</html>
