@@ -42,5 +42,11 @@
 					</a><br>
 				<br>
 		</div>
+		<script>
+			function openFullscreen() {
+				document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+			}
+		</script>
+		<a id="myLink" title="Click to open in full screen" href="#" onclick="openFullscreen();return false;" style="display:none;"><-- FULL SCREEN --></a>
 	</body>
 </html>
