@@ -2,7 +2,7 @@
 	<head>
 		<meta name="viewport"
 			content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-		<title>Papa's Burgeria - Dunkin's Games</title>
+		<title id="title">Dunkin's Games</title>
 		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	</head>
@@ -15,15 +15,20 @@
 			}
 			</script>
 			<a href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
-			<p style="text-align: center;"><strong>Papa's Burgeria</strong></p>
+			<p id="heading" style="text-align: center;"><strong> </strong></p>
 			<a title="Click to open in full screen" href="#" onclick="openFullscreen();return false;" style="display:block;"><-- FULL SCREEN --></a>
+			<script>
+				let name = "Papa's Burgeria";
+				document.getElementById("title").innerHTML = name + " - Dunkin's Games";
+				document.getElementById("heading").innerHTML = name;
+			</script>
 		</div>
-               <div>
-                        <center>
+		<div>
+			<center>
 			<object width="800" height="600" id="game.swf">
 			<param name="movie" value="game.swf" />
 			<param name="quality" value="high" />
-	
+			
 			<param name="play" value="true" />
 			<param name="loop" value="true" />
 			<param name="wmode" value="window" />
@@ -36,7 +41,7 @@
 			<object type="application/x-shockwave-flash" data="game.swf" width="800" height="600">
 				<param name="movie" value="game.swf" />
 				<param name="quality" value="high" />
-	
+			
 				<param name="play" value="true" />
 				<param name="loop" value="true" />
 				<param name="wmode" value="window" />
@@ -55,6 +60,6 @@
 					</a><br>
 				<br><br>
 			</object>
-        	</div>
+		</div>
 	</body>
 </html>
