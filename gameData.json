@@ -119,6 +119,66 @@
             "name": "Sports Heads: Volleyball",
             "url": "sports-heads-volleyball",
             "description": ""
+        },
+        {
+            "id": 12,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Pastaria",
+            "url": "papas-pastaria",
+            "description": "Head to Portallini and start your career as a pasta chef! You're in charge of Papa's Pastaria, where you'll take orders, cook noodles, add sauces and toppings, and toast breads to craft the perfect plate of pasta for your customers! New the series, you'll be opening the Dining Room in your restaurant, and you'll hire a server to help you get through the hectic workday! As you level up you'll earn new toppings, meet new customers, and work through the ever-changing seasons of the town."
+        },
+        {
+            "id": 13,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Donuteria",
+            "url": "papas-donuteria",
+            "description": "Head to Papa's new restaurant in the Powder Point amusement park, where you'll serve stacks of delicious donuts!  Choose the correct dough and donut shape, fry the donuts, add icing and fillings, and finish them off with sprinkles and drizzles before boxing them up for your favorite customers.  Unlock new holiday shapes and ingredients as you play throughout the year, waiting for the Sky Ninja roller coaster to re-open in the summer!"
+        },
+        {
+            "id": 14,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Cheeseria",
+            "url": "papas-cheeseria",
+            "description": "Build delicious grilled cheese sandwiches and pile on the fries at Papa's Cheeseria!  Customers can choose from a wide variety of breads, cheeses, toppings, and sauces for their sandwiches, and you'll unlock more as you play!  Create the gourmet grilled sandwiches, cook them on the grill, and serve them up with a heaping pile of fries.  Unlock 40 brand-new unique Special Recipes, and choose one to serve as the Daily Special each day in the restaurant, which also earns you special rewards!"
+        },
+        {
+            "id": 15,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Bakeria",
+            "url": "papas-bakeria",
+            "description": "Build and bake mouth-watering pies in Papa's Bakeria!  You're in charge of the bakery in Whiskview Mall, where you'll be crafting new pies and cheesecakes for all of your wacky customers.  Complete a wide variety of tasks to earn dozens of new colorful Stickers, and use these Stickers to unlock a brand-new outfit for each of your customers!  Serve Daily Specials to your customers to earn bonuses and rare prizes, and unlock new ingredients and decorations for each of the 12 holiday seasons."
+        },
+        {
+            "id": 16,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Sushiria",
+            "url": "papas-sushiria",
+            "description": "Slice and serve the most delicious sushi around in Papa's Sushiria!  You've started a job at Papa's new restaurant in Sakura Bay, where you'll create a variety of sushi rolls and bubble tea for all of your wacky customers.  Unlock and use over 140 ingredients for all sorts of delicious combinations across 12 different holiday seasons.  The all-new clothing system lets you get creative with your workers' holiday outfits, where you can mix and match colors and styles to boost your Holiday Spirit and earn more tips from your customers."
+        },
+        {
+            "id": 17,
+            "data": {
+                "width": 640,
+                "height": 480
+            },
+            "name": "Papa's Scooperia",
+            "url": "papas-scooperia",
+            "description": "Serve delicious sundaes of cookies and ice cream in Papa's Scooperia!  Your sightseeing trip to the big city is stopped short when you lose all of your money and belongings.  Stuck in Oniontown without the money to return home, Papa Louie has a unique solution to your problem:  Stay and run his brand-new ice cream shop!"
         }
     ]
 }

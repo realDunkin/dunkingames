@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title id="title">Loading... - Dunkin's Games</title>
+		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	</head>
+	<style>
+		.Fantasy {
+			font-family: "Fantasy", Helvetica, sans-serif;
+		}
+	</style>
+	<body background="../../background.png">
+		<div id="mainText" class="Fantasy">
+			<center>
+				<br>
+				<a style="font-size: 32px;" href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
+				<strong>
+					<br><br>
+					<p id="gameName" style="font-size: 24px;">Loading...</p>
+				</strong>
+				<br><br>
+			</center>
+		</div>
+		<div id="GameWindow">
+			<center>
+				<object id="FlashContent" type="application/x-shockwave-flash" data="game.swf" width="0" height="0">
+					<param name="movie" value="game.swf" />
+					<param name="quality" value="high" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="allowFullScreen" value="true" />
+				</object>
+			</center>
+		</div>
+		<div id="Fullscreen" class="Fantasy">
+			<script>
+				function openFullscreen() {
+					document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+				}
+			</script>
+			<center>
+				<br><br>
+				<strong>
+					<a id="FullscreenButton" href="#" onclick="openFullscreen();" style="font-size: 25px;"></a>
+				</strong>
+			</center>
+		</div>
+		<script>
+			var url = window.location.pathname
+			url = url.split("/");
+			url = url[url.length - 2];
+			console.log(url)
+			fetch("../../gameData.json").then(response => response.json()).then(data => {
+				for (let index = 0; index < data.games.length; index++) {
+					if (url == data.games[index].url) {
+						console.log("Matched")
+						name = data.games[index].name
+						document.getElementById("title").innerHTML = name + " - Dunkin's Games";
+						document.getElementById("gameName").innerHTML = name;
+						document.getElementById("FlashContent").width = data.games[index].data.width;
+						document.getElementById("FlashContent").height = data.games[index].data.height;
+						document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
+						console.log("Done!")
+					}
+				}
+			})			
+		</script>
+	</body>
+</html>
