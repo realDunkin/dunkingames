@@ -60,7 +60,7 @@
                   for (let index2 = 0; index2 < jsonData.games.length; index2++) {
                     console.log(jsonData.games[index2].name);
                     if (jsonData.games[index2].name.toLowerCase() === data.games[index].name.toLowerCase()){
-                      delete jsonData.games[jsonIndex];
+                      delete jsonData.games[index2];
                       removed += 1;
                     }
                   }
