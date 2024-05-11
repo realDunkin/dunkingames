@@ -49,14 +49,19 @@
         }
         function matchSearch(data){
           var jsonData = JSON.parse(JSON.stringify(data));
-          searchValue = document.getElementById("searchBox").value;
+          var max = data.games.length;
+          var removed = 0;
+          searchValue = document.getElementById("searchBox").value.toLowerCase();
           if(searchValue != ""){
-            for (let index = 0; index < jsonData.games.length; index++) {
-              if (jsonData.games[index].name.toLowerCase().includes(searchValue.toLowerCase()) === false) {
-                delete jsonData.games[index];
+            for (let index = 0; index < data.games.length; index++) {
+              if (jsonData.games[index].name.toLowerCase().includes(searchValue) === false) {
+                  jsonIndex = jsonData.indexOf(jsonData.games[index]);
+                  delete jsonData.games[jsonIndex];
+                  removed += 1;
               }
             }
           }
+          console.log("Filtered For: " + searchValue + " | Total Before: " + total + " | Total After: " + (max - removed) + " | Total Left Over: " + removed);
           return jsonData;
         }
         function sortByNewOld(a, b) {
