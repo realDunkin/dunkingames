@@ -49,19 +49,21 @@
         }
         function matchSearch(data){
           var jsonData = Object.assign({}, data, {});
-          console.log(jsonData);
+          console.log("The Starting Data: " + jsonData);
           var max = data.games.length;
           var removed = 0;
           searchValue = document.getElementById("searchBox").value.toLowerCase();
           if(searchValue != ""){
             for (let index = 0; index < data.games.length; index++) {
               if (data.games[index].name.toLowerCase().includes(searchValue) === false) {
-                  console.log(data.games[index].name);
+                  console.log(data.games[index].name.toLowerCase() + " Does Not Match " + searchValue + ", Terminating From Clone");
                   for (let index2 = 0; index2 < jsonData.games.length; index2++) {
-                    console.log(jsonData.games[index2].name);
+                    console.log("Clone Current Length Is: " + jsonData.games.length + ", Matching Clone Index #" + index2);
                     if (jsonData.games[index2].name.toLowerCase() === data.games[index].name.toLowerCase()){
                       delete jsonData.games[index2];
                       removed += 1;
+                      console.log("Found: " + data.games[index].name.toLowerCase() + ", Clone Length Is Now: " + jsonData.games.length");
+                      break;
                     }
                   }
               }
