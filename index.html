@@ -25,7 +25,7 @@
       <script>
         fetch("https://realdunkin.github.io/dunkingames/game_list.json").then(response => response.json()).then(data => {
                 console.log(data);
-                for (let index = 0; index < data.length; index++) {
+                for (let index = 0; index < data.games.length; index++) {
                     console.log(data.games[index]);
                     const tblrow = document.createElement("tr");
                     tblrow.style.height = "85px";
