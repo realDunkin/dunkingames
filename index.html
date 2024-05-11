@@ -35,8 +35,10 @@
         </tbody>
       </table>
       <script>
-        var list = JSON.parse("./game_list.json");
-        document.write(list);
+        var file;
+        fetch('game_list.json').then(res => res.blob()).then(blob => {let file = URL.createObjectURL(blob)})
+        var list = JSON.stringify(file);
+        console.log(list);
 
         for (let index = 0; index < list.length; index++) {
           const tblrow = document.createElement("tr");
