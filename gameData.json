@@ -98,7 +98,7 @@
             },
             "name": "Sports Heads: Ice Hockey",
             "url": "sports-heads-ice-hockey",
-            "description": "A 2 player hockey game."
+            "description": "Sports Heads: Ice Hockey is a great sports game in which you have to defeat your opponent playing hockey with your mouth. The talented sports heads are back for a new tournament on the icy hockey field. Grab your stick, pick up the puck and go on to challenge your rival in this funny Sports Heads: Ice Hockey edition. Aim of the game is to score more goals than your opponent does."
         },
         {
             "id": 10,
@@ -108,7 +108,17 @@
             },
             "name": "Run 3",
             "url": "run-3",
-            "description": "Run, skate, float, bounce, and/or jump your way through even more space tunnels! Don’t worry if they fall apart on you, repairing them is someone else’s job.Run 3 builds on the most fun parts of Run and Run 2, adding new mechanics, new characters, major improvements to Infinite mode, and even a storyline (finally!). Follow ten unique aliens as they try to crack the mysteries of the gravity-shifting Tunnels, search for a path to the distant Wormhole, or just ignore all that and go home. The story is ongoing, so stay tuned for updates!You don’t need to play the previous games to understand this one. In fact, all you need are your arrow keys and spacebar. (Or WASD, your choice.)"
+            "description": "Run, skate, float, bounce, and/or jump your way through even more space tunnels! Don’t worry if they fall apart on you, repairing them is someone else’s job. Run 3 builds on the most fun parts of Run and Run 2, adding new mechanics, new characters, major improvements to Infinite mode, and even a storyline (finally!). Follow ten unique aliens as they try to crack the mysteries of the gravity-shifting Tunnels, search for a path to the distant Wormhole, or just ignore all that and go home. The story is ongoing, so stay tuned for updates!"
+        },
+        {
+            "id": 11,
+            "data": {
+                "width": 800,
+                "height": 600
+            },
+            "name": "Sports Heads: Volleyball",
+            "url": "sports-heads-volleyball",
+            "description": ""
         }
     ]
 }
