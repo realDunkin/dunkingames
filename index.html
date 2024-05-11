@@ -83,7 +83,7 @@
         }
         function makeList(){
           clearList();
-          fetch("game_list.json").then(response => response.json()).then(data => {
+          fetch("gameData.json").then(response => response.json()).then(data => {
                   sortValue = document.getElementById("listSort").value
                   switch (sortValue) {
                     case "New-Old":
