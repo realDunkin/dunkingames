@@ -56,8 +56,10 @@
           if(searchValue != ""){
             for (let index = 0; index < data.games.length; index++) {
               if (data.games[index].name.toLowerCase().includes(searchValue) === false) {
+                  console.log(data.games[index].name);
                   var jsonIndex = 0;
                   for (let index2 = 0; index2 < jsonData.games.length; index2++) {
+                    console.log(jsonData.games[index2].name);
                     if (jsonData.games[index2].name.toLowerCase() === data.games[index].name.toLowerCase()){
                       jsonIndex = index2;
                     }
