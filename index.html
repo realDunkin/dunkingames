@@ -83,7 +83,7 @@
         }
         function makeList(){
           clearList();
-          fetch("https://realdunkin.github.io/dunkingames/game_list.json").then(response => response.json()).then(data => {
+          fetch("game_list.json").then(response => response.json()).then(data => {
                   sortValue = document.getElementById("listSort").value
                   switch (sortValue) {
                     case "New-Old":

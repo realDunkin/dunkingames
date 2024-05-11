@@ -58,7 +58,7 @@
 			url = url.split("/");
 			url = url[url.length - 2];
 			console.log(url)
-			fetch("https://realdunkin.github.io/dunkingames/game_list.json").then(response => response.json()).then(data => {
+			fetch("../../gameData.json").then(response => response.json()).then(data => {
 				for (let index = 0; index < data.games.length; index++) {
 					if (url == data.games[index].url) {
 						console.log("Matched")
