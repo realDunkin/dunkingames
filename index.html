@@ -72,6 +72,8 @@
               }
             }
           }
+          console.log("The Ending Data:");
+          console.log(jsonData)
           console.log("Filtered For: " + searchValue + " | Total Before: " + max + " | Total After: " + (max - removed) + " | Total Removed: " + removed);
           return jsonData;
         }
@@ -114,8 +116,7 @@
         function makeList(){
           clearList();
           fetch("gameData.json").then(response => response.json()).then(data => {
-                  sortValue = document.getElementById("listSort").value
-                  data = matchSearch(data);
+                  sortValue = document.getElementById("listSort").value;
                   switch (sortValue) {
                     case "New-Old":
                       data.games.sort(sortByNewOld);
@@ -137,7 +138,8 @@
                       console.log("Sorted By: None");
                       break;
                   }
-                  for (let index = 0; index < data.games.length; index++) {
+                  data = matchSearch(data);
+                  for (let index in data.games.length) {
                       const tblrow = document.createElement("tr");
                       tblrow.style.height = "85px";
 
