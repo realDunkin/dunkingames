@@ -83,8 +83,8 @@
         {
             "id": 8,
             "data": {
-                "width": 640,
-                "height": 480
+                "width": 550,
+                "height": 400
             },
             "name": "Shopping Cart Hero 3",
             "url": "shopping-cart-hero-3",
@@ -93,8 +93,8 @@
         {
             "id": 9,
             "data": {
-                "width": 640,
-                "height": 480
+                "width": 800,
+                "height": 540
             },
             "name": "Sports Heads: Ice Hockey",
             "url": "sports-heads-ice-hockey",
