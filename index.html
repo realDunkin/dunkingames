@@ -25,6 +25,9 @@
     </div>
     <div id="Sort" class="Fantasy">
       <center>
+        <label for="searchBox">Search: </label>
+        <input type="text" id="searchBox" onchange="makeList()"></input>
+        <br>
         <select id="listSort" size="1"  onchange="makeList()">
           <option value="New-Old">Sort By: Newest To Oldest</option>
           <option value="Old-New">Sort By: Oldest To Newest</option>
@@ -44,6 +47,18 @@
       <script>
         function clearList(){
           document.getElementById("DaChart").innerHTML = "";
+        }
+        function matchSearch(data){
+          var jsonData = data.clone();
+          searchValue = document.getElementById("searchBox").value;
+          if(searchValue != ""){
+            for (let index = 0; index < jsonData.games.length; index++) {
+              if ((searchValue.toLowerCase() in jsonData.games[index].name.toLowerCase()) != true) {
+                delete jsonData.games[index];
+              }
+            }
+          }
+          return jsonData;
         }
         function sortByNewOld(a, b) {
           if (a.id > b.id) {
@@ -106,6 +121,7 @@
                       console.log("Sorted By: None");
                       break;
                   }
+                  data = matchSearch(data);
                   for (let index = 0; index < data.games.length; index++) {
                       const tblrow = document.createElement("tr");
                       tblrow.style.height = "85px";
