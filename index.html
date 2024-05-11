@@ -49,6 +49,7 @@
         }
         function matchSearch(data){
           var jsonData = Object.assign({}, data, {});
+          console.log(jsonData);
           var max = data.games.length;
           var removed = 0;
           searchValue = document.getElementById("searchBox").value.toLowerCase();
