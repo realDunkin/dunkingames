@@ -55,11 +55,11 @@
           var removed = 0;
           searchValue = document.getElementById("searchBox").value.toLowerCase();
           if(searchValue != ""){
-            for (let index = 0; index < data.games.length; index++) {
+            for (let index in data.games) {
               var dataName = data.games[index].name.toLowerCase()
               if (dataName.includes(searchValue) === false) {
                   console.log(dataName + " Does Not Match " + searchValue + ", Terminating From Clone");
-                  for (let index2 = 0; index2 < jsonData.games.length; index2++) {
+                  for (let index2 in jsonData.games) {
                     var jsonName = jsonData.games[index2].name.toLowerCase()
                     console.log("Clone Current Length Is: " + jsonData.games.length + ", Matching Clone Index #" + index2);
                     if (jsonName === dataName){
@@ -115,6 +115,7 @@
           clearList();
           fetch("gameData.json").then(response => response.json()).then(data => {
                   sortValue = document.getElementById("listSort").value
+                  data = matchSearch(data);
                   switch (sortValue) {
                     case "New-Old":
                       data.games.sort(sortByNewOld);
@@ -136,7 +137,6 @@
                       console.log("Sorted By: None");
                       break;
                   }
-                  data = matchSearch(data);
                   for (let index = 0; index < data.games.length; index++) {
                       const tblrow = document.createElement("tr");
                       tblrow.style.height = "85px";
