@@ -58,16 +58,17 @@
 			url = url.split("/");
 			url = url[url.length - 2];
 			console.log(url)
-			fetch("../../gameData.json").then(response => response.json()).then(data => {
+			fetch(".../../gameData.json").then(response => response.json()).then(data => {
 				for (let index = 0; index < data.games.length; index++) {
 					if (url == data.games[index].url) {
 						console.log("Matched")
 						name = data.games[index].name
 						document.getElementById("title").innerHTML = name + " - Dunkin's Games";
 						document.getElementById("gameName").innerHTML = name;
-						document.getElementById("FlashContent").innerHTML.width = data.games[index].data.width;
-						document.getElementById("FlashContent").innerHTML.height = data.games[index].data.height;
-						documentgetElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
+						document.getElementById("FlashContent").width = data.games[index].data.width;
+						document.getElementById("FlashContent").height = data.games[index].data.height;
+						document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
+						console.log("Done!")
 					}
 				}
 			})			
