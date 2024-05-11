@@ -1,6 +1,9 @@
 {
-    "papas-freezeria": {
-        "name": "Papa's Freezeria",
-        "description": "Description Goes Here..."
-    }
+    "games": [
+        {
+            "name": "Papa's Freezeria",
+            "url": "papas-freezeria",
+            "description": "Description Goes Here..."
+        }
+    ]
 }

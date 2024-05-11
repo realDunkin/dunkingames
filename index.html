@@ -35,42 +35,40 @@
         </tbody>
       </table>
       <script>
-        var file;
-        fetch('game_list.json').then(res => res.blob()).then(blob => {let file = URL.createObjectURL(blob)})
-        var list = JSON.parse(file);
-        console.log(list);
+        fetch("https://realdunkin.github.io/dunkingames/game_list.json").then(response => response.json()).then(data => {
+                  for (let index = 0; index < data.length; index++) {
+                    console.log(data.games[index]);
+                    const tblrow = document.createElement("tr");
+                    tblrow.style.height = "85px";
 
-        for (let index = 0; index < list.length; index++) {
-          const tblrow = document.createElement("tr");
-          tblrow.style.height = "85px";
+                    const linkCell = document.createElement("td");
+                    linkCell.style.width = "50%";
+                    linkCell.style.height = "85px";
 
-          const linkCell = document.createElement("td");
-          linkCell.style.width = "50%";
-          linkCell.style.height = "85px";
+                    const linkData = document.createElement("a");
+                    linkData.href = "https://realdunkin.github.io/dunkingames/games/" + data.games[index].url + "/";
+                    
+                    const strong1 = document.createElement("strong");
+                    strong1.innerHTML = data.games[index].name;
 
-          const linkData = document.createElement("a");
-          linkData.href = "https://realdunkin.github.io/dunkingames/games/" + list[index]["url"] + "/";
-          
-          const strong1 = document.createElement("strong");
-          strong1.innerHTML = list[index]["name"];
+                    const descCell = document.createElement("td");
+                    descCell.style.width = "50%";
+                    descCell.style.height = "85px";
 
-          const descCell = document.createElement("td");
-          descCell.style.width = "50%";
-          descCell.style.height = "85px";
+                    const strong2 = document.createElement("strong");
+                    strong2.innerHTML = data.games[index].description;
+                    
+                    linkData.append(strong1);
+                    linkCell.append(linkData);
+                    tblrow.append(linkCell);
 
-          const strong2 = document.createElement("strong");
-          strong2.innerHTML = list[index]["description"];
-          
-          linkData.append(strong1);
-          linkCell.append(linkData);
-          tblrow.append(linkCell);
+                    descCell.append(strong2);
+                    tblrow.append(descCell);
 
-          descCell.append(strong2);
-          tblrow.append(descCell);
-
-          const chart = document.getElementById("DaChart");
-          chart.append(tblrow); 
-        }
+                    const chart = document.getElementById("DaChart");
+                    chart.append(tblrow); 
+                  }
+                })
       </script>
     </div>
   </body>
