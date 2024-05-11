@@ -48,7 +48,7 @@
           document.getElementById("DaChart").innerHTML = "";
         }
         function matchSearch(data){
-          var jsonData = JSON.parse(JSON.stringify(data));
+          var jsonData = Object.assign({}, data, {});
           var max = data.games.length;
           var removed = 0;
           searchValue = document.getElementById("searchBox").value.toLowerCase();
