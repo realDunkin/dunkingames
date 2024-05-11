@@ -37,7 +37,7 @@
       <script>
         var file;
         fetch('game_list.json').then(res => res.blob()).then(blob => {let file = URL.createObjectURL(blob)})
-        var list = JSON.stringify(file);
+        var list = JSON.parse(file);
         console.log(list);
 
         for (let index = 0; index < list.length; index++) {
