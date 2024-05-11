@@ -56,15 +56,16 @@
           searchValue = document.getElementById("searchBox").value.toLowerCase();
           if(searchValue != ""){
             for (let index = 0; index < data.games.length; index++) {
-              if (data.games[index].name.toLowerCase().includes(searchValue) === false) {
-                  var dataName = data.games[index].name.toLowerCase()
+              var dataName = data.games[index].name.toLowerCase()
+              if (dataName.includes(searchValue) === false) {
                   console.log(dataName + " Does Not Match " + searchValue + ", Terminating From Clone");
                   for (let index2 = 0; index2 < jsonData.games.length; index2++) {
+                    var jsonName = jsonData.games[index2].name.toLowerCase()
                     console.log("Clone Current Length Is: " + jsonData.games.length + ", Matching Clone Index #" + index2);
-                    if (jsonData.games[index2].name.toLowerCase() === dataName){
-                      console.log("Found: " + dataName + ", Clone Length Is Now: " + jsonData.games.length);
+                    if (jsonName === dataName){
                       delete jsonData.games[index2];
                       removed += 1;
+                      console.log("Found: " + dataName + ", Clone Length Is Now: " + jsonData.games.length);
                       break;
                     }
                   }
