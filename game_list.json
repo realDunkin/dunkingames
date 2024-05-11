@@ -1,29 +1,14 @@
 {
     "games": [
         {
-            "name": "Papa's Burgeria",
-            "url": "papas-burgeria",
-            "description": "In this sequel to the award-winning hit game 'Papa's Pizzeria', you're headed back to the kitchen to run Papa Louie's new burger shop! You’ll have to take orders, grill burgers, add toppings, and serve the sandwiches to the waiting customers."
-        },
-        {
-            "name": "Papa's Cupcakeria",
-            "url": "papas-cupcakeria",
-            "description": "Bake the best cupcakes in town all year round in Papa's Cupcakeria! You'll need to choose baking cups, add batter, watch the oven, and decorate your cupcakes with a variety of frosting and toppings. As you level up and gain new customers, you'll notice the seasons changing in the town of Frostfield, along with new holiday celebrations! Help your customers get in the holiday spirit with seasonal clothing, furniture, and a new set of unlockable seasonal toppings for each holiday. Work your way through each holiday season to unlock over 100 ingredients, and become a cupcake-crafting master!"
-        },
-        {
             "name": "Papa's Freezeria",
             "url": "papas-freezeria",
             "description": "You've just started an easy job at an ice cream shop on a laidback tropical island, but things get hectic when all of Papa Louie's loyal customers arrive on the island for vacation! In this summertime installment in Papa Louie's restaurant series, you’ll need to add ingredients, blend syrups and ice cream, add toppings, and serve the unique Freezeria Sundaes to your waiting customers."
         },
         {
-            "name": "Papa's Hot Doggeria",
-            "url": "papas-hot-doggeria",
-            "description": "Grill and serve hot dogs and other stadium snacks in Papa’s Hot Doggeria! You’ve got the best seat in the house at Griller Stadium, which happens to be behind the counter at the hot dog stand. You’ll need to grill dogs and sausages, add toppings and condiments, pour drinks, and pop popcorn for all of the fans at the game!"
-        },
-        {
-            "name": "Papa's Pancakeria",
-            "url": "papas-pancakeria",
-            "description": "Help Prudence and Cooper run Papa's Pancakeria! You'll need to cook and stack pancakes, french toast, and waffles in Papa's latest time-management game. The hands-on gameplay of the series returns, with new challenges related to stacking, arranging toppings and pouring syrup. In this latest installment, the great Foodini will arrive after each day with his traveling Mini Game Show! Foodini only accepts special tickets that are earned throughout the day, and has seven different games you can play. Each ticket gives you a chance to play his daily game to win many unique prizes. Also new to the series is an unlockable Drink Station that adds to the growing challenge of multitasking."
+            "name": "Papa's Burgeria",
+            "url": "papas-burgeria",
+            "description": "In this sequel to the award-winning hit game 'Papa's Pizzeria', you're headed back to the kitchen to run Papa Louie's new burger shop! You’ll have to take orders, grill burgers, add toppings, and serve the sandwiches to the waiting customers."
         },
         {
             "name": "Papa's Pizzeria",
@@ -34,6 +19,21 @@
             "name": "Papa's Taco Mia!",
             "url": "papas-taco-mia",
             "description": "Papa Louie is branching out with a new taco restaurant, and he's putting you in charge! Help Mitch and Maggie take orders, cook meats, and build tacos in Papa's Taco Mia! Unlock over a dozen toppings and sauces as you work up the ranks, and craft the perfect taco for new customers and old favorites. Buy a variety of upgrades for your taco shop using your hard-earned tips and your weekly paycheck, and take on the extra challenge of serving the tough and picky 'Closer' customers at the end of each day. And if you can impress the new Food Critic, you'll earn a Blue Ribbon award that gives you higher tips! You can also earn up to 60 Badges while running Papa's Taco Mia, unlocked for a variety of achievements including using certain toppings, getting high scores in each Station, serving certain customers, and more!"
+        },
+        {
+            "name": "Papa's Cupcakeria",
+            "url": "papas-cupcakeria",
+            "description": "Bake the best cupcakes in town all year round in Papa's Cupcakeria! You'll need to choose baking cups, add batter, watch the oven, and decorate your cupcakes with a variety of frosting and toppings. As you level up and gain new customers, you'll notice the seasons changing in the town of Frostfield, along with new holiday celebrations! Help your customers get in the holiday spirit with seasonal clothing, furniture, and a new set of unlockable seasonal toppings for each holiday. Work your way through each holiday season to unlock over 100 ingredients, and become a cupcake-crafting master!"
+        },
+        {
+            "name": "Papa's Hot Doggeria",
+            "url": "papas-hot-doggeria",
+            "description": "Grill and serve hot dogs and other stadium snacks in Papa’s Hot Doggeria! You’ve got the best seat in the house at Griller Stadium, which happens to be behind the counter at the hot dog stand. You’ll need to grill dogs and sausages, add toppings and condiments, pour drinks, and pop popcorn for all of the fans at the game!"
+        },
+        {
+            "name": "Papa's Pancakeria",
+            "url": "papas-pancakeria",
+            "description": "Help Prudence and Cooper run Papa's Pancakeria! You'll need to cook and stack pancakes, french toast, and waffles in Papa's latest time-management game. The hands-on gameplay of the series returns, with new challenges related to stacking, arranging toppings and pouring syrup. In this latest installment, the great Foodini will arrive after each day with his traveling Mini Game Show! Foodini only accepts special tickets that are earned throughout the day, and has seven different games you can play. Each ticket gives you a chance to play his daily game to win many unique prizes. Also new to the series is an unlockable Drink Station that adds to the growing challenge of multitasking."
         },
         {
             "name": "Papa's Wingeria",
