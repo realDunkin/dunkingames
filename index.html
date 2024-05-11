@@ -53,7 +53,7 @@
           searchValue = document.getElementById("searchBox").value;
           if(searchValue != ""){
             for (let index = 0; index < jsonData.games.length; index++) {
-              if ((searchValue.toLowerCase() in jsonData.games[index].name.toLowerCase()) != true) {
+              if ((searchValue.toLowerCase() in jsonData.games[index].name.toLowerCase()) === false) {
                 delete jsonData.games[index];
               }
             }
