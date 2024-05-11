@@ -55,10 +55,10 @@
           if(searchValue != ""){
             for (let index = 0; index < data.games.length; index++) {
               if (data.games[index].name.toLowerCase().includes(searchValue) === false) {
-                  var jsonIndex;
+                  var jsonIndex = 0;
                   for (let i = 0; index < jsonData.games.length; index++) {
-                    if (jsonData.games[i].toLowerCase() == data.games[index].toLowerCase()){
-                      jsonIndex = i
+                    if (jsonData.games[i].toLowerCase() === data.games[index].toLowerCase()){
+                      jsonIndex = i;
                   }
                   delete jsonData.games[i];
                   removed += 1;
