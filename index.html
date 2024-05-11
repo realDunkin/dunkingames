@@ -20,9 +20,10 @@
     <div id="Sort">
       <center>
         <select id="listSort" onchange="makeList()">
-          <option value="Release">Release</option>
-          <option value="A-Z">A-Z</option>
-          <option value="Z-A">Z-A</option>
+          <option value="New-Old">Sort By Newest To Oldest</option>
+          <option value="Old-New">Sort By Oldest To Newest</option>
+          <option value="A-Z">Sort By A To Z</option>
+          <option value="Z-A">Sort By Z To A</option>
         </select>
         <br><br>
       </center>
@@ -38,7 +39,25 @@
         function clearList(){
           document.getElementById("DaChart").innerHTML = "";
         }
-        function sortByLetter(a, b) {
+        function sortByNewOld(a, b) {
+          if (a.id > b.id) {
+            return -1;
+          }
+          if (a.id < b.id) {
+            return 1;
+          }
+          return 0;
+        }
+        function sortByOldNew(a, b) {
+          if (a.id < b.id) {
+            return -1;
+          }
+          if (a.id > b.id) {
+            return 1;
+          }
+          return 0;
+        }
+        function sortByAZ(a, b) {
           if (a.name < b.name) {
             return -1;
           }
@@ -47,22 +66,41 @@
           }
           return 0;
         }
-
+        function sortByZA(a, b) {
+          if (a.name > b.name) {
+            return -1;
+          }
+          if (a.name < b.name) {
+            return 1;
+          }
+          return 0;
+        }
         function makeList(){
           clearList();
           fetch("https://realdunkin.github.io/dunkingames/game_list.json").then(response => response.json()).then(data => {
                   sortValue = document.getElementById("listSort").value
                   switch (sortValue) {
+                    case "New-Old":
+                      data.games.sort(sortByNewOld);
+                      console.log("Sorted By Newest To Oldest");
+                      break;
+                    case "Old-New":
+                      data.games.sort(sortByOldNew);
+                      console.log("Sorted By Oldest To Newest");
+                      break;
                     case "A-Z":
-                      data.games.sort(sortByLetter);
+                      data.games.sort(sortByAZ);
+                      console.log("Sorted By A To Z");
+                      break;
                     case "Z-A":
+                      data.games.sort(sortByZA);
+                      console.log("Sorted By Z To A");
                       break;
                     default:
+                      console.log("Sorted By None");
                       break;
                   }
-                  console.log(data);
                   for (let index = 0; index < data.games.length; index++) {
-                      console.log(data.games[index]);
                       const tblrow = document.createElement("tr");
                       tblrow.style.height = "85px";
 
