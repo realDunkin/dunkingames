@@ -49,7 +49,7 @@
           document.getElementById("DaChart").innerHTML = "";
         }
         function matchSearch(data){
-          var jsonData = data.clone();
+          var jsonData = JSON.parse(JSON.stringify(data));
           searchValue = document.getElementById("searchBox").value;
           if(searchValue != ""){
             for (let index = 0; index < jsonData.games.length; index++) {
