@@ -59,6 +59,7 @@
                   for (let i = 0; index < jsonData.games.length; index++) {
                     if (jsonData.games[i].toLowerCase() === data.games[index].toLowerCase()){
                       jsonIndex = i;
+                    }
                   }
                   delete jsonData.games[i];
                   removed += 1;
