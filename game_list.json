@@ -1,0 +1,49 @@
+{
+    "games": [
+        {
+            "name": "Papa's Burgeria",
+            "url": "papas-burgeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Cupcakeria",
+            "url": "papas-cupcakeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Freezeria",
+            "url": "papas-freezeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Hot Doggeria",
+            "url": "papas-hot-doggeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Pancakeria",
+            "url": "papas-pancakeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Pizzeria",
+            "url": "papas-pizzeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Taco Mia!",
+            "url": "papas-taco-mia",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Papa's Wingeria",
+            "url": "papas-wingeria",
+            "description": "Description Goes Here..."
+        },
+        {
+            "name": "Shopping Cart Hero 3",
+            "url": "shopping-cart-hero-3",
+            "description": "Description Goes Here..."
+        }
+    ]
+}
