@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +9,34 @@
     .Fantasy {
       font-family: "Fantasy", Helvetica, sans-serif;
     }
+    tr {
+      background-color: #d1ffff;
+    }
+    tr:hover {
+      background-color: #D6EEEE;
+    }
   </style>
   <body background="background.png">
-    <div id="Header">
-      <p class="Fantasy" style="text-align: center;"><strong>Dunkin's Games</strong></p>
-      <p class="Fantasy" style="text-align: center;"><span style="text-decoration: underline;"><strong>No Ads, No Lag! (Hopefully...)</strong></span></p>
-      <p class="Fantasy" style="text-align: left;">&nbsp;</p>
-    </div>
-    <div id="Sort">
+    <div id="MainText" class="Fantasy">
       <center>
-        <select id="listSort" onchange="makeList()">
-          <option value="New-Old">Sort By Newest To Oldest</option>
-          <option value="Old-New">Sort By Oldest To Newest</option>
-          <option value="A-Z">Sort By A To Z</option>
-          <option value="Z-A">Sort By Z To A</option>
+        <p style="font-size: 32px;"><strong>Dunkin's Games</strong></p>
+        <p style="font-size: 24px;"><strong>No Ads, No Lag! (Hopefully...)</strong></p>
+      </center>
+    </div>
+    <div id="Sort" class="Fantasy">
+      <center>
+        <select id="listSort" size="1"  onchange="makeList()">
+          <option value="New-Old">Sort By: Newest To Oldest</option>
+          <option value="Old-New">Sort By: Oldest To Newest</option>
+          <option value="A-Z">Sort By: A To Z</option>
+          <option value="Z-A">Sort By: Z To A</option>
         </select>
         <br><br>
       </center>
     </div>
-    <div id="ChartBody">
+    <div id="ChartBody" class="Fantasy">
       <center>
-        <table class="Fantasy" style="border-collapse: collapse; width: 75%; height: 85px;" border="10">
+        <table style="border-collapse: collapse; width: 75%; height: 85px;" border="10">
           <tbody id="DaChart">
           </tbody>
         </table>
@@ -82,22 +88,22 @@
                   switch (sortValue) {
                     case "New-Old":
                       data.games.sort(sortByNewOld);
-                      console.log("Sorted By Newest To Oldest");
+                      console.log("Sorted By: Newest To Oldest");
                       break;
                     case "Old-New":
                       data.games.sort(sortByOldNew);
-                      console.log("Sorted By Oldest To Newest");
+                      console.log("Sorted By: Oldest To Newest");
                       break;
                     case "A-Z":
                       data.games.sort(sortByAZ);
-                      console.log("Sorted By A To Z");
+                      console.log("Sorted By: A To Z");
                       break;
                     case "Z-A":
                       data.games.sort(sortByZA);
-                      console.log("Sorted By Z To A");
+                      console.log("Sorted By: Z To A");
                       break;
                     default:
-                      console.log("Sorted By None");
+                      console.log("Sorted By: None");
                       break;
                   }
                   for (let index = 0; index < data.games.length; index++) {
@@ -105,21 +111,23 @@
                       tblrow.style.height = "85px";
 
                       const linkCell = document.createElement("td");
-                      linkCell.style.width = "50%";
+                      linkCell.style.width = "25%";
                       linkCell.style.height = "85px";
 
                       const linkData = document.createElement("a");
                       linkData.href = "https://realdunkin.github.io/dunkingames/games/" + data.games[index].url + "/";
                       
                       const strong1 = document.createElement("strong");
+                      strong1.style.fontSize = "20px";
                       strong1.innerHTML = data.games[index].name;
 
                       const descCell = document.createElement("td");
-                      descCell.style.width = "50%";
+                      descCell.style.width = "75%";
                       descCell.style.height = "85px";
 
                       const strong2 = document.createElement("strong");
                       strong2.innerHTML = data.games[index].description;
+                      strong2.style.fontSize = "15px";
                       
                       linkData.append(strong1);
                       linkCell.append(linkData);

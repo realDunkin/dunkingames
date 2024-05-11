@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 	<head>
-		<title id="title">Dunkin's Games</title>
+		<meta charset="UTF-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title id="title">Loading... - Dunkin's Games</title>
 		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
 		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	</head>
 	<style>
 		.Fantasy {
-		  font-family: "Fantasy", Helvetica, sans-serif;
+			font-family: "Fantasy", Helvetica, sans-serif;
 		}
 	</style>
 	<body background="../../background.png">
 		<div id="mainText" class="Fantasy">
-			<script>
-				function openFullscreen() {
-					document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
-				}
-			</script>
 			<center>
-				<a href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
-				<br><br><br>
+				<br>
+				<a style="font-size: 32px;" href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
 				<strong>
-					<p id="heading" style="text-align: center;"> </p>
+					<br><br>
+					<p id="gameName" style="font-size: 24px;"> </p>
 				</strong>
-				<br><br><br>
+				<br><br>
 			</center>
 			<script>
 				let name = "Run 3";
 				document.getElementById("title").innerHTML = name + " - Dunkin's Games";
-				document.getElementById("heading").innerHTML = name;
+				document.getElementById("gameName").innerHTML = name;
 			</script>
 		</div>
 		<div id="GameWindow">
@@ -47,11 +45,16 @@
 				</object>
 			</center>
 		</div>
-		<div id="Fullscreen">
-        	<center>
+		<div id="Fullscreen" class="Fantasy">
+			<script>
+				function openFullscreen() {
+					document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+				}
+			</script>
+			<center>
 				<br><br>
-				<a href="#" onclick="openFullscreen();return false;" style="display:block;"><strong>[FULL SCREEN]</strong></a>
+				<a href="#" onclick="openFullscreen();" style="font-size: 25px;"><strong>[FULL SCREEN]</strong></a>
 			</center>
-        </div>
+		</div>
 	</body>
 </html>
