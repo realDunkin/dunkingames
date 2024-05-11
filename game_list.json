@@ -44,6 +44,11 @@
             "name": "Shopping Cart Hero 3",
             "url": "shopping-cart-hero-3",
             "description": "The greatest launching game of all time is finally here! Shopping Cart Hero 3 is the newest game in everyone's favorite launch series! Your objective is simple; fling yourself as far as possible in a shopping cart! Run down the hill, jump in your cart then fly off the jump! Buy tons of upgrades along the way including dynamite and better wheels! How far can you get? Good luck!"
+        },
+        {
+            "name": "Sports Heads: Ice Hockey",
+            "url": "sports-heads-ice-hockey",
+            "description": "A 2 player hockey game."
         }
     ]
 }

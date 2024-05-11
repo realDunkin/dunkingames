@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<head>
+		<title id="title">Dunkin's Games</title>
+		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	</head>
+	<style>
+		.Fantasy {
+		  font-family: "Fantasy", Helvetica, sans-serif;
+		}
+	</style>
+	<body background="../../background.png">
+		<div id="mainText" class="Fantasy">
+			<script>
+				function openFullscreen() {
+					document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+				}
+			</script>
+			<center>
+				<a href="https://realDunkin.github.io/dunkingames/"><strong>Dunkin's Games</strong></a>
+				<br><br><br>
+				<strong>
+					<p id="heading" style="text-align: center;"> </p>
+				</strong>
+				<br><br><br>
+			</center>
+			<script>
+				let name = "Sports Heads: Ice Hockey";
+				document.getElementById("title").outerHTML = name + " - Dunkin's Games";
+				document.getElementById("heading").outerHTML = name;
+			</script>
+		</div>
+		<div id="GameWindow">
+			<center>
+				<object type="application/x-shockwave-flash" data="game.swf" width="800" height="540">
+					<param name="movie" value="game.swf" />
+					<param name="quality" value="high" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				</object>
+			</center>
+		</div>
+		<div id="Fullscreen">
+        	<center>
+				<br><br>
+				<a href="#" onclick="openFullscreen();return false;" style="display:block;"><strong>[FULL SCREEN]</strong></a>
+			</center>
+        </div>
+	</body>
+</html>
