@@ -220,6 +220,7 @@
         var url = document.getElementById("GAMEURL").value;
         console.log(url);
         fetch("gameData.json").then(response => response.json()).then(data => {
+          var errored = false;
           for (let index = 0; index < data.games.length; index++) {
             if (url == data.games[index].url) {
               console.log("Matched");
@@ -244,15 +245,18 @@
               console.log("Done!");
             }
             else{
-              console.log("Error");
-              document.getElementById("title").innerHTML = name + "???? - Dunkin's Games";
-              document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
-              parsestring = '<img id="GameElement" src="hmm.png" alt="Hmm..." width="500" height="500">';
-              parser = new DOMParser();
-              doc = parser.parseFromString(parsestring, 'text/html');
-              element = doc.body.firstChild;
-              document.getElementById("GameWindow").appendChild(element);
+              errored = true
             }
+          }
+          if(errored === true){
+            console.log("Error");
+            document.getElementById("title").innerHTML = name + "???? - Dunkin's Games";
+            document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
+            parsestring = '<img id="GameElement" src="hmm.png" alt="Hmm..." width="500" height="500">';
+            parser = new DOMParser();
+            doc = parser.parseFromString(parsestring, 'text/html');
+            element = doc.body.firstChild;
+            document.getElementById("GameWindow").appendChild(element);
           }
         })			
       }
