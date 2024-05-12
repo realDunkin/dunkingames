@@ -220,7 +220,7 @@
         else {
           console.log("Leaving Fullscreen Somewhere")
           url = window.location.href;
-          url = url.remove("#fullscreen");
+          url = url.replace("#fullscreen", "");
           window.location.href = url;
         }
       }
