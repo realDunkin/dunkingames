@@ -273,6 +273,18 @@
             "name": "4 Colors",
             "url": "4-colors",
             "description": "The classic popular game UNO can be played online in the browser. You can play the game locally or online multiplayer. You can enter the lobbies in the online section. Face up to 3 CPU-controlled opponents. Match cards by color or number, play action cards to mix the game up, and be the first to get rid of all cards. Also, do not forget to press the 1 button when you have only one card left!"
+        },
+        {
+            "id": 23,
+            "data": {
+                "width": 700,
+                "height": 468,
+                "gameFile": "g-switch-3.swf",
+                "gameType": "flash"
+            },
+            "name": "G-Switch 3",
+            "url": "g-switch-3",
+            "description": "The game which you have been waiting for a long time, comes with the 3rd chapter! G-Switch presents lots of newness to you in the third chapter. You will need to control two runners in the single-player game mode from now on. Besides, you should be careful with your way which is trapped with sawblades. With multiplayer game mode, you are going to use two different boosters and cloning. Five new characters are included in this chapter. You can play up to eight players with the multiplayer game mode option and you can set their controls. The one who goes more wins the game."
         }
     ]
 }
