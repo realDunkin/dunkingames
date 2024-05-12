@@ -18,7 +18,7 @@
   </style>
   <body background="background.png">
     <div style="display: none;">
-      <input type="text" id="GAMEURL" value="" onchange="makeList()"></input>
+      <input type="text" id="GAMEURL" value=""></input>
     </div>
     <div id="MainText" class="Fantasy">
       <center>
@@ -75,7 +75,7 @@
         document.getElementById("subTEXT").innerHTML = "No Ads, No Lag!";
         if (document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
-          document.getElementById("GAMEURL").value = ""
+          document.getElementById("GAMEURL").value = "";
         }
         makeList();
       }
@@ -183,7 +183,7 @@
 
               const linkData = document.createElement("a");
               linkData.href = "#";
-              linkData.onclick = setURL(data.games[index].url);
+              linkData.onclick = "setURL(data.games[index].url)";
               
               const strong1 = document.createElement("strong");
               strong1.style.fontSize = "20px";
