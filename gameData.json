@@ -249,6 +249,30 @@
             "name": "Basketball Legends",
             "url": "basketball-legends",
             "description": "This time, the best of the basketball legends are in the field. Who are these best players? Super entertaining basketball matches are about to start with the World's basketball stars. If you want, you can create a two-player team and you can struggle against a friend or you can play against CPU. Pick your player and let the match begin!"
+        },
+        {
+            "id": 21,
+            "data": {
+                "width": 650,
+                "height": 500,
+                "gameFile": "territory_war.swf",
+                "gameType": "flash"
+            },
+            "name": "Territory War",
+            "url": "territory-war",
+            "description": "This is Territory War, all controls are listed in the game. Territory war faces two teams of players against each other in a turn-based fashion. This area displays the team name, players remaining on the field, and collective team health. This displays information about the currently active player.From here you can quit the game, or view the map. When it is your turn, you have two options: Move and stay, if you choose to move remember you can only move a limited amount. Then, whether you stay or are done moving, the attack options will appear.All attack options can be directly accessed with keyboard shortcuts. Just look for the number in the top left Grenades can cause heavy damage and hit far targets The gun only hits one target, but with accuracy can cause an instant kill headshot. The boot causes very little damage but can knock someone off the stage for an instant kill.Unlock more stages and hets by playing the missions and challenges. That's all you need to know. Now get playing."
+        },
+        {
+            "id": 22,
+            "data": {
+                "width": 800,
+                "height": 500,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "4 Colors",
+            "url": "4-colors",
+            "description": "The classic popular game UNO can be played online in the browser. You can play the game locally or online multiplayer. You can enter the lobbies in the online section. Face up to 3 CPU-controlled opponents. Match cards by color or number, play action cards to mix the game up, and be the first to get rid of all cards. Also, do not forget to press the 1 button when you have only one card left!"
         }
     ]
 }

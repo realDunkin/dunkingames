@@ -245,6 +245,8 @@
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
+              cururl = window.location.href + "#fullscreen";
+              document.getElementById("FullscreenButton").innerHTML.href = cururl
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
               mached = true;
               console.log("Done!");
@@ -267,7 +269,12 @@
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
         urlLocation = urlLocation[urlLocation.length - 1]
         urlLocation = urlLocation.split("#");
-        setURL(urlLocation[urlLocation.length - 1]);
+        if (urlLocation.length > 1){
+          setURL(urlLocation[urlLocation.length - 2]);
+        }
+        else{
+          setURL(urlLocation[urlLocation.length - 1]);
+        }
       }
       else{
         showMainBody();
