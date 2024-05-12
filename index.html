@@ -183,7 +183,7 @@
 
               const linkData = document.createElement("a");
               linkData.href = "#";
-              linkData.onclick = "setURL(data.games[index].url)";
+              linkData.onclick = function(){showURL(data.games[index].url)};
               
               const strong1 = document.createElement("strong");
               strong1.style.fontSize = "20px";
