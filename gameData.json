@@ -285,6 +285,18 @@
             "name": "G-Switch 3",
             "url": "g-switch-3",
             "description": "The game which you have been waiting for a long time, comes with the 3rd chapter! G-Switch presents lots of newness to you in the third chapter. You will need to control two runners in the single-player game mode from now on. Besides, you should be careful with your way which is trapped with sawblades. With multiplayer game mode, you are going to use two different boosters and cloning. Five new characters are included in this chapter. You can play up to eight players with the multiplayer game mode option and you can set their controls. The one who goes more wins the game."
+        },
+        {
+            "id": 24,
+            "data": {
+                "width": 1000,
+                "height": 560,
+                "gameFile": "Gun_Mayhem_Redux.swf",
+                "gameType": "flash"
+            },
+            "name": "Gun Mayhem Redux",
+            "url": "gun-mayhem-redux",
+            "description": "Great news for the fans of action games! Gun Mayhem Redux which is the brand new chapter of Gun Mayhem, is now available. This chapter is a little bit different compared to other chapters. For instance, game characters and war maps are minimized a little bit to have a better view and gameplay but this doesn't cause the loss of excitement of this superb game. In this chapter, tens of brand-new weapons will be awaiting you. Even, you will have a chance to war by using primitive weapons. The war resumes in the arena with superior war maps and weapons and entertaining chapters!"
         }
     ]
 }
