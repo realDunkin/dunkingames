@@ -23,23 +23,11 @@
 				<br><br>
 			</center>
 		</div>
-		<div id="GameWindow">
-			<center>
-				<object id="FlashContent" type="application/x-shockwave-flash" data="" width="0" height="0">
-					<param id="MovieValue" name="movie" value="" />
-					<param name="quality" value="high" />
-					<param name="play" value="true" />
-					<param name="loop" value="true" />
-					<param name="wmode" value="window" />
-					<param name="scale" value="showall" />
-					<param name="menu" value="true" />
-					<param name="devicefont" value="false" />
-					<param name="salign" value="" />
-					<param name="allowScriptAccess" value="sameDomain" />
-					<param name="allowFullScreen" value="true" />
-				</object>
-			</center>
-		</div>
+		<center>
+			<div id="GameWindow">
+				
+			</div>
+		</center>
 		<div id="Fullscreen" class="Fantasy">
 			<script>
 				function openFullscreen() {
@@ -65,11 +53,11 @@
 						name = data.games[index].name
 						document.getElementById("title").innerHTML = name + " - Dunkin's Games";
 						document.getElementById("gameName").innerHTML = name;
-						document.getElementById("FlashContent").width = data.games[index].data.width;
-						document.getElementById("FlashContent").height = data.games[index].data.height;
-						document.getElementById("FlashContent").data = data.games[index].data.fileName;
-						document.getElementById("MovieValue").value = data.games[index].data.fileName;
-						document.querySelector("ruffle-embed, ruffle-object, ruffle-player").destroy();
+						flashElement = '<object id="FlashContent" type="application/x-shockwave-flash" data="' + data.games[index].data.fileName + '" width="' + data.games[index].data.width + '" height="' + data.games[index].data.height + '"><param id="MovieValue" name="movie" value="' + data.games[index].data.fileName + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
+						parser = new DOMParser();
+						doc = parser.parseFromString(flashElement, 'text/html');
+						element = doc.body.firstChild;
+						document.getElementById("GameWindow").appendChild(element);
 						document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
 						console.log("Done!")
 					}
