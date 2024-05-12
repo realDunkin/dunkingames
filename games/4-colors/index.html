@@ -48,7 +48,11 @@
 
                     document.addEventListener("save_score", function(evt,iScore, szMode) {
                            
-                    });                     
+                    });
+                    
+                    if(isIOS()){ 
+                        setTimeout(function(){sizeHandler();},200); 
+                    }else{ sizeHandler(); }                  
            });
 
         
