@@ -20,6 +20,7 @@
   <body background="background.png">
     <div style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
+      <input type="text" id="GAMETYPE" value=""></input>
     </div>
     <div id="MainText" class="Fantasy">
       <center>
@@ -77,6 +78,7 @@
         if (document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
           document.getElementById("GAMEURL").value = "";
+          document.getElementById("GAMETYPE").value = "";
         }
         makeList();
       }
@@ -211,10 +213,22 @@
           }
         })
       }
+      function fullscreenchanged(event) {
+        if (document.fullscreenElement){
+          console.log("Entered Fullscreen Somewhere")
+        }
+        else {
+          console.log("Leaving Fullscreen Somewhere")
+          url = window.location.href;
+          url -= "#fullscreen";
+          window.location.href = url;
+        }
+      }
+
+      document.addEventListener("fullscreenchange", fullscreenchanged);
       function openFullscreen() {
-        var GameElement = document.getElementsByName("GameElement");
-        console.log(GameElement);
-        switch (GameElement[0].value) {
+        var GAMETYPE = document.getElementById("GAMETYPE").value;
+        switch (GAMETYPE) {
           case "flash":
             console.log("Fullscreen Flash Content");
             document.getElementById("GameElement").enterFullscreen();
@@ -261,6 +275,7 @@
               document.getElementById("GameWindow").appendChild(element);
               document.getElementById("FullscreenButton").href = window.location.href + "#fullscreen";
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
+              document.getElementById("GAMETYPE").value = data.games[index].data.gameType;
               mached = true;
               console.log("Done!");
             }
