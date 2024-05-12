@@ -216,8 +216,8 @@
       function showGameBody(){
         document.getElementById("MainBody").style.display = "none";
         document.getElementById("GameBody").style.display = "block";
-        var url = getElementById("GAMEURL").value
-        console.log(url)
+        var url = document.getElementById("GAMEURL").value;
+        console.log(url);
         fetch("gameData.json").then(response => response.json()).then(data => {
           for (let index = 0; index < data.games.length; index++) {
             if (url == data.games[index].url) {
