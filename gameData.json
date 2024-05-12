@@ -277,10 +277,10 @@
         {
             "id": 23,
             "data": {
-                "width": 700,
-                "height": 468,
-                "gameFile": "g-switch-3.swf",
-                "gameType": "flash"
+                "width": 1655,
+                "height": 930,
+                "gameFile": "index.html",
+                "gameType": "html5"
             },
             "name": "G-Switch 3",
             "url": "g-switch-3",
