@@ -249,6 +249,7 @@
       var urlLocation = window.location.href;
       urlLocation = urlLocation.split("/");
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
+        urlLocation = urlLocation[urlLocation.length - 1]
         urlLocation = urlLocation.split("#");
         setURL(urlLocation[urlLocation.length - 1]);
       }
