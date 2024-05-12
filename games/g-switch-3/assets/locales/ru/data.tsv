@@ -1,0 +1,203 @@
+content	flags
+$LOADING	Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ°
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	,
+$THOUSANDS_SEPARATOR	,
+$PLAY	Ð˜Ð³Ñ€Ð°Ñ‚ÑŒ
+$ENDLESS	Ð‘ÐµÑÐºÐ¾Ð½ÐµÑ‡Ð½Ñ‹Ð¹
+$MULTIPLAYER	ÐœÑƒÐ»ÑŒÑ‚Ð¸Ð¿Ð»ÐµÐµÑ€
+$CREDITS	Ð¢Ð¸Ñ‚Ñ€Ñ‹
+$BACK	ÐÐ°Ð·Ð°Ð´
+$SELECT_PLAYERS	Ð’Ñ‹Ð±Ð¾Ñ€ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð²
+$NUMBER_OF_PLAYERS	ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð²
+$STAGES	ÐšÐ°Ñ€Ñ‚Ñ‹
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ð¹ 1
+$CUSTOM_2	ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ð¹ 2
+$CUSTOM_3	ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ð¹ 3
+$SET	Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ...
+$NEVER-ENDING	Ð‘ÐµÐ· ÐºÐ¾Ð½Ñ†Ð°
+$NO_POWERUPS	Ð‘ÐµÐ· Ð±Ð¾Ð½ÑƒÑÐ¾Ð²
+$CLICK	ÐÐ°Ð¶Ð¼Ð¸
+$MORE_OPTIONS	Ð”Ñ€ÑƒÐ³Ð¸Ðµ Ð¾Ð¿Ñ†Ð¸Ð¸
+$STAGE_OPTIONS	ÐžÐ¿Ñ†Ð¸Ð¸ ÐºÐ°Ñ€Ñ‚Ñ‹
+$PLAY_AGAINST_COMPUTER	Ð˜Ð³Ñ€Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¾Ñ‚Ð¸Ð² ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ð°
+$SELECT_LEVEL	Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ
+$STAGE_SELECTION	Ð’Ñ‹Ð±Ð¾Ñ€ ÐºÐ°Ñ€Ñ‚Ñ‹
+$CONTINUE	ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ
+$MAIN_MENU	Ð“Ð»Ð°Ð²Ð½Ð¾Ðµ Ð¼ÐµÐ½ÑŽ
+$GAME_PAUSED	Ð˜Ð³Ñ€Ð°
+$SECRET_ORB_FOUND	ÐÐ°Ð¹Ð´ÐµÐ½ ÑÐºÑ€Ñ‹Ñ‚Ñ‹Ð¹ ÑˆÐ°Ñ€
+$CHARACTER_UNLOCKED	ÐÐ¾Ð²Ñ‹Ð¹ Ð¿ÐµÑ€ÑÐ¾Ð½Ð°Ð¶ Ñ€Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½!
+$LAST_CHARACTER_UNLOCKED	ÐŸÐ¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ Ð¿ÐµÑ€ÑÐ¾Ð½Ð°Ð¶ Ñ€Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½! Ð’ÑÐµ ÑˆÐ°Ñ€Ñ‹ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹!
+$BEST_TIME	Ð›ÑƒÑ‡ÑˆÐµÐµ<N>Ð²Ñ€ÐµÐ¼Ñ
+$NONE_CAPS	ÐÐ•Ð¢
+$START_OVER	ÐÐÐ§ÐÐ¢Ð¬ Ð¡ÐÐžÐ’Ð
+$YES	Ð”Ð°
+$NO	ÐÐµÑ‚
+$CANCEL	ÐžÑ‚Ð¼ÐµÐ½Ð°
+$CONTINUE_QUESTION	ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ?
+$CONTINUE_PREVIOUS_GAME_QUESTION	ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ Ð¿Ñ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰ÑƒÑŽ Ð¸Ð³Ñ€Ñƒ?
+$CHOOSE_NEW_KEY	Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ ÐºÐ»ÑŽÑ‡
+$PRESS_NEW_KEY	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ ÐºÐ»ÑŽÑ‡...
+$KEY_ALREADY_IN_USE	â€œ<X>â€ ÑƒÐ¶Ðµ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚ÑÑ.<N>ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð²Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´Ñ€ÑƒÐ³Ð¾Ð¹ ÐºÐ»ÑŽÑ‡.
+$WINNER	ÐŸÐ¾Ð±ÐµÐ´Ð¸Ñ‚ÐµÐ»ÑŒ
+$TIE_EXCLAMATION	ÐÐ¸Ñ‡ÑŒÑ!
+$HAS_WON_THE_TOURNAMENT	Ð²Ñ‹Ð¸Ð³Ñ€Ð°Ð»(Ð°) Ñ‚ÑƒÑ€Ð½Ð¸Ñ€!
+$TWO_PLAYER_TIE	Ð”Ð²Ð° Ð¸Ð³Ñ€Ð¾ÐºÐ° Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$THREE_PLAYER_TIE	Ð¢Ñ€Ð¸ Ð¸Ð³Ñ€Ð¾ÐºÐ° Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$FOUR_PLAYER_TIE	Ð§ÐµÑ‚Ñ‹Ñ€Ðµ Ð¸Ð³Ñ€Ð¾ÐºÐ° Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$FIVE_PLAYER_TIE	ÐŸÑÑ‚ÑŒ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð² Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$SIX_PLAYER_TIE	Ð¨ÐµÑÑ‚ÑŒ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð² Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$SEVEN_PLAYER_TIE	Ð¡ÐµÐ¼ÑŒ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð² Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$EIGHT_PLAYER_TIE	Ð’Ð¾ÑÐµÐ¼ÑŒ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð² Ð±Ð¾Ñ€ÑŽÑ‚ÑÑ<N>Ð·Ð° Ð¿ÐµÑ€Ð²Ð¾Ðµ Ð¼ÐµÑÑ‚Ð¾!
+$TAP_ICONS_TO_ADD	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð° Ð·Ð½Ð°Ñ‡ÐºÐ¸ ÐºÐ°Ñ€Ñ‚, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð¸Ñ… Ð² ÑÐ¿Ð¸ÑÐ¾Ðº
+$GS1_STAGE	GS1 ÐšÐ°Ñ€Ñ‚Ð° <X>
+$GS2_STAGE	GS2 ÐšÐ°Ñ€Ñ‚Ð° <X>
+$GS3_STAGE	GS3 ÐšÐ°Ñ€Ñ‚Ð° <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+$CLICK_OR_PRESS_KEY_TO_FLIP	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð»ÑŽÐ±ÑƒÑŽ ÐºÐ»Ð°Ð²Ð¸ÑˆÑƒ Ð´Ð»Ñ Ð¿ÐµÑ€ÐµÐ²Ð¾Ñ€Ð¾Ñ‚Ð°
+$TAP_TO_FLIP	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð² Ð»ÑŽÐ±Ð¾Ð¼ Ð¼ÐµÑÑ‚Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ð¾Ð²ÐµÑ€Ð½ÑƒÑ‚ÑŒ Ð³Ñ€Ð°Ð²Ð¸Ñ‚Ð°Ñ†Ð¸ÑŽ
+$TAP_TO_START	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð² Ð»ÑŽÐ±Ð¾Ð¼ Ð¼ÐµÑÑ‚Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ
+$TAP_TO_CONTINUE	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð² Ð»ÑŽÐ±Ð¾Ð¼ Ð¼ÐµÑÑ‚Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ
+$TAP_TO_START_NEW_TOURNAMENT	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð² Ð»ÑŽÐ±Ð¾Ð¼ Ð¼ÐµÑÑ‚Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ Ð½Ð¾Ð²Ñ‹Ð¹ Ñ‚ÑƒÑ€Ð½Ð¸Ñ€
+$RANKINGS	Ð ÐµÐ¹Ñ‚Ð¸Ð½Ð³Ð¸
+$FINAL_ROUND	Ð¤Ð¸Ð½Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°ÑƒÐ½Ð´
+$FINAL_ROUND_CAPS	Ð¤Ð˜ÐÐÐ›Ð¬ÐÐ«Ð™ Ð ÐÐ£ÐÐ”
+$ROUND_X_OF_Y	Ð Ð°ÑƒÐ½Ð´ <X> Ð¸Ð· <Y>
+$ROUND_X	Ð Ð°ÑƒÐ½Ð´ <X>
+$FIRST_SUPERSCRIPT	 
+$SECOND_SUPERSCRIPT	 
+$THIRD_SUPERSCRIPT	 
+$FOURTH_SUPERSCRIPT	 
+$FIFTH_SUPERSCRIPT	 
+$SIXTH_SUPERSCRIPT	 
+$SEVENTH_SUPERSCRIPT	 
+$EIGHTH_SUPERSCRIPT	 
+$FIRST_BASELINE	1-Ð¹
+$SECOND_BASELINE	2-Ð¹
+$THIRD_BASELINE	3-Ð¹
+$FOURTH_BASELINE	4-Ð¹
+$FIFTH_BASELINE	5-Ð¹
+$SIXTH_BASELINE	6-Ð¹
+$SEVENTH_BASELINE	7-Ð¹
+$EIGHTH_BASELINE	8-Ð¹
+$PLAYER_1	Ð˜Ð³Ñ€Ð¾Ðº 1
+$PLAYER_2	Ð˜Ð³Ñ€Ð¾Ðº 2
+$PLAYER_3	Ð˜Ð³Ñ€Ð¾Ðº 3
+$PLAYER_4	Ð˜Ð³Ñ€Ð¾Ðº 4
+$TAP_HERE_CAPS	ÐÐÐ–ÐœÐ˜Ð¢Ð• Ð—Ð”Ð•Ð¡Ð¬
+$PRESS_ENTER_TO_START	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ ENTER, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ
+$PRESS_ENTER_TO_CONTINUE	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ ENTER Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ñ
+$PRESS_ENTER_TO_START_OR_ESC	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ ENTER, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ Ð½Ð¾Ð²Ñ‹Ð¹ Ñ‚ÑƒÑ€Ð½Ð¸Ñ€ Ð¸Ð»Ð¸ ESC Ð´Ð»Ñ Ð²Ñ‹Ñ…Ð¾Ð´Ð°
+$PRESS_SPACE_TO_START	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ», Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ
+$PRESS_SPACE_TO_CONTINUE	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ» Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ñ
+$PRESS_SPACE_TO_START_OR_ESC	ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð±ÐµÐ», Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ Ð½Ð¾Ð²Ñ‹Ð¹ Ñ‚ÑƒÑ€Ð½Ð¸Ñ€ Ð¸Ð»Ð¸ ESC Ð´Ð»Ñ Ð²Ñ‹Ñ…Ð¾Ð´Ð°
+$LEVEL_X	Ð£Ñ€Ð¾Ð²ÐµÐ½ÑŒ <X>
+$LEVEL_1_DESCRIPTION	Ð“Ð¾Ñ€Ð¾Ð´ÑÐºÐ¾Ð¹ Ð¿ÐµÐ¹Ð·Ð°Ð¶
+$LEVEL_2_DESCRIPTION	ÐšÑ€Ð°ÑÐ½Ñ‹Ð¹ Ð³Ð¸Ð³Ð°Ð½Ñ‚
+$LEVEL_3_DESCRIPTION	Ð¤Ð¸Ð¾Ð»ÐµÑ‚Ð¾Ð²Ñ‹Ðµ ÑÐ½Ñ‹
+$SCORE	Ð¡Ñ‡ÐµÑ‚
+$BEST_SCORE	Ð›ÑƒÑ‡ÑˆÐ¸Ð¹
+$X_POINTS	<X> Ð±Ð°Ð»Ð»Ð¾Ð²
+$END_DIALOG_1_1_LINE_1	Ð˜Ñ‚Ð°Ðº, Ð¼Ñ‹ Ð²ÑÑ‚Ñ€ÐµÑ‚Ð¸Ð»Ð¸ÑÑŒ ÑÐ½Ð¾Ð²Ð°.
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	Ð’Ð¸Ð¶Ñƒ, Ñ‡Ñ‚Ð¾ Ñ‚Ð²Ð¾Ðµ Ð¼Ð°ÑÑ‚ÐµÑ€ÑÑ‚Ð²Ð¾
+$END_DIALOG_1_1_LINE_4	Ð½Ð¸ÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ð½Ðµ Ð¾ÑÐ»Ð°Ð±Ð»Ð¾.
+$END_DIALOG_1_2_LINE_1	Ð’ÑÐµ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ð»Ð¾ÑÑŒ Ð»ÐµÐ³ÐºÐ¾!
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	Ð¢Ñ‹ Ð½Ðµ ÑÐ¼Ð¾Ð¶ÐµÑˆÑŒ Ð¼ÐµÐ½Ñ
+$END_DIALOG_1_2_LINE_4	Ð½Ð¸Ñ‡ÐµÐ¼ ÑƒÐ´Ð¸Ð²Ð¸Ñ‚ÑŒ.
+$END_DIALOG_1_3_LINE_1	Ð¥Ð°-Ñ…Ð°! Ð¯ Ð±Ñ‹ Ð½Ðµ Ð±Ñ‹Ð» Ñ‚Ð°Ðº
+$END_DIALOG_1_3_LINE_2	ÑÐ°Ð¼Ð¾Ð½Ð°Ð´ÐµÑÐ½ Ð½Ð° Ñ‚Ð²Ð¾ÐµÐ¼ Ð¼ÐµÑÑ‚Ðµ.
+$END_DIALOG_1_3_LINE_3	Ð”Ð°Ð²Ð°Ð¹ Ð¿Ð¾ÑÐ¼Ð¾Ñ‚Ñ€Ð¸Ð¼, ÐºÐ°Ðº Ñƒ Ñ‚ÐµÐ±Ñ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑÑ
+$END_DIALOG_1_3_LINE_4	Ð² ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ¹ ÑÐµÑ€Ð¸Ð¸.
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	Ð’Ð¸Ð´Ð¸ÑˆÑŒ? Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ñ€Ð½Ð¾!
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+$END_DIALOG_2_2_LINE_1	Ð¯ Ñ‡ÑƒÐ²ÑÑ‚Ð²ÑƒÑŽ, Ñ‡Ñ‚Ð¾ Ñ‚Ñ‹ Ð½ÐµÐ¼Ð½Ð¾Ð³Ð¾
+$END_DIALOG_2_2_LINE_2	Ð·Ð°Ð·Ð½Ð°Ð»ÑÑ, Ð´Ñ€ÑƒÐ³ Ð¼Ð¾Ð¹. Ð£Ð²ÐµÑ€ÐµÐ½,
+$END_DIALOG_2_2_LINE_3	Ñ‡Ñ‚Ð¾ Ñ„Ð¸Ð½Ð°Ð»ÑŒÐ½Ð°Ñ ÑÐµÑ€Ð¸Ñ Ð·Ð°Ð´Ð°Ñ‡
+$END_DIALOG_2_2_LINE_4	ÑÐ¾Ð±ÑŒÐµÑ‚ Ñ Ñ‚ÐµÐ±Ñ ÑÐ¿ÐµÑÑŒ.
+$END_DIALOG_2_3_LINE_1	Ð¢Ð°Ðº Ð¼Ð½Ð¾Ð³Ð¾ Ñ€Ð°Ð·Ð³Ð¾Ð²Ð¾Ñ€Ð¾Ð², Ñ‚Ð°Ðº Ð¼Ð°Ð»Ð¾
+$END_DIALOG_2_3_LINE_2	Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ð¹.
+$END_DIALOG_2_3_LINE_3	 
+$END_DIALOG_2_3_LINE_4	Ð¯ Ð³Ð¾Ñ‚Ð¾Ð²! 
+$END_DIALOG_2_4_LINE_1	Ð”Ð°-Ð´Ð°, Ð¿Ñ€Ð¸Ð³Ð¾Ñ‚Ð¾Ð²ÑŒÑÑ.
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	Ð¡Ð»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ - Ð½Ðµ Ð´Ð»Ñ
+$END_DIALOG_2_4_LINE_4	ÑÐ»Ð°Ð±Ð¾Ð½ÐµÑ€Ð²Ð½Ñ‹Ñ….
+$END_DIALOG_3_1_LINE_1	Ð”Ð!!!!!!
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	Ð¯ ÑÐ´ÐµÐ»Ð°Ð» ÑÑ‚Ð¾!!!
+$END_DIALOG_3_1_LINE_4	 
+$END_DIALOG_3_2_LINE_1	Ð‘Ñ€Ð°Ð²Ð¾! Ð”Ð¾Ð»Ð¶ÐµÐ½ Ð¿Ñ€Ð¸Ð·Ð½Ð°Ñ‚ÑŒ, Ñ‡Ñ‚Ð¾
+$END_DIALOG_3_2_LINE_2	Ð½Ðµ Ð¾Ð¶Ð¸Ð´Ð°Ð» Ð¾Ñ‚ Ñ‚ÐµÐ±Ñ
+$END_DIALOG_3_2_LINE_3	Ñ‚Ð°ÐºÐ¾Ð¹ Ð¿Ñ€Ñ‹Ñ‚Ð¸. Ð¢Ð²Ð¾Ð¸
+$END_DIALOG_3_2_LINE_4	Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ð²Ð¿ÐµÑ‡Ð°Ñ‚Ð»ÑÑŽÑ‚.
+$END_DIALOG_3_3_LINE_1	Ð¢ÐµÐ±Ðµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ ÑÐ¾ÐµÐ´Ð¸Ð½Ð¸Ñ‚ÑŒ
+$END_DIALOG_3_3_LINE_2	Ð¼Ð¾Ð»Ð½Ð¸ÐµÐ½Ð¾ÑÐ½Ñ‹Ðµ Ñ€ÐµÑ„Ð»ÐµÐºÑÑ‹ Ñ
+$END_DIALOG_3_3_LINE_3	ÑŽÐ²ÐµÐ»Ð¸Ñ€Ð½Ð¾Ð¹ Ñ‚Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒÑŽ.
+$END_DIALOG_3_3_LINE_4	Ð”ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð²Ð¿ÐµÑ‡Ð°Ñ‚Ð»ÑÐµÑ‚.
+$END_DIALOG_3_4_LINE_1	Ð•ÑÐ»Ð¸ Ñ‚Ñ‹ ÐµÑ‰Ðµ ÑÑ‚Ð¾Ð³Ð¾ Ð½Ðµ ÑÐ´ÐµÐ»Ð°Ð»,
+$END_DIALOG_3_4_LINE_2	Ð¼Ð¾Ð¶ÐµÑˆÑŒ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±Ð¾Ð²Ð°Ñ‚ÑŒ Ñ‚Ð°ÐºÐ¶Ðµ
+$END_DIALOG_3_4_LINE_3	Ð‘ÐµÑÐºÐ¾Ð½ÐµÑ‡Ð½Ñ‹Ð¹ Ñ€ÐµÐ¶Ð¸Ð¼ Ð¸Ð»Ð¸ Ð»Ð¾ÐºÐ°Ð»ÑŒÐ½Ñ‹Ð¹
+$END_DIALOG_3_4_LINE_4	ÐœÑƒÐ»ÑŒÑ‚Ð¸Ð¿Ð»ÐµÐµÑ€ Ñ Ð´Ñ€ÑƒÐ·ÑŒÑÐ¼Ð¸.
+$END_DIALOG_3_5_LINE_1	Ð­ÐºÑÐ¿ÐµÑ€Ð¸Ð¼ÐµÐ½Ñ‚ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑÑ
+$END_DIALOG_3_5_LINE_2	Ð¿Ð¾ÐºÐ° Ð½Ðµ Ð¿Ñ€Ð¸Ð´ÐµÑ‚ Ð²Ñ€ÐµÐ¼Ñ.
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	ÐŸÐ¾ÐºÐ°...
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	. . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+$CREDITS_LINE_1	Ð”Ð¸Ð·Ð°Ð¹Ð½ Ð¸ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	Ð“Ñ€Ð°Ñ„Ð¸ÐºÐ°
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	ÐœÑƒÐ·Ñ‹ÐºÐ° Ð¸ Ð·Ð²ÑƒÐºÐ¾Ð²Ñ‹Ðµ ÑÑ„Ñ„ÐµÐºÑ‚Ñ‹
+$CREDITS_LINE_7	Francisco Furtado
+$SETTINGS	ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
+$LANGUAGE	Ð¯Ð·Ñ‹Ðº
+$COMING_SOON	Ð¡ÐºÐ¾Ñ€Ð¾
+$RESTORE_PURCHASES	 Ð’Ð¾ÑÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ<N>Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸
+$MUSIC	ÐœÑƒÐ·Ñ‹ÐºÐ°
+$SOUND	Ð—Ð²ÑƒÐº
+$COMPUTER_CONTROLLED_ABBREVIATION	ÐšÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€
+$SCREENSHOT_TEXT_1	Ð›Ð¾ÐºÐ°Ð»ÑŒÐ½Ñ‹Ð¹ Ð¼ÑƒÐ»ÑŒÑ‚Ð¸Ð¿Ð»ÐµÐµÑ€
+$SCREENSHOT_TEXT_2	Ð”Ð¾ 4-Ñ… Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð²
+$REMOVE_ADS	Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ñ€ÐµÐºÐ»Ð°Ð¼Ñƒ
+$GET_G-SWITCH_3_PLUS	ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ G-Switch 3 Plus
+$G-SWITCH_3_PLUS_LINE_1	Ð¡ G-Switch 3+ Ð²Ñ‹ Ñ€Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€ÑƒÐµÑ‚Ðµ:
+$G-SWITCH_3_PLUS_LINE_2	Â - 6 Ð½Ð¾Ð²Ñ‹Ñ… Ð¼Ð½Ð¾Ð³Ð¾Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ñ… ÐºÐ°Ñ€Ñ‚
+$G-SWITCH_3_PLUS_LINE_3	Â - Ð’ÑÐµ Ð¼Ð½Ð¾Ð³Ð¾Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ðµ ÐºÐ°Ñ€Ñ‚Ñ‹ Ð¸Ð· G-Switch 2 Ð¸ G-Switch 1
+$G-SWITCH_3_PLUS_LINE_4	Â - Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ ÐºÐ°Ñ€Ñ‚Ñ‹, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ, Ð² Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð»ÑŒÐ½Ð¾Ð¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ
+$G-SWITCH_3_PLUS_LINE_5	Â - ÐžÐ¿Ñ†Ð¸Ð¸ "Ñ‚ÑƒÑ€Ð½Ð¸Ñ€ Ð±ÐµÐ· ÐºÐ¾Ð½Ñ†Ð°" Ð¸ "Ð±ÐµÐ· Ð±Ð¾Ð½ÑƒÑÐ¾Ð²"
+$G-SWITCH_3_PLUS_LINE_6	Â - Ð‘Ð¾Ð»ÑŒÑˆÐµ Ð½Ð¸ÐºÐ°ÐºÐ¾Ð¹ Ñ€ÐµÐºÐ»Ð°Ð¼Ñ‹
+$G-SWITCH_3_PLUS_LINE_7	Â - Ð”Ð¾ÑÑ‚ÑƒÐ¿ ÐºÐ¾ Ð²ÑÐµÐ¼ Ð±ÑƒÐ´ÑƒÑ‰Ð¸Ð¼ Ð½Ð¾Ð²Ñ‹Ð¼ ÐºÐ°Ñ€Ñ‚Ð°Ð¼/ÑƒÑ€Ð¾Ð²Ð½ÑÐ¼
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	Ð’ÑÐµÐ³Ð¾ <X>
+$GET_IT_BUTTON	ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ!
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒÑÑ Ðº Google Play.
+$CHECK_CONNECTION	ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹ÑÑ‚Ð°, Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ðº Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚Ñƒ.
+$CONNECTING	ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ...
+$REWARDED_AD_TITLE	Ð¡Ð¼Ð¾Ñ‚Ñ€ÐµÑ‚ÑŒ Ð²Ð¸Ð´ÐµÐ¾
+$REWARDED_AD_DESCRIPTION	ÐŸÐ¾ÑÐ¼Ð¾Ñ‚Ñ€Ð¸Ñ‚Ðµ Ð²Ð¸Ð´ÐµÐ¾ Ð¸ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚Ðµ Ð·Ð°Ð¼ÐµÐ´Ð»ÐµÐ½Ð½Ð¾Ðµ Ð²Ð¾ÑÐ¿Ñ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¸ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ¹ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÐµ?
+$LIVES	Ð–Ð¸Ð·Ð½Ð¸
+$REWARDED_AD_2_TITLE	ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð¶Ð¸Ð·Ð½ÑŒ
+$REWARDED_AD_2_DESCRIPTION	Ð¡Ð¼Ð¾Ñ‚Ñ€ÐµÑ‚ÑŒ Ð²Ð¸Ð´ÐµÐ¾ Ð¸ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½ÑƒÑŽ Ð¶Ð¸Ð·Ð½ÑŒ?
+$REWARDED_AD_3_TITLE	Ð—Ð°Ð¼ÐµÐ´Ð»ÐµÐ½Ð½Ð¾Ðµ Ð´Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ
+$REWARDED_AD_3_DESCRIPTION	Ð’ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒ Ð·Ð°Ð¼ÐµÐ´Ð»ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¸ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ¹ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÐµ?
+$PRESS_ANY_KEY_TO_CONTINUE	Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð»ÑŽÐ±ÑƒÑŽ ÐºÐ»Ð°Ð²Ð¸ÑˆÑƒ Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ñ
+$ADS_OPT_IN_TITLE	DO YOU WANT TO IMPROVE YOUR EXPERIENCE?
+$ADS_OPT_IN_DESCRIPTION	To offer interest-based ads, meaning ads relevant to you, we need to collect data and share it with our partners, who may use different technologies.
+$ADS_OPT_IN_MORE	Learn more in our 
+$PRIVACY_POLICY	privacy policy

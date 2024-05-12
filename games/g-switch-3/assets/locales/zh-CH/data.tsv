@@ -1,0 +1,203 @@
+content	flags
+$LOADING	è½½å…¥ä¸­
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	.
+$THOUSANDS_SEPARATOR	,
+$PLAY	çŽ©
+$ENDLESS	æ— å°½
+$MULTIPLAYER	å¤šäºº
+$CREDITS	åˆ¶ä½œå›¢é˜Ÿ
+$BACK	è¿”å›ž
+$SELECT_PLAYERS	çŽ©å®¶é€‰æ‹©
+$NUMBER_OF_PLAYERS	çŽ©å®¶äººæ•°
+$STAGES	é˜¶æ®µ
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	è‡ªå®šä¹‰1
+$CUSTOM_2	è‡ªå®šä¹‰2
+$CUSTOM_3	è‡ªå®šä¹‰3
+$SET	è®¾ç½®â€¦
+$NEVER-ENDING	æ— ç©·æ— å°½
+$NO_POWERUPS	æ— å¼ºåŠ›é“å…·
+$CLICK	ç‚¹å‡»
+$MORE_OPTIONS	æ›´å¤šé€‰æ‹©
+$STAGE_OPTIONS	é˜¶æ®µé€‰é¡¹
+$PLAY_AGAINST_COMPUTER	çŽ©å®¶å¯¹æˆ˜ç”µè„‘
+$SELECT_LEVEL	é€‰æ‹©å…³å¡
+$STAGE_SELECTION	é˜¶æ®µé€‰æ‹©
+$CONTINUE	ç»§ç»­
+$MAIN_MENU	ä¸»èœå•
+$GAME_PAUSED	æ¸¸æˆæš‚åœ
+$SECRET_ORB_FOUND	å‘çŽ°ç§˜å¯†çƒä½“
+$CHARACTER_UNLOCKED	å·²è§£é”æ–°è§’è‰²ï¼
+$LAST_CHARACTER_UNLOCKED	æœ€åŽä¸€ä¸ªè§’è‰²å·²è§£é”ï¼å‘çŽ°æ‰€æœ‰çš„çƒä½“ï¼
+$BEST_TIME	æœ€ä½³<N>æ—¶é—´
+$NONE_CAPS	æ— 
+$START_OVER	é‡æ¥
+$YES	æ˜¯
+$NO	æ²¡æœ‰
+$CANCEL	å–æ¶ˆ
+$CONTINUE_QUESTION	ç»§ç»­ï¼Ÿ
+$CONTINUE_PREVIOUS_GAME_QUESTION	ç»§ç»­ä»¥å‰çš„æ¸¸æˆï¼Ÿ
+$CHOOSE_NEW_KEY	é€‰æ‹©æ–°é”®
+$PRESS_NEW_KEY	æŒ‰ä¸‹æ–°é”®...
+$KEY_ALREADY_IN_USE	â€œ<X>â€å·²è¢«ä½¿ç”¨ã€‚<N>è¯·é€‰æ‹©å…¶ä»–é”®ã€‚
+$WINNER	èµ¢å®¶
+$TIE_EXCLAMATION	å¹³å±€ï¼
+$HAS_WON_THE_TOURNAMENT	èµ¢å¾—äº†æ¯”èµ›ï¼
+$TWO_PLAYER_TIE	ä¸¤åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$THREE_PLAYER_TIE	ä¸‰åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$FOUR_PLAYER_TIE	å››åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$FIVE_PLAYER_TIE	äº”åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$SIX_PLAYER_TIE	å…­åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$SEVEN_PLAYER_TIE	ä¸ƒåçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$EIGHT_PLAYER_TIE	å…«åçŽ©å®¶<N>å¹¶åˆ—ç¬¬ä¸€ï¼
+$TAP_ICONS_TO_ADD	ç‚¹å‡»é˜¶æ®µæŒ‰é’®æ·»åŠ è‡³åˆ—è¡¨
+$GS1_STAGE	GS1é˜¶æ®µ <X>
+$GS2_STAGE	GS2é˜¶æ®µ <X>
+$GS3_STAGE	GS3é˜¶æ®µ <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+$CLICK_OR_PRESS_KEY_TO_FLIP	ç‚¹å‡»æˆ–æŒ‰ä»»æ„é”®ç¿»é¡µ
+$TAP_TO_FLIP	ç‚¹å‡»ä»»æ„ä½ç½®æ¥ç¿»è½¬é‡åŠ›
+$TAP_TO_START	ç‚¹å‡»ä»»æ„ä½ç½®å¼€å§‹
+$TAP_TO_CONTINUE	ç‚¹å‡»ä»»æ„ä½ç½®ç»§ç»­
+$TAP_TO_START_NEW_TOURNAMENT	ç‚¹å‡»ä»»æ„ä½ç½®å¼€å§‹æ–°çš„æ¯”èµ›
+$RANKINGS	æŽ’å
+$FINAL_ROUND	æœ€åŽä¸€è½®
+$FINAL_ROUND_CAPS	æœ€åŽä¸€è½®
+$ROUND_X_OF_Y	ç¬¬<X> / <Y>è½®
+$ROUND_X	ç¬¬<X>è½®
+$FIRST_SUPERSCRIPT	 
+$SECOND_SUPERSCRIPT	 
+$THIRD_SUPERSCRIPT	 
+$FOURTH_SUPERSCRIPT	 
+$FIFTH_SUPERSCRIPT	 
+$SIXTH_SUPERSCRIPT	 
+$SEVENTH_SUPERSCRIPT	 
+$EIGHTH_SUPERSCRIPT	 
+$FIRST_BASELINE	ç¬¬ä¸€
+$SECOND_BASELINE	ç¬¬äºŒ
+$THIRD_BASELINE	ç¬¬ä¸‰
+$FOURTH_BASELINE	ç¬¬å››
+$FIFTH_BASELINE	ç¬¬äº”
+$SIXTH_BASELINE	ç¬¬å…­
+$SEVENTH_BASELINE	ç¬¬ä¸ƒ
+$EIGHTH_BASELINE	ç¬¬å…«
+$PLAYER_1	çŽ©å®¶1
+$PLAYER_2	çŽ©å®¶2
+$PLAYER_3	çŽ©å®¶3
+$PLAYER_4	çŽ©å®¶4
+$TAP_HERE_CAPS	ç‚¹å‡»æ­¤å¤„
+$PRESS_ENTER_TO_START	æŒ‰ä¸‹â€œENTERâ€å¯å¼€å§‹
+$PRESS_ENTER_TO_CONTINUE	æŒ‰ä¸‹â€œENTERâ€å¯ç»§ç»­
+$PRESS_ENTER_TO_START_OR_ESC	æŒ‰ä¸‹â€œENTERâ€å¯å¼€å§‹æ–°çš„æ¯”èµ›ï¼Œæˆ–æŒ‰ESCæ¥æ›´æ”¹è®¾ç½®
+$PRESS_SPACE_TO_START	æŒ‰ä¸‹ç©ºæ ¼é”®å¯å¼€å§‹
+$PRESS_SPACE_TO_CONTINUE	æŒ‰ä¸‹ç©ºæ ¼é”®å¯ç»§ç»­
+$PRESS_SPACE_TO_START_OR_ESC	æŒ‰ä¸‹ç©ºæ ¼é”®å¯å¼€å§‹æ–°çš„æ¯”èµ›ï¼Œæˆ–æŒ‰ESCæ¥æ›´æ”¹è®¾ç½®
+$LEVEL_X	å…³å¡ <X>
+$LEVEL_1_DESCRIPTION	ç»¿é»„è‰²åŸŽå¸‚é£Žå…‰
+$LEVEL_2_DESCRIPTION	çº¢è‰²å·¨äºº
+$LEVEL_3_DESCRIPTION	ç´«è‰²æ¢¦æƒ³
+$SCORE	å¾—åˆ†
+$BEST_SCORE	æœ€ä½³
+$X_POINTS	<X> åˆ†
+$END_DIALOG_1_1_LINE_1	 ä¹…åˆ«é‡é€¢äº†ã€‚
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	 æˆ‘çœ‹åˆ°ä½ çš„æŠ€èƒ½å¹¶æ²¡æœ‰
+$END_DIALOG_1_1_LINE_4	 ä¸æ¯«ä¸‹é™ã€‚
+$END_DIALOG_1_2_LINE_1	 é‚£å¾ˆç®€å•ï¼
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	 æˆ‘ä¼šå‡»è´¥ä½ ç»™æˆ‘çš„
+$END_DIALOG_1_2_LINE_4	 ä»»ä½•æŒ‘æˆ˜ã€‚
+$END_DIALOG_1_3_LINE_1	 å“ˆå“ˆï¼æˆ‘è¦æ˜¯ä½ 
+$END_DIALOG_1_3_LINE_2	 å°±ä¸ä¼šè¿™ä¹ˆè‡ªä¿¡ã€‚
+$END_DIALOG_1_3_LINE_3	 è®©æˆ‘ä»¬æ¥çœ‹çœ‹ä½ åœ¨æŽ¥ä¸‹æ¥çš„
+$END_DIALOG_1_3_LINE_4	 æŒ‘æˆ˜ä¸­è¡¨çŽ°å¦‚ä½•ã€‚
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	 çœ‹åˆ°æ²¡ï¼Ÿå°èœä¸€ç¢Ÿï¼
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+$END_DIALOG_2_2_LINE_1	 æˆ‘è§‰å¾—ä½ å˜å¾—æœ‰ç‚¹
+$END_DIALOG_2_2_LINE_2	 å‚²æ…¢ï¼Œæˆ‘çš„æœ‹å‹ã€‚æˆ‘ç¡®å®š
+$END_DIALOG_2_2_LINE_3	 æœ€ç»ˆçš„æŒ‘æˆ˜
+$END_DIALOG_2_2_LINE_4	 ä¼šè®©ä½ æœæœå¸–å¸–ã€‚
+$END_DIALOG_2_3_LINE_1	 è¯è¿™ä¹ˆå¤šï¼Œè¡ŒåŠ¨å¤ªå°‘ã€‚
+$END_DIALOG_2_3_LINE_2	 
+$END_DIALOG_2_3_LINE_3	 èµ°å§ï¼Œæˆ‘å‡†å¤‡å¥½äº†ï¼
+$END_DIALOG_2_3_LINE_4	 
+$END_DIALOG_2_4_LINE_1	 æœ€å¥½ä¸è¿‡ã€‚
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	 ä¸‹ä¸€ä¸ªå…³å¡å¯ä¸é€‚åˆ
+$END_DIALOG_2_4_LINE_4	 èƒ†å°é¬¼ã€‚
+$END_DIALOG_3_1_LINE_1	 è¶…æ£’ï¼ï¼ï¼
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	 æˆ‘åšåˆ°äº†ï¼ï¼
+$END_DIALOG_3_1_LINE_4	 
+$END_DIALOG_3_2_LINE_1	 å¥½æ ·çš„ï¼æˆ‘å¿…é¡»æ‰¿è®¤ï¼Œ
+$END_DIALOG_3_2_LINE_2	 æˆ‘æ²¡æƒ³åˆ°ä½ ä¼š
+$END_DIALOG_3_2_LINE_3	 èµ°è¿™ä¹ˆè¿œã€‚ä½ çš„
+$END_DIALOG_3_2_LINE_4	 è¡¨çŽ°éžå¸¸å‡ºè‰²ã€‚
+$END_DIALOG_3_3_LINE_1	 ä½ ç»“åˆäº†
+$END_DIALOG_3_3_LINE_2	 é—ªç”µèˆ¬çš„å¿«é€Ÿååº”èƒ½åŠ›ä¸Ž
+$END_DIALOG_3_3_LINE_3	 åŒé‡èº«ä½“ä¸‹çš„ç²¾å‡†æ“ä½œã€‚
+$END_DIALOG_3_3_LINE_4	 ä¸€ä¸ªçœŸæ­£äº†ä¸èµ·çš„å£®ä¸¾ã€‚
+$END_DIALOG_3_4_LINE_1	 å¦‚æžœä½ è¿˜æ²¡æœ‰å‡†å¤‡å¥½ï¼Œä½ 
+$END_DIALOG_3_4_LINE_2	 è¿˜å¯ä»¥æŒ‘æˆ˜è‡ªå·±
+$END_DIALOG_3_4_LINE_3	 çŽ©æ— å°½æ¨¡å¼æˆ–ä¸Žæœ‹å‹ä»¬
+$END_DIALOG_3_4_LINE_4	 çŽ©æœ¬åœ°å¤šäººæ¨¡å¼ã€‚
+$END_DIALOG_3_5_LINE_1	 å½“æ—¶é—´åˆé€‚æ—¶ï¼Œ
+$END_DIALOG_3_5_LINE_2	 è¿™ä¸ªå®žéªŒä¼šç»§ç»­ã€‚
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	 ç›´åˆ°é‚£æ—¶â€¦
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	 . . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+$CREDITS_LINE_1	æ¸¸æˆè®¾è®¡ä¸Žç¼–ç¨‹
+$CREDITS_LINE_2	ç“¦æ–¯ç§‘Â·å¼—é›·å¡”æ–¯
+$CREDITS_LINE_3	è‰ºæœ¯å›¾ç‰‡
+$CREDITS_LINE_4	å¼—é›·å¾·é‡Œç§‘Â·é©¬ä¸æ–¯
+$CREDITS_LINE_5	é²ç‰¹Â·è‹äºšé›·æ–¯
+$CREDITS_LINE_6	éŸ³ä¹å’Œå£°éŸ³æ•ˆæžœ
+$CREDITS_LINE_7	å¼—æœ—è¥¿æ–¯ç§‘Â·è´¹å¡”æœµ
+$SETTINGS	è®¾ç½®
+$LANGUAGE	è¯­è¨€
+$COMING_SOON	å³å°†æŽ¨å‡º
+$RESTORE_PURCHASES	æ¢å¤è´­ä¹°
+$MUSIC	éŸ³ä¹
+$SOUND	éŸ³æ•ˆ
+$COMPUTER_CONTROLLED_ABBREVIATION	CPU
+$SCREENSHOT_TEXT_1	æœ¬åœ°å¤šäºº
+$SCREENSHOT_TEXT_2	æœ€å¤š4åçŽ©å®¶
+$REMOVE_ADS	ä¸å†æœ‰å¹¿å‘Š
+$GET_G-SWITCH_3_PLUS	èŽ·å¾—G-Switch 3 Plus
+$G-SWITCH_3_PLUS_LINE_1	æœ‰äº†G-Switch 3 Plusä½ è®²è§£é”ï¼š
+$G-SWITCH_3_PLUS_LINE_2	  -  6ä¸ªå…¨æ–°çš„å¤šäººé˜¶æ®µ
+$G-SWITCH_3_PLUS_LINE_3	  - æ¥è‡ªG-Switch 2 å’Œ G-Switch 1çš„å¤šäººé˜¶æ®µ
+$G-SWITCH_3_PLUS_LINE_4	Â  - æŒ‰ä½ å–œæ¬¢çš„é¡ºåºçŽ©ä½ æƒ³è¦çš„é˜¶æ®µ
+$G-SWITCH_3_PLUS_LINE_5	Â  - â€œæ— ç©·æ— å°½æ¯”èµ›â€å’Œâ€œæ— å¼ºåŠ›é“å…·â€é€‰é¡¹
+$G-SWITCH_3_PLUS_LINE_6	Â  - ä¸å†æœ‰å¹¿å‘Š
+$G-SWITCH_3_PLUS_LINE_7	Â  - å¯æ°¸ä¹…è®¿é—®æ‰€æœ‰æœªæ¥çš„æ–°é˜¶æ®µ/å…³å¡
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	ä»…éœ€ <X>!
+$GET_IT_BUTTON	èŽ·å–å®ƒï¼
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	æ— æ³•è¿žæŽ¥åˆ°Google Playã€‚
+$CHECK_CONNECTION	è¯·æ£€æŸ¥æ‚¨çš„Internetè¿žæŽ¥ã€‚
+$CONNECTING	è¿žæŽ¥â€¦
+$REWARDED_AD_TITLE	çœ‹è§†é¢‘
+$REWARDED_AD_DESCRIPTION	è§‚çœ‹è§†é¢‘å¹¶åœ¨ä¸‹æ¬¡å°è¯•æ—¶èŽ·å¾—æ…¢åŠ¨ä½œï¼Ÿ
+$LIVES	ç”Ÿæ´»
+$REWARDED_AD_2_TITLE	èŽ·å¾—é¢å¤–çš„ç”Ÿå‘½
+$REWARDED_AD_2_DESCRIPTION	è§‚çœ‹è§†é¢‘å¹¶èŽ·å¾—é¢å¤–çš„ç”Ÿå‘½ï¼Ÿ
+$REWARDED_AD_3_TITLE	æ…¢åŠ¨ä½œï¼Ÿ
+$REWARDED_AD_3_DESCRIPTION	ä¸‹æ¬¡å°è¯•æ…¢æ…¢åŠ¨ä½œï¼Ÿ
+$PRESS_ANY_KEY_TO_CONTINUE	æŒ‰ä»»æ„é”®ç»§ç»­
+$ADS_OPT_IN_TITLE	DO YOU WANT TO IMPROVE YOUR EXPERIENCE?
+$ADS_OPT_IN_DESCRIPTION	To offer interest-based ads, meaning ads relevant to you, we need to collect data and share it with our partners, who may use different technologies.
+$ADS_OPT_IN_MORE	Learn more in our 
+$PRIVACY_POLICY	privacy policy

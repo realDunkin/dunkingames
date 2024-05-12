@@ -1,0 +1,203 @@
+content	flag
+$LOADING	Cargando
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	,
+$THOUSANDS_SEPARATOR	 
+$PLAY	Jugar
+$ENDLESS	Interminable
+$MULTIPLAYER	Multijugador
+$CREDITS	CrÃ©ditos
+$BACK	AtrÃ¡s
+$SELECT_PLAYERS	Seleccionar jugadores
+$NUMBER_OF_PLAYERS	NÃºmero de jugadores
+$STAGES	Etapas
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	Personalizada 1
+$CUSTOM_2	Personalizada 2
+$CUSTOM_3	Personalizada 3
+$SET	Configurar
+$NEVER-ENDING	Sin fin
+$NO_POWERUPS	Sin potenciadores
+$CLICK	Haz clic
+$MORE_OPTIONS	MÃ¡s opciones
+$STAGE_OPTIONS	Opciones de la etapa
+$PLAY_AGAINST_COMPUTER	Jugar contra la computadora
+$SELECT_LEVEL	Selecciona el nivel
+$STAGE_SELECTION	SelecciÃ³n de etapa
+$CONTINUE	Continuar
+$MAIN_MENU	MenÃº principal
+$GAME_PAUSED	Juego en pausa
+$SECRET_ORB_FOUND	Has encontrado un orbe secreta
+$CHARACTER_UNLOCKED	Â¡Nuevo personaje desbloqueado!
+$LAST_CHARACTER_UNLOCKED	Â¡Ãšltimo personaje desbloqueado! Â¡Has encontrado todos los orbes!
+$BEST_TIME	Mejor<N>tiempo
+$NONE_CAPS	NINGUNO
+$START_OVER	Comenzar de nuevo
+$YES	SÃ­
+$NO	No
+$CANCEL	Cancelar
+$CONTINUE_QUESTION	Â¿Continuar?
+$CONTINUE_PREVIOUS_GAME_QUESTION	Â¿Continuar el juego anterior?
+$CHOOSE_NEW_KEY	Elige una nueva tecla
+$PRESS_NEW_KEY	Presiona la nueva tecla...
+$KEY_ALREADY_IN_USE	â€œ<X>â€ ya estÃ¡ en uso.<N>Por favor, elige otra tecla.
+$WINNER	Vencedor
+$TIE_EXCLAMATION	Â¡Empate!
+$HAS_WON_THE_TOURNAMENT	Â¡Ha       ganado el torneo!
+$TWO_PLAYER_TIE	Â¡Dos jugadores han empatado<N>en el primer lugar!
+$THREE_PLAYER_TIE	Â¡Tres jugadores han empatado<N>en el primer lugar!
+$FOUR_PLAYER_TIE	Â¡Cuatro jugadores han empatado<N>en el primer lugar!
+$FIVE_PLAYER_TIE	Â¡Cinco jugadores han empatado<N>en el primer lugar!
+$SIX_PLAYER_TIE	Â¡Seis jugadores han empatado<N>en el primer lugar!
+$SEVEN_PLAYER_TIE	Â¡Siete jugadores han empatado<N>en el primer lugar!
+$EIGHT_PLAYER_TIE	Â¡Ocho jugadores han empatado<N>en el primer lugar!
+$TAP_ICONS_TO_ADD	Toca los iconos de la etapa para aÃ±adir a la lista
+$GS1_STAGE	Etapa GS1-<X>
+$GS2_STAGE	Etapa GS2-<X>
+$GS3_STAGE	Etapa GS3-<X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+$CLICK_OR_PRESS_KEY_TO_FLIP	Haz clic o presiona cualquier tecla para invertir
+$TAP_TO_FLIP	Toca en cualquier lugar para invertir la gravedad
+$TAP_TO_START	Toca en cualquier lugar para comenzar
+$TAP_TO_CONTINUE	Toca en cualquier lugar para continuar
+$TAP_TO_START_NEW_TOURNAMENT	Toca en cualquier lugar para comenzar un nuevo torneo
+$RANKINGS	Clasificaciones
+$FINAL_ROUND	Ronda final
+$FINAL_ROUND_CAPS	RONDA FINAL
+$ROUND_X_OF_Y	Ronda <X> de <Y>
+$ROUND_X	Ronda <X>
+$FIRST_SUPERSCRIPT	Âº
+$SECOND_SUPERSCRIPT	Âº
+$THIRD_SUPERSCRIPT	Âº
+$FOURTH_SUPERSCRIPT	Âº
+$FIFTH_SUPERSCRIPT	Âº
+$SIXTH_SUPERSCRIPT	Âº
+$SEVENTH_SUPERSCRIPT	Âº
+$EIGHTH_SUPERSCRIPT	Âº
+$FIRST_BASELINE	1
+$SECOND_BASELINE	2
+$THIRD_BASELINE	3
+$FOURTH_BASELINE	4
+$FIFTH_BASELINE	5
+$SIXTH_BASELINE	6
+$SEVENTH_BASELINE	7
+$EIGHTH_BASELINE	8
+$PLAYER_1	Jugador 1
+$PLAYER_2	Jugador 2
+$PLAYER_3	Jugador 3
+$PLAYER_4	Jugador 4
+$TAP_HERE_CAPS	TOCA AQUÃ
+$PRESS_ENTER_TO_START	Presiona ENTER para comenzar
+$PRESS_ENTER_TO_CONTINUE	Presiona ENTER para continuar
+$PRESS_ENTER_TO_START_OR_ESC	Presiona ENTER para comenzar un nuevo torneo, o ESC para ajustes
+$PRESS_SPACE_TO_START	Presiona ESPACIO para comenzar
+$PRESS_SPACE_TO_CONTINUE	Presiona ESPACIO para continuar
+$PRESS_SPACE_TO_START_OR_ESC	Presiona ESPACIO para comenzar un nuevo torneo, o ESC para ajustes
+$LEVEL_X	Nivel <X>
+$LEVEL_1_DESCRIPTION	Paisaje urbano de cal
+$LEVEL_2_DESCRIPTION	Gigante rojo
+$LEVEL_3_DESCRIPTION	SueÃ±os pÃºrpura
+$SCORE	Puntaje
+$BEST_SCORE	Mejor
+$X_POINTS	<X> puntos
+$END_DIALOG_1_1_LINE_1	Nos encontramos de nuevo.
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	Veo que tus habilidades no han
+$END_DIALOG_1_1_LINE_4	disminuido nada.
+$END_DIALOG_1_2_LINE_1	Â¡Eso fue fÃ¡cil!
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	VencerÃ© cualquier cosa que
+$END_DIALOG_1_2_LINE_4	me arrojes.
+$END_DIALOG_1_3_LINE_1	Â¡Jaja! Si yo fuera tÃº no estarÃ­a
+$END_DIALOG_1_3_LINE_2	tan seguro.
+$END_DIALOG_1_3_LINE_3	Veamos cÃ³mo te va en la
+$END_DIALOG_1_3_LINE_4	siguiente serie de desafÃ­os.
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	Â¿Ves? Â¡Muy fÃ¡cil!
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+$END_DIALOG_2_2_LINE_1	Creo que te estÃ¡s poniendo un
+$END_DIALOG_2_2_LINE_2	tanto arrogante, mi amigo. Estoy
+$END_DIALOG_2_2_LINE_3	seguro que la serie final de
+$END_DIALOG_2_2_LINE_4	desafÃ­os se encargarÃ¡n de esto.
+$END_DIALOG_2_3_LINE_1	Demasiada charla, muy poca
+$END_DIALOG_2_3_LINE_2	acciÃ³n.
+$END_DIALOG_2_3_LINE_3	 
+$END_DIALOG_2_3_LINE_4	Entonces vamos, Â¡estoy listo!
+$END_DIALOG_2_4_LINE_1	Mejor que lo estÃ©s.
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	El siguiente nivel no es para los
+$END_DIALOG_2_4_LINE_4	dÃ©biles de corazÃ³n.
+$END_DIALOG_3_1_LINE_1	Â¡SÃ!
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	Â¡Lo logrÃ©!
+$END_DIALOG_3_1_LINE_4	 
+$END_DIALOG_3_2_LINE_1	Â¡Bravo! Debo admitir que no
+$END_DIALOG_3_2_LINE_2	creÃ­ que pudieras llegar tan lejos.
+$END_DIALOG_3_2_LINE_3	 
+$END_DIALOG_3_2_LINE_4	Tu desempeÃ±o fue sobresaliente.
+$END_DIALOG_3_3_LINE_1	Pudiste combinar tus rÃ¡pidos
+$END_DIALOG_3_3_LINE_2	reflejos con una precisiÃ³n perfecta
+$END_DIALOG_3_3_LINE_3	en condiciones de doble cuerpo.
+$END_DIALOG_3_3_LINE_4	Una proeza realmente asombrosa.
+$END_DIALOG_3_4_LINE_1	Si no lo has hecho aÃºn, puedes
+$END_DIALOG_3_4_LINE_2	desafiarte aÃºn mÃ¡s en el modo
+$END_DIALOG_3_4_LINE_3	interminable o en multijugador
+$END_DIALOG_3_4_LINE_4	local con amigos.
+$END_DIALOG_3_5_LINE_1	El experimento continuarÃ¡ cuando
+$END_DIALOG_3_5_LINE_2	llegue el momento correcto.
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	Hasta entonces...
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	. . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+$CREDITS_LINE_1	DiseÃ±o y programaciÃ³n del juego
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	Arte
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	MÃºsica y efectos de sonido
+$CREDITS_LINE_7	Francisco Furtado
+$SETTINGS	Ajustes
+$LANGUAGE	Idioma
+$COMING_SOON	PrÃ³ximamente
+$RESTORE_PURCHASES	 Restaurar<N>compras
+$MUSIC	MÃºsica
+$SOUND	Sonido
+$COMPUTER_CONTROLLED_ABBREVIATION	CPU
+$SCREENSHOT_TEXT_1	Multijugador local
+$SCREENSHOT_TEXT_2	Hasta 4 jugadores
+$REMOVE_ADS	Sin publicidad
+$GET_G-SWITCH_3_PLUS	ObtÃ©n G-Switch 3 Plus
+$G-SWITCH_3_PLUS_LINE_1	Con G-Switch 3+ puedes desbloquear:
+$G-SWITCH_3_PLUS_LINE_2	- 6 etapas multijugador completamente nuevas
+$G-SWITCH_3_PLUS_LINE_3	- Todas las etapas multijugador de G-Switch 2 y G-Switch 1
+$G-SWITCH_3_PLUS_LINE_4	- Jugar las etapas en el orden que desees
+$G-SWITCH_3_PLUS_LINE_5	- Torneo "Sin fin" y opciones "Sin potenciadores"
+$G-SWITCH_3_PLUS_LINE_6	- Sin anuncios
+$G-SWITCH_3_PLUS_LINE_7	- Acceso para siempre a todas las nuevas etapas/niveles
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	Â¡Solo <X>!
+$GET_IT_BUTTON	Â¡ObtÃ©nlo!
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	No se pudo conectar a Google Play.
+$CHECK_CONNECTION	Por favor, comprueba tu conexiÃ³n a Internet.
+$CONNECTING	Conectando...
+$REWARDED_AD_TITLE	Ver video
+$REWARDED_AD_DESCRIPTION	Â¿Ver un video y ganar cÃ¡mara lenta en el prÃ³ximo intento?
+$LIVES	Vidas
+$REWARDED_AD_2_TITLE	Obtener vida extra
+$REWARDED_AD_2_DESCRIPTION	Â¿Ver un video y ganar una vida extra?
+$REWARDED_AD_3_TITLE	Activar cÃ¡mara lenta
+$REWARDED_AD_3_DESCRIPTION	Â¿Activar cÃ¡mara lenta en el siguiente intento?
+$PRESS_ANY_KEY_TO_CONTINUE	Pulsa cualquier tecla para continuar
+$ADS_OPT_IN_TITLE	Â¿QUIERES VIVIR UNA MEJOR EXPERIENCIA DE JUEGO?
+$ADS_OPT_IN_DESCRIPTION	Para poder ofrecer publicidad personalizada, es decir anuncios que sean relevantes para ti, necesitamos reunir cierta informaciÃ³n y compartirla con nuestros socios, quienes usan diversas tecnologias.
+$ADS_OPT_IN_MORE	MÃ¡s informaciÃ³n sobre 
+$PRIVACY_POLICY	PolÃ­tica de privacidad
