@@ -237,6 +237,18 @@
             "name": "Fireboy & Watergirl - The Forest Temple",
             "url": "fireboy-&-watergirl-the-forest-temple",
             "description": "Fireboy & Watergirl - The Forest Temple is the first cooperative platformer game in the Fireboy & Watergirl series. In this adventure, you explore 32 levels of the Forest Temple, controlling both the Fireboy and Watergirl characters through various puzzles."
+        },
+        {
+            "id": 20,
+            "data": {
+                "width": 900,
+                "height": 500,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Basketball Legends",
+            "url": "basketball-legends",
+            "description": "This time, the best of the basketball legends are in the field. Who are these best players? Super entertaining basketball matches are about to start with the World's basketball stars. If you want, you can create a two-player team and you can struggle against a friend or you can play against CPU. Pick your player and let the match begin!"
         }
     ]
 }
