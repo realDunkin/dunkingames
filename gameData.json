@@ -5,7 +5,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Freezeria",
             "url": "papas-freezeria",
@@ -16,7 +17,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Burgeria",
             "url": "papas-burgeria",
@@ -27,7 +29,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Pizzeria",
             "url": "papas-pizzeria",
@@ -38,7 +41,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Taco Mia!",
             "url": "papas-taco-mia",
@@ -49,7 +53,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Cupcakeria",
             "url": "papas-cupcakeria",
@@ -60,7 +65,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Hot Doggeria",
             "url": "papas-hot-doggeria",
@@ -71,7 +77,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Pancakeria",
             "url": "papas-pancakeria",
@@ -82,7 +89,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Wingeria",
             "url": "papas-wingeria",
@@ -103,7 +111,8 @@
             "data": {
                 "width": 800,
                 "height": 540,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Sports Heads: Ice Hockey",
             "url": "sports-heads-ice-hockey",
@@ -114,7 +123,8 @@
             "data": {
                 "width": 800,
                 "height": 600,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Run 3",
             "url": "run-3",
@@ -125,7 +135,8 @@
             "data": {
                 "width": 800,
                 "height": 540,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Sports Heads: Volleyball",
             "url": "sports-heads-volleyball",
@@ -136,7 +147,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Pastaria",
             "url": "papas-pastaria",
@@ -147,7 +159,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Donuteria",
             "url": "papas-donuteria",
@@ -158,7 +171,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Cheeseria",
             "url": "papas-cheeseria",
@@ -169,7 +183,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Bakeria",
             "url": "papas-bakeria",
@@ -180,7 +195,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Sushiria",
             "url": "papas-sushiria",
@@ -191,7 +207,8 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf"
+                "gameFile": "game.swf",
+                "gameType": "flash"
             },
             "name": "Papa's Scooperia",
             "url": "papas-scooperia",
@@ -202,11 +219,24 @@
             "data": {
                 "width": 700,
                 "height": 400,
-                "gameFile": "game"
+                "gameFile": "game",
+                "gameType": "flash"
             },
             "name": "Super Smash Flash",
             "url": "super-smash-flash",
             "description": "Choose your characters and options and battle it out with 28 different characters in the original title that started it all – Super Smash Flash!This award-winning Super Smash Bros. fangame is complete with Classic Mode, Adventure Mode, and all of the things that make Smash Bros. feel like Smash Bros, with characters and content you’d never expect sprinkled about. Have fun!"
+        },
+        {
+            "id": 19,
+            "data": {
+                "width": 640,
+                "height": 800,
+                "gameFile": "Fireboy & Watergirl - The Forest Temple.swf",
+                "gameType": "flash"
+            },
+            "name": "Fireboy & Watergirl - The Forest Temple",
+            "url": "fireboy-&-watergirl-the-forest-temple",
+            "description": "Fireboy & Watergirl - The Forest Temple is the first cooperative platformer game in the Fireboy & Watergirl series. In this adventure, you explore 32 levels of the Forest Temple, controlling both the Fireboy and Watergirl characters through various puzzles."
         }
     ]
 }
