@@ -62,7 +62,7 @@
         <center>
           <br><br>
           <strong>
-            <a id="FullscreenButton" onclick="openFullscreen();" style="font-size: 25px;"></a>
+            <a id="FullscreenButton" onclick="openFullscreen();" href="" style="font-size: 25px;"></a>
           </strong>
         </center>
       </div>
@@ -245,8 +245,7 @@
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
-              cururl = window.location.href + "#fullscreen";
-              document.getElementById("FullscreenButton").innerHTML.href = cururl
+              document.getElementById("FullscreenButton").innerHTML.href = window.location.href + "#fullscreen";
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
               mached = true;
               console.log("Done!");
