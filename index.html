@@ -224,8 +224,6 @@
           window.location.href = url;
         }
       }
-
-      document.addEventListener("fullscreenchange", fullscreenchanged);
       function openFullscreen() {
         var GAMETYPE = document.getElementById("GAMETYPE").value;
         switch (GAMETYPE) {
@@ -243,7 +241,6 @@
         }
       }
       function showGameBody(){
-        fullscreenchanged(null);
         document.getElementById("MainBody").style.display = "none";
         document.getElementById("GameBody").style.display = "block";
         var url = document.getElementById("GAMEURL").value;
@@ -299,6 +296,7 @@
         urlLocation2 = urlLocation[urlLocation.length - 1]
         final = urlLocation2.split("#");
         console.log(final.length);
+        fullscreenchanged(null);
         if (final.length == 2){
           setURL(final[final.length - 1]);
         }
@@ -309,6 +307,7 @@
       else{
         showMainBody();
       }
+      document.addEventListener("fullscreenchange", fullscreenchanged);
     </script>
   </body>
 </html>
