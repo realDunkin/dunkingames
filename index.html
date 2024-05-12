@@ -245,7 +245,7 @@
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
-              document.getElementById("FullscreenButton").innerHTML.href = window.location.href + "#fullscreen";
+              document.getElementById("FullscreenButton").href = window.location.href + "#fullscreen";
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
               mached = true;
               console.log("Done!");
