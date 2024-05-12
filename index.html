@@ -226,7 +226,7 @@
               document.getElementById("title").innerHTML = name + " - Dunkin's Games";
               document.getElementById("subTEXT").innerHTML = name;
               var parsestring = "";
-              switch (data.games[index].gameType.toLowerCase()){
+              switch (data.games[index].gameType){
                 case "flash":
                   parsestring = '<object id="GameElement" type="application/x-shockwave-flash" data="' + data.games[index].data.gameFile + '" width="' + data.games[index].data.width + '" height="' + data.games[index].data.height + '"><param id="MovieValue" name="movie" value="' + data.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
                   break;
