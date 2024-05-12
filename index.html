@@ -266,13 +266,14 @@
       var urlLocation = window.location.href;
       urlLocation = urlLocation.split("/");
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
-        urlLocation = urlLocation[urlLocation.length - 1]
-        urlLocation = urlLocation.split("#");
-        if (urlLocation.length == 1){
-          setURL(urlLocation[urlLocation.length - 1]);
+        urlLocation2 = urlLocation[urlLocation.length - 1]
+        final = urlLocation2.split("#");
+        console.log(final.length);
+        if (final.length == 1){
+          setURL(final[final.length - 1]);
         }
         else{
-          setURL(urlLocation[urlLocation.length - 2]);
+          setURL(final[final.length - 2]);
         }
       }
       else{
