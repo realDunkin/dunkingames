@@ -222,14 +222,14 @@
         fetch("gameData.json").then(response => response.json()).then(data => {
           for (let index = 0; index < data.games.length; index++) {
             if (url == data.games[index].url) {
-              console.log("Matched")
-              name = data.games[index].name
+              console.log("Matched");
+              name = data.games[index].name;
               document.getElementById("title").innerHTML = name + " - Dunkin's Games";
               document.getElementById("subTEXT").innerHTML = name;
               var parsestring = "";
               switch (data.games[index].data.gameType){
                 case "flash":
-                  parsestring += '<object id="GameElement" type="application/x-shockwave-flash" data="games/' + data.games[index].data.gameFile + '" width="' + data.games[index].data.width + '" height="' + data.games[index].data.height + '"><param id="MovieValue" name="movie" value="games/' + data.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
+                  parsestring = '<object id="GameElement" type="application/x-shockwave-flash" data="games/' + data.games[index].data.gameFile + '" width="' + data.games[index].data.width + '" height="' + data.games[index].data.height + '"><param id="MovieValue" name="movie" value="games/' + data.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
                   console.log("This A Flash Game");
                   break;
                 default:
@@ -242,6 +242,16 @@
               document.getElementById("GameWindow").appendChild(element);
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
               console.log("Done!");
+            }
+            else{
+              console.log("Error");
+              document.getElementById("title").innerHTML = name + "???? - Dunkin's Games";
+              document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
+              parsestring = '<img id="GameElement" src="hmm.png" alt="Hmm..." width="500" height="500">';
+              parser = new DOMParser();
+              doc = parser.parseFromString(parsestring, 'text/html');
+              element = doc.body.firstChild;
+              document.getElementById("GameWindow").appendChild(element);
             }
           }
         })			
