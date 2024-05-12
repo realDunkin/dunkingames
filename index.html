@@ -220,7 +220,7 @@
         var url = document.getElementById("GAMEURL").value;
         console.log(url);
         fetch("gameData.json").then(response => response.json()).then(data => {
-          var errored = false;
+          var mached = false;
           for (let index = 0; index < data.games.length; index++) {
             if (url == data.games[index].url) {
               console.log("Matched");
@@ -246,13 +246,11 @@
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
               document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
+              mached = true;
               console.log("Done!");
             }
-            else{
-              errored = true
-            }
           }
-          if(errored === true){
+          if(mached === false){
             console.log("Error");
             document.getElementById("title").innerHTML = name + "???? - Dunkin's Games";
             document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
