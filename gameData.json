@@ -196,6 +196,17 @@
             "name": "Papa's Scooperia",
             "url": "papas-scooperia",
             "description": "Serve delicious sundaes of cookies and ice cream in Papa's Scooperia!  Your sightseeing trip to the big city is stopped short when you lose all of your money and belongings.  Stuck in Oniontown without the money to return home, Papa Louie has a unique solution to your problem:  Stay and run his brand-new ice cream shop!"
+        },
+        {
+            "id": 18,
+            "data": {
+                "width": 700,
+                "height": 400,
+                "gameFile": "game"
+            },
+            "name": "Super Smash Flash",
+            "url": "super-smash-flash",
+            "description": "Choose your characters and options and battle it out with 28 different characters in the original title that started it all – Super Smash Flash!This award-winning Super Smash Bros. fangame is complete with Classic Mode, Adventure Mode, and all of the things that make Smash Bros. feel like Smash Bros, with characters and content you’d never expect sprinkled about. Have fun!"
         }
     ]
 }
