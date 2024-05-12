@@ -268,11 +268,11 @@
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
         urlLocation = urlLocation[urlLocation.length - 1]
         urlLocation = urlLocation.split("#");
-        if (urlLocation.length > 1){
-          setURL(urlLocation[urlLocation.length - 2]);
+        if (urlLocation.length == 1){
+          setURL(urlLocation[urlLocation.length - 1]);
         }
         else{
-          setURL(urlLocation[urlLocation.length - 1]);
+          setURL(urlLocation[urlLocation.length - 2]);
         }
       }
       else{
