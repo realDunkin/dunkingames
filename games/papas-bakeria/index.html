@@ -26,7 +26,7 @@
 		<div id="GameWindow">
 			<center>
 				<object id="FlashContent" type="application/x-shockwave-flash" data="game.swf" width="0" height="0">
-					<param name="movie" value="game.swf" />
+					<param id="MovieValue" name="movie" value="game.swf" />
 					<param name="quality" value="high" />
 					<param name="play" value="true" />
 					<param name="loop" value="true" />
@@ -67,6 +67,8 @@
 						document.getElementById("gameName").innerHTML = name;
 						document.getElementById("FlashContent").width = data.games[index].data.width;
 						document.getElementById("FlashContent").height = data.games[index].data.height;
+						document.getElementById("FlashContent").data = data.games[index].data.fileName;
+						document.getElementById("MovieValue").value = data.games[index].data.fileName;
 						document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
 						console.log("Done!")
 					}

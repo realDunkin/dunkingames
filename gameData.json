@@ -4,7 +4,8 @@
             "id": 0,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Freezeria",
             "url": "papas-freezeria",
@@ -14,7 +15,8 @@
             "id": 1,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Burgeria",
             "url": "papas-burgeria",
@@ -24,7 +26,8 @@
             "id": 2,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Pizzeria",
             "url": "papas-pizzeria",
@@ -34,7 +37,8 @@
             "id": 3,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Taco Mia!",
             "url": "papas-taco-mia",
@@ -44,7 +48,8 @@
             "id": 4,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Cupcakeria",
             "url": "papas-cupcakeria",
@@ -54,7 +59,8 @@
             "id": 5,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Hot Doggeria",
             "url": "papas-hot-doggeria",
@@ -64,7 +70,8 @@
             "id": 6,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Pancakeria",
             "url": "papas-pancakeria",
@@ -74,7 +81,8 @@
             "id": 7,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Wingeria",
             "url": "papas-wingeria",
@@ -94,7 +102,8 @@
             "id": 9,
             "data": {
                 "width": 800,
-                "height": 540
+                "height": 540,
+                "gameFile": "game.swf"
             },
             "name": "Sports Heads: Ice Hockey",
             "url": "sports-heads-ice-hockey",
@@ -104,7 +113,8 @@
             "id": 10,
             "data": {
                 "width": 800,
-                "height": 600
+                "height": 600,
+                "gameFile": "game.swf"
             },
             "name": "Run 3",
             "url": "run-3",
@@ -114,7 +124,8 @@
             "id": 11,
             "data": {
                 "width": 800,
-                "height": 540
+                "height": 540,
+                "gameFile": "game.swf"
             },
             "name": "Sports Heads: Volleyball",
             "url": "sports-heads-volleyball",
@@ -124,7 +135,8 @@
             "id": 12,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Pastaria",
             "url": "papas-pastaria",
@@ -134,7 +146,8 @@
             "id": 13,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Donuteria",
             "url": "papas-donuteria",
@@ -144,7 +157,8 @@
             "id": 14,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Cheeseria",
             "url": "papas-cheeseria",
@@ -154,7 +168,8 @@
             "id": 15,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Bakeria",
             "url": "papas-bakeria",
@@ -164,7 +179,8 @@
             "id": 16,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Sushiria",
             "url": "papas-sushiria",
@@ -174,7 +190,8 @@
             "id": 17,
             "data": {
                 "width": 640,
-                "height": 480
+                "height": 480,
+                "gameFile": "game.swf"
             },
             "name": "Papa's Scooperia",
             "url": "papas-scooperia",
