@@ -5,7 +5,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-freezeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Freezeria",
@@ -17,7 +17,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-burgeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Burgeria",
@@ -29,7 +29,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-pizzeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Pizzeria",
@@ -41,7 +41,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-taco-mia.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Taco Mia!",
@@ -53,7 +53,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-cupcakeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Cupcakeria",
@@ -65,7 +65,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-hot-doggeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Hot Doggeria",
@@ -77,7 +77,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-pancakeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Pancakeria",
@@ -89,7 +89,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-wingeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Wingeria",
@@ -111,7 +111,7 @@
             "data": {
                 "width": 800,
                 "height": 540,
-                "gameFile": "game.swf",
+                "gameFile": "sports-heads-ice-hockey.swf",
                 "gameType": "flash"
             },
             "name": "Sports Heads: Ice Hockey",
@@ -123,7 +123,7 @@
             "data": {
                 "width": 800,
                 "height": 600,
-                "gameFile": "game.swf",
+                "gameFile": "run-3.swf",
                 "gameType": "flash"
             },
             "name": "Run 3",
@@ -135,7 +135,7 @@
             "data": {
                 "width": 800,
                 "height": 540,
-                "gameFile": "game.swf",
+                "gameFile": "sports-heads-volleyball.swf",
                 "gameType": "flash"
             },
             "name": "Sports Heads: Volleyball",
@@ -147,7 +147,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-pastaria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Pastaria",
@@ -159,7 +159,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-donuteria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Donuteria",
@@ -171,7 +171,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-cheeseria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Cheeseria",
@@ -183,7 +183,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-bakeria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Bakeria",
@@ -195,7 +195,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-sushiria.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Sushiria",
@@ -207,7 +207,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "game.swf",
+                "gameFile": "papas-scooperia.swf",
                 "gameType": "flash"
             },
             "name": "Papa's Scooperia",
@@ -219,7 +219,7 @@
             "data": {
                 "width": 700,
                 "height": 400,
-                "gameFile": "game",
+                "gameFile": "super-smash-flash",
                 "gameType": "flash"
             },
             "name": "Super Smash Flash",
@@ -231,7 +231,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "Fireboy & Watergirl - The Forest Temple.swf",
+                "gameFile": "fireboy-&-watergirl-the-forest-temple.swf",
                 "gameType": "flash"
             },
             "name": "Fireboy & Watergirl - The Forest Temple",
