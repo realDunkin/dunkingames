@@ -2,7 +2,7 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home - Dunkin's Games</title>
+      <title id="title">Home - Dunkin's Games</title>
       <link rel="shortcut icon" type="image/png" href="favicon.png">
   </head>
   <style>
@@ -17,161 +17,230 @@
     }
   </style>
   <body background="background.png">
+    <div style="display: none;">
+      <input type="text" id="GAMEURL" value="" onchange="makeList()"></input>
+    </div>
     <div id="MainText" class="Fantasy">
       <center>
-        <p style="font-size: 32px;"><strong>Dunkin's Games</strong></p>
-        <p style="font-size: 24px;"><strong>No Ads, No Lag! (Hopefully...)</strong></p>
+        <strong>
+          <a style="font-size: 32px;" href="#" onclick="showMainBody()">Dunkin's Games</a>
+          <p id="subTEXT" style="font-size: 24px;"></p>
+        </strong>
       </center>
     </div>
-    <div id="Sort" class="Fantasy">
-      <center>
-        <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
-        <br>
-        <select id="listSort" size="1"  onchange="makeList()">
-          <option value="New-Old">Sort By: Newest To Oldest</option>
-          <option value="Old-New">Sort By: Oldest To Newest</option>
-          <option value="A-Z">Sort By: A To Z</option>
-          <option value="Z-A">Sort By: Z To A</option>
-        </select>
-        <br><br>
-      </center>
+    <div id="MainBody" style="display: block;">
+      <div id="Sort" class="Fantasy">
+        <center>
+          <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
+          <br>
+          <select id="listSort" size="1"  onchange="makeList()">
+            <option value="New-Old">Sort By: Newest To Oldest</option>
+            <option value="Old-New">Sort By: Oldest To Newest</option>
+            <option value="A-Z">Sort By: A To Z</option>
+            <option value="Z-A">Sort By: Z To A</option>
+          </select>
+          <br><br>
+        </center>
+      </div>
+      <div id="ChartBody" class="Fantasy">
+        <center>
+          <table style="border-collapse: collapse; width: 75%; height: 85px;" border="10">
+            <tbody id="DaChart">
+            </tbody>
+          </table>
+        </center>
+      </div>
     </div>
-    <div id="ChartBody" class="Fantasy">
+    <div id="GameBody" class=".Fantasy">
       <center>
-        <table style="border-collapse: collapse; width: 75%; height: 85px;" border="10">
-          <tbody id="DaChart">
-          </tbody>
-        </table>
+        <div id="GameWindow">
+          
+        </div>
       </center>
-      <script>
-        function clearList(){
-          document.getElementById("DaChart").innerHTML = "";
-        }
-        function matchSearch(data){
-          var jsonData = Object.assign({}, data, {});
-          console.log("The Starting Data:");
-          console.log(jsonData)
-          var max = data.games.length;
-          var removed = 0;
-          searchValue = document.getElementById("searchBox").value.toLowerCase();
-          if(searchValue != ""){
-            for (let index in data.games) {
-              var dataName = data.games[index].name.toLowerCase()
-              if (dataName.includes(searchValue) === false) {
-                  for (let index2 in jsonData.games) {
-                    var jsonName = jsonData.games[index2].name.toLowerCase();
-                    if (jsonName === dataName){
-                      delete jsonData.games[index2];
-                      removed += 1;
-                    }
+      <div id="Fullscreen">
+        <center>
+          <br><br>
+          <strong>
+            <a id="FullscreenButton" href="#" onclick="openFullscreen();" style="font-size: 25px;"></a>
+          </strong>
+        </center>
+      </div>
+    </div>
+    <script>
+      function showMainBody(){
+        document.getElementById("MainBody").style.display = "blovk";
+        document.getElementById("GameBody").style.display = "none";
+
+        document.getElementById("title").innerHTML = "Home - Dunkin's Games";
+        document.getElementById("subTEXT").innerHTML = "No Ads, No Lag!";
+        document.getElementById("GameElement").remove();
+        makeList();
+      }
+      function setURL(urlString){
+        document.getElementById("GAMEURL").value = urlString;
+        showGameBody();
+      }
+      function clearList(){
+        document.getElementById("DaChart").innerHTML = "";
+      }
+      function matchSearch(data){
+        var jsonData = Object.assign({}, data, {});
+        console.log("The Starting Data:");
+        console.log(jsonData)
+        var max = data.games.length;
+        var removed = 0;
+        searchValue = document.getElementById("searchBox").value.toLowerCase();
+        if(searchValue != ""){
+          for (let index in data.games) {
+            var dataName = data.games[index].name.toLowerCase()
+            if (dataName.includes(searchValue) === false) {
+                for (let index2 in jsonData.games) {
+                  var jsonName = jsonData.games[index2].name.toLowerCase();
+                  if (jsonName === dataName){
+                    delete jsonData.games[index2];
+                    removed += 1;
                   }
-              }
+                }
             }
           }
-          console.log("The Ending Data:");
-          console.log(jsonData);
-          console.log("Filtered For: " + searchValue + " | Total Before: " + max + " | Total After: " + (max - removed) + " | Total Removed: " + removed);
-          return jsonData;
         }
-        function sortByNewOld(a, b) {
-          if (a.id > b.id) {
-            return -1;
-          }
-          if (a.id < b.id) {
-            return 1;
-          }
-          return 0;
+        console.log("The Ending Data:");
+        console.log(jsonData);
+        console.log("Filtered For: " + searchValue + " | Total Before: " + max + " | Total After: " + (max - removed) + " | Total Removed: " + removed);
+        return jsonData;
+      }
+      function sortByNewOld(a, b) {
+        if (a.id > b.id) {
+          return -1;
         }
-        function sortByOldNew(a, b) {
-          if (a.id < b.id) {
-            return -1;
-          }
-          if (a.id > b.id) {
-            return 1;
-          }
-          return 0;
+        if (a.id < b.id) {
+          return 1;
         }
-        function sortByAZ(a, b) {
-          if (a.name < b.name) {
-            return -1;
-          }
-          if (a.name > b.name) {
-            return 1;
-          }
-          return 0;
+        return 0;
+      }
+      function sortByOldNew(a, b) {
+        if (a.id < b.id) {
+          return -1;
         }
-        function sortByZA(a, b) {
-          if (a.name > b.name) {
-            return -1;
-          }
-          if (a.name < b.name) {
-            return 1;
-          }
-          return 0;
+        if (a.id > b.id) {
+          return 1;
         }
-        function makeList(){
-          clearList();
-          fetch("gameData.json").then(response => response.json()).then(data => {
-                  sortValue = document.getElementById("listSort").value;
-                  switch (sortValue) {
-                    case "New-Old":
-                      data.games.sort(sortByNewOld);
-                      console.log("Sorted By: Newest To Oldest");
-                      break;
-                    case "Old-New":
-                      data.games.sort(sortByOldNew);
-                      console.log("Sorted By: Oldest To Newest");
-                      break;
-                    case "A-Z":
-                      data.games.sort(sortByAZ);
-                      console.log("Sorted By: A To Z");
-                      break;
-                    case "Z-A":
-                      data.games.sort(sortByZA);
-                      console.log("Sorted By: Z To A");
-                      break;
-                    default:
-                      console.log("Sorted By: None");
-                      break;
-                  }
-                  data = matchSearch(data);
-                  for (let index in data.games) {
-                      const tblrow = document.createElement("tr");
-                      tblrow.style.height = "85px";
-
-                      const linkCell = document.createElement("td");
-                      linkCell.style.width = "25%";
-                      linkCell.style.height = "85px";
-
-                      const linkData = document.createElement("a");
-                      linkData.href = "https://realdunkin.github.io/dunkingames/games/" + data.games[index].url + "/";
-                      
-                      const strong1 = document.createElement("strong");
-                      strong1.style.fontSize = "20px";
-                      strong1.innerHTML = data.games[index].name;
-
-                      const descCell = document.createElement("td");
-                      descCell.style.width = "75%";
-                      descCell.style.height = "85px";
-
-                      const strong2 = document.createElement("strong");
-                      strong2.innerHTML = data.games[index].description;
-                      strong2.style.fontSize = "15px";
-                      
-                      linkData.append(strong1);
-                      linkCell.append(linkData);
-                      tblrow.append(linkCell);
-
-                      descCell.append(strong2);
-                      tblrow.append(descCell);
-
-                      const chart = document.getElementById("DaChart");
-                      chart.append(tblrow); 
-                    }
-                  })
+        return 0;
+      }
+      function sortByAZ(a, b) {
+        if (a.name < b.name) {
+          return -1;
         }
-        makeList()
-      </script>
-    </div>
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+      }
+      function sortByZA(a, b) {
+        if (a.name > b.name) {
+          return -1;
+        }
+        if (a.name < b.name) {
+          return 1;
+        }
+        return 0;
+      }
+      function makeList(){
+        clearList();
+        fetch("gameData.json").then(response => response.json()).then(data => {
+          sortValue = document.getElementById("listSort").value;
+          switch (sortValue) {
+            case "New-Old":
+              data.games.sort(sortByNewOld);
+              console.log("Sorted By: Newest To Oldest");
+              break;
+            case "Old-New":
+              data.games.sort(sortByOldNew);
+              console.log("Sorted By: Oldest To Newest");
+              break;
+            case "A-Z":
+              data.games.sort(sortByAZ);
+              console.log("Sorted By: A To Z");
+              break;
+            case "Z-A":
+              data.games.sort(sortByZA);
+              console.log("Sorted By: Z To A");
+              break;
+            default:
+              console.log("Sorted By: None");
+              break;
+          }
+          data = matchSearch(data);
+          for (let index in data.games) {
+              const tblrow = document.createElement("tr");
+              tblrow.style.height = "85px";
+
+              const linkCell = document.createElement("td");
+              linkCell.style.width = "25%";
+              linkCell.style.height = "85px";
+
+              const linkData = document.createElement("a");
+              linkData.href = "#";
+              linkData.onclick = setURL(data.games[index].url);
+              
+              const strong1 = document.createElement("strong");
+              strong1.style.fontSize = "20px";
+              strong1.innerHTML = data.games[index].name;
+
+              const descCell = document.createElement("td");
+              descCell.style.width = "75%";
+              descCell.style.height = "85px";
+
+              const strong2 = document.createElement("strong");
+              strong2.innerHTML = data.games[index].description;
+              strong2.style.fontSize = "15px";
+              
+              linkData.append(strong1);
+              linkCell.append(linkData);
+              tblrow.append(linkCell);
+
+              descCell.append(strong2);
+              tblrow.append(descCell);
+
+              const chart = document.getElementById("DaChart");
+              chart.append(tblrow); 
+          }
+        })
+      }
+      function openFullscreen() {
+        document.querySelector("ruffle-embed, ruffle-object, ruffle-player").enterFullscreen();
+      }
+      function showGameBody(){
+        document.getElementById("MainBody").style.display = "none";
+        document.getElementById("GameBody").style.display = "block";
+        var url = getElementById("GAMEURL").value
+        console.log(url)
+        fetch("gameData.json").then(response => response.json()).then(data => {
+          for (let index = 0; index < data.games.length; index++) {
+            if (url == data.games[index].url) {
+              console.log("Matched")
+              name = data.games[index].name
+              document.getElementById("title").innerHTML = name + " - Dunkin's Games";
+              document.getElementById("subTEXT").innerHTML = name;
+              var parsestring = "";
+              switch (data.games[index].gameType.toLowerCase()){
+                case "flash":
+                  parsestring = '<object id="GameElement" type="application/x-shockwave-flash" data="' + data.games[index].data.gameFile + '" width="' + data.games[index].data.width + '" height="' + data.games[index].data.height + '"><param id="MovieValue" name="movie" value="' + data.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
+                  break;
+                default:
+                  break;
+              }
+              parser = new DOMParser();
+              doc = parser.parseFromString(parsestring, 'text/html');
+              element = doc.body.firstChild;
+              document.getElementById("GameWindow").appendChild(element);
+              document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
+              console.log("Done!")
+            }
+          }
+        })			
+      }
+      showMainBody();
+    </script>
   </body>
 </html>
