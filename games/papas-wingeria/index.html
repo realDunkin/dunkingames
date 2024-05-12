@@ -69,6 +69,7 @@
 						document.getElementById("FlashContent").height = data.games[index].data.height;
 						document.getElementById("FlashContent").data = data.games[index].data.fileName;
 						document.getElementById("MovieValue").value = data.games[index].data.fileName;
+						document.querySelector("ruffle-embed, ruffle-object, ruffle-player").destroy();
 						document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]"
 						console.log("Done!")
 					}
