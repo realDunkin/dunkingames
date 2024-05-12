@@ -68,17 +68,19 @@
     </div>
     <script>
       function showMainBody(){
-        document.getElementById("MainBody").style.display = "blovk";
+        document.getElementById("MainBody").style.display = "block";
         document.getElementById("GameBody").style.display = "none";
 
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
         document.getElementById("subTEXT").innerHTML = "No Ads, No Lag!";
-        document.getElementById("GameElement").remove();
+        if (document.getElementById("GAMEURL").value != ""){
+          document.getElementById("GameElement").remove();
+          document.getElementById("GAMEURL").value = ""
+        }
         makeList();
       }
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
-        showGameBody();
       }
       function clearList(){
         document.getElementById("DaChart").innerHTML = "";
