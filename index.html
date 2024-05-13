@@ -192,7 +192,9 @@
           }
           data = matchSearch(data);
           for (let index in data.games) {
-              parsestring = "<div class='grid-item'><a class='Fantasy' href='#"+ data.games[index].url + "' onclick='setURL('" + data.games[index].url + "');'>" + data.games[index].name + "</a></div>";
+              var daUrl = "";
+              daUrl += data.games[index].url;
+              parsestring = "<div class='grid-item'><a class='Fantasy' href='#"+ data.games[index].url + "' onclick='setURL(" + daUrl + ");'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
