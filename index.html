@@ -200,7 +200,7 @@
           data = matchSearch(data);
           for (let index in data.games) {
               daUrl = 'setURL("' + data.games[index].url + '")';
-              parsestring = "<div class='grid-item'><a class='Fantasy' href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item'><a href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
@@ -275,7 +275,7 @@
           }
           if(mached === false){
             console.log("Error");
-            document.getElementById("title").innerHTML = name + "???? - Dunkin's Games";
+            document.getElementById("title").innerHTML = name + "An Error Occured - Dunkin's Games";
             document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
             parsestring = '<img id="GameElement" src="hmm.png" alt="Hmm..." width="500" height="500">';
             parser = new DOMParser();
