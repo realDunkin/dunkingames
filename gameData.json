@@ -321,6 +321,18 @@
             "name": "Bad Time Simulator (Sans Fight)",
             "url": "bad-time-simulator",
             "description": "This game is a clone of the sans fight from Undertale. It was made with Construct 2."
+        },
+        {
+            "id": 27,
+            "data": {
+                "width": 900,
+                "height": 600,
+                "gameFile": "gun_mayhem_2.swf",
+                "gameType": "flash"
+            },
+            "name": "Gun Mayhem 2: More Mayhem",
+            "url": "gun-mayhem-redux",
+            "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!Gun Mayhem returns with brand new maps, and much more"
         }
     ]
 }
