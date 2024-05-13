@@ -309,6 +309,18 @@
             "name": "Poly Track",
             "url": "poly-track",
             "description": "Embark on a thrilling racing adventure in PolyTrack, a fast-paced low-poly game that will push your skills to the limit. Experience heart-pounding moments as you navigate loops, conquer jumps, and reach incredible speeds, all while racing against the clock. In this game, every millisecond counts, and your quest for the perfect time is relentless. Challenge yourself on various tracks, each presenting unique obstacles and exhilarating moments. Push your limits, hone your reflexes, and strive to improve your time with every attempt. Take control, race against time, and pave your way to racing glory in this addictive low-poly racing game!"
+        },
+        {
+            "id": 26,
+            "data": {
+                "width": 640,
+                "height": 480,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Bad Time Simulator (Sans Fight)",
+            "url": "bad-time-simulator",
+            "description": "This game is a clone of the sans fight from Undertale. It was made with Construct 2."
         }
     ]
 }
