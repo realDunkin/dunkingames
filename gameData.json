@@ -333,6 +333,42 @@
             "name": "Gun Mayhem 2: More Mayhem",
             "url": "gun-mayhem-2",
             "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!Gun Mayhem returns with brand new maps, and much more"
+        },
+        {
+            "id": 28,
+            "data": {
+                "width": 800,
+                "height": 540,
+                "gameFile": "Sportsheadstennis.swf",
+                "gameType": "flash"
+            },
+            "name": "Sports Heads: Tennis Open",
+            "url": "sports-heads-tennis",
+            "description": ""
+        },
+        {
+            "id": 29,
+            "data": {
+                "width": 800,
+                "height": 540,
+                "gameFile": "sports_heads_football_championship.swf",
+                "gameType": "flash"
+            },
+            "name": "Sports Heads: Football Championship",
+            "url": "sports-heads-football-championship",
+            "description": ""
+        },
+        {
+            "id": 30,
+            "data": {
+                "width": 800,
+                "height": 540,
+                "gameFile": "sports-heads-basketball.swf",
+                "gameType": "flash"
+            },
+            "name": "Sports Heads: Basketball",
+            "url": "sports-heads-basketball",
+            "description": ""
         }
     ]
 }

@@ -295,14 +295,8 @@
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
         urlLocation2 = urlLocation[urlLocation.length - 1]
         final = urlLocation2.split("#");
-        console.log(final.length);
         fullscreenchanged(null);
-        if (final.length == 2){
-          setURL(final[final.length - 1]);
-        }
-        else{
-          setURL(final[final.length - 2]);
-        }
+        setURL(final[final.length - 1]);
       }
       else{
         showMainBody();
