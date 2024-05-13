@@ -94,9 +94,6 @@
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
-        url = window.location.href;
-        url = url.replace("#", "");
-        window.location.href = url;
         makeList();
       }
       function setURL(urlString){
@@ -286,7 +283,12 @@
         urlLocation2 = urlLocation[urlLocation.length - 1]
         final = urlLocation2.split("#");
         fullscreenchanged(null);
-        setURL(final[final.length - 1]);
+        if (final[final.length - 1] === "#"){
+          showMainBody();
+        }
+        else{
+          setURL(final[final.length - 1]);
+        }
       }
       else{
         showMainBody();
