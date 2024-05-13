@@ -40,7 +40,7 @@
     <div id="MainText" class="Fantasy">
       <center>
         <strong>
-          <a style="font-size: 32px;" href=" " onclick="showMainBody()">Dunkin's Games</a>
+          <a style="font-size: 32px;" href="#" onclick="showMainBody()">Dunkin's Games</a>
           <p id="subTEXT" style="font-size: 24px;"></p>
         </strong>
       </center>
@@ -94,6 +94,9 @@
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
+        url = window.location.href;
+        url = url.replace("#", "");
+        window.location.href = url;
         makeList();
       }
       function setURL(urlString){
@@ -192,7 +195,7 @@
           }
           data = matchSearch(data);
           for (let index in data.games) {
-              parsestring = "<div class='grid-item'><a class='Fantasy' href='#'"+ data.games[index].url + "'' onclick='setURL(" + data.games[index].url + ");'>" + data.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item'><a class='Fantasy' href='#"+ data.games[index].url + "' onclick='setURL('" + data.games[index].url + "');'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
