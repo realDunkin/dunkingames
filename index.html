@@ -194,7 +194,7 @@
           }
           data = matchSearch(data);
           for (let index in data.games) {
-              parsestring = "<div class='grid-item'><a href='#"+ data.games[index].url + "' onclick='" + function(){setURL(data.games[index].url)} + ";'>" + data.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item'><a href='#"+ data.games[index].url + "' onclick='setURL(" + data.games[index].url + ");'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
