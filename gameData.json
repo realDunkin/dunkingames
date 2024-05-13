@@ -327,7 +327,7 @@
             "data": {
                 "width": 900,
                 "height": 600,
-                "gameFile": "gun_mayhem_2.swf",
+                "gameFile": "gun-mayhem-2.swf",
                 "gameType": "flash"
             },
             "name": "Gun Mayhem 2: More Mayhem",
