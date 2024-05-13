@@ -297,6 +297,18 @@
             "name": "Gun Mayhem Redux",
             "url": "gun-mayhem-redux",
             "description": "Great news for the fans of action games! Gun Mayhem Redux which is the brand new chapter of Gun Mayhem, is now available. This chapter is a little bit different compared to other chapters. For instance, game characters and war maps are minimized a little bit to have a better view and gameplay but this doesn't cause the loss of excitement of this superb game. In this chapter, tens of brand-new weapons will be awaiting you. Even, you will have a chance to war by using primitive weapons. The war resumes in the arena with superior war maps and weapons and entertaining chapters!"
+        },
+        {
+            "id": 25,
+            "data": {
+                "width": 1192,
+                "height": 750,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Poly Track",
+            "url": "poly-track",
+            "description": "Embark on a thrilling racing adventure in PolyTrack, a fast-paced low-poly game that will push your skills to the limit. Experience heart-pounding moments as you navigate loops, conquer jumps, and reach incredible speeds, all while racing against the clock. In this game, every millisecond counts, and your quest for the perfect time is relentless. Challenge yourself on various tracks, each presenting unique obstacles and exhilarating moments. Push your limits, hone your reflexes, and strive to improve your time with every attempt. Take control, race against time, and pave your way to racing glory in this addictive low-poly racing game!"
         }
     ]
 }
