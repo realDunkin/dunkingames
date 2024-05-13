@@ -18,18 +18,19 @@
     }
     .grid-container {
       display: grid;
-  height: autofill;
-  grid-template-columns: repeat(5, 200px);
-  padding: 25px;
-  column-gap: 20px;
-  row-gap: 20px;
+      height: autofill;
+      grid-template-columns: repeat(5, 200px);
+      padding: 25px;
+      column-gap: 20px;
+      row-gap: 20px;
+      justify-content: center;
     }
     .grid-item {
       background-color: #cccccc;
       opacity: 0.75;
       border: 3px solid rgba(0, 0, 0, 0.8);
       padding: 50px;
-      font-size: 25px;
+      font-size: 15px;
       align-content: center;
       word-wrap: break-word;
     }
@@ -198,7 +199,7 @@
           }
           data = matchSearch(data);
           for (let index in data.games) {
-              parsestring = "<div class='grid-item'><a href='#"+ data.games[index].url+ " onclick='"+ function(){setURL(data.games[index].url)} + ";'>" + data.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item'><a href='#"+ data.games[index].url + "' onclick='" + function(){setURL(data.games[index].url)} + ";'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
