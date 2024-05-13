@@ -1,0 +1,19 @@
+<html lang="en-us">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Slope</title>
+    <link rel="stylesheet" href="assets/unity/style.css">
+    <script src="assets/unity/UnityProgress.js"></script>
+    <script src="unityloader41.js"></script><link rel="canonical"/>
+
+    <!-- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- -->
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 900px; height: 675px; margin: auto"></div>
+
+    </div>
+</html>
