@@ -202,7 +202,8 @@
           data = matchSearch(data);
           for (let index in data.games) {
               daUrl = 'setURL("' + data.games[index].url + '")';
-              parsestring = "<div class='grid-item'><img src="test.png" alt="" + data.games[index].name + " - Thumbnail" width="100" height="100"><a href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
+              imgUrl = '' + data.games[index].name + ' - Thumbnail';
+              parsestring = "<div class='grid-item'><img src="test.png" alt=" + imgUrl + " width="100" height="100"><a href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
