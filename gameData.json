@@ -405,6 +405,18 @@
             "name": "Idle Breakout",
             "url": "idle-breakout",
             "description": ""
+        },
+        {
+            "id": 34,
+            "data": {
+                "width": 960,
+                "height": 540,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Mario vs. Luigi Online",
+            "url": "mario-vs-luigi",
+            "description": "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS. Includes the 5 default levels (Grassland, Bricks, Castle, Pipes, and Ice), along with custom levels: Jungle, Sky, and Volcano! All powerups are implemented and fully faithful to their originals, along with the addition of NSMBWii's Propeller Suit / Ice Flower!"
         }
     ]
 }
