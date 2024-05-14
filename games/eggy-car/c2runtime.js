@@ -19284,7 +19284,7 @@ function() {
             e = "gamedistribution-jssdk",
             i = t.getElementsByTagName("script")[0],
             t.getElementById(e) || ((t = t.createElement("script")).id = e,
-            t.src = "/main.min.js",
+            t.src = "main.min.js",
             i.parentNode.insertBefore(t, i))
         }
         ) : cr.logexport("[Construct 2] Gamedistribution.com SDK is required to show advertisements within Cordova; other platforms are not supported.")

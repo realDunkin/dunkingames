@@ -385,8 +385,8 @@
         {
             "id": 32,
             "data": {
-                "width": 1175,
-                "height": 695,
+                "width": 1280,
+                "height": 720,
                 "gameFile": "index.html",
                 "gameType": "html5"
             },
