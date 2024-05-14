@@ -95,7 +95,7 @@
         document.getElementById("GameBody").style.display = "none";
 
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
-        document.getElementById("subTEXT").innerHTML = "No Ads, No Lag!";
+        document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
         if (document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
           document.getElementById("GAMEURL").value = "";
@@ -295,7 +295,12 @@
           showMainBody();
         }
         else{
-          setURL(final[final.length - 1]);
+          if(final[final.length - 1] === "fullscreen"){
+            setURL(final[final.length - 2]);
+          }
+          else{
+            setURL(final[final.length - 1]);
+          }
         }
       }
       else{
