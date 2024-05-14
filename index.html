@@ -82,9 +82,9 @@
       </center>
       <div id="Fullscreen">
         <center>
-          <br><br>
+          <br>
           <strong>
-            <a id="FullscreenButton" onclick="openFullscreen();" href="" style="font-size: 25px;"></a>
+            <button id="FullscreenButton" onclick="openFullscreen();" style="font-size: 25px; display: non;">Fullscreen</button>
           </strong>
         </center>
       </div>
@@ -97,6 +97,7 @@
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
         document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
         if (document.getElementById("GAMEURL").value != ""){
+          document.getElementById("FullscreenButton").style.display = "none";
           document.getElementById("GameElement").remove();
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
@@ -266,8 +267,7 @@
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
-              document.getElementById("FullscreenButton").href = window.location.href + "#fullscreen";
-              document.getElementById("FullscreenButton").innerHTML = "[FULL SCREEN]";
+              document.getElementById("FullscreenButton").style.display = "block";
               document.getElementById("GAMETYPE").value = data.games[index].data.gameType;
               mached = true;
               console.log("Done!");
