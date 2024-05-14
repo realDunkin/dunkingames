@@ -381,6 +381,18 @@
             "name": "Bloons Tower Defense 5",
             "url": "bloons-tower-defense-5",
             "description": ""
+        },
+        {
+            "id": 32,
+            "data": {
+                "width": 480,
+                "height": 800,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Eggy Car",
+            "url": "eggy-car",
+            "description": ""
         }
     ]
 }
