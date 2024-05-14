@@ -393,6 +393,18 @@
             "name": "Eggy Car",
             "url": "eggy-car",
             "description": ""
+        },
+        {
+            "id": 33,
+            "data": {
+                "width": 1241,
+                "height": 931,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Idle Breakout",
+            "url": "idle-breakout",
+            "description": ""
         }
     ]
 }
