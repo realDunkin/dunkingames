@@ -40,7 +40,7 @@
     }
   </style>
   <body background="images/background.png">
-    <div style="display: none;">
+    <div id="Variables" style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
@@ -70,7 +70,7 @@
       </div>
       <div id="ChartBody">
         <center>
-          <div id="DaChart" class="grid-container">
+          <div id="DaChart" class="grid-container" style="width:100%">
             
           </div>
         </center>
@@ -87,8 +87,11 @@
           <br><br><br><br>
           <strong>
             <button id="FullscreenButton" onclick="openFullscreen();" style="font-size: 25px; display: none;">Fullscreen</button>
+             <br><br>
+             <table id="DescriptionBox" style="width:100%">
+            
+             </table>
           </strong>
-          <br><br>
         </center>
       </div>
     </div>
@@ -204,7 +207,7 @@
           data = matchSearch(data);
           for (let index in data.games) {
               daUrl = 'setURL("' + data.games[index].url + '")';
-              imgUrl = '' + data.games[index].name + ' - Thumbnail';
+              imgUrl = data.games[index].name + " - Thumbnail";
               parsestring = "<div class='grid-item'><img src='images/thumbnails/" + data.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
@@ -267,10 +270,14 @@
                   console.log("This Nothing");
                   break;
               }
+              descstring = '<tr><th>Game Description</th></tr><tr><td>' + data.games[index].description + '</td></tr>';
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
+              doc2 = parser.parseFromString(descstring, 'text/html');
+              descElement = doc2.body.firstChild;
+              document.getElementById("DescriptionBox").appendChild(descElement);
               document.getElementById("FullscreenButton").style.display = "block";
               document.getElementById("GAMETYPE").value = data.games[index].data.gameType;
               mached = true;
