@@ -1,3 +1,7 @@
+Reflect.defineProperty(Document.prototype, 'domain', {
+	get: () => 'player03.com',
+});
+
 const original_src = Reflect.getOwnPropertyDescriptor(Image.prototype, 'src');
 const ad = 'img/ads/Spinner.png';
 
