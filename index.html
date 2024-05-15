@@ -270,7 +270,7 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = '<tr><th>Game Description</th></tr><tr><td>' + data.games[index].description + '</td></tr>';
+              descstring = "<tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
