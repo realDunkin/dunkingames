@@ -281,7 +281,7 @@
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
               doc2 = parser.parseFromString(descstring, 'text/html');
-              descElement = doc2.firstChild;
+              descElement = doc2.body.firstChild;
               document.getElementById("DescriptionBox").appendChild(descElement);
               document.getElementById("FullscreenButton").style.display = "block";
               document.getElementById("GAMETYPE").value = data.games[index].data.gameType;
