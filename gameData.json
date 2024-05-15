@@ -441,6 +441,18 @@
             "name": "Sports Heads: Basketball",
             "url": "sports-heads-basketball",
             "description": ""
+        },
+        {
+            "id": 37,
+            "data": {
+                "width": 960,
+                "height": 540,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Big Tower Tiny Square",
+            "url": "big-tower-tiny-square",
+            "description": "Big Tower Tiny Square is a puzzle platform game in which you're a square-shaped character who is on an exciting multi-level platform filled with dangerous traps and obstacles. You don't save a princess in this game, you only save your favorite pineapple!"
         }
     ]
 }
