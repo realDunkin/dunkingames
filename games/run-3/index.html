@@ -1,19 +1,23 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
 	<meta charset="utf-8">
 	
 	<title>Run 3</title>
 	
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
+
 	
-	<script type="text/javascript" src="Run3.js"></script>
+	
+	<script type="text/javascript" src="./Run3.js"></script>
 	
 	<script>
 		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+		if (typeof window.devicePixelRatio !='undefined' && window.devicePixelRatio > 2) {
 			var meta = document.getElementById ("viewport");
 			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
 		}
@@ -51,26 +55,7 @@
 
 	</style>
 	
-
-          <style type="text/css">
-            .no-select {
-            -webkit-touch-callout: none; /* iOS Safari */
-            -webkit-user-select: none; /* Safari */
-            -khtml-user-select: none; /* Konqueror HTML */
-            -moz-user-select: none; /* Old versions of Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
-            }
-          </style>
-        
-          <script type="text/javascript">
-            setTimeout(function(){
-              if(document.getElementsByTagName("canvas").length) {
-                document.getElementsByTagName("body")[0].classList.add("no-select")
-              }
-            }, 2000);
-          </script>
-        </head>
+</head>
 <body>
 	
 	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
