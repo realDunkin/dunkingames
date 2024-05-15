@@ -275,13 +275,13 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = "<tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr>";
+              descstring = "<tbody><tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></tbody>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
               document.getElementById("GameWindow").appendChild(element);
               doc2 = parser.parseFromString(descstring, 'text/html');
-              descElement = doc2.body.firstChild;
+              descElement = doc2.firstChild;
               document.getElementById("DescriptionBox").appendChild(descElement);
               document.getElementById("FullscreenButton").style.display = "block";
               document.getElementById("GAMETYPE").value = data.games[index].data.gameType;
