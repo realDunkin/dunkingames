@@ -123,8 +123,8 @@
             "data": {
                 "width": 800,
                 "height": 600,
-                "gameFile": "run-3.swf",
-                "gameType": "flash"
+                "gameFile": "index.html",
+                "gameType": "html5"
             },
             "name": "Run 3",
             "url": "run-3",
