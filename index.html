@@ -41,6 +41,7 @@
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #7acca2;
       border: 3px solid black;
+      padding: 15px;
     }
     .Button {
       background-color: #7acca2;
@@ -89,13 +90,13 @@
           
         </div>
       </center>
-      <div id="AfterGameWindow" class="Fantasy">
+      <div id="AfterGameWindow">
         <center>
           <strong>
             <br><br>
             <button id="FullscreenButton" class="Button" onclick="openFullscreen();" style="font-size: 25px; display: none;">Fullscreen</button>
-             <br><br><br><br>
-             <div id="DescriptionBox" style="width:75%; height:100%;">
+             <br><br>
+             <div id="DescriptionBox" class="" style="width:75%; height:100%;">
               
              </div>
           </strong>
@@ -278,7 +279,7 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = "<table class='daTbl'><tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></table>";
+              descstring = "<table class='daTbl'><tr><th style='font-size: 25px;'>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></table>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
