@@ -453,6 +453,18 @@
             "name": "Big Tower Tiny Square",
             "url": "big-tower-tiny-square",
             "description": "Big Tower Tiny Square is a puzzle platform game in which you're a square-shaped character who is on an exciting multi-level platform filled with dangerous traps and obstacles. You don't save a princess in this game, you only save your favorite pineapple!"
+        },
+        {
+            "id": 38,
+            "data": {
+                "width": 725,
+                "height": 600,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Grapple Tongue",
+            "url": "grapple-tongue",
+            "description": "Climb deeper and deeper into the clouds using your tongue as a grappling hook, and find the only thing that can help you achieve your dreams! Grapple Tongue is a platformer game made for Ludum Dare 48 by Mors with music and sound effects by CosmicGem."
         }
     ]
 }
