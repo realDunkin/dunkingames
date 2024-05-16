@@ -980,7 +980,7 @@ if (typeof window !== "undefined" && !window.famobi) {
                     readSplashFile("html5games/splash/splash.html",(response)=>{
                       this.includeCSS("html5games/splash/splash.css");
                       let splashScreen = document.createElement("div");
-                      splashScreen.classList.add("html5games/splash/splash");
+                      splashScreen.classList.add("splash-screen");
                       splashScreen.style.position = "absolute";
                       splashScreen.style.top = "0";
                       splashScreen.style.left = "0";
