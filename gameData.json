@@ -125,7 +125,7 @@
             "data": {
                 "width": 800,
                 "height": 600,
-                "gameFile": "tn6pS9dCf37xAhkJv/index.html",
+                "gameFile": "tn6pS9dCf37xAhkJv/",
                 "gameType": "html5"
             },
             "name": "Run 3",
@@ -245,7 +245,7 @@
             "data": {
                 "width": 900,
                 "height": 500,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Basketball Stars",
@@ -269,7 +269,7 @@
             "data": {
                 "width": 800,
                 "height": 500,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "4 Colors",
@@ -281,7 +281,7 @@
             "data": {
                 "width": 832,
                 "height": 468,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "G-Switch 3",
@@ -305,7 +305,7 @@
             "data": {
                 "width": 1192,
                 "height": 750,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Poly Track",
@@ -317,7 +317,7 @@
             "data": {
                 "width": 640,
                 "height": 480,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Bad Time Simulator (Sans Fight)",
@@ -365,7 +365,7 @@
             "data": {
                 "width": 795,
                 "height": 550,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Slope",
@@ -389,7 +389,7 @@
             "data": {
                 "width": 1280,
                 "height": 720,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Eggy Car",
@@ -401,7 +401,7 @@
             "data": {
                 "width": 1024,
                 "height": 768,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Idle Breakout",
@@ -413,7 +413,7 @@
             "data": {
                 "width": 960,
                 "height": 550,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Mario vs. Luigi Online",
@@ -425,7 +425,7 @@
             "data": {
                 "width": 720,
                 "height": 480,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Moto X3M",
@@ -449,7 +449,7 @@
             "data": {
                 "width": 960,
                 "height": 540,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Big Tower Tiny Square",
@@ -461,7 +461,7 @@
             "data": {
                 "width": 725,
                 "height": 600,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Grapple Tongue",
@@ -473,7 +473,7 @@
             "data": {
                 "width": 768,
                 "height": 448,
-                "gameFile": "index.html",
+                "gameFile": "",
                 "gameType": "html5"
             },
             "name": "Mini Bowl",
