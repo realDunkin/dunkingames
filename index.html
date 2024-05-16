@@ -37,7 +37,7 @@
         background-color: #7acca2;
         transition: .2s all;
     }
-    table, th, td {
+    .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #7acca2;
       border: 3px solid black;
@@ -83,7 +83,7 @@
         </center>
       </div>
     </div>
-    <div id="GameBody" class=".Fantasy">
+    <div id="GameBody" class="Fantasy">
       <center>
         <div id="GameWindow">
           
@@ -278,7 +278,7 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = "<table><tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></table>";
+              descstring = "<table class='daTbl'><tr><th>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></table>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
