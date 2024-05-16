@@ -467,6 +467,18 @@
             "name": "Grapple Tongue",
             "url": "grapple-tongue",
             "description": "Climb deeper and deeper into the clouds using your tongue as a grappling hook, and find the only thing that can help you achieve your dreams! Grapple Tongue is a platformer game made for Ludum Dare 48 by Mors with music and sound effects by CosmicGem."
+        },
+        {
+            "id": 39,
+            "data": {
+                "width": 768,
+                "height": 448,
+                "gameFile": "index.html",
+                "gameType": "html5"
+            },
+            "name": "Mini Bowl",
+            "url": "mini-bowl",
+            "description": "Click and drag anywhere to aim and set the power, then release to throw the ball. Knock over all the pins in one shot, but watch out for the spikes and other hazards!"
         }
     ]
 }
