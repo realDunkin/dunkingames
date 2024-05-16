@@ -76,7 +76,7 @@
           <br><br>
         </center>
       </div>
-      <div id="ChartBody">
+      <div id="ChartBody" class="Fantasy">
         <center>
           <div id="DaChart" class="grid-container" style="width:100%; height:100%;">
             
@@ -84,7 +84,7 @@
         </center>
       </div>
     </div>
-    <div id="GameBody" class="Fantasy">
+    <div id="GameBody">
       <center>
         <div id="GameWindow">
           
@@ -96,7 +96,7 @@
             <br><br>
             <button id="FullscreenButton" class="Button" onclick="openFullscreen();" style="font-size: 25px; display: none;">Fullscreen</button>
              <br><br>
-             <div id="DescriptionBox" class="" style="width:75%; height:100%;">
+             <div id="DescriptionBox" class="daTbl" style="width:75%; height:100%;">
               
              </div>
           </strong>
@@ -279,7 +279,7 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = "<table class='daTbl'><tr><th style='font-size: 25px;'>Game Description</th></tr><tr><td>" + data.games[index].description + "</td></tr></table>";
+              descstring = "<table class='daTbl'><tr><th style='font-size: 36px;'>Game Description</th></tr><tr><td style='font-size: 24px;'>" + data.games[index].description + "</td></tr></table>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
