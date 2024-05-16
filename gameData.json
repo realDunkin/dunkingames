@@ -100,7 +100,9 @@
             "id": 8,
             "data": {
                 "width": 550,
-                "height": 400
+                "height": 400,
+                "gameFile": "shopping-cart-hero-3",
+                "gameType": "flash"
             },
             "name": "Shopping Cart Hero 3",
             "url": "shopping-cart-hero-3",
