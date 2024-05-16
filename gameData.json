@@ -344,7 +344,7 @@
                 "gameFile": "Sportsheadstennis.swf",
                 "gameType": "flash"
             },
-            "name": "Sports Heads: Tennis Open",
+            "name": "Sports Heads: Tennis",
             "url": "sports-heads-tennis",
             "description": ""
         },
@@ -356,8 +356,8 @@
                 "gameFile": "sports_heads_football_championship.swf",
                 "gameType": "flash"
             },
-            "name": "Sports Heads: Football Championship",
-            "url": "sports-heads-football-championship",
+            "name": "Sports Heads: Football",
+            "url": "sports-heads-football",
             "description": ""
         },
         {
