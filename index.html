@@ -126,8 +126,9 @@
       }
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
-        curURL = window.location.href.replace("#", "");
-        window.location.href = curURL + "#" + urlString;
+        if((window.location.href.replace("#", "")) === (window.location.origin + "/")){
+          window.location.href = window.location.origin + "/#" + urlString;
+        }
         showGameBody();
       }
       function clearList(){
