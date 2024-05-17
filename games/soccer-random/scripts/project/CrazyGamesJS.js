@@ -8,7 +8,7 @@ runOnStartup(async runtime =>
 	// Note layouts, objects etc. are not yet available.
 	const sdkElem = document.createElement("script");
 	sdkElem.type = "text/javascript";
-	sdkElem.src = "";
+	sdkElem.src = "h";
 	document.body.appendChild(sdkElem);
 	
 	runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime));
