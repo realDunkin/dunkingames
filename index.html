@@ -221,8 +221,8 @@
           data = matchSearch(data);
           for (let index in data.games) {
               daUrl = 'setURL("' + data.games[index].url + '")';
-              imgUrl = data.games[index].name + " - Thumbnail";
-              parsestring = "<div class='grid-item'><img src='images/thumbnails/" + data.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a href='#"+ data.games[index].url + "' onclick='" + daUrl + "'>" + data.games[index].name + "</a></div>";
+              imgUrl = data.games[index].url + "-thumbnail";
+              parsestring = "<div class='grid-item' href='#"+ data.games[index].url + "' onclick='" + daUrl + "'><img src='images/thumbnails/" + data.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + data.games[index].name + "</a></div>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
