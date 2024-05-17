@@ -127,7 +127,7 @@
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
         curURL = window.location.href.replace("#", "");
-        newURL = window.location.origin + "/"
+        newURL = window.location.origin + "/dunkingames/"
         console.log(curURL + " === " + newURL);
         if(curURL === newURL){
           window.location.href = newURL + "#" + urlString;
