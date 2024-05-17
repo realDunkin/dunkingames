@@ -23,9 +23,9 @@
         (function (document, url, fgJS, firstJS) {
             fgJS = document.createElement('script');
             firstJS = document.getElementsByTagName('script')[0];
-            fgJS.src = url + encodeURIComponent(document.location.href);
+            fgJS.src = url;
             firstJS.parentNode.insertBefore(fgJS, firstJS);
-        })('html5games/gameapi/v1.js');
+        })(document, 'html5games/gameapi/v1.js');
    </script>
 </head>
 
