@@ -129,7 +129,8 @@
         curURL = window.location.href;
         console.log(curURL.replace("#", "") + " == " + window.location.origin + "/");
         if(curURL.replace("#", "") == window.location.origin + "/"){
-          window.location.href = window.location.origin + "/#" + urlString;
+          window.location = window.location.origin + "/#" + urlString;
+          console.log("yes");
         }
         showGameBody();
       }
