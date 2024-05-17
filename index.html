@@ -126,7 +126,8 @@
       }
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
-        if((window.location.href.replace("#", "")) === (window.location.origin + "/")){
+        curURL = window.location.href;
+        if(curURL.replace("#", "") == window.location.origin + "/"){
           window.location.href = window.location.origin + "/#" + urlString;
         }
         showGameBody();
