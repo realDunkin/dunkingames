@@ -479,6 +479,18 @@
             "name": "Mini Bowl",
             "url": "mini-bowl",
             "description": "Click and drag anywhere to aim and set the power, then release to throw the ball. Knock over all the pins in one shot, but watch out for the spikes and other hazards!"
+        },
+        {
+            "id": 40,
+            "data": {
+                "width": 728,
+                "height": 546,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Curve Ball 3D",
+            "url": "curve-ball-3d",
+            "description": "Curve Ball 3D is all about anticipation. Rather than looking at where the ball is, try and predict where the ball is going to be. While this might be difficult during the later levels when the ball starts speeding up, with enough practice this will feel like second nature eventually. Along with this, trying to get as good of spin as possible on your shots is a must. Not only will it give you more points, but it will also throw off your opponents by changing how the ball deflects off of the wall."
         }
     ]
 }

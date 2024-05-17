@@ -39,17 +39,17 @@
     }
     .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
-      background-color: #7acca2;
+      background-color: #cccccc;
       border: 3px solid black;
       padding: 20px;
     }
     .Button {
       font-family: "Fantasy", Helvetica, sans-serif;
-      background-color: #7acca2;
+      background-color: #cccccc;
     }
     .Button:hover {
       font-family: "Fantasy", Helvetica, sans-serif;
-      background-color: #cccccc;
+      background-color: #7acca2;
     }
   </style>
   <body background="images/background.png">
@@ -284,7 +284,7 @@
                   console.log("This Nothing");
                   break;
               }
-              descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 18px;'>" + data.games[index].description + "</td></tr></table>";
+              descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>" + data.games[index].description + "</td></tr></table>";
               parser = new DOMParser();
               doc = parser.parseFromString(parsestring, 'text/html');
               element = doc.body.firstChild;
