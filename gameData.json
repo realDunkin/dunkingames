@@ -503,6 +503,18 @@
             "name": "8 Ball Pool",
             "url": "8-ball-pool",
             "description": "The objective of 8 Ball Pool is pretty simple – sink all of your balls in any of the six pockets before the opponent sinks theirs first. This is done by hitting the white ball, also known as the cue ball, against the other balls. Each player is trying to hit in either all of the striped or solid balls. If the first player hits in a solid ball, their objective from then on will be to hit in all of the other solid balls, and vice versa. When all of the balls of one player are sunk, they must hit in the 8 Ball to win the game. Just make sure not to hit in the 8 Ball before all of your other balls are sunk, or else it is game over for you!"
+        },
+        {
+            "id": 42,
+            "data": {
+                "width": 922,
+                "height": 532,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Soccer Random",
+            "url": "soccer-random",
+            "description": "Soccer Random is a two-player soccer game with limited controls and hilarious physics. Hop along the pitch and try to beat your opponent while confined to only one move."
         }
     ]
 }
