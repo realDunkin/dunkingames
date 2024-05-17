@@ -491,6 +491,18 @@
             "name": "Curve Ball 3D",
             "url": "curve-ball-3d",
             "description": "Curve Ball 3D is all about anticipation. Rather than looking at where the ball is, try and predict where the ball is going to be. While this might be difficult during the later levels when the ball starts speeding up, with enough practice this will feel like second nature eventually. Along with this, trying to get as good of spin as possible on your shots is a must. Not only will it give you more points, but it will also throw off your opponents by changing how the ball deflects off of the wall."
+        },
+        {
+            "id": 41,
+            "data": {
+                "width": 728,
+                "height": 460,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "8 Ball Pool",
+            "url": "8-ball-pool",
+            "description": "The objective of 8 Ball Pool is pretty simple – sink all of your balls in any of the six pockets before the opponent sinks theirs first. This is done by hitting the white ball, also known as the cue ball, against the other balls. Each player is trying to hit in either all of the striped or solid balls. If the first player hits in a solid ball, their objective from then on will be to hit in all of the other solid balls, and vice versa. When all of the balls of one player are sunk, they must hit in the 8 Ball to win the game. Just make sure not to hit in the 8 Ball before all of your other balls are sunk, or else it is game over for you!"
         }
     ]
 }
