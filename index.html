@@ -78,7 +78,9 @@
             <option value="A-Z">Sort By: A To Z</option>
             <option value="Z-A">Sort By: Z To A</option>
           </select>
-          <br><br>
+          <br>
+          <button id="surpriseMe" class="Button" onclick="surpriseMe();">Surprise Me!</button>
+          <br>
         </center>
       </div>
       <div id="ChartBody">
@@ -137,6 +139,18 @@
       }
       function clearList(){
         document.getElementById("DaChart").innerHTML = "";
+      }
+      function surpriseMe(){
+        fetch("gameData.json").then(response => response.json()).then(data => {
+          var urlList = [];
+          var maxNum = 1;
+          for (let index in data.games) {
+              urlList.push(data.games[index].url);
+              maxNum += 1;
+          }
+          randomNum = Math.floor(Math.random() * maxNum);
+          setURL(urlList[randomNum]);
+        })
       }
       function matchSearch(data){
         var jsonData = Object.assign({}, data, {});
