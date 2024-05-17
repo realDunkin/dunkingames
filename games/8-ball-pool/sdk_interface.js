@@ -30,7 +30,7 @@ const SDK_INTERFACE_SETTINGS = {
 	},
 
 	// files to load
-	externalFiles: ["sdk_interface_custom.js", "//ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js", "//www.coolmathgames.com/sites/default/files/cmg-ads.js"],
+	externalFiles: [],
 
 	// features
 	features: {
@@ -58,7 +58,7 @@ const SDK_INTERFACE_SETTINGS = {
 
 	// misc
 	aid: "A1234-5", // affiliate id
-	name: "Coolmath Games", // name of partner/customer
+	name: "", // name of partner/customer
 	branding_url: "",
 	branding_image: "logo", // "logo" = transparent
 	show_splash: true,
