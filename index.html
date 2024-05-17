@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +16,14 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(4, 250px);
+      grid-template-columns: repeat(3, 250px);
       padding: 20px;
       column-gap: 25px;
       row-gap: 25px;
       justify-content: center;
     }
     .grid-item {
+      font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #cccccc;
       border: 3px solid rgba(0, 0, 0, 0.8);
       padding: 50px;
@@ -41,7 +43,8 @@
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #cccccc;
       border: 3px solid black;
-      padding: 20px;
+      padding: 10px;
+      border-spacing: 20px;
     }
     .Button {
       font-family: "Fantasy", Helvetica, sans-serif;
@@ -81,7 +84,7 @@
           <br><br>
         </center>
       </div>
-      <div id="ChartBody" class="Fantasy">
+      <div id="ChartBody">
         <center>
           <div id="DaChart" class="grid-container" style="width:100%; height:100%;">
             
@@ -101,7 +104,7 @@
             <br><br>
             <button id="FullscreenButton" class="Button" onclick="openFullscreen();" style="font-size: 25px; display: none;">Fullscreen</button>
              <br><br>
-             <div id="DescriptionBox" class="daTbl" style="width:50%; height:100%;">
+             <div id="DescriptionBox" class="daTbl" style="width:50%; height:25%;">
               
              </div>
           </strong>
@@ -341,4 +344,10 @@
       document.addEventListener("fullscreenchange", fullscreenchanged);
     </script>
   </body>
+  <footer>
+    <br><br><br><br>
+      <center>
+        <a style="font-size: 15px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
+      </center>
+  </footer>
 </html>
