@@ -143,7 +143,7 @@
       function surpriseMe(){
         fetch("gameData.json").then(response => response.json()).then(data => {
           var urlList = [];
-          var maxNum = 1;
+          var maxNum = 0;
           for (let index in data.games) {
               urlList.push(data.games[index].url);
               maxNum += 1;
