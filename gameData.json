@@ -515,6 +515,30 @@
             "name": "Soccer Random",
             "url": "soccer-random",
             "description": "Soccer Random is a two-player soccer game with limited controls and hilarious physics. Hop along the pitch and try to beat your opponent while confined to only one move."
+        },
+        {
+            "id": 43,
+            "data": {
+                "width": 922,
+                "height": 532,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Volley Random",
+            "url": "volley-random",
+            "description": ""
+        },
+        {
+            "id": 44,
+            "data": {
+                "width": 922,
+                "height": 532,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Basket Random",
+            "url": "basket-random",
+            "description": ""
         }
     ]
 }
