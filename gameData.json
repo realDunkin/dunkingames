@@ -539,6 +539,18 @@
             "name": "Basket Random",
             "url": "basket-random",
             "description": ""
+        },
+        {
+            "id": 45,
+            "data": {
+                "width": 922,
+                "height": 532,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Boxing Random",
+            "url": "boxing-random",
+            "description": ""
         }
     ]
 }
