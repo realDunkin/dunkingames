@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-SquareX - Play it now at CoolmathGames.com-1.0";
+const cacheName = "SquareX";
 const contentToCache = [
-    "Build/SquareX for CoolMath.loader.js",
-    "Build/SquareX for CoolMath.framework.js",
-    "Build/SquareX for CoolMath.data",
-    "Build/SquareX for CoolMath.wasm",
+    "Build/SquareX.loader.js",
+    "Build/SquareX.framework.js",
+    "Build/SquareX.data",
+    "Build/SquareX.wasm",
     "TemplateData/style.css"
 
 ];

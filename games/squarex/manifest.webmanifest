@@ -1,6 +1,6 @@
 {
-    "name": "SquareX - Play it now at CoolmathGames.com",
-    "short_name": "SquareX - Play it now at CoolmathGames.com",
+    "name": "SquareX",
+    "short_name": "SquareX",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#000000",
