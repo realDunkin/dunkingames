@@ -10,7 +10,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-	<title>Diggy Gold Rush - Play it now at CoolmathGames.com</title>
+	<title>Diggy Gold Rush</title>
 
 	<style>
 
@@ -87,6 +87,14 @@
 	<div id="gameContainer">
 
 		<canvas id="unity-canvas" data-pixel-art="true"></canvas>
+
+		<script language="JavaScript" type="text/javascript">
+			//<![CDATA[
+				window.onbeforeunload = function(){
+					return 'Are you sure you want to leave?';
+				};
+			//]]>
+		</script>
 
 		<script src="Build/DIGGY_WEB.loader.js"></script>
 
