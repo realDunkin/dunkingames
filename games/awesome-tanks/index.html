@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Awesome Tanks</title>
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+        <link href="styles/main.css" rel="stylesheet">
+        <meta name="apple-mobile-web-app-title" content="Awesome Tanks">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    </head>
+    <body>
+        <script>
+            let wasMuted = false;
+            // To trigger the event Listener adBreakStart
+            document.addEventListener("adBreakStart", () => {
+                console.log("AdBreak Started")
+                //TODO:  Developer needs to add the logic to pause the game and sound here
+                try {
+                    wasMuted = window['gameInstance'].sound.mute;
+                    window['gameInstance'].sound.setMute();				
+                    window['gameInstance'].paused = true;
+                } catch (e) {}			
+            });
+            // To trigger the event Listener  adBreakComplete
+            document.addEventListener("adBreakComplete", () => {
+                console.log("adBreak Complete")
+                //TODO:  Developer needs to add the logic to resume the game and sound here
+                try {
+                    window['gameInstance'].paused = false;
+                    if (!wasMuted) window['gameInstance'].sound.unsetMute();
+                } catch (e) {}
+            });
+            
+            function cmgAdBreakCall() {
+                try {
+                    let _cmgAdBreak = parent.cmgAdBreak ?? cmgAdBreak;
+                    if (_cmgAdBreak) {
+                        _cmgAdBreak();
+                    } else {
+                        console.warn('cmgAdBreak not foud!');
+                    }
+                } catch (e) {}
+            }
+        </script>
+
+        <script>
+            var AT = {
+                // URL where an user will be redirected after clicking "Play" button on the Site lock screen
+                'SITE_LOCK_TARGET': ''
+            };
+
+            var WebFontConfig = {
+                'classes': false,
+                'timeout': 0,
+                'active': function() {},
+                'custom': {'families': ['Gunplay'], 'urls': ['styles/fonts.css']}
+            };
+        </script>
+        <script src="awesome_tanks.js"></script>
+    </body>
+</html>

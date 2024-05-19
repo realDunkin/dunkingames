@@ -551,6 +551,18 @@
             "name": "Boxing Random",
             "url": "boxing-random",
             "description": ""
+        },
+        {
+            "id": 46,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Awesome Tanks",
+            "url": "awesome-tanks",
+            "description": ""
         }
     ]
 }
