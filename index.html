@@ -158,7 +158,8 @@
         let removed = 0;
         searchValue = document.getElementById("searchBox").value.toLowerCase();
         if(searchValue != ""){
-          for (let index in data) {
+          for (let index in data.games) {
+            console.log(data.games[index]);
             let dataName = data.games[index].name.toLowerCase()
             if (dataName.includes(searchValue) === false) {
                 for (let index2 in data.games) {
