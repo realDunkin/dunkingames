@@ -159,11 +159,9 @@
         searchValue = document.getElementById("searchBox").value.toLowerCase();
         if(searchValue != ""){
           for (let index in data.games) {
-            console.log(data.games[index]);
             let dataName = data.games[index].name.toLowerCase()
             if (dataName.includes(searchValue) === false) {
                 for (let index2 in jsonData.games) {
-                  console.log(jsonData.games[index2]);
                   let jsonName = jsonData.games[index2].name.toLowerCase();
                   if (jsonName === dataName){
                     delete jsonData.games[index2];
@@ -239,8 +237,9 @@
             console.log("Sorted By: None");
             break;
         }
-        copyData = JSON.parse(JSON.stringify(matchSearch(initData)));
+        copyData = matchSearch(initData);
         for (let index in copyData.games) {
+            console.log(copyData.games[index]);
             daUrl = 'setURL("' + copyData.games[index].url + '")';
             imgUrl = copyData.games[index].url + "-thumbnail";
             parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + copyData.games[index].name + "</a></div>";
