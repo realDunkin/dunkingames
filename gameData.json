@@ -563,6 +563,78 @@
             "name": "Awesome Tanks",
             "url": "awesome-tanks",
             "description": ""
+        },
+        {
+            "id": 47,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "World's Hardest Game",
+            "url": "worlds-hardest-game",
+            "description": ""
+        },
+        {
+            "id": 48,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "SquareX",
+            "url": "squarex",
+            "description": ""
+        },
+        {
+            "id": 49,
+            "data": {
+                "width": 1879,
+                "height": 931,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Vex 6",
+            "url": "vex-6",
+            "description": ""
+        },
+        {
+            "id": 50,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "World's Hardest Game 2",
+            "url": "worlds-hardest-game-2",
+            "description": ""
+        },
+        {
+            "id": 51,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "World's Hardest Game 3",
+            "url": "worlds-hardest-game-3",
+            "description": ""
+        },
+        {
+            "id": 52,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Awesome Tanks 2",
+            "url": "awesome-tanks-2",
+            "description": ""
         }
     ]
 }
