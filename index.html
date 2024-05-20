@@ -124,6 +124,7 @@
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
+        makeList();
       }
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
@@ -328,30 +329,29 @@
       var gameData = {};
       fetch("gameData.json").then(response => response.json()).then(data => {
         gameData = data;
-        makeList()
-      })
-      var urlLocation = window.location.href;
-      urlLocation = urlLocation.split("/");
-      if(urlLocation[urlLocation.length - 1].includes("#") === true){
-        urlLocation2 = urlLocation[urlLocation.length - 1]
-        fullscreenchanged(null);
-        final = urlLocation2.split("#");
-        if (final[final.length - 1] === ""){
-          showMainBody();
-        }
-        else{
-          if(final[final.length - 1] === "fullscreen"){
-            setURL(final[final.length - 2]);
+        var urlLocation = window.location.href;
+        urlLocation = urlLocation.split("/");
+        if(urlLocation[urlLocation.length - 1].includes("#") === true){
+          urlLocation2 = urlLocation[urlLocation.length - 1]
+          fullscreenchanged(null);
+          final = urlLocation2.split("#");
+          if (final[final.length - 1] === ""){
+            showMainBody();
           }
           else{
-            setURL(final[final.length - 1]);
+            if(final[final.length - 1] === "fullscreen"){
+              setURL(final[final.length - 2]);
+            }
+            else{
+              setURL(final[final.length - 1]);
+            }
           }
         }
-      }
-      else{
-        showMainBody();
-      }
-      document.addEventListener("fullscreenchange", fullscreenchanged);
+        else{
+          showMainBody();
+        }
+        document.addEventListener("fullscreenchange", fullscreenchanged);
+      })
     </script>
   </body>
   <footer>
