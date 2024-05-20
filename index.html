@@ -150,9 +150,8 @@
         randomNum = Math.floor(Math.random() * maxNum);
         setURL(urlList[randomNum]);
       }
-      function matchSearch(data1){
-        var jsonData = JSON.parse(JSON.stringify(data1));
-        var data = JSON.parse(JSON.stringify(data1));
+      function matchSearch(data){
+        var jsonData = JSON.parse(JSON.stringify(data));
         console.log("The Starting Data:");
         console.log(jsonData)
         var max = data.games.length;
