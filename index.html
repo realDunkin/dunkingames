@@ -152,15 +152,13 @@
       }
       function matchSearch(data){
         let jsonData = JSON.parse(JSON.stringify(data));
-        console.log("The OG Data:");
-        console.log(data);
         console.log("The Starting Data:");
         console.log(jsonData)
         let max = data.games.length;
         let removed = 0;
         searchValue = document.getElementById("searchBox").value.toLowerCase();
         if(searchValue != ""){
-          for (let index in data.games) {
+          for (let index in data) {
             let dataName = data.games[index].name.toLowerCase()
             if (dataName.includes(searchValue) === false) {
                 for (let index2 in data.games) {
