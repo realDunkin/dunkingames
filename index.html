@@ -152,6 +152,8 @@
       }
       function matchSearch(data){
         let jsonData = JSON.parse(JSON.stringify(data));
+        console.log("The OG Data:");
+        console.log(data);
         console.log("The Starting Data:");
         console.log(jsonData)
         let max = data.games.length;
