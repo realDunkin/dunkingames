@@ -214,30 +214,30 @@
       }
       function makeList(){
         clearList();
-        let copyData = JSON.parse(JSON.stringify(gameData));
+        let initData = JSON.parse(JSON.stringify(gameData));
         sortValue = document.getElementById("listSort").value;
         switch (sortValue) {
           case "New-Old":
-            copyData.games.sort(sortByNewOld);
+            initData.games.sort(sortByNewOld);
             console.log("Sorted By: Newest To Oldest");
             break;
           case "Old-New":
-            copyData.games.sort(sortByOldNew);
+            initData.games.sort(sortByOldNew);
             console.log("Sorted By: Oldest To Newest");
             break;
           case "A-Z":
-            copyData.games.sort(sortByAZ);
+            initData.games.sort(sortByAZ);
             console.log("Sorted By: A To Z");
             break;
           case "Z-A":
-            copyData.games.sort(sortByZA);
+            initData.games.sort(sortByZA);
             console.log("Sorted By: Z To A");
             break;
           default:
             console.log("Sorted By: None");
             break;
         }
-        copyData = JSON.parse(JSON.stringify(matchSearch(copyData)));
+        copyData = JSON.parse(JSON.stringify(matchSearch(initData)));
         for (let index in copyData.games) {
             daUrl = 'setURL("' + copyData.games[index].url + '")';
             imgUrl = copyData.games[index].url + "-thumbnail";
