@@ -150,9 +150,9 @@
         randomNum = Math.floor(Math.random() * maxNum);
         setURL(urlList[randomNum]);
       }
-      function matchSearch(data){
-        var jsonData = Object.assign({}, data, {});
-        var data = Object.assign({}, data, {});
+      function matchSearch(data1){
+        var jsonData = Object.assign({}, data1, {});
+        var data = Object.assign({}, data1, {});
         console.log("The Starting Data:");
         console.log(jsonData)
         var max = data.games.length;
@@ -215,34 +215,34 @@
       }
       function makeList(){
         clearList();
-        gameDataCOPY = Object.assign({}, gameData, {});
+        copyData = Object.assign({}, gameData, {});
         sortValue = document.getElementById("listSort").value;
         switch (sortValue) {
           case "New-Old":
-            gameDataCOPY.games.sort(sortByNewOld);
+            copyData.games.sort(sortByNewOld);
             console.log("Sorted By: Newest To Oldest");
             break;
           case "Old-New":
-            gameDataCOPY.games.sort(sortByOldNew);
+            copyData.games.sort(sortByOldNew);
             console.log("Sorted By: Oldest To Newest");
             break;
           case "A-Z":
-            gameDataCOPY.games.sort(sortByAZ);
+            copyData.games.sort(sortByAZ);
             console.log("Sorted By: A To Z");
             break;
           case "Z-A":
-            gameDataCOPY.games.sort(sortByZA);
+            copyData.games.sort(sortByZA);
             console.log("Sorted By: Z To A");
             break;
           default:
             console.log("Sorted By: None");
             break;
         }
-        gameDataCOPY = matchSearch(gameDataCOPY);
-        for (let index in gameDataCOPY.games) {
-            daUrl = 'setURL("' + gameDataCOPY.games[index].url + '")';
-            imgUrl = gameDataCOPY.games[index].url + "-thumbnail";
-            parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + gameDataCOPY.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + gameDataCOPY.games[index].name + "</a></div>";
+        copyData = matchSearch(copyData);
+        for (let index in copyData.games) {
+            daUrl = 'setURL("' + copyData.games[index].url + '")';
+            imgUrl = copyData.games[index].url + "-thumbnail";
+            parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + copyData.games[index].name + "</a></div>";
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
             element = doc.body.firstChild;
