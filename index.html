@@ -163,6 +163,7 @@
             let dataName = data.games[index].name.toLowerCase()
             if (dataName.includes(searchValue) === false) {
                 for (let index2 in data.games) {
+                  console.log(jsonData.games[index]);
                   let jsonName = jsonData.games[index2].name.toLowerCase();
                   if (jsonName === dataName){
                     delete jsonData.games[index2];
