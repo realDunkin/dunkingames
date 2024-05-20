@@ -603,8 +603,8 @@
         {
             "id": 50,
             "data": {
-                "width": 800,
-                "height": 600,
+                "width": 700,
+                "height": 500,
                 "gameFile": "",
                 "gameType": "html5"
             },
@@ -615,7 +615,7 @@
         {
             "id": 51,
             "data": {
-                "width": 800,
+                "width": 900,
                 "height": 600,
                 "gameFile": "",
                 "gameType": "html5"
