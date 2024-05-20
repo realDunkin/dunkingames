@@ -141,8 +141,8 @@
         document.getElementById("DaChart").innerHTML = "";
       }
       function surpriseMe(){
-        var urlList = [];
-        var maxNum = 0;
+        let urlList = [];
+        let maxNum = 0;
         for (let index in gameData.games) {
             urlList.push(gameData.games[index].url);
             maxNum += 1;
@@ -151,18 +151,18 @@
         setURL(urlList[randomNum]);
       }
       function matchSearch(data){
-        var jsonData = JSON.parse(JSON.stringify(data));
+        let jsonData = JSON.parse(JSON.stringify(data));
         console.log("The Starting Data:");
         console.log(jsonData)
-        var max = data.games.length;
-        var removed = 0;
+        let max = data.games.length;
+        let removed = 0;
         searchValue = document.getElementById("searchBox").value.toLowerCase();
         if(searchValue != ""){
           for (let index in data.games) {
-            var dataName = data.games[index].name.toLowerCase()
+            let dataName = data.games[index].name.toLowerCase()
             if (dataName.includes(searchValue) === false) {
                 for (let index2 in data.games) {
-                  var jsonName = jsonData.games[index2].name.toLowerCase();
+                  let jsonName = jsonData.games[index2].name.toLowerCase();
                   if (jsonName === dataName){
                     delete jsonData.games[index2];
                     removed += 1;
@@ -214,7 +214,7 @@
       }
       function makeList(){
         clearList();
-        copyData = JSON.parse(JSON.stringify(gameData));
+        let copyData = JSON.parse(JSON.stringify(gameData));
         sortValue = document.getElementById("listSort").value;
         switch (sortValue) {
           case "New-Old":
@@ -260,7 +260,7 @@
         }
       }
       function openFullscreen() {
-        var GAMETYPE = document.getElementById("GAMETYPE").value;
+        let GAMETYPE = document.getElementById("GAMETYPE").value;
         switch (GAMETYPE) {
           case "flash":
             console.log("Fullscreen Flash Content");
@@ -278,16 +278,16 @@
       function showGameBody(){
         document.getElementById("MainBody").style.display = "none";
         document.getElementById("GameBody").style.display = "block";
-        var url = document.getElementById("GAMEURL").value;
+        let url = document.getElementById("GAMEURL").value;
         console.log(url);
-        var mached = false;
+        let mached = false;
         for (let index = 0; index < gameData.games.length; index++) {
           if (url == gameData.games[index].url) {
             console.log("Matched");
             name = gameData.games[index].name;
             document.getElementById("title").innerHTML = name + " - Dunkin's Games";
             document.getElementById("subTEXT").innerHTML = name;
-            var parsestring = "";
+            let parsestring = "";
             switch (gameData.games[index].data.gameType){
               case "flash":
                 parsestring = '<object value="flash" name="GameElement" id="GameElement" type="application/x-shockwave-flash" data="games/' + gameData.games[index].data.gameFile + '" width="' + gameData.games[index].data.width + '" height="' + gameData.games[index].data.height + '"><param id="MovieValue" name="movie" value="games/' + gameData.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
@@ -329,7 +329,7 @@
       var gameData = {};
       fetch("gameData.json").then(response => response.json()).then(data => {
         gameData = data;
-        var urlLocation = window.location.href;
+        let urlLocation = window.location.href;
         urlLocation = urlLocation.split("/");
         if(urlLocation[urlLocation.length - 1].includes("#") === true){
           urlLocation2 = urlLocation[urlLocation.length - 1]
