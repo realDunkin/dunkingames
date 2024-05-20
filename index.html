@@ -151,8 +151,8 @@
         setURL(urlList[randomNum]);
       }
       function matchSearch(data1){
-        var jsonData = Object.assign({}, data1, {});
-        var data = Object.assign({}, data1, {});
+        var jsonData = JSON.parse(JSON.stringify(data1));
+        var data = JSON.parse(JSON.stringify(data1));
         console.log("The Starting Data:");
         console.log(jsonData)
         var max = data.games.length;
@@ -215,7 +215,7 @@
       }
       function makeList(){
         clearList();
-        copyData = Object.assign({}, gameData, {});
+        copyData = JSON.parse(JSON.stringify(gameData));
         sortValue = document.getElementById("listSort").value;
         switch (sortValue) {
           case "New-Old":
