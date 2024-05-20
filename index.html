@@ -111,10 +111,6 @@
       </div>
     </div>
     <script>
-      var gameData = {};
-      fetch("gameData.json").then(response => response.json()).then(data => {
-        gameData = data;
-      })
       function showMainBody(){
         document.getElementById("MainBody").style.display = "block";
         document.getElementById("GameBody").style.display = "none";
@@ -128,7 +124,6 @@
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
-        makeList();
       }
       function setURL(urlString){
         document.getElementById("GAMEURL").value = urlString;
@@ -145,16 +140,14 @@
         document.getElementById("DaChart").innerHTML = "";
       }
       function surpriseMe(){
-        fetch("gameData.json").then(response => response.json()).then(data => {
-          var urlList = [];
-          var maxNum = 0;
-          for (let index in gameData.games) {
-              urlList.push(gameData.games[index].url);
-              maxNum += 1;
-          }
-          randomNum = Math.floor(Math.random() * maxNum);
-          setURL(urlList[randomNum]);
-        })
+        var urlList = [];
+        var maxNum = 0;
+        for (let index in gameData.games) {
+            urlList.push(gameData.games[index].url);
+            maxNum += 1;
+        }
+        randomNum = Math.floor(Math.random() * maxNum);
+        setURL(urlList[randomNum]);
       }
       function matchSearch(data){
         var jsonData = Object.assign({}, data, {});
@@ -332,6 +325,11 @@
           document.getElementById("GameWindow").appendChild(element);
         }	
       }
+      var gameData = {};
+      fetch("gameData.json").then(response => response.json()).then(data => {
+        gameData = data;
+        makeList()
+      })
       var urlLocation = window.location.href;
       urlLocation = urlLocation.split("/");
       if(urlLocation[urlLocation.length - 1].includes("#") === true){
