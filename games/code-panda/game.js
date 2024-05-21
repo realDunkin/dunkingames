@@ -7118,7 +7118,7 @@ function(_0xbb16ce) {
             return 0x0;
         },
         '_boot': function() {
-            document['location']['href']['match'](/\?nocache/) && ig['setNocache'](!0x0),
+            document['location']['href']['match']('') && ig['setNocache'](!0x0),
             ig['ua']['pixelRatio'] = _0xbb16ce['devicePixelRatio'] || 0x1,
             ig['ua']['viewport'] = {
                 'width': _0xbb16ce['innerWidth'],
