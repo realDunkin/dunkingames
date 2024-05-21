@@ -4523,24 +4523,6 @@ var _SETTINGS = {
     var _0x4b9e1d = _0x312524, _0x4dc4b7, _0x1f8cc8 = _0x1433b1['implementation']['createHTMLDocument']('')['body'];
     _0x4dc4b7 = (_0x1f8cc8['innerHTML'] = '<form></form><form></form>',
     0x2 === _0x1f8cc8['childNodes']['length']),
-    _0x4b9e1d['createHTMLDocument'] = _0x4dc4b7,
-    _0x8aef84['parseHTML'] = function(_0x3b1aaa, _0x1b9e18, _0x1f9d39) {
-        if ('string' != typeof _0x3b1aaa)
-            return [];
-        'boolean' == typeof _0x1b9e18 && (_0x1f9d39 = _0x1b9e18,
-        _0x1b9e18 = !0x1);
-        var _0x225065, _0x38a84d, _0x328ffa;
-        return _0x1b9e18 || (_0x312524['createHTMLDocument'] ? (_0x1b9e18 = _0x1433b1['implementation']['createHTMLDocument'](''),
-        _0x225065 = _0x1b9e18['createElement']('base'),
-        _0x225065['href'] = _0x1433b1['location']['href'],
-        _0x1b9e18['head']['appendChild'](_0x225065)) : _0x1b9e18 = _0x1433b1),
-        _0x38a84d = _0x5c3bda['exec'](_0x3b1aaa),
-        _0x328ffa = !_0x1f9d39 && [],
-        _0x38a84d ? [_0x1b9e18['createElement'](_0x38a84d[0x1])] : (_0x38a84d = _0x1cf301([_0x3b1aaa], _0x1b9e18, _0x328ffa),
-        _0x328ffa && _0x328ffa['length'] && _0x8aef84(_0x328ffa)['remove'](),
-        _0x8aef84['merge']([], _0x38a84d['childNodes']));
-    }
-    ,
     _0x8aef84['fn']['load'] = function(_0x182a2b, _0x25ac29, _0x5a883d) {
         var _0x3da3c8, _0x5307fe, _0x1894aa, _0xceeafd = this, _0x56e549 = _0x182a2b['indexOf']('\x20');
         return -0x1 < _0x56e549 && (_0x3da3c8 = _0x3534b9(_0x182a2b['slice'](_0x56e549)),
