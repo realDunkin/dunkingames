@@ -671,6 +671,30 @@
             "name": "Basket & Ball",
             "url": "basket-and-ball",
             "description": ""
+        },
+        {
+            "id": 56,
+            "data": {
+                "width": 520,
+                "height": 660,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Tubetris Classic",
+            "url": "tubetris-classic",
+            "description": ""
+        },
+        {
+            "id": 57,
+            "data": {
+                "width": 520,
+                "height": 660,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Tubetris Deluxe",
+            "url": "tubetris-deluxe",
+            "description": ""
         }
     ]
 }
