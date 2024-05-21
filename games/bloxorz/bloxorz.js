@@ -12536,7 +12536,7 @@ lib.properties = {
 		{src:"sounds/blox2wav.mp3", id:"blox2wav"},
 		{src:"sounds/mech5wav.mp3", id:"mech5wav"},
 		{src:"sounds/unsplitwav.mp3", id:"unsplitwav"},
-		{src:"createjs.js", id:"lib/jquery-2.2.4.min.js"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js", id:"lib/jquery-2.2.4.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/ui/src/textinput.js", id:"an.TextInput"},
 		{src:"components/ui/src/css.js", id:"an.CSS"}
