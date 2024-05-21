@@ -4045,7 +4045,7 @@ var _SETTINGS = {
         'ajaxSettings': {
             'url': _0x2ec558['href'],
             'type': 'GET',
-            'isLocal': /^(?:about|app|app-storage|.+-extension|file|res|widget):$/['test'](_0x2ec558['protocol']),
+            'isLocal': '',
             'global': !0x0,
             'processData': !0x0,
             'async': !0x0,
