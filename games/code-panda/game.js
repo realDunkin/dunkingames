@@ -1520,7 +1520,7 @@ var _SETTINGS = {
             _0x5cc3d1['querySelectorAll']('a#' + _0x61e0c + '+*')['length'] || _0x5e22d3['push']('.#.+[+~]');
         }),
         _0x6b2a81(function(_0x36efa2) {
-            _0x36efa2['innerHTML'] = '<a\x20href=\x27\x27\x20disabled=\x27disabled\x27></a><select\x20disabled=\x27disabled\x27><option/></select>';
+            _0x36efa2['innerHTML'] = '';
             var _0x7e3969 = _0x434c3f['createElement']('input');
             _0x7e3969['setAttribute']('type', 'hidden'),
             _0x36efa2['appendChild'](_0x7e3969)['setAttribute']('name', 'D'),
@@ -2044,7 +2044,7 @@ var _SETTINGS = {
         return 0x1 & _0xd8addd['compareDocumentPosition'](_0x434c3f['createElement']('fieldset'));
     }),
     _0x6b2a81(function(_0x5c1350) {
-        return _0x5c1350['innerHTML'] = '<a\x20href=\x27#\x27></a>',
+        return _0x5c1350['innerHTML'] = '',
         '#' === _0x5c1350['firstChild']['getAttribute']('href');
     }) || _0x39f07e('type|href|height|width', function(_0x48b5cc, _0x50ad87, _0x2e7440) {
         if (!_0x2e7440)
@@ -4043,7 +4043,7 @@ var _SETTINGS = {
         'lastModified': {},
         'etag': {},
         'ajaxSettings': {
-            'url': _0x2ec558['href'],
+            'url': '',
             'type': 'GET',
             'isLocal': !0x0,
             'global': !0x0,
