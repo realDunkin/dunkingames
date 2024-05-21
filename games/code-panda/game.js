@@ -131,7 +131,7 @@ var _SETTINGS = {
     },
     'MoreGames': {
         'Enabled': !0x1,
-        'Link': 'http://www.coolmath-games.com/',
+        'Link': '',
         'NewWindow': !0x0
     },
     'Gamecenter': {
