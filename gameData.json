@@ -635,6 +635,42 @@
             "name": "Awesome Tanks 2",
             "url": "awesome-tanks-2",
             "description": ""
+        },
+        {
+            "id": 53,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Bloxorz",
+            "url": "bloxorz",
+            "description": ""
+        },
+        {
+            "id": 54,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Code Panda",
+            "url": "code-panda",
+            "description": ""
+        },
+        {
+            "id": 55,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Basket & Ball",
+            "url": "basket-and-ball",
+            "description": ""
         }
     ]
 }
