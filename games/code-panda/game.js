@@ -4532,6 +4532,7 @@ var _SETTINGS = {
         var _0x225065, _0x38a84d, _0x328ffa;
         return _0x1b9e18 || (_0x312524['createHTMLDocument'] ? (_0x1b9e18 = _0x1433b1['implementation']['createHTMLDocument'](''),
         _0x225065 = _0x1b9e18['createElement']('base'),
+        _0x225065['href'] = _0x1433b1['location']['href'],
         _0x1b9e18['head']['appendChild'](_0x225065)) : _0x1b9e18 = _0x1433b1),
         _0x38a84d = _0x5c3bda['exec'](_0x3b1aaa),
         _0x328ffa = !_0x1f9d39 && [],
@@ -7117,7 +7118,6 @@ function(_0xbb16ce) {
             return 0x0;
         },
         '_boot': function() {
-            ig['setNocache'](!0x0),
             ig['ua']['pixelRatio'] = _0xbb16ce['devicePixelRatio'] || 0x1,
             ig['ua']['viewport'] = {
                 'width': _0xbb16ce['innerWidth'],
