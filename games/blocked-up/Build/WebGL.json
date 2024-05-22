@@ -2,15 +2,16 @@
 "companyName": "Pale Moon Games",
 "productName": "Blocked Up",
 "productVersion": "1",
-"dataUrl": "BlockedUpCMG-License.data.unityweb",
-"wasmCodeUrl": "BlockedUpCMG-License.wasm.code.unityweb",
-"wasmFrameworkUrl": "BlockedUpCMG-License.wasm.framework.unityweb",
+"dataUrl": "WebGL.data.unityweb",
+"wasmCodeUrl": "WebGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGL.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "WebGL.jpg",
 "splashScreenStyle": "Dark",
-"backgroundColor": "#242424",
+"backgroundColor": "#FFFFFF",
 "cacheControl": {"default": "must-revalidate"},
 "developmentBuild": false,
 "multithreading": false,
-"unityVersion": "2019.4.1f1"
+"unityVersion": "2019.3.0f6"
 }
