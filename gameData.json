@@ -695,6 +695,18 @@
             "name": "Tubetris Deluxe",
             "url": "tubetris-deluxe",
             "description": ""
+        },
+        {
+            "id": 58,
+            "data": {
+                "width": 704,
+                "height": 480,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Blocked Up: Unblock Yourself",
+            "url": "blocked-up",
+            "description": ""
         }
     ]
 }
