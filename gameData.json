@@ -707,6 +707,42 @@
             "name": "Blocked Up: Unblock Yourself",
             "url": "blocked-up",
             "description": ""
+        },
+        {
+            "id": 59,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "autoball",
+            "url": "autoball",
+            "description": ""
+        },
+        {
+            "id": 60,
+            "data": {
+                "width": 931,
+                "height": 931,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Opposite Day",
+            "url": "opposite-day",
+            "description": ""
+        },
+        {
+            "id": 61,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "ReSpawn",
+            "url": "respawn",
+            "description": ""
         }
     ]
 }
