@@ -718,7 +718,7 @@
             },
             "name": "autoball",
             "url": "autoball",
-            "description": ""
+            "description": "every 10 seconds, a ball is fired onto the board. place, move, and upgrade pegs and cannons to score as many points as possible. see how far you can get!"
         },
         {
             "id": 60,
