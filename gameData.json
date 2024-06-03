@@ -10,7 +10,7 @@
             },
             "name": "Papa's Freezeria",
             "url": "papas-freezeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "You've just started an easy job at an ice cream shop on a laidback tropical island, but things get hectic when all of Papa Louie's loyal customers arrive on the island for vacation! In this summertime installment in Papa Louie's restaurant series, you’ll need to add ingredients, blend syrups and ice cream, add toppings, and serve the unique Freezeria Sundaes to your waiting customers."
         },
         {
@@ -23,7 +23,7 @@
             },
             "name": "Papa's Burgeria",
             "url": "papas-burgeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "In this sequel to the award-winning hit game 'Papa's Pizzeria', you're headed back to the kitchen to run Papa Louie's new burger shop! You’ll have to take orders, grill burgers, add toppings, and serve the sandwiches to the waiting customers."
         },
         {
@@ -36,7 +36,7 @@
             },
             "name": "Papa's Pizzeria",
             "url": "papas-pizzeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Help Roy run the pizzeria while Papa Louie is gone!  Top, bake, and serve pizzas to earn tips and unlock new customers."
         },
         {
@@ -49,7 +49,7 @@
             },
             "name": "Papa's Taco Mia!",
             "url": "papas-taco-mia",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Papa Louie is branching out with a new taco restaurant, and he's putting you in charge! Help Mitch and Maggie take orders, cook meats, and build tacos in Papa's Taco Mia! Unlock over a dozen toppings and sauces as you work up the ranks, and craft the perfect taco for new customers and old favorites. Buy a variety of upgrades for your taco shop using your hard-earned tips and your weekly paycheck, and take on the extra challenge of serving the tough and picky 'Closer' customers at the end of each day. And if you can impress the new Food Critic, you'll earn a Blue Ribbon award that gives you higher tips! You can also earn up to 60 Badges while running Papa's Taco Mia, unlocked for a variety of achievements including using certain toppings, getting high scores in each Station, serving certain customers, and more!"
         },
         {
@@ -62,7 +62,7 @@
             },
             "name": "Papa's Cupcakeria",
             "url": "papas-cupcakeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Bake the best cupcakes in town all year round in Papa's Cupcakeria! You'll need to choose baking cups, add batter, watch the oven, and decorate your cupcakes with a variety of frosting and toppings. As you level up and gain new customers, you'll notice the seasons changing in the town of Frostfield, along with new holiday celebrations! Help your customers get in the holiday spirit with seasonal clothing, furniture, and a new set of unlockable seasonal toppings for each holiday. Work your way through each holiday season to unlock over 100 ingredients, and become a cupcake-crafting master!"
         },
         {
@@ -75,7 +75,7 @@
             },
             "name": "Papa's Hot Doggeria",
             "url": "papas-hot-doggeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Grill and serve hot dogs and other stadium snacks in Papa’s Hot Doggeria! You’ve got the best seat in the house at Griller Stadium, which happens to be behind the counter at the hot dog stand. You’ll need to grill dogs and sausages, add toppings and condiments, pour drinks, and pop popcorn for all of the fans at the game!"
         },
         {
@@ -88,7 +88,7 @@
             },
             "name": "Papa's Pancakeria",
             "url": "papas-pancakeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Help Prudence and Cooper run Papa's Pancakeria! You'll need to cook and stack pancakes, french toast, and waffles in Papa's latest time-management game. The hands-on gameplay of the series returns, with new challenges related to stacking, arranging toppings and pouring syrup. In this latest installment, the great Foodini will arrive after each day with his traveling Mini Game Show! Foodini only accepts special tickets that are earned throughout the day, and has seven different games you can play. Each ticket gives you a chance to play his daily game to win many unique prizes. Also new to the series is an unlockable Drink Station that adds to the growing challenge of multitasking."
         },
         {
@@ -101,7 +101,7 @@
             },
             "name": "Papa's Wingeria",
             "url": "papas-wingeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "You're in charge of Papa's Wingeria, where you'll need to take orders, fry up wings and things in the fryers, toss your wings in Papa's award-winning sauces, and arrange them just right with garnishes and sides for your loyal customers. New to the series are Custom Workers, where you can create your own character in the game and customize their look with endless possibilities. Change the hair style, skin tone, facial features, posture, accessories, and more! You'll also get dozens of accessories and items of clothing for your custom worker, from the Shop and earned from Mini-Games."
         },
         {
@@ -114,7 +114,7 @@
             },
             "name": "Shopping Cart Hero 3",
             "url": "shopping-cart-hero-3",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "The greatest launching game of all time is finally here! Shopping Cart Hero 3 is the newest game in everyone's favorite launch series! Your objective is simple; fling yourself as far as possible in a shopping cart! Run down the hill, jump in your cart then fly off the jump! Buy tons of upgrades along the way including dynamite and better wheels! How far can you get? Good luck!"
         },
         {
@@ -127,7 +127,7 @@
             },
             "name": "Sports Heads: Ice Hockey",
             "url": "sports-heads-ice-hockey",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "Sports Heads: Ice Hockey is a great sports game in which you have to defeat your opponent playing hockey with your mouth. The talented sports heads are back for a new tournament on the icy hockey field. Grab your stick, pick up the puck and go on to challenge your rival in this funny Sports Heads: Ice Hockey edition. Aim of the game is to score more goals than your opponent does."
         },
         {
@@ -140,7 +140,7 @@
             },
             "name": "Run 3",
             "url": "run-3",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Run, skate, float, bounce, and/or jump your way through even more space tunnels! Don’t worry if they fall apart on you, repairing them is someone else’s job. Run 3 builds on the most fun parts of Run and Run 2, adding new mechanics, new characters, major improvements to Infinite mode, and even a storyline (finally!). Follow ten unique aliens as they try to crack the mysteries of the gravity-shifting Tunnels, search for a path to the distant Wormhole, or just ignore all that and go home. The story is ongoing, so stay tuned for updates!"
         },
         {
@@ -153,7 +153,7 @@
             },
             "name": "Sports Heads: Volleyball",
             "url": "sports-heads-volleyball",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -166,7 +166,7 @@
             },
             "name": "Papa's Pastaria",
             "url": "papas-pastaria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Head to Portallini and start your career as a pasta chef! You're in charge of Papa's Pastaria, where you'll take orders, cook noodles, add sauces and toppings, and toast breads to craft the perfect plate of pasta for your customers! New the series, you'll be opening the Dining Room in your restaurant, and you'll hire a server to help you get through the hectic workday! As you level up you'll earn new toppings, meet new customers, and work through the ever-changing seasons of the town."
         },
         {
@@ -179,7 +179,7 @@
             },
             "name": "Papa's Donuteria",
             "url": "papas-donuteria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Head to Papa's new restaurant in the Powder Point amusement park, where you'll serve stacks of delicious donuts!  Choose the correct dough and donut shape, fry the donuts, add icing and fillings, and finish them off with sprinkles and drizzles before boxing them up for your favorite customers.  Unlock new holiday shapes and ingredients as you play throughout the year, waiting for the Sky Ninja roller coaster to re-open in the summer!"
         },
         {
@@ -192,7 +192,7 @@
             },
             "name": "Papa's Cheeseria",
             "url": "papas-cheeseria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Build delicious grilled cheese sandwiches and pile on the fries at Papa's Cheeseria!  Customers can choose from a wide variety of breads, cheeses, toppings, and sauces for their sandwiches, and you'll unlock more as you play!  Create the gourmet grilled sandwiches, cook them on the grill, and serve them up with a heaping pile of fries.  Unlock 40 brand-new unique Special Recipes, and choose one to serve as the Daily Special each day in the restaurant, which also earns you special rewards!"
         },
         {
@@ -205,7 +205,7 @@
             },
             "name": "Papa's Bakeria",
             "url": "papas-bakeria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Build and bake mouth-watering pies in Papa's Bakeria!  You're in charge of the bakery in Whiskview Mall, where you'll be crafting new pies and cheesecakes for all of your wacky customers.  Complete a wide variety of tasks to earn dozens of new colorful Stickers, and use these Stickers to unlock a brand-new outfit for each of your customers!  Serve Daily Specials to your customers to earn bonuses and rare prizes, and unlock new ingredients and decorations for each of the 12 holiday seasons."
         },
         {
@@ -218,7 +218,7 @@
             },
             "name": "Papa's Sushiria",
             "url": "papas-sushiria",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Slice and serve the most delicious sushi around in Papa's Sushiria!  You've started a job at Papa's new restaurant in Sakura Bay, where you'll create a variety of sushi rolls and bubble tea for all of your wacky customers.  Unlock and use over 140 ingredients for all sorts of delicious combinations across 12 different holiday seasons.  The all-new clothing system lets you get creative with your workers' holiday outfits, where you can mix and match colors and styles to boost your Holiday Spirit and earn more tips from your customers."
         },
         {
@@ -231,7 +231,7 @@
             },
             "name": "Papa's Scooperia",
             "url": "papas-scooperia",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Serve delicious sundaes of cookies and ice cream in Papa's Scooperia!  Your sightseeing trip to the big city is stopped short when you lose all of your money and belongings.  Stuck in Oniontown without the money to return home, Papa Louie has a unique solution to your problem:  Stay and run his brand-new ice cream shop!"
         },
         {
@@ -244,7 +244,7 @@
             },
             "name": "Super Smash Flash",
             "url": "super-smash-flash",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "Choose your characters and options and battle it out with 28 different characters in the original title that started it all – Super Smash Flash!This award-winning Super Smash Bros. fangame is complete with Classic Mode, Adventure Mode, and all of the things that make Smash Bros. feel like Smash Bros, with characters and content you’d never expect sprinkled about. Have fun!"
         },
         {
@@ -257,7 +257,7 @@
             },
             "name": "Fireboy & Watergirl - The Forest Temple",
             "url": "fireboy-&-watergirl-the-forest-temple",
-            "tags": [],
+            "tags": ["LocalMultiplayer"],
             "description": "Fireboy & Watergirl - The Forest Temple is the first cooperative platformer game in the Fireboy & Watergirl series. In this adventure, you explore 32 levels of the Forest Temple, controlling both the Fireboy and Watergirl characters through various puzzles."
         },
         {
@@ -270,7 +270,7 @@
             },
             "name": "Basketball Stars",
             "url": "basketball-stars",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "This time, the best of the basketball legends are in the field. Who are these best players? Super entertaining basketball matches are about to start with the World's basketball stars. If you want, you can create a two-player team and you can struggle against a friend or you can play against CPU. Pick your player and let the match begin!"
         },
         {
@@ -283,7 +283,7 @@
             },
             "name": "Territory War",
             "url": "territory-war",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "This is Territory War, all controls are listed in the game. Territory war faces two teams of players against each other in a turn-based fashion. This area displays the team name, players remaining on the field, and collective team health. This displays information about the currently active player.From here you can quit the game, or view the map. When it is your turn, you have two options: Move and stay, if you choose to move remember you can only move a limited amount. Then, whether you stay or are done moving, the attack options will appear.All attack options can be directly accessed with keyboard shortcuts. Just look for the number in the top left Grenades can cause heavy damage and hit far targets The gun only hits one target, but with accuracy can cause an instant kill headshot. The boot causes very little damage but can knock someone off the stage for an instant kill.Unlock more stages and hets by playing the missions and challenges. That's all you need to know. Now get playing."
         },
         {
@@ -296,7 +296,7 @@
             },
             "name": "4 Colors",
             "url": "4-colors",
-            "tags": [],
+            "tags": ["SinglePlayer", "OnlineMultiplayer"],
             "description": "The classic popular game UNO can be played online in the browser. You can play the game locally or online multiplayer. You can enter the lobbies in the online section. Face up to 3 CPU-controlled opponents. Match cards by color or number, play action cards to mix the game up, and be the first to get rid of all cards. Also, do not forget to press the 1 button when you have only one card left!"
         },
         {
@@ -309,7 +309,7 @@
             },
             "name": "G-Switch 3",
             "url": "g-switch-3",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "The game which you have been waiting for a long time, comes with the 3rd chapter! G-Switch presents lots of newness to you in the third chapter. You will need to control two runners in the single-player game mode from now on. Besides, you should be careful with your way which is trapped with sawblades. With multiplayer game mode, you are going to use two different boosters and cloning. Five new characters are included in this chapter. You can play up to eight players with the multiplayer game mode option and you can set their controls. The one who goes more wins the game."
         },
         {
@@ -322,7 +322,7 @@
             },
             "name": "Gun Mayhem Redux",
             "url": "gun-mayhem-redux",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "Great news for the fans of action games! Gun Mayhem Redux which is the brand new chapter of Gun Mayhem, is now available. This chapter is a little bit different compared to other chapters. For instance, game characters and war maps are minimized a little bit to have a better view and gameplay but this doesn't cause the loss of excitement of this superb game. In this chapter, tens of brand-new weapons will be awaiting you. Even, you will have a chance to war by using primitive weapons. The war resumes in the arena with superior war maps and weapons and entertaining chapters!"
         },
         {
@@ -335,7 +335,7 @@
             },
             "name": "Poly Track",
             "url": "poly-track",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Embark on a thrilling racing adventure in PolyTrack, a fast-paced low-poly game that will push your skills to the limit. Experience heart-pounding moments as you navigate loops, conquer jumps, and reach incredible speeds, all while racing against the clock. In this game, every millisecond counts, and your quest for the perfect time is relentless. Challenge yourself on various tracks, each presenting unique obstacles and exhilarating moments. Push your limits, hone your reflexes, and strive to improve your time with every attempt. Take control, race against time, and pave your way to racing glory in this addictive low-poly racing game!"
         },
         {
@@ -348,7 +348,7 @@
             },
             "name": "Bad Time Simulator (Sans Fight)",
             "url": "bad-time-simulator",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "This game is a clone of the sans fight from Undertale. It was made with Construct 2."
         },
         {
@@ -361,7 +361,7 @@
             },
             "name": "Gun Mayhem 2: More Mayhem",
             "url": "gun-mayhem-2",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "More explosive arena style action! Battle against the AI or with friends in this cartoony platform shooter. Up to 4 players can play at once!Gun Mayhem returns with brand new maps, and much more"
         },
         {
@@ -374,7 +374,7 @@
             },
             "name": "Sports Heads: Tennis",
             "url": "sports-heads-tennis",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -387,7 +387,7 @@
             },
             "name": "Sports Heads: Football",
             "url": "sports-heads-football",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -400,7 +400,7 @@
             },
             "name": "Slope",
             "url": "slope",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "An endless space run game. Drive a ball in the 3D running game in Slope Game. Easy to controls, high speed, and addictive gameplay. Drive your ball to follow the straight line in space and avoid obstacles as they crash through the race. With high speed and racetrack in space, slope game improves your reflexes and reactions, provides hours of fun, and relaxes.If you enjoy high-speed platform games, you will be addicted to this game after the first play. Players only need to use the keyboard arrow keys to play the Slope game. The real-time gameplay is flexible and players only have to change their movements small enough. The ball's gestures get pronounced as players keep up keyboard keys for longer.just drive the ball and guid it around the racetrack. Note that the racetrack is infinite - no levels or stages are needed to finish. Only try to keep the ball to a high score as long as possible."
         },
         {
@@ -413,7 +413,7 @@
             },
             "name": "Bloons Tower Defense 5",
             "url": "bloons-tower-defense-5",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "All the features you expect from a great tower defense strategy game. Features include all of your favourite towers from BTD4 with 8 awesome upgrades each instead of 4, and two brand new never before seen tower types."
         },
         {
@@ -426,7 +426,7 @@
             },
             "name": "Eggy Car",
             "url": "eggy-car",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "The key to Eggy Car is to find that balance where the car isn’t going so fast that it will knock the egg off, but it still has enough speed to make it up steep hills. While this balance can be difficult to execute at first, players will slowly start to achieve this harmony as they get more comfortable with the game."
         },
         {
@@ -439,7 +439,7 @@
             },
             "name": "Idle Breakout",
             "url": "idle-breakout",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "An idle version of classic Breakout. Use multiple balls of different strength, speed and special abilities to smash a million bricks! Upgrade balls to reach higher levels and unlock power-ups to boost your progress!"
         },
         {
@@ -452,7 +452,7 @@
             },
             "name": "Mario vs. Luigi Online",
             "url": "mario-vs-luigi",
-            "tags": [],
+            "tags": ["OnlineMultiplayer"],
             "description": "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS. Includes the 5 default levels (Grassland, Bricks, Castle, Pipes, and Ice), along with custom levels: Jungle, Sky, and Volcano! All powerups are implemented and fully faithful to their originals, along with the addition of NSMBWii's Propeller Suit / Ice Flower!"
         },
         {
@@ -465,7 +465,7 @@
             },
             "name": "Moto X3M",
             "url": "moto-x3m",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Moto X3M is the newest motorcycle racing game with a lot of attractive features. This is an extreme motoring trial for players who love off-roading and high-speed. Many difficult obstacles will appear in Moto X3M, and overcoming them will require a high level of focus and expertise. There are 25 stages in the game, each with its own unique challenge. Overcoming the challenges and dangerous obstacles of each level is the way to show off your superior driving skills. Players will be given a star rating between one and three based on the final result at each level's end. Because this game is fully time-based and each level has a target time, players need to complete the mission in the shortest time possible to earn all three stars. Even though the first few levels may make achieving three stars appear easy, the later stages will put you through your paces if you want to achieve perfection and continue on to the next challenge. The game has a star system that lets players use the stars they've earned to buy brand-new motorbikes."
         },
         {
@@ -478,7 +478,7 @@
             },
             "name": "Sports Heads: Basketball",
             "url": "sports-heads-basketball",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -491,7 +491,7 @@
             },
             "name": "Big Tower Tiny Square",
             "url": "big-tower-tiny-square",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Big Tower Tiny Square is a puzzle platform game in which you're a square-shaped character who is on an exciting multi-level platform filled with dangerous traps and obstacles. You don't save a princess in this game, you only save your favorite pineapple!"
         },
         {
@@ -504,7 +504,7 @@
             },
             "name": "Grapple Tongue",
             "url": "grapple-tongue",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Climb deeper and deeper into the clouds using your tongue as a grappling hook, and find the only thing that can help you achieve your dreams! Grapple Tongue is a platformer game made for Ludum Dare 48 by Mors with music and sound effects by CosmicGem."
         },
         {
@@ -517,7 +517,7 @@
             },
             "name": "Mini Bowl",
             "url": "mini-bowl",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Click and drag anywhere to aim and set the power, then release to throw the ball. Knock over all the pins in one shot, but watch out for the spikes and other hazards!"
         },
         {
@@ -530,7 +530,7 @@
             },
             "name": "Curve Ball 3D",
             "url": "curve-ball-3d",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Curve Ball 3D is all about anticipation. Rather than looking at where the ball is, try and predict where the ball is going to be. While this might be difficult during the later levels when the ball starts speeding up, with enough practice this will feel like second nature eventually. Along with this, trying to get as good of spin as possible on your shots is a must. Not only will it give you more points, but it will also throw off your opponents by changing how the ball deflects off of the wall."
         },
         {
@@ -543,7 +543,7 @@
             },
             "name": "8 Ball Pool",
             "url": "8-ball-pool",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "The objective of 8 Ball Pool is pretty simple – sink all of your balls in any of the six pockets before the opponent sinks theirs first. This is done by hitting the white ball, also known as the cue ball, against the other balls. Each player is trying to hit in either all of the striped or solid balls. If the first player hits in a solid ball, their objective from then on will be to hit in all of the other solid balls, and vice versa. When all of the balls of one player are sunk, they must hit in the 8 Ball to win the game. Just make sure not to hit in the 8 Ball before all of your other balls are sunk, or else it is game over for you!"
         },
         {
@@ -556,7 +556,7 @@
             },
             "name": "Soccer Random",
             "url": "soccer-random",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": "Soccer Random is a two-player soccer game with limited controls and hilarious physics. Hop along the pitch and try to beat your opponent while confined to only one move."
         },
         {
@@ -569,7 +569,7 @@
             },
             "name": "Volley Random",
             "url": "volley-random",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -582,7 +582,7 @@
             },
             "name": "Basket Random",
             "url": "basket-random",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -595,7 +595,7 @@
             },
             "name": "Boxing Random",
             "url": "boxing-random",
-            "tags": [],
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
             "description": ""
         },
         {
@@ -608,7 +608,7 @@
             },
             "name": "Awesome Tanks",
             "url": "awesome-tanks",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -621,7 +621,7 @@
             },
             "name": "World's Hardest Game",
             "url": "worlds-hardest-game",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -634,7 +634,7 @@
             },
             "name": "SquareX",
             "url": "squarex",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -647,7 +647,7 @@
             },
             "name": "Vex 6",
             "url": "vex-6",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -660,7 +660,7 @@
             },
             "name": "World's Hardest Game 2",
             "url": "worlds-hardest-game-2",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -673,7 +673,7 @@
             },
             "name": "World's Hardest Game 3",
             "url": "worlds-hardest-game-3",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -686,7 +686,7 @@
             },
             "name": "Awesome Tanks 2",
             "url": "awesome-tanks-2",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -699,7 +699,7 @@
             },
             "name": "Bloxorz",
             "url": "bloxorz",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -712,7 +712,7 @@
             },
             "name": "Code Panda",
             "url": "code-panda",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "Code Panda is an introduction to programming where you provide the movement codes needed to help a panda reach delicious bamboo. Play through all 32 stages!"
         },
         {
@@ -725,7 +725,7 @@
             },
             "name": "Basket & Ball",
             "url": "basket-and-ball",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -738,7 +738,7 @@
             },
             "name": "Tubetris Classic",
             "url": "tubetris-classic",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -751,7 +751,7 @@
             },
             "name": "Tubetris Deluxe",
             "url": "tubetris-deluxe",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -764,7 +764,7 @@
             },
             "name": "Blocked Up: Unblock Yourself",
             "url": "blocked-up",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -777,7 +777,7 @@
             },
             "name": "autoball",
             "url": "autoball",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": "every 10 seconds, a ball is fired onto the board. place, move, and upgrade pegs and cannons to score as many points as possible. see how far you can get!"
         },
         {
@@ -790,7 +790,7 @@
             },
             "name": "Opposite Day",
             "url": "opposite-day",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         },
         {
@@ -803,7 +803,7 @@
             },
             "name": "ReSpawn",
             "url": "respawn",
-            "tags": [],
+            "tags": ["SinglePlayer"],
             "description": ""
         }
     ]
