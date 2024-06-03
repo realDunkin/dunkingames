@@ -271,8 +271,9 @@
             console.log("Sorted By: None");
             break;
         }
-        copyData = matchSearch(initData);
-        copyData = matchFilter(copyData);
+        copyData2 = matchSearch(initData);
+        let initData2 = JSON.parse(JSON.stringify(copyData2));
+        copyData = matchFilter(initData2);
         for (let index in copyData.games) {
             daUrl = 'setURL("' + copyData.games[index].url + '")';
             imgUrl = copyData.games[index].url + "-thumbnail";
