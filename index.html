@@ -82,8 +82,8 @@
           <select id="listFilter" size="1" onchange="makeList()">
             <option value="None">Filter By: None</option>
             <option value="SinglePlayer">Filter By: Single-Player Games</option>
-            <option value="LocalMultiplayerPlayer">Filter By: Local Multiplayer Player Games</option>
-            <option value="OnlineMultiplayerPlayer">Filter By: Online Multiplayer Player Games</option>
+            <option value="LocalMultiplayer">Filter By: Local Multiplayer Player Games</option>
+            <option value="OnlineMultiplayer">Filter By: Online Multiplayer Player Games</option>
           </select>
           <br><br>
           <button id="surpriseMe" class="Button" onclick="surpriseMe();">Surprise Me!</button>
@@ -162,23 +162,25 @@
         let max = data.games.length;
         let removed = 0;
         tagValue = document.getElementById("listFilter").value;
-        for(let index in data.games) {
-          let dataUrl = data.games[index].url;
-          let dataTags = data.games[index].tags;
-          let removeData = true;
-          for(let tIndex in dataTags){
-           if(dataTags[tIndex] === tagValue){
-             removeData = false;
-           }
-          }
-          if (removeData === true){
-           for(let index2 in jsonData.games){
-              let jsonDataUrl = jsonData.games[index2].url
-              if(dataUrl === jsonDataUrl){
-                delete jsonData.games[index2];
-                removed += 1;
-              }
-            } 
+        if(tagValue !== "None"){
+          for(let index in data.games) {
+            let dataUrl = data.games[index].url;
+            let dataTags = data.games[index].tags;
+            let removeData = true;
+            for(let tIndex in dataTags){
+             if(dataTags[tIndex] === tagValue){
+               removeData = false;
+             }
+            }
+            if (removeData === true){
+             for(let index2 in jsonData.games){
+                let jsonDataUrl = jsonData.games[index2].url
+                if(dataUrl === jsonDataUrl){
+                  delete jsonData.games[index2];
+                  removed += 1;
+                }
+              } 
+            }
           }
         }
         console.log("Filtered For: " + tagValue + " | Total Before: " + max + " | Total After: " + (max - removed) + " | Total Removed: " + removed);
