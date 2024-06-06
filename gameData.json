@@ -805,6 +805,19 @@
             "url": "respawn",
             "tags": ["SinglePlayer"],
             "description": ""
+        },
+        {
+            "id": 62,
+            "data": {
+                "width": 728,
+                "height": 560,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "1v1.lol",
+            "url": "1v1.lol",
+            "tags": ["OnlineMultiplayer"],
+            "description": ""
         }
     ]
 }
