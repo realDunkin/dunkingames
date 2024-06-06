@@ -157,10 +157,11 @@
         randomNum = Math.floor(Math.random() * maxNum);
         setURL(urlList[randomNum]);
       }
-      function matchFilter(data){
+      function matchSearch(data){
         let jsonData = JSON.parse(JSON.stringify(data));
         let max = data.games.length;
         let removed = 0;
+        searchValue = document.getElementById("searchBox").value.toLowerCase();
         tagValue = document.getElementById("listFilter").value;
         if(tagValue !== "None"){
           for(let index in data.games) {
@@ -183,14 +184,6 @@
             }
           }
         }
-        console.log("Filtered For: " + tagValue + " | Total Before: " + max + " | Total After: " + (max - removed) + " | Total Removed: " + removed);
-        return jsonData;
-      }
-      function matchSearch(data){
-        let jsonData = JSON.parse(JSON.stringify(data));
-        let max = data.games.length;
-        let removed = 0;
-        searchValue = document.getElementById("searchBox").value.toLowerCase();
         if(searchValue != ""){
           for (let index in data.games) {
             let dataName = data.games[index].name.toLowerCase()
@@ -271,9 +264,7 @@
             console.log("Sorted By: None");
             break;
         }
-        let copyData2 = matchFilter(initData);
-        let initData2 = JSON.parse(JSON.stringify(copyData2));
-        let copyData = matchSearch(initData2);
+        copyData = matchSearch(initData);
         for (let index in copyData.games) {
             daUrl = 'setURL("' + copyData.games[index].url + '")';
             imgUrl = copyData.games[index].url + "-thumbnail";
