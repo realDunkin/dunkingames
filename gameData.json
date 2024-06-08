@@ -818,6 +818,19 @@
             "url": "1v1.lol",
             "tags": ["OnlineMultiplayer"],
             "description": ""
+        },
+        {
+            "id": 63,
+            "data": {
+                "width": 960,
+                "height": 540,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Big ICE Tower Tiny Square",
+            "url": "big-ice-tower-tiny-square",
+            "tags": ["SinglePlayer"],
+            "description": "Big Tower Tiny Square is a puzzle platform game in which you're a square-shaped character who is on an exciting multi-level platform filled with dangerous traps and obstacles. You don't save a princess in this game, you only save your favorite pineapple!"
         }
     ]
 }
