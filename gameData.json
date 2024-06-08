@@ -831,6 +831,19 @@
             "url": "big-ice-tower-tiny-square",
             "tags": ["SinglePlayer"],
             "description": "Big Tower Tiny Square is a puzzle platform game in which you're a square-shaped character who is on an exciting multi-level platform filled with dangerous traps and obstacles. You don't save a princess in this game, you only save your favorite pineapple!"
+        },
+        {
+            "id": 64,
+            "data": {
+                "width": 960,
+                "height": 540,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Big NEO Tower Tiny Square",
+            "url": "big-neo-tower-tiny-square",
+            "tags": ["SinglePlayer"],
+            "description": "New Tower. Old Enemy. Ride the vaporwaves and avoid the neon nusiences in the 3rd instalment of the Big Tower Tiny Square series played by MILLIONS across the web!Inspired by 90s arcades, the Big NEON Tower is one giant level broken up into large single-screen sections. Each obstacle has been meticulously placed. Each section devilishly designed. It will take patience and skill to navigate the maze-like tower. Precision is key to success!"
         }
     ]
 }
