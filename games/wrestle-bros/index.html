@@ -1,0 +1,99 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+
+	<title>Wrestle Bros</title>
+	
+	<meta name="description" content="Online multiplayer PRO WRESTLING! Beat up your bros!" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+
+	<meta name="Keywords" content="Wrestling, Play, Free, Online, Multiplayer, Games, IO, Fighting, Slam, Scrolling, Friends">
+	<meta name="author" content="Blue Wizard Digital">	
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+	<meta property="og:title" content="Wrestle Bros" />
+	<meta property="og:description" content="Online multiplayer PRO WRESTLING! Beat up your bros!" />
+	<meta property="og:image" content="" />
+	<link rel="manifest" href="manifest.json">
+
+
+	
+	<script type="text/javascript" src="WrestleBros.js"></script>
+	
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+		window.addEventListener('keydown', function(e) {
+  			if( (e.keyCode == 32|| e.keyCode == 38 || e.keyCode == 40) && e.target == document.body) {
+    		e.preventDefault();
+  		}
+		});		
+
+		var deferredPrompt ;
+		var testedPWA = false;
+		var canProcessPWA = false;
+		window.addEventListener('beforeinstallprompt', (e) => {
+			e.preventDefault();
+			deferredPrompt = e;
+			canProcessPWA = true;
+		});		
+
+		function CheckPWA()
+		{
+			console.log("pwa1");
+			if(testedPWA == true ) return;
+			if(typeof gCrazySDK !== 'undefined') return;
+
+			testedPWA = true;
+			if (window.matchMedia('(display-mode: standalone)').matches) {
+				console.log("pwa2");
+				SendEvent('event', 'in_pwa');
+			} else if(canProcessPWA == true) {
+				console.log("pwa3");
+				SendEvent('event', 'not_in_pwa');
+				deferredPrompt.prompt();
+				deferredPrompt.userChoice.then((choiceResult) => {
+					if (choiceResult.outcome === 'accepted') {
+						console.log('User accepted the install prompt');
+					} else {
+						console.log('User dismissed the install prompt');
+					}
+				});
+			}
+			else
+			{
+				SendEvent('event', 'pwa_not_installed');
+				console.log()
+			}
+		}
+	</script>
+	
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; background: #000000; color: orange; height: 100%; width: 100%; height: 100vh; width: 100vw; margin:0; padding:0;}
+		.body::-webkit-scrollbar { /* WebKit */
+ 			width: 0px;
+		}
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		#spinner {
+			-webkit-transform-origin: 50% 50%; 
+			-moz-transform-origin: 50% 50%; 
+			-o-transform-origin: 50% 50%; 
+			transform-origin: 50% 50%;
+			 width: 82px; 
+			 height: 81px;
+			-webkit-animation: spin1 2s infinite linear;
+			-moz-animation: spin1 2s infinite linear;
+			-o-animation: spin1 2s infinite linear;
+			-ms-animation: spin1 2s infinite linear;
+			animation: spin1 2s infinite linear;
+		}
+  	</style>
+</head>
+</html>
