@@ -95,17 +95,6 @@
 			animation: spin1 2s infinite linear;
 		}
   	</style>
-
-	<script src="sdk-v3.js"></script>
-	<script>
-		(async () => {
-		try {
-			await window.CrazyGames.SDK.init();
-		} catch (e) {
-			console.error("Init error", e);
-		}
-		})();
-	</script>
 </head>
 <body style="overflow:hidden;">
 	<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
