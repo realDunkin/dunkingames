@@ -96,13 +96,23 @@
 		}
   	</style>
 
+
+	<!-- Google tag (gtag.js) -->
+	<script async src=""></script>
 	<script>
-		//Interstitial ad available event
-		document.addEventListener("aip_interstitialadavailable", function(e) {
-			console.log("An interstitial ad is available");
-		});
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-9WFJGF6YNK', { cookie_flags: 'secure;samesite=none' });
 	</script>
-	<script src="tag.min.js"></script>
+
+		<script>
+			//Interstitial ad available event
+			document.addEventListener("aip_interstitialadavailable", function(e) {
+				console.log("An interstitial ad is available");
+			});
+		</script>
+		<script src="tag.min.js"></script>
 	
 	<script>
 
