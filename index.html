@@ -168,7 +168,10 @@
 
       function discord_bug_report() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let webHookURL = initData.webhooks[1].url
+        let webHookURL = initData.webhooks[1].url;
+        let gameName = document.getElementById("subTEXT").innerHTML
+        let gameURL = toString(document.getElementById("GAMEURL").value)
+        let thisURL = window.location.href
         let person = prompt("Please describe whats wrong with this game :(", "");
         if (person == null || person == "") {
           console.log("Failed To Send Suggestion");
@@ -188,15 +191,15 @@
                 "fields": [
                   {
                     "id": 169653019,
-                    "name": document.getElementById("subTEXT").innerHTML + ":",
-                    "value": "[Game URL](" + window.location.href + ")",
+                    "name": gameName + ":",
+                    "value": "[Game URL](" + thisURL + ")",
                     "inline": true
                   }
                 ],
                 "title": "Bug Report",
                 "color": 16711680,
                 "thumbnail": {
-                  "url": "images/thumbnails/" + document.getElementById("GAMEURL").value + ".png"
+                  "url": "images/thumbnails/" + gameURL + ".png"
                 }
               }
             ],
