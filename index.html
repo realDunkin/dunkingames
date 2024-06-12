@@ -121,9 +121,10 @@
       <br><br><br><br>
       <center>
         <strong>
-          <a style="font-size: 15px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
-          <br>
-          <button id="SuggestionButton" class="Button" onclick="discord_suggestion();" style="font-size: 15px;">Suggest A Game!</button>
+          <a style="font-size: 12px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
+          <br><br>
+          <button id="SuggestionButton" class="Button" onclick="discord_suggestion();" style="font-size: 15px;  display: block;">Suggest A Game</button>
+          <button id="BugButton" class="Button" onclick="discord_bug_report();" style="font-size: 15px;  display: none;">Report An Issue</button>
         </strong>
       </center>
     </div>
@@ -165,9 +166,51 @@
         }
       }
 
+      function discord_bug_report() {
+        let initData = JSON.parse(JSON.stringify(gameData));
+        let webHookURL = initData.webhooks[1].url
+        let person = prompt("Please describe whats wrong with this game :(", "");
+        if (person == null || person == "") {
+          console.log("Failed To Send Suggestion");
+        }
+        else {
+          console.log("Sending Suggestion");
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", webHookURL, true);
+          xhr.setRequestHeader('Content-Type', 'application/json');
+          xhr.send(JSON.stringify({
+            "content": "",
+            "tts": false,
+            "embeds": [
+              {
+                "id": 583052741,
+                "description": person,
+                "fields": [
+                  {
+                    "id": 169653019,
+                    "name": document.getElementById("subTEXT").innerHTML + ":",
+                    "value": "[Game URL](" + window.href + ")",
+                    "inline": true
+                  }
+                ],
+                "title": "Bug Report",
+                "color": 16711680,
+                "thumbnail": {
+                  "url": "images/thumbnails/" + document.getElementById("GAMEURL").value + ".png"
+                }
+              }
+            ],
+            "components": [],
+            "actions": {}
+          }));
+        }
+      }
+
       function showMainBody(){
         document.getElementById("MainBody").style.display = "block";
         document.getElementById("GameBody").style.display = "none";
+        document.getElementById("SuggestionButton").style.display = "block";
+        document.getElementById("BugButton").style.display = "none";
 
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
         document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
@@ -352,6 +395,8 @@
       function showGameBody(){
         document.getElementById("MainBody").style.display = "none";
         document.getElementById("GameBody").style.display = "block";
+        document.getElementById("SuggestionButton").style.display = "none";
+        document.getElementById("BugButton").style.display = "block";
         let url = document.getElementById("GAMEURL").value;
         console.log(url);
         let mached = false;
