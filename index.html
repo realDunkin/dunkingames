@@ -123,7 +123,7 @@
         <strong>
           <a style="font-size: 15px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
           <br>
-          <button id="SuggestionButton" class="Button" onclick="discord_suggestion();" style="font-size: 5px;">Suggest A Game!</button>
+          <button id="SuggestionButton" class="Button" onclick="discord_suggestion();" style="font-size: 15px;">Suggest A Game!</button>
         </strong>
       </center>
     </div>
@@ -131,7 +131,7 @@
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[0].url
-        let person = prompt("Please enter your name:", "");
+        let person = prompt("Please enter the website of the game! :)", "");
         if (person == null || person == "") {
           console.log("Failed To Send Suggestion");
         }
