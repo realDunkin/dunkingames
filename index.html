@@ -169,9 +169,10 @@
       function discord_bug_report() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[1].url;
-        let gameName = document.getElementById("subTEXT").innerHTML
-        let gameURL = toString(document.getElementById("GAMEURL").value)
-        let thisURL = window.location.href
+        let gameName = document.getElementById("subTEXT").innerHTML;
+        let gameURL = toString(document.getElementById("GAMEURL").value);
+        let thisURL = window.location.href;
+        console.log(thisURL);
         let person = prompt("Please describe whats wrong with this game :(", "");
         if (person == null || person == "") {
           console.log("Failed To Send Suggestion");
