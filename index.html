@@ -131,7 +131,7 @@
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[0].url
-        let person = prompt("Please enter the website of the game! :)", "");
+        let person = prompt("Please enter the website url of the game! :)", "");
         if (person == null || person == "") {
           console.log("Failed To Send Suggestion");
         }
