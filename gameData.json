@@ -845,5 +845,10 @@
             "tags": ["SinglePlayer"],
             "description": "New Tower. Old Enemy. Ride the vaporwaves and avoid the neon nusiences in the 3rd instalment of the Big Tower Tiny Square series played by MILLIONS across the web!Inspired by 90s arcades, the Big NEON Tower is one giant level broken up into large single-screen sections. Each obstacle has been meticulously placed. Each section devilishly designed. It will take patience and skill to navigate the maze-like tower. Precision is key to success!"
         }
+    ],
+    "webhooks": [
+        {
+            "url": "https://webhook.lewisakura.moe/api/webhooks/1250492123481116734/7uSHf5w3XYSGYV-NueJAidPxLEAO3QC-EG5Zri81uck1dVLyw6RQGbaPMxbrcyJbAKi7"
+        }
     ]
 }

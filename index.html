@@ -109,15 +109,52 @@
           <strong>
             <br><br>
             <button id="FullscreenButton" class="Button" onclick="openFullscreen();" style="font-size: 25px; display: none;">Fullscreen</button>
-             <br><br>
-             <div id="DescriptionBox" class="daTbl" style="width:50%; height:25%;">
+            <br><br>
+            <div id="DescriptionBox" class="daTbl" style="width:50%; height:25%;">
               
-             </div>
+            </div>
           </strong>
         </center>
       </div>
     </div>
     <script>
+      function discord_suggestion() {
+        let initData = JSON.parse(JSON.stringify(gameData));
+        let webHookURL = initData.webhooks[0].url
+        let person = prompt("Please enter your name:", "");
+        if (person == null || person == "") {
+          console.log("Failed To Send Suggestion");
+        }
+        else {
+          console.log("Sending Suggestion");
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", webHookURL, true);
+          xhr.setRequestHeader('Content-Type', 'application/json');
+          xhr.send(JSON.stringify({
+            "content": "",
+            "tts": false,
+            "embeds": [
+              {
+                "id": 583052741,
+                "description": "",
+                "fields": [
+                  {
+                    "id": 169653019,
+                    "name": "URL:",
+                    "value": "[Game Link](" + person + ")",
+                    "inline": true
+                  }
+                ],
+                "title": "Game Suggestion!",
+                "color": 65393
+              }
+            ],
+            "components": [],
+            "actions": {}
+          }));
+        }
+      }
+
       function showMainBody(){
         document.getElementById("MainBody").style.display = "block";
         document.getElementById("GameBody").style.display = "none";
@@ -386,6 +423,8 @@
       <center>
         <strong>
           <a style="font-size: 15px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
+          <br>
+          <button id="SuggestionButton" class="Button" onclick="discord_suggestion();" style="font-size: 5px; display: none;">Suggest A Game!</button>
         </strong>
       </center>
   </footer>
