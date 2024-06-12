@@ -848,7 +848,7 @@
     ],
     "webhooks": [
         {
-            "url": "https://webhook.lewisakura.moe/api/webhooks/1250492123481116734/7uSHf5w3XYSGYV-NueJAidPxLEAO3QC-EG5Zri81uck1dVLyw6RQGbaPMxbrcyJbAKi7"
+            "url": "https://discord.com/api/webhooks/1250492123481116734/7uSHf5w3XYSGYV-NueJAidPxLEAO3QC-EG5Zri81uck1dVLyw6RQGbaPMxbrcyJbAKi7"
         }
     ]
 }
