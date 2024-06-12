@@ -849,6 +849,9 @@
     "webhooks": [
         {
             "url": "https://discord.com/api/webhooks/1250492123481116734/7uSHf5w3XYSGYV-NueJAidPxLEAO3QC-EG5Zri81uck1dVLyw6RQGbaPMxbrcyJbAKi7"
+        },
+        {
+            "url": "https://discord.com/api/webhooks/1250585151033970758/lIW4hpIKOxdjbRLmLITlC8GMaWvzZgn3CX8RfP9Xtg14Gv4-azPoVNCz5g2jUvxQzyc7"
         }
     ]
 }
