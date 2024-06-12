@@ -181,31 +181,6 @@
           var xhr = new XMLHttpRequest();
           xhr.open("POST", webHookURL, true);
           xhr.setRequestHeader('Content-Type', 'application/json');
-          console.log(JSON.stringify({
-            "content": "",
-            "tts": false,
-            "embeds": [
-              {
-                "id": 583052741,
-                "title": "Bug Report",
-                "description": person,
-                "color": 16711680,
-                "thumbnail": {
-                  "url": window.location.origin + window.location.pathname + "images/thumbnails/" + gameURL + ".png"
-                },
-                "fields": [
-                  {
-                    "id": 169653019,
-                    "name": gameName + ":",
-                    "value": "[Game URL](" + thisURL + ")",
-                    "inline": true
-                  }
-                ]
-              }
-            ],
-            "components": [],
-            "actions": {}
-          }))
           xhr.send(JSON.stringify({
             "content": "",
             "tts": false,
