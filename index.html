@@ -180,7 +180,7 @@
           console.log("Sending Suggestion");
           var xhr = new XMLHttpRequest();
           xhr.open("POST", webHookURL, true);
-          xhr.setRequestHeader('Access-Control-Allow-Origin: https://webhook.lewisakura.moe', 'application/json');
+          xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.send(JSON.stringify({
             "content": "",
             "tts": false,
