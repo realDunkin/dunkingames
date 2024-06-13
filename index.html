@@ -140,7 +140,7 @@
           console.log("Sending Suggestion");
           var xhr = new XMLHttpRequest();
           xhr.open("POST", webHookURL, true);
-          xhr.setRequestHeader('Content-Type', 'application/json');
+          //xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
           xhr.send(JSON.stringify({
             "content": "",
@@ -181,7 +181,7 @@
           console.log("Sending Suggestion");
           var xhr = new XMLHttpRequest();
           xhr.open("POST", webHookURL, true);
-          xhr.setRequestHeader('Content-Type', 'application/json');
+          //xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
           xhr.send(JSON.stringify({
             "content": "",
