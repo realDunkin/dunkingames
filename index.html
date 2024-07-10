@@ -34,7 +34,7 @@
     }
     .grid-item:hover {
         background-color: #7acca2;
-        transition: .2s all;
+        transition: .5s all;
     }
     .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
@@ -226,6 +226,7 @@
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
+        document.getElementById("MainText").scrollIntoView({ behavior: 'smooth'})
         makeList();
       }
       function setURL(urlString){
@@ -436,6 +437,7 @@
             document.getElementById("FullscreenButton").style.display = "block";
             document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
             mached = true;
+            document.getElementById("GameElement").scrollIntoView({ behavior: 'smooth'})
             console.log("Done!");
           }
         }
