@@ -36,6 +36,20 @@
         background-color: #7acca2;
         transition: .5s all;
     }
+    .grid-item-broken {
+      font-family: "Fantasy", Helvetica, sans-serif;
+      background-color: #8f8d8d;
+      border: 3px solid rgba(0, 0, 0, 0.8);
+      padding: 50px;
+      font-size: 20px;
+      align-content: center;
+      word-wrap: break-word;
+      font-family: "Fantasy", Helvetica, sans-serif;
+    }
+    .grid-item-broken:hover {
+        background-color: #cc7a7e;
+        transition: .5s all;
+    }
     .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #cccccc;
@@ -364,7 +378,13 @@
         for (let index in copyData.games) {
             daUrl = 'setURL("' + copyData.games[index].url + '")';
             imgUrl = copyData.games[index].url + "-thumbnail";
-            parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + copyData.games[index].name + "</a></div>";
+            parsestring = "";
+            if(copyData.games[index].isWorking){
+              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + copyData.games[index].name + "</a></div>";
+            }
+            else{
+              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a><del>" + copyData.games[index].name + "</del></a></div>";  
+            }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
             element = doc.body.firstChild;
