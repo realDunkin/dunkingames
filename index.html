@@ -261,8 +261,10 @@
         let urlList = [];
         let maxNum = 0;
         for (let index in gameData.games) {
-            urlList.push(gameData.games[index].url);
-            maxNum += 1;
+            if(gameData.games[index].isWorking){
+              urlList.push(gameData.games[index].url);
+              maxNum += 1;
+            }
         }
         randomNum = Math.floor(Math.random() * maxNum);
         setURL(urlList[randomNum]);
