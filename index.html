@@ -451,19 +451,22 @@
                   break;
               }
               descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>" + gameData.games[index].description + "</td></tr></table>";
+              document.getElementById("FullscreenButton").style.display = "block";
+              doc2 = parser.parseFromString(descstring, 'text/html');
+              descElement = doc2.body.firstChild;
+              document.getElementById("DescriptionBox").appendChild(descElement);
             }
             else{
-              parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="500">';
+              parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
               descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>This Game Is Currently Not Working, Check Back Later And See If It's Working Again!</td></tr></table>";
+              doc2 = parser.parseFromString(descstring, 'text/html');
+              descElement = doc2.body.firstChild;
+              document.getElementById("DescriptionBox").appendChild(descElement);
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
             element = doc.body.firstChild;
             document.getElementById("GameWindow").appendChild(element);
-            doc2 = parser.parseFromString(descstring, 'text/html');
-            descElement = doc2.body.firstChild;
-            document.getElementById("DescriptionBox").appendChild(descElement);
-            document.getElementById("FullscreenButton").style.display = "block";
             document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
             mached = true;
             document.getElementById("GameElement").scrollIntoView({ behavior: 'smooth'})
@@ -472,13 +475,17 @@
         }
         if(mached === false){
           console.log("Error");
+          descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>Something Went Wrong. Either This Game URL Has Changed Or It Does Not Exist Anymore, Sorry About That!</td></tr></table>";
           document.getElementById("title").innerHTML = name + "An Error Occured - Dunkin's Games";
-          document.getElementById("subTEXT").innerHTML = "Something Went Wrong, Either This Game URL Changed Or Does Not Exist Anymore";
+          document.getElementById("subTEXT").innerHTML = "<!> Error <!>";
           parsestring = '<img id="GameElement" src="images/hmm.png" alt="Hmm..." width="500" height="500">';
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
           element = doc.body.firstChild;
           document.getElementById("GameWindow").appendChild(element);
+          doc2 = parser.parseFromString(descstring, 'text/html');
+          descElement = doc2.body.firstChild;
+          document.getElementById("DescriptionBox").appendChild(descElement);
         }	
       }
       var gameData = {};
