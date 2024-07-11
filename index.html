@@ -427,7 +427,7 @@
         document.getElementById("BugButton").style.display = "block";
         let url = document.getElementById("GAMEURL").value;
         console.log(url);
-        let mached = false;
+        let matched = false;
         let index = 0;
         for (let index1 = 0; index < gameData.games.length; index++) {
           if (url == gameData.games[index].url) {
@@ -436,7 +436,7 @@
             break;
           }
         }
-        if(mached){
+        if(matched){
           console.log("Matched");
           name = gameData.games[index].name;
           document.getElementById("title").innerHTML = name + " - Dunkin's Games";
@@ -472,7 +472,6 @@
           document.getElementById("GameWindow").appendChild(element);
           document.getElementById("DescriptionBox").appendChild(descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
-          mached = true;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
         }
