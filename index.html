@@ -472,7 +472,7 @@
           document.getElementById("DescriptionBox").appendChild(descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           mached = true;
-          document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
+          document.getElementById("GameWindow").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
         }
         else{
@@ -488,6 +488,7 @@
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.firstChild;
           document.getElementById("DescriptionBox").appendChild(descElement);
+          document.getElementById("GameWindow").scrollIntoView({ behavior: 'smooth'})
         }	
       }
       var gameData = {};
