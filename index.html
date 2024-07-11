@@ -433,6 +433,7 @@
           if (url == gameData.games[index].url) {
             matched = true;
             index = index1;
+            break;
           }
         }
         if(mached){
@@ -472,7 +473,7 @@
           document.getElementById("DescriptionBox").appendChild(descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           mached = true;
-          document.getElementById("GameWindow").scrollIntoView({ behavior: 'smooth'})
+          document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
         }
         else{
@@ -488,7 +489,7 @@
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.firstChild;
           document.getElementById("DescriptionBox").appendChild(descElement);
-          document.getElementById("GameWindow").scrollIntoView({ behavior: 'smooth'})
+          document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
         }	
       }
       var gameData = {};
