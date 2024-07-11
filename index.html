@@ -429,10 +429,10 @@
         console.log(url);
         let matched = false;
         let index = 0;
-        for (let index1 = 0; index < gameData.games.length; index++) {
-          if (url == gameData.games[index1].url) {
+        for (let bindex = 0; bindex < gameData.games.length; bindex++) {
+          if (url == gameData.games[bindex].url) {
             matched = true;
-            index = index1;
+            index = bindex;
           }
         }
         if(matched){
