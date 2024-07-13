@@ -177,7 +177,7 @@
         menuOpen = false
         document.getElementById("OverlayBody").style.display = "none";
       }
-      async function discord_suggestion() {
+      function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[0].url
         let person = prompt("Please enter the website url of the game! :)", "");
@@ -189,7 +189,7 @@
           const myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
 
-          const response = await fetch(webHookURL, {
+          fetch(webHookURL, {
             mode:  'no-cors',
             method: "POST",
             body: JSON.stringify({
@@ -219,7 +219,7 @@
         }
       }
 
-      async function discord_bug_report() {
+      function discord_bug_report() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[1].url;
         let gameName = document.getElementById("subTEXT").innerHTML;
@@ -235,7 +235,7 @@
           const myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
 
-          const response = await fetch(webHookURL, {
+          fetch(webHookURL, {
             mode:  'no-cors',
             method: "POST",
             body: JSON.stringify({
