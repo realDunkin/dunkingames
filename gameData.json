@@ -915,8 +915,8 @@
             "data": {
                 "width": 540,
                 "height": 405,
-                "gameFile": "plants-vs-zombies/pvz.swf",
-                "gameType": "flash"
+                "gameFile": "",
+                "gameType": "html5"
             },
             "name": "Plants vs. Zombies",
             "url": "plants-vs-zombies",
