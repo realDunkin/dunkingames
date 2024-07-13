@@ -193,6 +193,7 @@
           myHeaders.append("Access-Control-Allow-Headers", "Content-Type");
 
           const response = await fetch(webHookURL, {
+            mode:  'cors',
             method: "POST",
             body: JSON.stringify({
             "content": "",
@@ -241,6 +242,7 @@
           myHeaders.append("Access-Control-Allow-Headers", "Content-Type");
 
           const response = await fetch(webHookURL, {
+            mode:  'cors',
             method: "POST",
             body: JSON.stringify({
             "content": "",
