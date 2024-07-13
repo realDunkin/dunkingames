@@ -79,32 +79,28 @@
       background-color: #e6fff2;
       transition: .5s all;
     }
+    .keepAnim{
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
     @keyframes closeMenuBackground {
-      from {
-      }
-      to {
+      100%  {
         opacity: 0;
       }
     }
     @keyframes openMenuBackground {
-      from {
-      }
-      to {
+      100% {
         opacity: 0.5;
       }
     }
     @keyframes closeMainMenu {
-      from {
-      }
-      to {
+      100% {
         opacity: 0;
         left: -1000;
       }
     }
     @keyframes openMainMenu {
-      from {
-      }
-      to {
+      100% {
         opacity: 1;
         left: 0;
       }
@@ -117,10 +113,10 @@
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
     <div id="OverlayBody" style="position: fixed; z-index: -1;">
-      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0;">
+      <div id="OverlayBackground" class="keepAnim" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0;">
         
       </div>
-      <div id="OverlayMainMenu" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: -1000; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
+      <div id="OverlayMainMenu" class="keepAnim" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: -1000; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
         <center>
             <strong>
               <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
@@ -208,16 +204,16 @@
         document.getElementById("OverlayBody").style.zIndex = "1";
         document.getElementById("OverlayBackground").style.zIndex = "2";
         document.getElementById("OverlayMainMenu").style.zIndex = "3";
-        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 0.5 linear 0 1 normal forwards";
-        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 0.5 linear 0 1 normal forwards";
+        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 0.5 linear";
+        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 0.5 linear";
       }
       function closeOverlayMenu() {
         menuOpen = false
         document.getElementById("OverlayBody").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.zIndex = "-1";
-        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 0.5 linear 0 1 normal forwards";
-        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 0.5 linear 0 1 normal forwards";
+        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 0.5 linear";
+        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 0.5 linear";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
