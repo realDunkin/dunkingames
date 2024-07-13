@@ -82,7 +82,7 @@
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
-    <div id="OverlayBody" style="position: fixed; z-index: -1;">
+    <div id="OverlayBody" style="position: fixed; z-index: -1; display: none;">
       <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5;">
         
       </div>
@@ -171,12 +171,14 @@
     <script>
       function openOverlayMenu() {
         menuOpen = true
+        document.getElementById("OverlayBody").style.display = "block";
         document.getElementById("OverlayBody").style.zIndex = "1";
         document.getElementById("OverlayBackground").style.zIndex = "2";
         document.getElementById("OverlayMainMenu").style.zIndex = "3";
       }
       function closeOverlayMenu() {
         menuOpen = false
+        document.getElementById("OverlayBody").style.display = "none";
         document.getElementById("OverlayBody").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.zIndex = "-1";
