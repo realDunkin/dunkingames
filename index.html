@@ -665,11 +665,11 @@
         }
         document.addEventListener("fullscreenchange", fullscreenchanged);
       })
-      
+      textBoxEle = document.getElementById("searchBox")
       document.addEventListener("keydown", 
-      function (event) { 
-          if (event.key === "`") { 
-              event.preventDefault();
+      function (event) {
+if(textBoxEle.hasFocus() === false) {
+          if (event.key === "m") {
               if (menuOpen === false){
                 openOverlayMenu();
               }
@@ -678,7 +678,6 @@
               }
           }
           else if (event.key === "f"){
-            event.preventDefault();
             if (document.getElementById("GAMEURL").value != ""){
               if(menuOpen === true){
                 openFullscreen(true)
@@ -688,6 +687,7 @@
               }
             }
           }
+}
       }); 
     </script>
   </body>
