@@ -82,19 +82,24 @@
     }
   </style>
   <body background="images/background.png">
-    <img class="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 0; left: 0; display: block;">
+    <img class="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 5%; left: 5%; display: block;">
     <div id="Variables" style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
-    <div id="OverlayBody"  style="z-index: -1;">
-      <div id="OverlayMainMenu" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5; display: none;">
+    <div id="OverlayBody" style="="position: fixed; z-index: -1;">
+      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5; display: none;">
         
       </div>
-      <div id="OverlayMainMenu1" style="position: fixed; z-index: 0; top: 0; left: 0; width: 25%; height: 100%; background-color:darkblue; display: none;">
+      <div id="OverlayMainMenu" style="position: fixed; z-index: 0; top: 0; left: 0; width: 25%; height: 100%; background-color:darkblue; display: none;">
         <center>
           <strong>
             <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
+            <div class="Fantasy" style="width: 100%; height: 80%; top: 5%; left: 50%;">
+              <br><br>
+              <p style="font-size: 12px;">----Games----</p>
+              <br>
+            <div/>
           </strong>
         </center>
       </div>
@@ -173,17 +178,17 @@
     <script>
       function openOverlayMenu() {
         document.getElementById("OverlayBody").style.zIndex = "1";
-        document.getElementById("OverlayMainMenu").style.zIndex = "2";
+        document.getElementById("OverlayBackground").style.zIndex = "2";
+        document.getElementById("OverlayBackground").style.display = "block";
+        document.getElementById("OverlayMainMenu").style.zIndex = "3";
         document.getElementById("OverlayMainMenu").style.display = "block";
-        document.getElementById("OverlayMainMenu1").style.zIndex = "3";
-        document.getElementById("OverlayMainMenu1").style.display = "block";
       }
       function closeOverlayMenu() {
         document.getElementById("OverlayBody").style.zIndex = "-1";
+        document.getElementById("OverlayBackground").style.zIndex = "-1";
+        document.getElementById("OverlayBackground").style.display = "none";
         document.getElementById("OverlayMainMenu").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.display = "none";
-        document.getElementById("OverlayMainMenu1").style.zIndex = "-1";
-        document.getElementById("OverlayMainMenu1").style.display = "none";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
