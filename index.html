@@ -596,7 +596,7 @@
         document.addEventListener("fullscreenchange", fullscreenchanged);
         makeMenuList();
       })
-
+      
       document.addEventListener("keydown", 
       function (event) { 
           if (event.key === "`") { 
@@ -607,7 +607,13 @@
               else{
                 closeOverlayMenu();
               }
-          } 
+          }
+          else if (event.key === "f"){
+            event.preventDefault();
+            if (document.getElementById("GAMEURL").value != ""){
+              openFullscreen()
+            }
+          }
       }); 
     </script>
   </body>
