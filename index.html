@@ -668,7 +668,7 @@
       textBoxEle = document.getElementById("searchBox")
       document.addEventListener("keydown", 
       function (event) {
-if(textBoxEle.hasFocus() === false) {
+        if(textBoxEle.hasFocus() === false) {
           if (event.key === "m") {
               if (menuOpen === false){
                 openOverlayMenu();
@@ -687,7 +687,7 @@ if(textBoxEle.hasFocus() === false) {
               }
             }
           }
-}
+        }
       }); 
     </script>
   </body>
