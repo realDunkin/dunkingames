@@ -177,7 +177,7 @@
         menuOpen = false
         document.getElementById("OverlayBody").style.display = "none";
       }
-      function discord_suggestion() {
+      async function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[0].url
         let person = prompt("Please enter the website url of the game! :)", "");
@@ -186,11 +186,12 @@
         }
         else {
           console.log("Sending Suggestion");
-          var xhr = new XMLHttpRequest();
-          xhr.open("POST", webHookURL, true);
-          //xhr.setRequestHeader('Content-Type', 'application/json');
-          xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-          xhr.send(JSON.stringify({
+          const myHeaders = new Headers();
+          myHeaders.append("Content-Type", "application/json");
+
+          const response = await fetch(webHookURL, {
+            method: "POST",
+            body: JSON.stringify({
             "content": "",
             "tts": false,
             "embeds": [
@@ -211,11 +212,13 @@
             ],
             "components": [],
             "actions": {}
-          }));
+          }),
+            headers: myHeaders,
+          });
         }
       }
 
-      function discord_bug_report() {
+      async function discord_bug_report() {
         let initData = JSON.parse(JSON.stringify(gameData));
         let webHookURL = initData.webhooks[1].url;
         let gameName = document.getElementById("subTEXT").innerHTML;
@@ -227,11 +230,13 @@
         }
         else {
           console.log("Sending Suggestion");
-          var xhr = new XMLHttpRequest();
-          xhr.open("POST", webHookURL, true);
-          //xhr.setRequestHeader('Content-Type', 'application/json');
-          xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-          xhr.send(JSON.stringify({
+
+          const myHeaders = new Headers();
+          myHeaders.append("Content-Type", "application/json");
+
+          const response = await fetch(webHookURL, {
+            method: "POST",
+            body: JSON.stringify({
             "content": "",
             "tts": false,
             "embeds": [
@@ -255,7 +260,9 @@
             ],
             "components": [],
             "actions": {}
-          }));
+          }),
+            headers: myHeaders,
+          });
         }
       }
 
