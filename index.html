@@ -670,7 +670,7 @@
         sBoxer = document.getElementById("searchBox");
         foccus = document.activeElement
         console.log("Curr Document Focus = " + foccus);
-        if(foccus = sBoxer) {
+        if(foccus != sBoxer) {
           event.preventDefault();
           if (event.key === "m") {
               if (menuOpen === false){
