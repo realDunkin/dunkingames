@@ -81,21 +81,17 @@
     }
     @keyframes closeMenuBackground {
       from {
-        display: block;
         opacity: 0.5;
       }
       to {
-        display: none;
         opacity: 0;
       }
     }
     @keyframes openMenuBackground {
       from {
-        display: none;
         opacity: 0;
       }
       to {
-        display: block;
         opacity: 0.5;
       }
     }
@@ -127,10 +123,10 @@
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
     <div id="OverlayBody" style="position: fixed; z-index: 1; display: none;">
-      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: 2; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5; animation: closeMenuBackground 3s linear;">
+      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: 2; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0;">
         
       </div>
-      <div id="OverlayMainMenu" style="position: fixed; z-index: 3; overflow-y: auto; top: 0; left: 0; width: 25%; height: 100%; background-image: url('images/menu-background.png'); animation: closeMainMenu 3s linear;">
+      <div id="OverlayMainMenu" style="position: fixed; z-index: 3; overflow-y: auto; top: 0; left: -1000; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
         <center>
             <strong>
               <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
@@ -215,15 +211,13 @@
     <script>
       function openOverlayMenu() {
         menuOpen = true
-        document.getElementById("OverlayBody").style.display = "block";
-        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 3s linear";
-        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 3s linear";
+        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 1.5s linear";
+        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 1.5s linear";
       }
       function closeOverlayMenu() {
         menuOpen = false
-        document.getElementById("OverlayBody").style.display = "none";
-        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 3s linear";
-        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 3s linear";
+        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 1.5s linear";
+        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 1.5s linear";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
