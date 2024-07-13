@@ -67,7 +67,7 @@
     }
   </style>
   <body background="images/background.png">
-    <img id="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 5%; left: 5%; display: block;">
+    <img id="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 2%; left: 2%; display: block;">
     <div id="Variables" style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
@@ -384,15 +384,15 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        parsestring = '<p style="font-size: 18px;">--------</p><br><br><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><br><br><p style="font-size: 18px;">----Games----</p><br><br>';
+        parsestring = "<p style='font-size: 18px;'>--------</p><br><br><button style='font-size: 18px;' class='Button' onclick='showMainBody();'>Home Menu</button><br><br><p style='font-size: 18px;'>----Games----</p><br><br>";
         for (let index in initData.games) {
             daUrl = 'setURL("' + initData.games[index].url + '")';
             imgUrl = initData.games[index].url + "-thumbnail";
             if(initData.games[index].isWorking){
-              parsestring += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br><br>';
+              parsestring += "<button style='font-size: 18px;' class='Button' onclick='" + daUrl + "'>" + initData.games[index].name + "</button><br><br>";
             }
             else{
-              parsestring += '<button style="font-size: 18px;" class="Button"><del>' + initData.games[index].name + '</del></button><br><br>';
+              parsestring += "<button style='font-size: 18px;' class='Button'><del>" + initData.games[index].name + "</del></button><br><br>";
             }
         }
         parser = new DOMParser();
