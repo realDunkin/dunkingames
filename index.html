@@ -266,7 +266,7 @@
         document.getElementById("SuggestionButton").style.display = "block";
         document.getElementById("BugButton").style.display = "none";
 
-        document.getElementById("ActiveGameMenu").style.display = "none";
+        document.getElementById("MenuPart-ActiveGame").style.display = "none";
 
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
         document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
@@ -413,21 +413,34 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><strong><p style="font-size: 20px;">---- Main ----</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><br><br><button style="font-size: 18px;" class="Button" onclick="surpriseMe(true);">Random Game</button><br><br><button class="Button" onclick="discord_suggestion();" style="font-size: 18px;">Suggest A Game</button><div id="ActiveGameMenu" style="display: none;"><p style="font-size: 20px;">---- Game Options ----</p><button class="Button" onclick="discord_bug_report();" style="font-size: 18px;">Report An Issue</button><br><br><button class="Button" onclick="openFullscreen();" style="font-size: 18px;">Fullscreen</button><br<br></div><p style="font-size: 20px;">---- All Games ----</p>';
+        let parsestring = '<div id="MenuPart-Main"><p style="font-size: 20px;">---- Main ----</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><br><br><button style="font-size: 18px;" class="Button" onclick="surpriseMe(true);">Random Game</button><br><br><button class="Button" onclick="discord_suggestion();" style="font-size: 18px;">Suggest A Game</button></div>';
+        let parsestring1 = '<div id="MenuPart-ActiveGame" style="display: none;"><p style="font-size: 20px;">---- Game Options ----</p><button class="Button" onclick="discord_bug_report();" style="font-size: 18px;">Report An Issue</button><br><br><button class="Button" onclick="openFullscreen();" style="font-size: 18px;">Fullscreen</button><br<br></div>'
+        let parsestring2 = '<div id="MenuPart-AllGames"><p style="font-size: 20px;">---- All Games ----</p>'
         for (let index in initData.games) {
             daUrl = "switchGameMenu('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
-              parsestring += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br><br>';
+              parsestring2 += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br><br>';
             }
             else{
-              parsestring += '<button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br><br>';
+              parsestring2 += '<button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br><br>';
             }
         }
-        parsestring += '</strong></div>'
+        parsestring2 += '</div>'
+
         parser = new DOMParser();
+
         doc = parser.parseFromString(parsestring, 'text/html');
         element = doc.body.firstChild;
+
+        doc1 = parser.parseFromString(parsestring1, 'text/html');
+        element1 = doc1.body.firstChild;
+
+        doc2 = parser.parseFromString(parsestring2, 'text/html');
+        element2 = doc2.body.firstChild;
+
         document.getElementById("DaMainMenu").appendChild(element);
+        document.getElementById("DaMainMenu").appendChild(element1);
+        document.getElementById("DaMainMenu").appendChild(element2);
       }
       function makeList(){
         clearList();
@@ -505,7 +518,7 @@
         document.getElementById("SuggestionButton").style.display = "none";
         document.getElementById("BugButton").style.display = "block";
 
-        document.getElementById("ActiveGameMenu").style.display = "block";
+        document.getElementById("MenuPart-ActiveGame").style.display = "block";
         
         let url = document.getElementById("GAMEURL").value;
         console.log(url);
