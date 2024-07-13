@@ -285,6 +285,7 @@
         makeList();
       }
       function setURL(urlString){
+        showMainBody()
         document.getElementById("GAMEURL").value = urlString;
         curURL = window.location.href.replace("#", "");
         newURL = window.location.origin + "/dunkingames/"
@@ -293,7 +294,6 @@
           window.location.href = newURL + "#" + urlString;
           console.log("yes");
         }
-        showMainBody()
         showGameBody();
       }
       function clearList(){
