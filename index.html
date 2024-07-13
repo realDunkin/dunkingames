@@ -384,14 +384,14 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><p style="font-size: 18px;">--------</p></div><br><br><div><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button></div><br><br><div><p style="font-size: 18px;">----Games----</p></div><br><br>';
+        let parsestring = '<div><p style="font-size: 18px;">--------</p><br></div><div><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><br></div><div><p style="font-size: 18px;">----Games----</p><br></div>';
         for (let index in initData.games) {
-            daUrl = 'setURL("' + initData.games[index].url + '")';
+            daUrl = "setURL('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
-              parsestring += '<div><button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button></div><br><br>';
+              parsestring += '<div><button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br></div>';
             }
             else{
-              parsestring += '<div><button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button></div><br><br>';
+              parsestring += '<div><button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br></div>';
             }
         }
         console.log(parsestring);
