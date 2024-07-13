@@ -668,8 +668,9 @@
       document.addEventListener("keydown", 
       function (event) {
         foccus = document.getElementById("searchBox").hasFocus();
-        if(foccus === false) {
-          event.preventDefault()
+        console.log("Search Box Focus = " + foccus);
+        if(foccus != true) {
+          event.preventDefault();
           if (event.key === "m") {
               if (menuOpen === false){
                 openOverlayMenu();
