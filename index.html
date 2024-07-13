@@ -438,10 +438,6 @@
         doc2 = parser.parseFromString(parsestring2, 'text/html');
         element2 = doc2.body.firstChild;
 
-        console.log(element)
-        console.log(element1)
-        console.log(element2)
-
         document.getElementById("DaMainMenu").appendChild(element);
         document.getElementById("DaMainMenu").appendChild(element1);
         document.getElementById("DaMainMenu").appendChild(element2);
@@ -596,6 +592,7 @@
       
       fetch("gameData.json").then(response => response.json()).then(data => {
         gameData = data;
+        makeMenuList();
         let urlLocation = window.location.href;
         urlLocation = urlLocation.split("/");
         if(urlLocation[urlLocation.length - 1].includes("#") === true){
@@ -618,7 +615,6 @@
           showMainBody();
         }
         document.addEventListener("fullscreenchange", fullscreenchanged);
-        makeMenuList();
       })
       
       document.addEventListener("keydown", 
