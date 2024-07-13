@@ -188,7 +188,7 @@
           console.log("Sending Suggestion");
           const myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
-          myHeaders.append("Access-Control-Allow-Origin", "*");
+          myHeaders.append("Access-Control-Allow-Origin", webHookURL);
 
           const response = await fetch(webHookURL, {
             method: "POST",
@@ -234,7 +234,7 @@
 
           const myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
-          myHeaders.append("Access-Control-Allow-Origin", "*");
+          myHeaders.append("Access-Control-Allow-Origin", webHookURL);
 
           const response = await fetch(webHookURL, {
             method: "POST",
