@@ -170,6 +170,7 @@
     </div>
     <script>
       function openOverlayMenu() {
+        menuOpen = true
         document.getElementById("OverlayBody").style.zIndex = "1";
         document.getElementById("OverlayBackground").style.zIndex = "2";
         document.getElementById("OverlayBackground").style.display = "block";
@@ -177,6 +178,7 @@
         document.getElementById("OverlayMainMenu").style.display = "block";
       }
       function closeOverlayMenu() {
+        menuOpen = false
         document.getElementById("OverlayBody").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.display = "none";
@@ -395,7 +397,7 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><strong><p style="font-size: 18px;">--------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><p style="font-size: 18px;">----Games----</p>';
+        let parsestring = '<div><strong><p style="font-size: 18px;">----------------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><button style="font-size: 18px;" class="Button" onclick="surpriseMe();">Random Game</button><p style="font-size: 18px;">----Games----</p>';
         for (let index in initData.games) {
             daUrl = "setURL('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
@@ -551,6 +553,8 @@
         }	
       }
       var gameData = {};
+      let menuOpen = false;
+      
       fetch("gameData.json").then(response => response.json()).then(data => {
         gameData = data;
         let urlLocation = window.location.href;
@@ -577,6 +581,19 @@
         document.addEventListener("fullscreenchange", fullscreenchanged);
         makeMenuList();
       })
+
+      document.addEventListener("keydown", 
+      function (event) { 
+          if (event.key === "`") { 
+              event.preventDefault();
+              if (menuOpen === false){
+                openOverlayMenu();
+              }
+              else{
+                closeOverlayMenu();
+              }
+          } 
+      }); 
     </script>
   </body>
 </html>
