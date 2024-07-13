@@ -208,16 +208,16 @@
         document.getElementById("OverlayBody").style.zIndex = "1";
         document.getElementById("OverlayBackground").style.zIndex = "2";
         document.getElementById("OverlayMainMenu").style.zIndex = "3";
-        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 0.5s linear 0s 1 forwards forwards";
-        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 0.5s linear  0s 1 forwards forwards";
+        document.getElementById("OverlayBackground").style.animation = "openMenuBackground 0.5 linear 0 1 normal forwards";
+        document.getElementById("OverlayMainMenu").style.animation = "openMainMenu 0.5 linear 0 1 normal forwards";
       }
       function closeOverlayMenu() {
         menuOpen = false
         document.getElementById("OverlayBody").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.zIndex = "-1";
-        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 0.5s linear 0s 1 forwards forwards";
-        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 0.5s linear  0s 1 forwards forwards";
+        document.getElementById("OverlayBackground").style.animation = "closeMenuBackground 0.5 linear 0 1 normal forwards";
+        document.getElementById("OverlayMainMenu").style.animation = "closeMainMenu 0.5 linear 0 1 normal forwards";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
