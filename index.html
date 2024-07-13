@@ -286,8 +286,24 @@
         document.getElementById("MainText").scrollIntoView({ behavior: 'smooth'})
         makeList();
       }
+      function switchGameMenu(urlString){
+        document.getElementById("MainBody").style.display = "none";
+        document.getElementById("GameBody").style.display = "none";
+        document.getElementById("SuggestionButton").style.display = "none";
+        document.getElementById("BugButton").style.display = "none";
+        
+        if (document.getElementById("GAMEURL").value != ""){
+          document.getElementById("FullscreenButton").style.display = "none";
+          document.getElementById("GameElement").remove();
+          document.getElementById("DescriptionBox").innerHTML = "";
+        }
+        
+        document.getElementById("GAMEURL").value = urlString;
+        newURL = window.location.origin + "/dunkingames/"
+        window.location.href = newURL + "#" + urlString;
+        showGameBody();
+      }
       function setURL(urlString){
-        showMainBody()
         document.getElementById("GAMEURL").value = urlString;
         curURL = window.location.href.replace("#", "");
         newURL = window.location.origin + "/dunkingames/"
@@ -399,7 +415,7 @@
         let initData = JSON.parse(JSON.stringify(gameData));
         let parsestring = '<div><strong><p style="font-size: 18px;">----------------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><button style="font-size: 18px;" class="Button" onclick="surpriseMe();">Random Game</button><p style="font-size: 18px;">----Games----</p>';
         for (let index in initData.games) {
-            daUrl = "setURL('" + initData.games[index].url + "')";
+            daUrl = "switchGameMenu('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
               parsestring += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br><br>';
             }
