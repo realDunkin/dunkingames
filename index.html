@@ -667,7 +667,8 @@
       }) 
       document.addEventListener("keydown", 
       function (event) {
-        if(document.getElementById("searchBox").hasFocus() === false) {
+        foccus = document.getElementById("searchBox").hasFocus();
+        if(foccus === false) {
           event.preventDefault()
           if (event.key === "m") {
               if (menuOpen === false){
