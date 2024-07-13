@@ -86,15 +86,15 @@
       <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5; display: none;">
         
       </div>
-      <div id="OverlayMainMenu" style="position: fixed; overflow-y: auto; z-index: 0; top: 0; left: 0; width: 25%; height: 100%; background-color:darkblue; display: none;">
-        <strong>
-          <center>
+      <div id="OverlayMainMenu" style="position: fixed; overflow-y: auto; z-index: 0; top: 0; left: 0; width: 25%; height: 100%; background-color:lightblue; display: none;">
+        <center>
+            <strong>
               <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
-              <div id="DaMainMenu" class="Fantasy" style="width: 100%; height: 50%; top: 5%; left: 50%;">
-                
-              <div/>
-          </center>
-        </strong>
+            </strong>
+            <div id="DaMainMenu" class="Fantasy" style="width: 100%; height: 50%; top: 5%; left: 50%;">
+              
+            <div/>
+        </center>
       </div>
     </div>
     <div id="MainText" class="Fantasy">
@@ -395,18 +395,17 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><p style="font-size: 18px;">--------</p><br><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><p style="font-size: 18px;">----Games----</p><br>';
+        let parsestring = '<div><strong><p style="font-size: 18px;">--------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><p style="font-size: 18px;">----Games----</p>';
         for (let index in initData.games) {
             daUrl = "setURL('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
-              parsestring += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br>';
+              parsestring += '<button style="font-size: 18px;" class="Button" onclick="' + daUrl + '">' + initData.games[index].name + '</button><br><br>';
             }
             else{
-              parsestring += '<button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br>';
+              parsestring += '<button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br><br>';
             }
         }
-        parsestring += '</div>'
-        console.log(parsestring);
+        parsestring += '</strong></div>'
         parser = new DOMParser();
         doc = parser.parseFromString(parsestring, 'text/html');
         element = doc.body.firstChild;
