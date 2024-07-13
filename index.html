@@ -496,6 +496,8 @@
         }
       }
       function openFullscreen() {
+        closeOverlayMenu()
+        
         let GAMETYPE = document.getElementById("GAMETYPE").value;
         switch (GAMETYPE) {
           case "flash":
