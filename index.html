@@ -126,7 +126,7 @@
             <option value="OnlineMultiplayer">Filter By: Online Multiplayer Games</option>
           </select>
           <br><br>
-          <button id="surpriseMe" class="Button" onclick="surpriseMe();">Surprise Me!</button>
+          <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
           <br><br>
         </center>
       </div>
@@ -317,7 +317,7 @@
       function clearList(){
         document.getElementById("DaChart").innerHTML = "";
       }
-      function surpriseMe(){
+      function surpriseMe(fromMenu){
         let urlList = [];
         let maxNum = 0;
         for (let index in gameData.games) {
@@ -327,7 +327,13 @@
             }
         }
         randomNum = Math.floor(Math.random() * maxNum);
-        setURL(urlList[randomNum]);
+        
+        if(fromMenu === false){
+          setURL(urlList[randomNum]);
+        }
+        else{
+          switchGameMenu(urlList[randomNum]);
+        }
       }
       function matchSearch(data){
         let jsonData = JSON.parse(JSON.stringify(data));
@@ -413,7 +419,7 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><strong><p style="font-size: 18px;">----------------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><button style="font-size: 18px;" class="Button" onclick="surpriseMe();">Random Game</button><p style="font-size: 18px;">----Games----</p>';
+        let parsestring = '<div><strong><p style="font-size: 18px;">----------------</p><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home</button><button style="font-size: 18px;" class="Button" onclick="surpriseMe(true);">Random Game</button><p style="font-size: 18px;">----Games----</p>';
         for (let index in initData.games) {
             daUrl = "switchGameMenu('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
