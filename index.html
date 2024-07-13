@@ -75,9 +75,13 @@
       background-color: #cc7a7e;
       transition: .5s all;
     }
+    .menuButton:hover {
+      background-color: #e6fff2;
+      transition: .5s all;
+    }
   </style>
   <body background="images/background.png">
-    <img id="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 2%; left: 2%; display: block;">
+    <img id="menuIcon" class="menuButton" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 2%; left: 2%; display: block;">
     <div id="Variables" style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
