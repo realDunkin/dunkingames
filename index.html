@@ -438,6 +438,10 @@
         doc2 = parser.parseFromString(parsestring2, 'text/html');
         element2 = doc2.body.firstChild;
 
+        console.log(element)
+        console.log(element1)
+        console.log(element2)
+
         document.getElementById("DaMainMenu").appendChild(element);
         document.getElementById("DaMainMenu").appendChild(element1);
         document.getElementById("DaMainMenu").appendChild(element2);
@@ -497,7 +501,7 @@
       }
       function openFullscreen() {
         closeOverlayMenu()
-        
+
         let GAMETYPE = document.getElementById("GAMETYPE").value;
         switch (GAMETYPE) {
           case "flash":
