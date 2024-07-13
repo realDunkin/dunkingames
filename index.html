@@ -119,7 +119,7 @@
       <div id="OverlayBackground" class="keepAnim" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0;">
         
       </div>
-      <div id="OverlayMainMenu" class="keepAnim" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: -1000; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
+      <div id="OverlayMainMenu" class="keepAnim" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: 0; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
         <center>
             <strong>
               <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
@@ -204,11 +204,17 @@
     <script>
       function openOverlayMenu() {
         menuOpen = true
+        document.getElementById("OverlayBody").style.zIndex = "1";
+        document.getElementById("OverlayBackground").style.zIndex = "2";
+        document.getElementById("OverlayMainMenu").style.zIndex = "3";
         document.getElementById("OverlayBackground").style.animationName = "openMenuBackground";
         document.getElementById("OverlayMainMenu").style.animationName = "openMainMenu";
       }
       function closeOverlayMenu() {
         menuOpen = false
+        document.getElementById("OverlayBody").style.zIndex = "-1";
+        document.getElementById("OverlayBackground").style.zIndex = "-1";
+        document.getElementById("OverlayMainMenu").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.animationName = "closeMenuBackground";
         document.getElementById("OverlayMainMenu").style.animationName = "closeMainMenu";
       }
