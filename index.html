@@ -80,7 +80,7 @@
       transition: .5s all;
     }
     .keepAnim{
-      animation-duration: 0.5s;
+      animation-duration: 0.35s;
       animation-timing-function: linear;
       animation-fill-mode: forwards;
     }
@@ -96,7 +96,7 @@
     }
     @keyframes closeMainMenu {
       100% {
-        left: -10000px;
+        left: -1000px;
         opacity: 0;
       }
     }
@@ -210,11 +210,11 @@
       }
       function closeOverlayMenu() {
         menuOpen = false
+        document.getElementById("OverlayBackground").style.animationName = "closeMenuBackground";
+        document.getElementById("OverlayMainMenu").style.animationName = "closeMainMenu";
         document.getElementById("OverlayBody").style.zIndex = "-1";
         document.getElementById("OverlayBackground").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.zIndex = "-1";
-        document.getElementById("OverlayBackground").style.animationName = "closeMenuBackground";
-        document.getElementById("OverlayMainMenu").style.animationName = "closeMainMenu";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
