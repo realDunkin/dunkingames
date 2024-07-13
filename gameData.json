@@ -923,6 +923,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": "Zombies are invading your home, and the only defense is your arsenal of plants! In this free online version of Plants vs. Zombies, you're armed with 11 zombie-zapping plants like peashooters and cherry bombs. You'll need to think fast and plant faster to stop 5 different types of zombies dead in their tracks."
+        },
+        {
+            "id": 66,
+            "data": {
+                "width": 800,
+                "height": 600,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Blasting Marbles",
+            "url": "blasting-marbles",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": "Blasting Marbles is a thrilling 2D puzzle adventure game where your objective is to strategically place the required number of marbles into the hole. Explore the game world, collecting crates to boost your marble count and discover marbles with unique abilities. Switch between marbles to split their efforts and coordinate teamwork for successful challenges. Immerse yourself in a captivating gameplay experience that combines puzzle, physics, and skill."
         }
     ],
     "webhooks": [
