@@ -909,6 +909,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": false,
             "description": "New Tower. Old Enemy. Ride the vaporwaves and avoid the neon nusiences in the 3rd instalment of the Big Tower Tiny Square series played by MILLIONS across the web!Inspired by 90s arcades, the Big NEON Tower is one giant level broken up into large single-screen sections. Each obstacle has been meticulously placed. Each section devilishly designed. It will take patience and skill to navigate the maze-like tower. Precision is key to success!"
+        },
+        {
+            "id": 65,
+            "data": {
+                "width": 540,
+                "height": 405,
+                "gameFile": "plants-vs-zombies/pvz_9_15.swf",
+                "gameType": "flash"
+            },
+            "name": "Plants vs. Zombies",
+            "url": "plants-vs-zombies",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": "Zombies are invading your home, and the only defense is your arsenal of plants! In this free online version of Plants vs. Zombies, you're armed with 11 zombie-zapping plants like peashooters and cherry bombs. You'll need to think fast and plant faster to stop 5 different types of zombies dead in their tracks."
         }
     ],
     "webhooks": [
