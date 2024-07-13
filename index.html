@@ -394,7 +394,7 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div><p style="font-size: 18px;">--------</p><br></div><div><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><br><p style="font-size: 18px;">----Games----</p><br>';
+        let parsestring = '<div><p style="font-size: 18px;">--------</p><br><button style="font-size: 18px;" class="Button" onclick="showMainBody();">Home Menu</button><p style="font-size: 18px;">----Games----</p><br>';
         for (let index in initData.games) {
             daUrl = "setURL('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
