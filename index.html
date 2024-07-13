@@ -88,10 +88,10 @@
     </div>
     <div id="OverlayBody" class="overlay">
       <img class="menuIcon" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="display: block;">
-      <div id="OverlayMainMenu" onclick="closeOverlayMenu()" style="position: fixed; z-index: 2; left: 0%; width: 0%; height: 0%; background-color:black; opacity: 0.5; display: none;">
+      <div id="OverlayMainMenu" onclick="closeOverlayMenu()" style="position: fixed; z-index: 2; left: 0%; width: 100%; height: 100%; background-color:black; opacity: 0.5; display: none;">
         
       </div>
-      <div id="OverlayMainMenu" style="position: fixed; z-index: 3; left: 0%; width: 0%; height: 0%; background-color:darkblue; display: none;">
+      <div id="OverlayMainMenu1" style="position: fixed; z-index: 3; left: 0%; width: 25%; height: 100%; background-color:darkblue; display: none;">
         <center>
           <strong>
             <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
@@ -172,19 +172,15 @@
     </div>
     <script>
       function openOverlayMenu() {
-        document.getElementById("OverlayMainMenu").style.width = "100%";
-        document.getElementById("OverlayMainMenu").style.height = "100%";
+        document.getElementById("OverlayMainMenu").style.zIndex = "2";
         document.getElementById("OverlayMainMenu").style.display = "block";
-        document.getElementById("OverlayMainMenu1").style.width = "25%";
-        document.getElementById("OverlayMainMenu1").style.height = "100%";
+        document.getElementById("OverlayMainMenu1").style.zIndex = "3";
         document.getElementById("OverlayMainMenu1").style.display = "block";
       }
       function closeOverlayMenu() {
-        document.getElementById("OverlayMainMenu").style.width = "0%";
-        document.getElementById("OverlayMainMenu").style.height = "0%";
+        document.getElementById("OverlayMainMenu").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu").style.display = "none";
-        document.getElementById("OverlayMainMenu1").style.width = "0%";
-        document.getElementById("OverlayMainMenu1").style.height = "0%";
+        document.getElementById("OverlayMainMenu1").style.zIndex = "-1";
         document.getElementById("OverlayMainMenu1").style.display = "none";
       }
       function discord_suggestion() {
