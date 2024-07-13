@@ -82,11 +82,11 @@
       <input type="text" id="GAMEURL" value=""></input>
       <input type="text" id="GAMETYPE" value=""></input>
     </div>
-    <div id="OverlayBody" style="="position: fixed; z-index: -1;">
-      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5; display: none;">
+    <div id="OverlayBody" style="position: fixed; z-index: -1;">
+      <div id="OverlayBackground" onclick="closeOverlayMenu()" style="position: fixed; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0.5;">
         
       </div>
-      <div id="OverlayMainMenu" style="position: fixed; overflow-y: auto; z-index: 0; top: 0; left: 0; width: 25%; height: 100%; background-image: url('images/menu-background.png'); display: none;">
+      <div id="OverlayMainMenu" style="position: fixed; overflow-y: auto; top: 0; left: 0; width: 25%; height: 100%; background-image: url('images/menu-background.png');">
         <center>
             <strong>
               <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
@@ -171,19 +171,11 @@
     <script>
       function openOverlayMenu() {
         menuOpen = true
-        document.getElementById("OverlayBody").style.zIndex = "1";
-        document.getElementById("OverlayBackground").style.zIndex = "2";
-        document.getElementById("OverlayBackground").style.display = "block";
-        document.getElementById("OverlayMainMenu").style.zIndex = "3";
-        document.getElementById("OverlayMainMenu").style.display = "block";
+        document.getElementById("OverlayBody").style.zIndex = "2";
       }
       function closeOverlayMenu() {
         menuOpen = false
         document.getElementById("OverlayBody").style.zIndex = "-1";
-        document.getElementById("OverlayBackground").style.zIndex = "-1";
-        document.getElementById("OverlayBackground").style.display = "none";
-        document.getElementById("OverlayMainMenu").style.zIndex = "-1";
-        document.getElementById("OverlayMainMenu").style.display = "none";
       }
       function discord_suggestion() {
         let initData = JSON.parse(JSON.stringify(gameData));
@@ -530,7 +522,7 @@
           if(gameData.games[index].isWorking){
             switch (gameData.games[index].data.gameType){
               case "flash":
-                parsestring = '<object value="flash" name="GameElement" id="GameElement" type="application/x-shockwave-flash" data="games/' + gameData.games[index].data.gameFile + '" width="' + gameData.games[index].data.width + '" height="' + gameData.games[index].data.height + '"><param id="MovieValue" name="movie" value="games/' + gameData.games[index].data.gameFile + '" /><param name="quality" value="high" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="true" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
+                parsestring = '<object value="flash" name="GameElement" id="GameElement" type="application/x-shockwave-flash" data="games/' + gameData.games[index].data.gameFile + '" width="' + gameData.games[index].data.width + '" height="' + gameData.games[index].data.height + '"><param name="allowScriptAccess" value="sameDomain" /><param id="MovieValue" name="movie" value="games/' + gameData.games[index].data.gameFile + '" /><param name="quality" value="best" /><param name="play" value="true" /><param name="loop" value="true" /><param name="wmode" value="window" /><param name="scale" value="showall" /><param name="menu" value="false" /><param name="devicefont" value="false" /><param name="salign" value="" /><param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="true" /></object>';
                 console.log("This A Flash Game");
                 break;
               case "html5":
