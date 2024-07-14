@@ -960,7 +960,7 @@
                 "gameFile": "",
                 "gameType": "html5"
             },
-            "name": Fruit Ninja",
+            "name": "Fruit Ninja",
             "url": "fruit-ninja",
             "tags": ["SinglePlayer"],
             "isWorking": true,
