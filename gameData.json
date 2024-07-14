@@ -964,7 +964,7 @@
             "url": "fruit-ninja",
             "tags": ["SinglePlayer"],
             "isWorking": true,
-            "description": ""
+            "description": "Fruit Ninja is an arcade game where you have to swipe and slash your way through all kinds of fruit, from pears and apples, to coconuts and bananas. Aim for the highest score by slicing multiple fruits at once and build up your combo to surpass everyone else! You can also get huge scores from critically striking the fruit so be strategic with your swiping. However, beware of the bombs! Hitting one of them will end your run. Fruit Ninja, the classic fruit destroying swiping adventure is here!"
         }
     ],
     "webhooks": [
