@@ -35,7 +35,7 @@
         top: 0px;
         left: 0px;
         background-color:#000000;
-        background-image: url(./images/rotate-device.png);
+        background-image: url(images/rotate-device.png);
         background-repeat: no-repeat;
         background-position: center;
         background-color: rgb(0, 0, 0);
@@ -43,7 +43,7 @@
         z-index: 999;
       }
     </style>
-    <script src="orientation.js?v=11231" defer></script>
+    <script src="orientation.js" defer></script>
   </head>
   <body>
     <div id="GameDiv">
@@ -68,7 +68,7 @@ font-size: 0px;height: 1px; width: 1px;color: white;">Placeholder 2</div>
 <script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.js').catch(function(err) { console.error(err); })
+    System.import('index.js').catch(function(err) { console.error(err); })
 </script>
 
     <div id="screen-orientation"></div>
