@@ -2158,7 +2158,7 @@ function(e, t) {
         configurable: !0
     }),
     A.blockedDomain = function() {
-        return x.isOnDevice() || A.isSpecial()
+        return false
     }
     ,
     A.createCampaignURL = function(e, t) {
