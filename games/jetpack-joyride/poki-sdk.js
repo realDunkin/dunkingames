@@ -157,8 +157,10 @@
     }
     ), 1e3));
     var a = function() {
-        var e = ""
-        return ""
+        var e = window.pokiSDKVersion || t("ab") || "1"
+          , i = "poki-sdk-core-".concat(e, ".js");
+        new URL(document.currentScript.src);
+        return "./".concat(e, "").concat(i)
     }()
       , u = document.createElement("script");
     u.setAttribute("src", a),
