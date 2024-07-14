@@ -48,7 +48,7 @@
     }
     .grid-item-broken:hover {
         background-color: #cc7a7e;
-        transition: .5s all;
+        transition: .2s all;
     }
     .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
@@ -64,7 +64,7 @@
     .Button:hover {
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #7acca2;
-      transition: .5s all;
+      transition: .2s all;
     }
     .Button-Broken {
       font-family: "Fantasy", Helvetica, sans-serif;
@@ -73,11 +73,11 @@
     .Button-Broken:hover {
       font-family: "Fantasy", Helvetica, sans-serif;
       background-color: #cc7a7e;
-      transition: .5s all;
+      transition: .2s all;
     }
     .menuButton:hover {
-      background-color: #e6fff2;
-      transition: .5s all;
+      color: #e6fff2;
+      transition: .2s all;
     }
     .keepAnim{
       animation-duration: 0.15s;
@@ -96,7 +96,7 @@
     }
     @keyframes closeMainMenu {
       100% {
-        left: -1000px;
+        left: -500px;
         opacity: 0;
       }
     }
@@ -117,10 +117,10 @@
       <div id="OverlayBackground" class="keepAnim" onclick="closeOverlayMenu()" style="position: fixed; z-index: -1; bottom: 0; top: 0; left: 0; right: 0; width: 100%; height: 100%; background-color:black; opacity: 0;">
         
       </div>
-      <div id="OverlayMainMenu" class="keepAnim" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: -10000px; width: 25%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
+      <div id="OverlayMainMenu" class="keepAnim" style="position: fixed; z-index: -1; overflow-y: auto; top: 0; left: -500px; width: 35%; height: 100%; background-image: url('images/menu-background.png'); opacity: 0;">
         <center>
             <strong>
-              <p class="Fantasy" style="font-size: 24px;">Main Menu</p>
+              <p class="Fantasy" style="font-size: 32px;">Main Menu</p>
             </strong>
             <div id="DaMainMenu" class="Fantasy" style="width: 100%; height: 50%; top: 5%; left: 50%;">
               
@@ -462,9 +462,10 @@
       }
       function makeMenuList() {
         let initData = JSON.parse(JSON.stringify(gameData));
-        let parsestring = '<div id="MenuPart-Main"><p style="font-size: 20px;">---- Main ----</p><button style="font-size: 18px;" class="Button" onclick="showMainBody(true);">Home</button><br><br><button style="font-size: 18px;" class="Button" onclick="surpriseMe(true);">Random Game</button><br><br><button class="Button" onclick="discord_suggestion();" style="font-size: 18px;">Suggest A Game</button></div>';
-        let parsestring1 = '<div id="MenuPart-ActiveGame" style="display: none;"><p style="font-size: 20px;">---- Game Options ----</p><button class="Button" onclick="discord_bug_report();" style="font-size: 18px;">Report An Issue</button><br><br><button class="Button" onclick="openFullscreen(true);" style="font-size: 18px;">Fullscreen</button><br<br></div>'
-        let parsestring2 = '<div id="MenuPart-AllGames"><p style="font-size: 20px;">---- All Games ----</p>'
+        initData.games.sort(sortByAZ);
+        let parsestring = '<div id="MenuPart-Main"><strong><p style="font-size: 26px;">---- Main ----</p></strong><button style="font-size: 18px;" class="Button" onclick="showMainBody(true);">Home</button><br><br><button style="font-size: 18px;" class="Button" onclick="surpriseMe(true);">Random Game</button><br><br><button class="Button" onclick="discord_suggestion();" style="font-size: 18px;">Suggest A Game</button></div>';
+        let parsestring1 = '<div id="MenuPart-ActiveGame" style="display: none;"><strong><p style="font-size: 26px;">---- Game Options ----</p></strong><button class="Button" onclick="discord_bug_report();" style="font-size: 18px;">Report An Issue</button><br><br><button class="Button" onclick="openFullscreen(true);" style="font-size: 18px;">Fullscreen</button><br<br></div>'
+        let parsestring2 = '<div id="MenuPart-AllGames"><strong><p style="font-size: 26px;">---- All Games ----</p></strong>'
         for (let index in initData.games) {
             daUrl = "switchGameMenu('" + initData.games[index].url + "')";
             if(initData.games[index].isWorking){
@@ -474,7 +475,7 @@
               parsestring2 += '<button style="font-size: 18px;" class="Button-Broken"><del>' + initData.games[index].name + '</del></button><br><br>';
             }
         }
-        parsestring2 += '</div>'
+        parsestring2 += '<br><br></div>'
 
         parser = new DOMParser();
 
@@ -672,7 +673,7 @@
         console.log("Curr Document Focus = " + foccus);
         if(foccus != sBoxer) {
           event.preventDefault();
-          if (event.key === "m") {
+          if (event.key === "`") {
               if (menuOpen === false){
                 openOverlayMenu();
               }
