@@ -951,6 +951,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": "When playing solitaire, your goal is to move all of the cards from the seven main piles, or the tableau, to the spaces in the top right corner of the screen, known as the foundation. The cards must be stacked into four piles, one for each suit, from Ace to King in the foundation."
+        },
+        {
+            "id": 68,
+            "data": {
+                "width": 1152,
+                "height": 640,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": Fruit Ninja",
+            "url": "fruit-ninja",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": ""
         }
     ],
     "webhooks": [
