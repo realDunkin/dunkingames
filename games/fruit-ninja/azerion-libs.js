@@ -602,7 +602,7 @@ var fbrqSA = false;
                     e = "gamedistribution-jssdk",
                     n = (t = document).getElementsByTagName("script")[0],
                     t.getElementById(e) || ((t = t.createElement("script")).id = e,
-                    t.src = "//html5.api.gamedistribution.com/main.min.js",
+                    t.src = "./gamedistribution.main.min.js",
                     n.parentNode && n.parentNode.insertBefore(t, n))
                 }
                 Object.defineProperty(t, "__esModule", {
