@@ -937,6 +937,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": "Blasting Marbles is a thrilling 2D puzzle adventure game where your objective is to strategically place the required number of marbles into the hole. Explore the game world, collecting crates to boost your marble count and discover marbles with unique abilities. Switch between marbles to split their efforts and coordinate teamwork for successful challenges. Immerse yourself in a captivating gameplay experience that combines puzzle, physics, and skill."
+        },
+        {
+            "id": 67,
+            "data": {
+                "width": 1152,
+                "height": 640,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Tingly Solitare",
+            "url": "tingly-solitare",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": "When playing solitaire, your goal is to move all of the cards from the seven main piles, or the tableau, to the spaces in the top right corner of the screen, known as the foundation. The cards must be stacked into four piles, one for each suit, from Ace to King in the foundation."
         }
     ],
     "webhooks": [
