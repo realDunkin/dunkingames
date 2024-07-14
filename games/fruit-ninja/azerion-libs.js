@@ -2333,7 +2333,7 @@ function(e, t) {
     }
     ,
     D.inGDGameZone = function() {
-        return -1 !== document.referrer.indexOf("html5.gamedistribution.com")
+        return -1 !== document.referrer.indexOf("")
     }
     ,
     D.getDomain = function(e) {
@@ -2343,11 +2343,11 @@ function(e, t) {
     }
     ,
     D.isOnDevice = function() {
-        return void 0 !== window.cordova && !/(gamedistribution\.com)/.test(window.location.hostname)
+        return true
     }
     ,
     D.isTc = function() {
-        return /(teamcity\.azerdev\.com)/.test(window.location.host)
+        return true
     }
     ,
     D.getRandomRange = function(e, t) {
