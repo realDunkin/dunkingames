@@ -1,7 +1,7 @@
 "use strict";
 var scripts = document.getElementsByTagName("script")
   , scriptUrl = scripts[scripts.length - 1].src
-  , root = scriptUrl.split("master-loader.js")[0]
+  , root = scriptUrl.split("./master-loader.js")[0]
   , loaders = {
     unity: "unity.js",
     "unity-beta": "unity-beta.js",
@@ -29,7 +29,7 @@ if (!window.config.unityWebglLoaderUrl) {
     }
 }
 var sdkScript = document.createElement("script");
-sdkScript.src = "/poki-sdk.js",
+sdkScript.src = "./poki-sdk.js",
 sdkScript.onload = function() {
     var i = document.createElement("script");
     i.src = root + loader,
