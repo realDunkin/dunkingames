@@ -991,7 +991,7 @@
             "name": "Retro Ping Pong",
             "url": "retro-ping-pong",
             "tags": ["SinglePlayer", "LocalMultiplayer"],
-            "isWorking": true,
+            "isWorking": false,
             "description": ""
         },
         {
