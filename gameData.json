@@ -979,6 +979,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": ""
+        },
+        {
+            "id": 70,
+            "data": {
+                "width": 728,
+                "height": 549,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Retro Ping Pong",
+            "url": "retro-ping-pong",
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
+            "isWorking": true,
+            "description": ""
         }
     ],
     "webhooks": [
