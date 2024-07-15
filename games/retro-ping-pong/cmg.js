@@ -286,7 +286,7 @@ var gameInterstitialAdTimer;
 var adLoadedTimer;
 var justAMomentLoaderTimer;
 // Ad URL Production
-var adTagUrl = "";
+var adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?iu=/137548614/1023174/71134/1023174-71134-video&description_url=https%3A%2F%2Fwww.coolmathgames.com%2F&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1";
 //Test ad URL Development
 //adTagUrl = "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=";
 var isRewardAd = false;
@@ -364,15 +364,15 @@ function clearGameInterstitialAdTimer() {
 
 function init() {
   var script = document.createElement("script");
-  script.src = "";
+  script.src = "https://cdn.intergi.com/prebid/cmg-prebid.js";
   script.async = false;
   document.head.appendChild(script);
   var script2 = document.createElement("script");
-  script2.src = "";
+  script2.src = "https://cdn.intergi.com/cmg/cmg-headerbidding.js";
   script2.async = false;
   document.head.appendChild(script2);
   var script3 = document.createElement("script");
-  script3.src = "";
+  script3.src = "https://imasdk.googleapis.com/js/sdkloader/ima3_debug.js";
   script3.async = false;
   document.head.appendChild(script3);
   console.log("cmgAdBreak initialized");
@@ -387,13 +387,38 @@ function init() {
 function createAdsLoadingPopup() {
   console.log("cmg Creating Ads Loading Popup...");
   var popupContent = $(
+    '<div class="ads-popup"><div id="afg_container"><div class="load-wrap">' +
+      '<div class="circle"></div><div class="circle"></div>' +
+      '<div class="circle"></div><div class="circle"></div>' +
+      '<h3 class="loadingText">Just a moment while your content loads</h3>' +
+      "</div></div></div>"
   );
   return popupContent;
 }
 
 function createPreloaderAndGameContainer() {
   console.log("cmgAdBreak Creating Preloader and Game Container...");
-  var html = "";
+  var html =
+    "<!--Start of Preloader call -->" +
+    '<div id="afg_preloader" >' +
+    '<div id="container123">' +
+    '<div id="videoplayer"></div>' +
+    '<div id="adcontainer" class="ad-container"></div>' +
+    "</div>" +
+    "</div>" +
+    "<!-- Continue to Game container with timer -->" +
+    '<div id="continue-container"  style="display:none">' +
+    '<div id="img-button-container">' +
+    '<div id="img-button-self" class="img-button"></div>' +
+    '<div class="continue-lnk-container-rsection">' +
+    '<span id="continue-link">Continue in </span>' +
+    '<span id="timer_div" class="timer-div">8</span>' +
+    "</div>" +
+    "</div>" +
+    "</div>" +
+    "</div>" +
+    "</div>";
+
   return html;
 }
 
