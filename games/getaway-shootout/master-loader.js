@@ -1,13 +1,13 @@
 "use strict";
 var scripts = document.getElementsByTagName("script")
   , scriptUrl = scripts[scripts.length - 1].src
-  , root = scriptUrl.split("./master-loader.js")[0]
+  , root = scriptUrl.split("./../master-loader.js")[0]
   , loaders = {
-    unity: "unity.js",
+    unity: "./../unity.js",
     "unity-beta": "unity-beta.js",
     "unity-2020": "unity-2020.js"
 };
-if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity = "/unity.js",
+if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity = "./../unity.js",
 loaders["unity-beta"] = "/unity-beta/dist/unity-beta.js",
 loaders["unity-2020"] = "/unity-2020/dist/unity-2020.js",
 root = "/loaders"),
@@ -22,10 +22,10 @@ if (!window.config.unityWebglLoaderUrl) {
       , minor = versionSplit[1];
     switch (year) {
     case "2019":
-        window.config.unityWebglLoaderUrl = 1 === minor ? "/UnityLoader.2019.1.js" : "/UnityLoader.2019.2.js";
+        window.config.unityWebglLoaderUrl = 1 === minor ? "./../UnityLoader.2019.1.js" : "./../UnityLoader.2019.2.js";
         break;
     default:
-        window.config.unityWebglLoaderUrl = "/UnityLoader.js"
+        window.config.unityWebglLoaderUrl = "./../UnityLoader.js"
     }
 }
 var sdkScript = document.createElement("script");
