@@ -30,6 +30,86 @@
 
 	</style>
 
+	<script>
+
+		let isAdBreakActive = false;
+
+		let wasMuted = false;
+
+		// To trigger the event Listener adBreakStart
+
+		document.addEventListener("adBreakStart", () => {
+
+			console.log("AdBreak Started")
+
+			//TODO:  Developer needs to add the logic to pause the game and sound here
+
+			isAdBreakActive = true;
+
+
+
+			try {
+
+				wasMuted = NORD.audioManager.isMute;
+
+				NORD.audioManager.setMute(true);
+
+				TweenMax.pauseAll();
+
+				setTimeout(()=>{
+
+					if (isAdBreakActive) TweenMax.pauseAll();
+
+				}, 1000);
+
+			} catch (e) {}			
+
+		});
+
+		// To trigger the event Listener  adBreakComplete
+
+		document.addEventListener("adBreakComplete", () => {
+
+			console.log("adBreak Complete")
+
+			//TODO:  Developer needs to add the logic to resume the game and sound here
+
+			isAdBreakActive = false;
+
+			try {
+
+				NORD.audioManager.setMute(wasMuted);
+
+				TweenMax.resumeAll();
+
+			} catch (e) {}
+
+		});
+
+		
+
+		function cmgAdBreakCall() {
+
+			try {
+
+				let _cmgAdBreak = parent.cmgAdBreak ?? cmgAdBreak;
+
+				if (_cmgAdBreak) {
+
+					_cmgAdBreak();
+
+				} else {
+
+					console.warn('cmgAdBreak not foud!');
+
+				}
+
+			} catch (e) {}
+
+		}
+
+	</script>
+
 
 
 	<script src="assets/libs/tween_max/easing/EasePack.min.js"></script>
