@@ -955,8 +955,8 @@
         {
             "id": 68,
             "data": {
-                "width": 1152,
-                "height": 640,
+                "width": 768,
+                "height": 500,
                 "gameFile": "",
                 "gameType": "html5"
             },
@@ -969,8 +969,8 @@
         {
             "id": 69,
             "data": {
-                "width": 1152,
-                "height": 640,
+                "width": 832,
+                "height": 498,
                 "gameFile": "",
                 "gameType": "html5"
             },
