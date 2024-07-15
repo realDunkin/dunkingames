@@ -993,6 +993,20 @@
             "tags": ["SinglePlayer", "LocalMultiplayer"],
             "isWorking": true,
             "description": ""
+        },
+        {
+            "id": 71,
+            "data": {
+                "width": 831,
+                "height": 600,
+                "gameFile": "file/",
+                "gameType": "html5"
+            },
+            "name": "Getaway Shootout",
+            "url": "getaway-shootout",
+            "tags": ["SinglePlayer", "LocalMultiplayer"],
+            "isWorking": true,
+            "description": ""
         }
     ],
     "webhooks": [
