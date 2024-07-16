@@ -1007,6 +1007,20 @@
             "tags": ["SinglePlayer", "LocalMultiplayer"],
             "isWorking": true,
             "description": ""
+        },
+        {
+            "id": 72,
+            "data": {
+                "width": 480,
+                "height": 800,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Flappy Bird",
+            "url": "flappy-bird",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": ""
         }
     ],
     "webhooks": [
