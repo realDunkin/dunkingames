@@ -56,12 +56,12 @@ pc.extend(FamobiApi.prototype, {
      * @param {*} context - Context of the callback.
      */
     showInterstitialAd: function() {
-        return window.famobi.showInterstitialAd();
+        return print("bye bye ad");
     },
 
     showAd: function() {
         try {
-            return window.famobi.showAd();
+            print("bye bye ad");
         } catch(e) {
 
         }
