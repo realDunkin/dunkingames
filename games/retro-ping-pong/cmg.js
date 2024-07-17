@@ -585,37 +585,9 @@ window.cmgRewardAds = function () {
 cmgAInvD = false;
 
 function cmgAdBreak() {
-  if(validSubscriber) {   //iframed games recieves valid-subscriber post message from parent if the user is premium subscriber
-	  handleAdBreakComplete();
-	  return;
-  }
-  if (/(www|stage|stage-edit|dev|stage2).coolmathgames.com/i.test(window.location.hostname)) { //for all the games that are uploaded to coolmathgames (not iframed multiplayer games)
-	if(validSubscriber || window.parent.document.body.classList.contains('subscribed-users')) {
-	  console.log("cmg premium subscriber - skipping ad break");
-	  handleAdBreakComplete();
-	  return;
-    }
-  }
-  console.log("cmgAdBreak called");
-  isRewardAd = false; // Set to false for regular ads
-  
-  //Bloxd-io specific logic:  display Midroll ads without waiting for the first time as we are not displaying preroll ads
-  if(/bloxd/.test(window.location.href) && reInitCounter < 1) {  //Bloxd-io 
-	gameInterstitialAdTimerDone = true;
-  }
-  if (typeof gameInterstitialAdTimerDone != "undefined" && gameInterstitialAdTimerDone) {
-    document.dispatchEvent(adBreakStart);
-  } else {
-    handleAdBreakComplete();
-    console.log("cmgAdBreak: Too early to invoke midroll ads, wait for " + adBreakInterval + " milliseconds");
-    return;
-  }
-
-  if (shouldReinitialize()) reInit();
-  commonAdBreakLogic();
-  adBreakSpecificLogic();
-  sendResizeMessage();
-  setupAdInteraction();
+  console.log("cmg premium subscriber - skipping ad break");
+  handleAdBreakComplete();
+  return;
 }
 
 
