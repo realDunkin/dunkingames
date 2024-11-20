@@ -879,7 +879,7 @@
             "name": "1v1.LOL",
             "url": "1v1.lol",
             "tags": ["OnlineMultiplayer"],
-            "isWorking": true,
+            "isWorking": false,
             "description": ""
         },
         {
@@ -1021,6 +1021,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": ""
+        },
+	{
+            "id": 73,
+            "data": {
+                "width": 480,
+                "height": 800,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "BitLife",
+            "url": "bitlife",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": "Welcome to Bitlife which is a life simulator and is also well-known with the name of Bitlife: Life Simulator. In the game, you can live for yourself and decide any choice from family to work. Simulate your life in this digital Bitlife world!"
         }
     ],
     "webhooks": [
