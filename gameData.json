@@ -1025,7 +1025,7 @@
 	{
             "id": 73,
             "data": {
-                "width": 480,
+                "width": 500,
                 "height": 800,
                 "gameFile": "",
                 "gameType": "html5"
@@ -1035,6 +1035,20 @@
             "tags": ["SinglePlayer"],
             "isWorking": true,
             "description": "Welcome to Bitlife which is a life simulator and is also well-known with the name of Bitlife: Life Simulator. In the game, you can live for yourself and decide any choice from family to work. Simulate your life in this digital Bitlife world!"
+        }
+	{
+            "id": 74,
+            "data": {
+                "width": 924,
+                "height": 520,
+                "gameFile": "",
+                "gameType": "html5"
+            },
+            "name": "Drift Boss",
+            "url": "drift-boss",
+            "tags": ["SinglePlayer"],
+            "isWorking": true,
+            "description": "Maneuver your car along twists and turns. How many points can you earn?"
         }
     ],
     "webhooks": [
