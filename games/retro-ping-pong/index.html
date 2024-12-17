@@ -30,6 +30,47 @@
 
 	</style>
 
+	<script type="text/javascript">
+
+		let isAdBreakActive = false;
+
+		let wasMuted = false;
+
+
+
+		window["GD_OPTIONS"] = {
+
+			"gameId": "", // REPLACE WITH CORRECT ONE!
+
+			"onEvent": function (event) {
+
+				switch (event.name) {
+					case "SDK_GAME_START":
+						break;
+
+
+
+					case "SDK_GAME_PAUSE":
+
+						// pause game logic / mute audio
+						break;
+
+				}
+
+			}
+
+		};
+
+
+
+		function showAd() {
+
+			console.log('showAd call!');
+
+		}
+
+	</script>
+
 	<script src="./assets/libs/tween_max/easing/EasePack.min.js"></script>
 
 	<script src="./assets/libs/tween_max/plugins/PixiPlugin.min.js"></script>
