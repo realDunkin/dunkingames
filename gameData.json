@@ -991,8 +991,8 @@
             "name": "Retro Ping Pong",
             "url": "retro-ping-pong",
             "tags": ["SinglePlayer", "LocalMultiplayer"],
-            "isWorking": false,
-            "description": ""
+            "isWorking": true,
+            "description": "Retro Ping Pong is a fun skilled game for one or two players, which consists of moving the sidebar to bounce the ball as if it were a ping pong match. It is a very simple game, retro style, reminiscent of those early game simulators with great minimalism but equally entertaining. Choose the game mode and challenge the computer or a friend to play a game of retro table tennis online."
         },
         {
             "id": 71,
