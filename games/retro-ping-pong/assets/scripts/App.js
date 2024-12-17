@@ -395,22 +395,15 @@ NORD.App.prototype.init = function () {
     NORD.definitionsManager.appSize.heightMax
   );
 
-  console.log(
-    "App[" +
-      this.name +
-      "], version: " +
-      this.version +
-      ", platform: " +
-      this.platform
-  );
+  console.log("App[" +this.name +"], version: " +this.version +", platform: " +this.platform);
 };
 
 NORD.App.prototype.boot = function () {
-  if (
+  /* if (
     NORD.definitionsManager.avaiableDomains.length &&
     !Util.isDomainAvaiable(NORD.definitionsManager.avaiableDomains)
   )
-    return;
+    return; */
   var self = this;
   NORD.definitionsManager.assetsGroupBoot.once("loading_complete", function () {
     self.emit("boot_loaded");
@@ -513,9 +506,9 @@ NORD.App.prototype.apiCallback = function (name, data) {
     else if (data == "exit") statistics += "3";
     statistics += NORD.game.config.gamesCount; // console.log('Statistics: ', statistics);
 
-    if (parent && parent.cmgGameEvent) {
+    /* if (parent && parent.cmgGameEvent) {
       parent.cmgDataEvent("data", statistics);
-    }
+    } */
 
     return;
   }
@@ -549,18 +542,18 @@ NORD.App.prototype.apiCallback = function (name, data) {
     if (data.win == "computer") _statistics += "2";
     else _statistics += "1"; // console.log('StatisticsPoint: ', data, statistics);
 
-    if (parent && parent.cmgGameEvent) {
+    /* if (parent && parent.cmgGameEvent) {
       parent.cmgDataEvent("data", _statistics);
-    }
+    } */
 
     return;
   }
 
-  if (parent && parent.cmgGameEvent) {
+  /* if (parent && parent.cmgGameEvent) {
     // console.log('cmgEvent: ' + name + ',', data);
     if (data != null && data != undefined) parent.cmgGameEvent(name, data);
     else parent.cmgGameEvent(name);
-  }
+  } */
 }; // var fixedTimeStep = 1 / 60, maxSubSteps = 10, lastTimeMilliseconds;
 // requestAnimationFrame(function animloop(timeMilliseconds){
 //     requestAnimationFrame(animloop);

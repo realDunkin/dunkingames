@@ -217,6 +217,9 @@ NORD.ScreenMainMenu = function (config) {
         if (NORD.game.config.mode !== "action") self.toGame("board_2");
         else self.toGame(_this.boardSelected);
       });
+
+      
+      showAd();
     },
     this
   );

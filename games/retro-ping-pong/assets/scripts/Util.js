@@ -289,11 +289,11 @@ Util.isDomainAvaiable = function (avaiableDomains) {
 };
 
 Util.coolmathApiCallback = function (name, data) {
-  if (parent && parent.cmgGameEvent) {
+  /* if (parent && parent.cmgGameEvent) {
     // console.log('cmgEvent: ' + name + ',', data);
     if (data != null && data != undefined) parent.cmgGameEvent(name, data);
     else parent.cmgGameEvent(name);
-  }
+  } */
 };
 
 function bind(func, context) {
