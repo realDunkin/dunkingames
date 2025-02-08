@@ -1,9 +1,7 @@
-Abanikanda
 Abdullah
 Abernathy
 Aboushi
 Abram
-Achane
 Acho
 Acy
 Adams
@@ -14,16 +12,12 @@ Adebo
 Adeniji
 Adeniyi
 Adewusi
-Adkins
 Adomitis
 Agasiva
 Agholor
 Agim
 Agnew
-Agoha
-Agude
 Ahmed
-Aho
 Aikens
 Aiyuk
 Ajayi
@@ -57,7 +51,6 @@ Anae
 Anchrum
 Andersen
 Anderson
-Anderson Jr
 Andrew
 Andrews
 Anenih
@@ -67,7 +60,6 @@ Ankou
 Ansah
 Anthony
 Antwine
-Anudike-Uzomah
 Anzalone
 Apke
 Apple
@@ -90,13 +82,11 @@ Ateman
 Atkins
 Attaochu
 Atwell
-Aubrey
 Austin
 Austin Jr.
 Autry
 Averett
 Avery
-Avila
 Awosika
 Awuzie
 Babicz
@@ -105,7 +95,6 @@ Bada
 Bademosi
 Badgley
 Badie
-Bagent
 Bailey
 Baker
 Bakhtiari
@@ -123,7 +112,6 @@ Banner
 Banogu
 Barber
 Barcoo
-Baringer
 Barkley
 Barmore
 Barner
@@ -137,20 +125,17 @@ Bars
 Bartch
 Barton
 Basham
-Baskerville
 Bass
 Bassey
 Bateman
 Bates
 Batson
-Battle
 Baugh
 Baun
 Bausby
 Bawden
 Beachum
 Beal
-Beal Jr.
 Beasley
 Beathard
 Beatty
@@ -174,12 +159,9 @@ Benkert
 Bennett
 Benson
 Bentley
-Benton
 Benzschawel
-Bergeron
 Bergstrom
 Bernard
-Bernard-Converse
 Berrios
 Berry
 Berryman
@@ -190,7 +172,6 @@ Beyer
 Biadasz
 Bibbs
 Biegel
-Bigsby
 Billings
 Bisnowaty
 Bitonio
@@ -212,7 +193,6 @@ Blunt
 Blythe
 Board
 Bobenmoyer
-Bobo
 Bodine
 Boehm
 Boettger
@@ -236,35 +216,28 @@ Bortles
 Bosa
 Bosher
 Bostic
-Bostick Jr
 Boston
 Boswell
 Bourne
-Boutte
 Bouye
-Bouyer-Randle
 Bowden
 Bowers
 Bowman
 Bowser
 Boyd
-Boye-Doe
 Boykin
 Boykins
 Boyle
 Bozeman
 Bradberry
 Bradbury
-Bradford
 Bradham
 Bradley
 Bradley-King
 Brady
 Brailford
-Branch
 Brandel
 Brantley
-Braswell
 Brate
 Braunecker
 Bredeson
@@ -272,8 +245,6 @@ Breeland
 Brees
 Breeze
 Breida
-Brents
-Bresee
 Brewer
 Bridgewater
 Brightwell
@@ -283,13 +254,11 @@ Brissett
 Britt
 Brock
 Brockers
-Broeker
 Brooker
 Brooks
 Brothers
 Brown
 Browning
-Brownlee
 Brumfield
 Brunskill
 Brunson
@@ -303,14 +272,12 @@ Bulaga
 Bullard
 Bullock
 Bullough
-Bumphus
 Burfict
 Burford
 Burgess
 Burkhead
 Burks
 Burnett
-Burney
 Burns
 Burr-Kirven
 Burris
@@ -356,7 +323,6 @@ Carrie
 Carrier
 Carson
 Carter
-Carter II
 Casey
 Cashman
 Castonzo
@@ -366,7 +332,6 @@ Cephus
 Chachere
 Chaisson
 Chandler
-Charbonnet
 Chark
 Charles
 Charlton
@@ -375,7 +340,6 @@ Cheek
 Cheeseman
 Cheevers
 Chenal
-Cherelus
 Chesley
 Chickillo
 Chinn
@@ -403,23 +367,19 @@ Clement
 Clemmings
 Clemons
 Cleveland
-Clifford
 Cline
 Clitheroe
 Clowney
 Cobb
-Coburn
 Cochran
 Cochrane
 Cockrell
 Cohen
 Colbert
 Colburn
-Coldon Jr
 Cole
 Coleman
 Coley
-Colletto
 Collier
 Collins
 Colon-Castillo
@@ -470,7 +430,6 @@ Crawley
 Crockett
 Cronk
 Croom
-Cropper
 Crosby
 Cross
 Crossen
@@ -483,7 +442,6 @@ Cunningham
 Curhan
 Curl
 Curry
-Curtis
 Cushenberry
 Custis
 Cutting
@@ -529,11 +487,9 @@ Deguara
 Deiter
 Delaire
 Delaney
-Dell
 Delpit
 DeLuca
 Demby
-Demercado
 Denis
 Dennard
 Dennis
@@ -543,11 +499,7 @@ Desjarlais
 DeValve
 Develin
 Devey
-DeVito
 Dew-Treadway
-Dexter Sr
-Diabate
-Diaby
 Dickerson
 Dickson
 Diesch
@@ -558,7 +510,6 @@ Dillon
 DiMarco
 Dimond
 Dimukeje
-DiRenzo
 Dissly
 Dix
 Dixon
@@ -589,30 +540,25 @@ Drango
 Driscoll
 Driskel
 Drummond
-DuBose
 Duck
 Dugas
-Duggan
 Dugger
 Duhart
 Dulcich
 Dulin
 Dunbar
-Duncan
 Dunkle
 Dunlap
 Dunn
 Dupre
 Dupree
 Durant
-Durden
 Durham
 Duvernay
 Duvernay-Tardif
 Dwelley
 Dwight
 Dye
-Dzansi
 Dzubnar
 Ealy
 Eason
@@ -654,7 +600,6 @@ Eluemunor
 Emerson
 Empey
 Enagbare
-Enechukwu
 Engram
 Enunwa
 Epenesa
@@ -692,7 +637,6 @@ Farrell
 Fatukasi
 Feeney
 Fehoko
-Fehoko Jr
 Feiler
 Fejedelem
 Feliciano
@@ -730,17 +674,13 @@ Foles
 Folk
 Folston
 Forbes
-Forbes Jr
 Ford
-Ford-Wheaton
 Forrest
 Forristall
-Forsyth
 Forsythe
 Fort
 Fortner
 Fortson
-Foskey
 Foster
 Fotheringham
 Fotu
@@ -754,7 +694,6 @@ Franklin-Myers
 Franks
 Frazier
 Frederick
-Freeland
 Freeman
 Freiermuth
 Friend
@@ -772,12 +711,10 @@ Gafford
 Gage
 Gaillard
 Gaines
-Gaines II
 Gainwell
 Gallimore
 Gallman
 Gallup
-Galvin
 Gano
 Gant
 Garbers
@@ -790,7 +727,6 @@ Garland
 Garner
 Garoppolo
 Garrett
-Garror
 Garvin
 Gary
 Gaskin
@@ -798,7 +734,6 @@ Gates
 Gaulden
 Gay
 Gay Jr
-Gaye
 Gaziano
 Geathers
 Gedeon
@@ -809,7 +744,6 @@ Gerry
 Gervase
 Gesicki
 Gholston
-Gibbs
 Gibson
 Gifford
 Gilbert
@@ -831,7 +765,6 @@ Glenn
 Glennon
 Glowinski
 Godchaux
-Godrick
 Godsil
 Godwin
 Goedeke
@@ -856,7 +789,6 @@ Gore
 Gostkowski
 Gotsis
 Gould
-Gouraige
 Gowan
 Grace
 Graham
@@ -882,7 +814,6 @@ Gross-Matos
 Groy
 Gruff
 Grugier-Hill
-Grupe
 Guice
 Guidry
 Gunter
@@ -892,27 +823,21 @@ Gustin
 Gutierrez
 Guy
 Guyton
-Gwyn
 Haack
 Haden
 Haeg
-Haener
 Hageman
 Hager
-Haggard
-Hailassie
 Hainsey
 Hairston
 Halapio
 Haley
 Hall
-Hallett II
 Ham
 Hambright
 Hamilton
 Hamler
 Hamlin
-Hamm
 Hampton
 Hance
 Hand
@@ -945,25 +870,19 @@ Hasty
 Hauschka
 Havenstein
 Hawkins
-Hawkins III
 Hayden
 Hayes
 Haynes
 Hayward
-Hearn
 Heath
 Heck
 Hector
-Hedley
 Hedlund
 Heflin
 Heinicke
 Hekker
-Hellams
-Hembrough
 Henderson
 Hendrickson
-Henley
 Henne
 Hennessy
 Henningsen
@@ -981,7 +900,6 @@ Hester
 Heuerman
 Hewitt
 Heyward
-Hickman
 Hicks
 Higbee
 Higgins
@@ -1028,7 +946,6 @@ House
 Houston
 Houston-Carson
 Howard
-Howden
 Howell
 Howland
 Hoyer
@@ -1062,19 +979,14 @@ Ifedi
 Igbinoghene
 Igwebuike
 Ijalana
-Ika
 Incognito
-Incoom
-Ingle
 Ingold
 Ingram
 Inman
 Ioannidis
-Iosivas
 Irvin
 Irving
 Irwin
-Isaac
 Isabella
 Ishmael
 Isidora
@@ -1082,7 +994,6 @@ Isom
 Iupati
 Ivey
 Iyiegbuniwe
-Izien
 Izzo
 Jack
 Jackson
@@ -1091,7 +1002,6 @@ Jacquet
 Jaimes
 Jamerson
 James
-Jamison
 Janovich
 Jansen
 Jarrett
@@ -1112,8 +1022,6 @@ Jewell
 Jibowu
 John
 Johnson
-Johnson III
-Johnson Jr
 Johnston
 Jolly
 Jones
@@ -1136,7 +1044,6 @@ Kalinic
 Kalu
 Kamara
 Kampmoyer
-Kancey
 Kareem
 Karlaftis
 Karras
@@ -1151,7 +1058,6 @@ Kelemete
 Kelley
 Kelly
 Kemp
-Kendall
 Kendrick
 Kendricks
 Kennard
@@ -1169,7 +1075,6 @@ Kilgore
 Killebrew
 Killings
 Killins
-Kincaid
 Kindley
 Kindred
 King
@@ -1178,7 +1083,6 @@ Kinnard
 Kinnel
 Kinsey
 Kirk
-Kirkland
 Kirklin
 Kirkpatrick
 Kirksey
@@ -1192,7 +1096,6 @@ Kline
 Kmet
 Knappe
 Knight
-Knowles
 Knox
 Koback
 Koch
@@ -1205,7 +1108,6 @@ Koonce
 Koroma
 Koyack
 Kpassagnon
-Kraft
 Kramer
 Kreiter
 Krimm
@@ -1222,7 +1124,6 @@ Kwiatkoski
 Labelle
 Lacey
 LaCosse
-Lacy
 Ladler
 Ladouceur
 Laird
@@ -1236,20 +1137,17 @@ Lamp
 Lampkin
 Lancaster
 Lance
-Land
 Landrum
 Landry
 Langford
 Langi
 Langley
-LaPorta
 Larkin
 Larsen
 Lasco
 Lassiter
 Latimer
 Lattimore
-Latu
 Lauderdale
 Laufenberg
 Laulile
@@ -1275,10 +1173,8 @@ Leno Jr
 Lenoir
 Leo
 Leonard
-Leota
 Leverett
 Levine
-Levis
 Lewan
 Lewis
 Lewis Jr
@@ -1289,7 +1185,6 @@ Likely
 Linder
 Linderbaum
 Lindsay
-Lindsey
 Lindstrom
 Line
 Linsley
@@ -1321,13 +1216,8 @@ Lowery
 Lowry
 Luani
 Lucas
-Luciano
-Lucien
-Luepke
 Luke
 Luketa
-Luter Jr
-Luther
 Lutz
 Luvu
 Lynch
@@ -1340,13 +1230,11 @@ Maddox-Williams
 Madison
 Madubuike
 Mafe
-Mafi
 Magnuson
 Maher
 Mahomes
 Mahon
 Mailata
-Mallory
 Maloata
 Malone
 Mancz
@@ -1354,7 +1242,6 @@ Manhertz
 Mann
 Manning
 Mannion
-Mapu
 March
 Mariota
 Marlowe
@@ -1369,35 +1256,28 @@ Matakevich
 Mathieu
 Mathis
 Matiscik
-Matlock
 Matthew
 Matthews
 Mattison
-Mauch
 Mauga
 Maulet
 Mauro
-Maxwell
 Maybin
 Maye
-Mayer
 Mayfield
 Mayo
 Mayowa
 Mays
 Mazza
-McAllister
 McBride
 McCaffrey
 McCain
-McCalister
 McCann
 McCarron
 McCarthy
 McClain
 McClellan
 McClendon
-McClendon Jr
 McCloud
 McCollum
 McCourty
@@ -1408,10 +1288,8 @@ McCrary-Ball
 McCray
 McCreary
 McCullers
-McCutcheon
 McDermott
 McDonald
-McDonald IV
 McDougald
 McDowell
 McDuffie
@@ -1424,9 +1302,7 @@ McGloster
 McGovern
 McGowan
 McGrone
-McGuire
 McIntosh
-McKee
 McKenzie
 McKeon
 McKethan
@@ -1439,7 +1315,6 @@ McKitty
 McLaughlin
 McLaurin
 McLendon
-McLendon Jr
 McLeod
 McManis
 McManus
@@ -1469,7 +1344,6 @@ Mercilus
 Meredith
 Merrill
 Merritt
-Merriweather
 Metcalf
 Metchie
 Metellus
@@ -1484,7 +1358,6 @@ Mills
 Milne
 Milton
 Mims
-Mims Jr.
 Mingo
 Minshew
 Minter
@@ -1502,7 +1375,6 @@ Mone
 Monroe
 Monteiro
 Montgomery
-Moody
 Moon
 Mooney
 Moore
@@ -1541,7 +1413,6 @@ Murphy
 Murphy-Bunting
 Murray
 Muse
-Musgrave
 Mustipher
 Mutcherson
 Muti
@@ -1565,7 +1436,6 @@ Newman
 Newsome
 Newton
 Ngakoue
-Ngata
 Niang
 Nichols
 Nicholson
@@ -1585,14 +1455,12 @@ Norton
 Norwell
 Norwood
 Noteboom
-Nowaske
 Nsekhe
 Nunez
 Nunez-Roches
 Nwangwu
 Nwosu
 Nzeocha
-O'Connell
 O'Connor
 O'Daniel
 O'Donnell
@@ -1606,7 +1474,6 @@ Odhiambo
 Odighizuwa
 Odukoya
 Odum
-Odumegwu
 Ogbah
 Ogbongbemiga
 Ogbonnia
@@ -1617,10 +1484,7 @@ Ogundeji
 Ogunjobi
 Ojabo
 Ojemudia
-Ojomo
-Ojukwu
 Ojulari
-Okada
 Okafor
 Okereke
 Okonkwo
@@ -1642,16 +1506,13 @@ Olsen
 Olszewski
 Olubi
 Oluokun
-Oluwatimi
 Omameh
 Omenihu
-O'Neal
 Onwenu
 Onwualu
 Onwuasor
 Onwuzurike
 Onyemata
-Orji
 Oruwariye
 Orzech
 Osborn
@@ -1667,19 +1528,15 @@ Owens
 Owusu-Koramoah
 Oyelola
 Ozigbo
-Pace Jr.
 Pacheco
 Palardy
-Palczewski
 Palmer
 Palmore
 Pamphile
 Panasiuk
 Pankey
-Pappoe
 Paradis
 Parham
-Parish
 Parker
 Parkinson
 Parks
@@ -1694,7 +1551,6 @@ Paul
 Paye
 Payne
 Peace
-Pearson
 Peart
 Peat
 Peep
@@ -1708,7 +1564,6 @@ Penny
 Peoples-Jones
 Pepper
 Peppers
-Perales
 Perine
 Perkins
 Perriman
@@ -1721,10 +1576,8 @@ Peterson
 Petit-Frere
 Pettis
 Pharms
-Phelps
 Philips
 Phillips
-Phillips III
 Philon
 Pickens
 Pickett
@@ -1733,7 +1586,6 @@ Pierre
 Pierre-Louis
 Pierre-Paul
 Pierschbacher
-Pili
 Pimpleton
 Pineiro
 Pinion
@@ -1753,7 +1605,6 @@ Pollard
 Ponder
 Poole
 Pope
-Porter Jr
 Pouncey
 Powell
 Powers
@@ -1810,13 +1661,11 @@ Reddick
 Redmond
 Redwine
 Reed
-Reed II
 Reeder
 Reeves-Maybin
 Reid
 Reiff
 Reiter
-Remigio
 Remmers
 Renfrow
 Reyes
@@ -1831,7 +1680,6 @@ Richard
 Richards
 Richardson
 Richburg
-Ricks
 Ridder
 Riddick
 Ridgeway
@@ -1842,7 +1690,6 @@ Ringo
 Risner
 Rivers
 Roach
-Robbins
 Roberson
 Roberts
 Robertson
@@ -1854,7 +1701,6 @@ Roche
 Rochell
 Rodgers
 Rodriguez
-Rodriguez Jr
 Roemer
 Roethlisberger
 Rogers
@@ -1865,7 +1711,6 @@ Rosen
 Ross
 Roullier
 Rountree
-Rourke
 Rouse
 Rousseau
 Rowe
@@ -1880,11 +1725,9 @@ Rush
 Russell
 Russey
 Ryan
-Ryland
 Rypien
 Saffold
 Sagapolu
-Saldiveri
 Saltes
 Salyer
 Sambrailo
@@ -1897,14 +1740,12 @@ Sanders
 Santos
 Santoso
 Sanu
-Sapp III
 Saracen
 Sarell
 Sargent
 Saubert
 Saunders
 Savage
-Scaife
 Scales
 Scarbrough
 Scarlett
@@ -1915,15 +1756,12 @@ Schlottmann
 Schnell
 Schobert
 Schofield
-Schoonmaker
 Schreck
 Schultz
 Schuster
 Schwartz
 Schweitzer
 Scott
-Scott Jr
-Scruggs
 Seals-Jones
 Searight
 Seibert
@@ -1941,7 +1779,6 @@ Shaheen
 Shakir
 Sharpe
 Shatley
-Shavers
 Shaw
 Shazier
 Sheard
@@ -1951,7 +1788,6 @@ Shelley
 Shelton
 Shelvin
 Shenault
-Shenker
 Shepard
 Shepherd
 Shepley
@@ -1962,12 +1798,10 @@ Sherwood
 Shipley
 Shippy
 Short
-Shorter
 Sieg
 Sieler
 Siemian
 Sigler
-Silvera
 Simmons
 Simms
 Simon
@@ -1980,9 +1814,7 @@ Sinnett
 Siposs
 Siragusa
 Sirles
-Skinner
 Skipper
-Skoronski
 Skowronek
 Skrine
 Skule
@@ -1996,10 +1828,8 @@ Slye
 Smallwood
 Smart
 Smith
-Smith II
 Smith Jr
 Smith-Marsette
-Smith-Njigba
 Smith-Schuster
 Smith-Williams
 Smithson
@@ -2015,12 +1845,9 @@ Sokol
 Solder
 Sorensen
 Soroh
-Sorsdal
-Sow
 Sowell
 Spain
 Speaks
-Spears
 Spector
 Speed
 Speight
@@ -2043,13 +1870,11 @@ Stanley
 Stanton
 Steckler
 Steele
-Steen
 Steinmetz
 Stenberg
 Stepaniak
 Stephen
 Stephens
-Stephens Jr
 Sterling
 Sternberger
 Sterns
@@ -2074,10 +1899,8 @@ Streveler
 Strickland
 Strnad
 Stroman
-Stromberg
 Strong
 Strong Jr
-Stroud
 Stuard
 Stubbs
 Stueber
@@ -2118,15 +1941,12 @@ Tart
 Tartt
 Tate
 Tauaefa
-Taula
 Taumoepeau
 Tavai
 Taylor
-Taylor II
 Taylor-Britt
 Teamer
 Tecklenburg
-Telfort
 Tell
 Teller
 Tenuta
@@ -2137,22 +1957,16 @@ Thielen
 Thieneman
 Thomas
 Thomas II
-Thomas III
-Thomas V
 Thomas-Oliver
 Thompkins
 Thompson
-Thompson-Robinson
 Thornhill
 Thornton
 Thorpe
 Throckmorton
 Thuney
 Tillery
-Tillman
 Tindall
-Tinsley
-Tippmann
 Tiuli
 Togiai
 Toilolo
@@ -2166,9 +1980,7 @@ Toney
 Tonga
 Tonyan
 Toohill
-To'oTo'o
 Toran
-Torrence
 Toth
 Toure
 Townsend
@@ -2179,11 +1991,9 @@ Trask
 Trautman
 Trawick
 Treadwell
-Tremayne
 Tremble
 Tretter
 Trevathan
-Trice Jr
 Triner
 Trubisky
 Trufant
@@ -2194,24 +2004,20 @@ Tufele
 Tuioti-Mariner
 Tuipulotu
 Tuitt
-Tune
 Tunsil
 Tupou
 Turay
 Turner
-Turner II
 Turner-Yell
 Tuttle
 Twyman
 Tyson
 Uche
 Udoh
-Uluave
 Urban
 Ursua
 Utah
 Uwazurike
-Uzodinma
 Uzomah
 Vaccaro
 Vahe
@@ -2221,15 +2027,12 @@ Valdes-Scantling
 Vallejo
 Van Demark
 Van Ginkel
-Van Ness
 Van Noy
 Van Roten
-Vandenburgh
 Vander
 Vander Esch
 VanGinkel
 Vannett
-VanSumeren
 VanValkenburg
 Vasey
 Vasher
@@ -2247,10 +2050,8 @@ Vincent
 Virgin
 Vitale
 Vizcaino
-Vokolek
 Vollert
 Volson
-Vorhees
 Vrabel
 Waddle
 Wade
@@ -2270,10 +2071,8 @@ Ward Jr
 Ware
 Warford
 Warner
-Warren
 Warring
 Washington
-Washington Jr
 Watford
 Watkins
 Watson
@@ -2281,7 +2080,6 @@ Watt
 Wattenberg
 Watts
 Way
-Wayne
 Waynes
 Weatherly
 Weaver
@@ -2301,23 +2099,17 @@ Westbrook
 Westbrook-Ikhine
 Westry
 Wharton
-Wheat
-Whitaker
 White
 Whitehair
 Whitehead
-Whiteheart
 Whiteside
-Whiteside II
 Whitfield
 Whitley
 Whitney
 Whittaker
 Whitworth
-Whyle
 Whyte
 Wichmann
-Wicks
 Wiggins
 Wilber
 Wilborn
@@ -2344,7 +2136,6 @@ Winfrey
 Wingard
 Winn
 Winovich
-Winstead
 Winston
 Winters
 Wirfs
@@ -2354,7 +2145,6 @@ Wise Jr.
 Wishnowsky
 Wisniewski
 Witherspoon
-Witt
 Witten
 Woerner
 Wolfe
@@ -2363,7 +2153,6 @@ Womack
 Wonnum
 Wood
 Woodard
-Wooden
 Woodrum
 Woods
 Woodside
@@ -2381,7 +2170,6 @@ Wyatt
 Wydermyer
 Wylie
 Wynn
-Wypler
 Ximines
 Ya-Sin
 Yancey
@@ -2398,14 +2186,11 @@ Zaccheaus
 Zakelj
 Zamort
 Zappe
-Zavala
 Zeise
 Zeitler
 Zenner
-Zentner
 Zettel
 Zico
-Zierer
 Zimmer
 Zuber
 Zuerlein
