@@ -12,7 +12,7 @@ var __loadWithProgress = function __loadWithProgress(filesToLoad, progressListen
 	var __loadFile = function __loadFile(url) {
 		var request = new XMLHttpRequest();
 		request.open('GET', url);
-		//request.responseType = 'blob';
+		request.responseType = 'blob';
 		
 		request.onload = function () {
 			if (request.status === 200) {
