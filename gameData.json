@@ -837,7 +837,7 @@
       "name": "autoball",
       "url": "autoball",
       "tags": ["SinglePlayer"],
-      "isWorking": false,
+      "isWorking": true,
       "description": "every 10 seconds, a ball is fired onto the board. place, move, and upgrade pegs and cannons to score as many points as possible. see how far you can get!"
     },
     {
