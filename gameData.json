@@ -1095,7 +1095,7 @@
     {
       "id": 78,
       "data": {
-        "width": 640,
+        "width": 750,
         "height": 480,
         "gameFile": "ducklife3.swf",
         "gameType": "flash"
@@ -1109,7 +1109,7 @@
     {
       "id": 79,
       "data": {
-        "width": 640,
+        "width": 750,
         "height": 480,
         "gameFile": "ducklife4.swf",
         "gameType": "flash"
