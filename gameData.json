@@ -1100,7 +1100,7 @@
         "gameFile": "ducklife3.swf",
         "gameType": "flash"
       },
-      "name": "Duck Life 3",
+      "name": "Duck Life 3: Evolution",
       "url": "duck-life-3",
       "tags": ["SinglePlayer"],
       "isWorking": true,
@@ -1119,7 +1119,21 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": ""
-    }
+    },
+    {
+        "id": 80,
+        "data": {
+          "width": 750,
+          "height": 530,
+          "gameFile": "",
+          "gameType": "html5"
+        },
+        "name": "Doodle Jump",
+        "url": "doodle-jump",
+        "tags": ["SinglePlayer"],
+        "isWorking": true,
+        "description": ""
+      }
   ],
   "webhooks": [
     {
