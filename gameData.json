@@ -1063,6 +1063,62 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Get ready to embark on an epic journey through the gridiron in Retro Bowl, the ultimate football simulation game that offers endless excitement and strategic gameplay. Retro Bowl allows you to experience all the thrills of football without any restrictions or barriers, making it the perfect choice for football enthusiasts of all ages."
+    },
+    {
+      "id": 76,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "ducklife.swf",
+        "gameType": "flash"
+      },
+      "name": "Duck Life",
+      "url": "duck-life",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
+    },
+    {
+      "id": 77,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "ducklife2.swf",
+        "gameType": "flash"
+      },
+      "name": "Duck Life 2",
+      "url": "duck-life-2",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
+    },
+    {
+      "id": 78,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "ducklife3.swf",
+        "gameType": "flash"
+      },
+      "name": "Duck Life 3",
+      "url": "duck-life-3",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
+    },
+    {
+      "id": 79,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "ducklife4.swf",
+        "gameType": "flash"
+      },
+      "name": "Duck Life 4",
+      "url": "duck-life-4",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
     }
   ],
   "webhooks": [
