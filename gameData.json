@@ -1121,19 +1121,19 @@
       "description": ""
     },
     {
-        "id": 80,
-        "data": {
-          "width": 606,
-          "height": 530,
-          "gameFile": "",
-          "gameType": "html5"
-        },
-        "name": "Doodle Jump",
-        "url": "doodle-jump",
-        "tags": ["SinglePlayer"],
-        "isWorking": true,
-        "description": ""
-      }
+      "id": 80,
+      "data": {
+        "width": 606,
+        "height": 530,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Doodle Jump",
+      "url": "doodle-jump",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
+    }
   ],
   "webhooks": [
     {
