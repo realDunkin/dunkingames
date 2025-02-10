@@ -576,12 +576,23 @@ body.cookies-consent .cookies {
     <input id="highscore" type="text" />
   </label>
 
+  <script src="js/screenfull.min.js"></script>
   <script src="simple-notify.min.js"></script>
 
   <script>
     // Detect click on F key - Toggle Full Screen Mode on/off
     document.addEventListener("keydown", keyDownHandler, false);
-    
+
+    function keyDownHandler(keypress) {
+      if (keypress.key == "f" && screenfull.isEnabled) {
+        screenfull.toggle();
+      } else {}
+    }
+
+    // Function to toggle full screen mode on/off - activated when full screen icon is clicked
+    function fullScreenMode() {
+        alert("hi")
+      }
     // Set the options globally
     // to make LazyLoad self-initialize
     window.lazyLoadOptions = {
@@ -608,16 +619,12 @@ body.cookies-consent .cookies {
     }
     
   </script>
-  
-
-
-
 
   <div id="virtual-key" class="keyboard">
     <button id="left-btn">
-      < </button>
+      </button>
 
-        <button id="right-btn">></button>
+    <button id="right-btn">></button>
   </div>
   <script defer src="phaser.min.js" integrity="sha512-JFBBAwh37TdGYMmF7POacSn+VZIMyF7r++1jkkk9tNomuJuK6WIRe1oQQsst9nm/8cq/LAae987H/d0IsYgN8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer type="text/javascript" src="fulltilt.min.js"></script>
