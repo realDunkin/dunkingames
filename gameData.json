@@ -1133,6 +1133,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": ""
+    },
+    {
+      "id": 81,
+      "data": {
+        "width": 966,
+        "height": 692,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Bubble Shooter",
+      "url": "bubble-shooter",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
     }
   ],
   "webhooks": [
