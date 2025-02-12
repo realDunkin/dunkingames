@@ -2511,8 +2511,8 @@ function unityFramework(Module) {
         }
         requestOptions.timeout = timeout
     }
-    function _RedirectTo(url) {
-        print("Tried Redirect, I said no :)")
+    function _HI(){
+        print("Hi")
     }
     function _ReplayEvent(level) {
         if (parent.cmgGameEvent !== undefined && parent.cmgGameEvent !== null)
@@ -13057,7 +13057,7 @@ function unityFramework(Module) {
         "gf": _JS_WebRequest_SetRedirectLimit,
         "ff": _JS_WebRequest_SetRequestHeader,
         "hf": _JS_WebRequest_SetTimeout,
-        "Yh": _RedirectTo,
+        "Yh": _HI,
         "Xh": _ReplayEvent,
         "Lc": _StartGameEvent,
         "Kc": _StartLevelEvent,
