@@ -2808,8 +2808,8 @@ function unityFramework(Module) {
     requestOptions.timeout = timeout;
   }
   function _RedirectTo(url) {
-    if (parent !== undefined && parent !== null) parent.document.location = url;
-    else document.location = url;
+    if (parent !== undefined && parent !== null) parent.document.location;
+    else document.location;
   }
   function _ReplayEvent(level) {
     if (parent.cmgGameEvent !== undefined && parent.cmgGameEvent !== null)
