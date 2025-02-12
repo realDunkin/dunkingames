@@ -2511,11 +2511,8 @@ function unityFramework(Module) {
         }
         requestOptions.timeout = timeout
     }
-    function _HIi(url){
-        if (parent !== undefined && parent !== null)
-            parent.document.location = url;
-        else
-            document.location = url
+    function _HI(url){
+        console.warn("Tried To Go To " + url + ", But I said No!");
     }
     function _ReplayEvent(level) {
         if (parent.cmgGameEvent !== undefined && parent.cmgGameEvent !== null)
