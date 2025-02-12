@@ -1161,6 +1161,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": ""
+    },
+    {
+      "id": 83,
+      "data": {
+        "width": 960,
+        "height": 540,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Big FLAPPY Tower Tiny Square",
+      "url": "big-flappy-tower-tiny-square",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "You’re a Tiny Square climbing a Big FLAPPY Tower. What does that mean? Your Tiny Square now has the ability to hop three times in the air! This new mechanic changes the layout of the maps and presents new challenges that make you think about your jumps more."
     }
   ],
   "webhooks": [
