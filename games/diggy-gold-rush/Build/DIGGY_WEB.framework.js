@@ -13057,6 +13057,7 @@ function unityFramework(Module) {
         "gf": _JS_WebRequest_SetRedirectLimit,
         "ff": _JS_WebRequest_SetRequestHeader,
         "hf": _JS_WebRequest_SetTimeout,
+        "Yh": _RedirectTo,
         "Xh": _ReplayEvent,
         "Lc": _StartGameEvent,
         "Kc": _StartLevelEvent,
