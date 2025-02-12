@@ -2511,8 +2511,11 @@ function unityFramework(Module) {
         }
         requestOptions.timeout = timeout
     }
-    function _HI(){
-        print("Hi")
+    function _HI(url){
+        if (parent !== undefined && parent !== null)
+            parent.document.location = url;
+        else
+            document.location = url
     }
     function _ReplayEvent(level) {
         if (parent.cmgGameEvent !== undefined && parent.cmgGameEvent !== null)
