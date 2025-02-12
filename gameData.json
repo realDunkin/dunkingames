@@ -1147,6 +1147,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": ""
+    },
+    {
+      "id": 82,
+      "data": {
+        "width": 800,
+        "height": 600,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Diggy: Gold Rush",
+      "url": "diggy-gold-rush",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": ""
     }
   ],
   "webhooks": [
