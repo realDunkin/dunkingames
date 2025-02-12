@@ -2511,7 +2511,7 @@ function unityFramework(Module) {
         }
         requestOptions.timeout = timeout
     }
-    function _HI(url){
+    function _HIi(url){
         if (parent !== undefined && parent !== null)
             parent.document.location = url;
         else
