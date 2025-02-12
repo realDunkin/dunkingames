@@ -1175,6 +1175,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "You’re a Tiny Square climbing a Big FLAPPY Tower. What does that mean? Your Tiny Square now has the ability to hop three times in the air! This new mechanic changes the layout of the maps and presents new challenges that make you think about your jumps more."
+    },
+    {
+      "id": 84,
+      "data": {
+        "width": 1190,
+        "height": 660,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Battleship War",
+      "url": "battleship-war",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "You have a huge naval fleet, and you have to protect it from your enemy! Battleship War is a board game where you decipher the place of your opponent's fleet and try to sink them deep into the ocean. Meanwhile, your enemy will also try to guess the location of your fleet and send missiles. Hide your fleet well while destroy your opponent's fleet!"
     }
   ],
   "webhooks": [
