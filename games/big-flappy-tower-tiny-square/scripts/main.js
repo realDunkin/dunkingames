@@ -410,8 +410,9 @@ window.DOMElementHandler = class extends self.DOMHandler {
       d.baseUrl
         ? (this._baseUrl = d.baseUrl)
         : ((k = location.origin),
-          (this._baseUrl = document.href),
-          -1 !== k && (this._baseUrl = this._baseUrl));
+          (this._baseUrl = document.getElementsByTagName("base")[0].href),
+          (k = this._baseUrl.lastIndexOf("/")),
+          -1 !== k && (this._baseUrl = this._baseUrl.substr(0, k + 1)));
       d.workerScripts && (this._workerScriptURLs = d.workerScripts);
       k = new MessageChannel();
       this._messageChannelPort = k.port1;
