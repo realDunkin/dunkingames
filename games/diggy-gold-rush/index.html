@@ -43,6 +43,10 @@
     <div id="gameContainer">
       <canvas id="unity-canvas" data-pixel-art="true"></canvas>
       <script src="Build/DIGGY_WEB.loader.js"></script>
+      <script
+        type="text/javascript"
+        src="cmg.js"
+      ></script>
 
       <script>
         var gameInstance = null;
@@ -52,7 +56,7 @@
           frameworkUrl: "Build/DIGGY_WEB.framework.js",
           codeUrl: "Build/DIGGY_WEB.wasm",
           streamingAssetsUrl: "StreamingAssets",
-          companyName: "none",
+          companyName: "CoolMath Games",
           productName: "Diggy Gold Rush",
           productVersion: "0.7.4",
         };
@@ -120,7 +124,7 @@
         document.addEventListener("adBreakStart", () => {
           console.log("AdBreak Started");
           //TODO:  Developer needs to add the logic to pause the game and sound here
-          gameInstance.SendMessage("CMG", "AdBreakComplete");
+          gameInstance.SendMessage("CMG", "AdBreakStart");
         });
         // To trigger the event Listener  adBreakComplete
         document.addEventListener("adBreakComplete", () => {
