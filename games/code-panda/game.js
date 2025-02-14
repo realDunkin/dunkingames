@@ -11806,38 +11806,14 @@ jukebox["Manager"]["prototype"] = {
     assert: function () {},
     show: function () {},
     mark: function () {},
-    _loadScript: function (_0x337bad, _0x3872d5) {
-      ig["modules"][_0x337bad] = {
-        name: _0x337bad,
-        requires: [],
-        loaded: !0x1,
-        body: null,
-      };
-      ig["_waitForOnload"]++;
-      var _0x30f307 =
-          ig["prefix"] +
-          ig["lib"] +
-          _0x337bad["replace"](/\./g, "/") +
-          ".js" +
-          ig["nocache"],
-        _0x2c4acb = ig["$new"]("script");
-      _0x2c4acb["type"] = "text/javascript";
-      _0x2c4acb["src"] = _0x30f307;
-      _0x2c4acb["onload"] = function () {
-        ig["_waitForOnload"]--;
-        ig["_execModules"]();
-      };
-      _0x2c4acb["onerror"] = function () {
-        throw (
-          "Failed\x20to\x20load\x20module\x20" +
-          _0x337bad +
-          "\x20at\x20" +
-          _0x30f307 +
-          "\x20required\x20from\x20" +
-          _0x3872d5
-        );
-      };
-      ig["$"]("head")[0x0]["appendChild"](_0x2c4acb);
+    _loadScript: function(url, callback) {
+        var script = document.createElement("script");
+        script.src = url;
+        script.onload = callback;
+        script.onerror = function() {
+            console.warn("Failed to load script: " + url);
+        };
+        document.head.appendChild(script);
     },
     _execModules: function () {
       for (
