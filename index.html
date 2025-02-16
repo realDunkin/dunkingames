@@ -16,7 +16,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(4, 200px);
+      grid-template-columns: repeat(4, 180);
       padding: 20px;
       column-gap: 15px;
       row-gap: 25px;
@@ -24,8 +24,6 @@
     }
     .grid-item {
       font-family: "Fantasy", Helvetica, sans-serif;
-      background-color: #cccccc;
-      border: 5px solid rgba(0, 0, 0, 0.8);
       padding: 25px;
       font-size: 20px;
       align-content: center;
@@ -38,8 +36,6 @@
     }
     .grid-item-broken {
       font-family: "Fantasy", Helvetica, sans-serif;
-      background-color: #8f8d8d;
-      border: 5px solid rgba(0, 0, 0, 0.8);
       padding: 25px;
       font-size: 20px;
       align-content: center;
@@ -139,8 +135,12 @@
       </center>
     </div>
     <div id="MainBody" style="display: none;">
+      <div id="ChartBody">
+          <div id="DaChart" class="grid-container" style="width:0%; height:100%;">
+            
+          </div>
+      </div>
       <div id="Sort" class="Fantasy">
-        <center>
           <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
           <br>
           <select id="listSort" size="1"  onchange="makeList()">
@@ -159,14 +159,6 @@
           <br><br>
           <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
           <br><br>
-        </center>
-      </div>
-      <div id="ChartBody">
-        <center>
-          <div id="DaChart" class="grid-container" style="width:0%; height:100%;">
-            
-          </div>
-        </center>
       </div>
     </div>
     <div id="GameBody" style="display: none;">
