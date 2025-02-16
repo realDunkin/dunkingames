@@ -26,6 +26,9 @@
     .grid-item {
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
+      position: relative;
+      width: 100%;
+      text-align: center;
       align-content: center;
       word-wrap: break-word;
       color: rgb(255, 255, 255);
@@ -45,6 +48,15 @@
     .grid-item-broken:hover {
         background-color: #cc7a7e;
         transition: .2s all;
+    }
+    .text-container {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        left: 0%;
+        top: 0%;
+        background-color: rgba(41, 41, 41, 0.8);
+        text-align: center;
+        font-size: 25px;
     }
     .daTbl {
       font-family: "Fantasy", Helvetica, sans-serif;
@@ -516,13 +528,13 @@
         copyData = matchSearch(initData);
         for (let index in copyData.games) {
             daUrl = 'setURL("' + copyData.games[index].url + '")';
-            imgUrl = copyData.games[index].url + "-thumbnail";
+            imgUrl = copyData.games[index].name + " Thumbnail";
             parsestring = "";
             if(copyData.games[index].isWorking){
-              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div style='position: absolute; z-index: 1;'><a>" + copyData.games[index].name + "</a></div></div>";
+              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div><a class='text-container'>" + copyData.games[index].name + "</a></div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div style='position: absolute; z-index: 1;'><a><del>" + copyData.games[index].name + "</del></div></a></div>";  
+              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div><a class='text-container'><del>" + copyData.games[index].name + "</del></a></div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
