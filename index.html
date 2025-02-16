@@ -8,6 +8,7 @@
       <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </head>
   <style>
+    
     .Fantasy {
       font-family: "Fantasy", Helvetica, sans-serif;
       color: rgb(255, 255, 255);
@@ -16,7 +17,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(4, 180px);
+      grid-template-columns: repeat(4, 150px);
       padding: 20px;
       column-gap: 15px;
       row-gap: 25px;
@@ -24,11 +25,12 @@
     }
     .grid-item {
       font-family: "Fantasy", Helvetica, sans-serif;
-      padding: 25px;
       font-size: 20px;
       align-content: center;
       word-wrap: break-word;
-      font-family: "Fantasy", Helvetica, sans-serif;
+      color: rgb(255, 255, 255);
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: rgb(0, 0, 0);
     }
     .grid-item:hover {
         background-color: #7acca2;
@@ -36,11 +38,9 @@
     }
     .grid-item-broken {
       font-family: "Fantasy", Helvetica, sans-serif;
-      padding: 25px;
       font-size: 20px;
       align-content: center;
       word-wrap: break-word;
-      font-family: "Fantasy", Helvetica, sans-serif;
     }
     .grid-item-broken:hover {
         background-color: #cc7a7e;
@@ -519,10 +519,10 @@
             imgUrl = copyData.games[index].url + "-thumbnail";
             parsestring = "";
             if(copyData.games[index].isWorking){
-              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a>" + copyData.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div style='position: fixed; z-index: 1;'><a>" + copyData.games[index].name + "</a></div></div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100' height='100'><br><br><a><del>" + copyData.games[index].name + "</del></a></div>";  
+              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div style='position: fixed; z-index: 1;'><a><del>" + copyData.games[index].name + "</del></div></a></div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
