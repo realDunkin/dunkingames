@@ -135,33 +135,35 @@
       </center>
     </div>
     <div id="MainBody" style="display: none;">
-      <div style="display: flex;">
-        <div id="ChartBody">
-            <div id="DaChart" class="grid-container" style="width:0%; height:100%;">
-              
-            </div>
+      <center>
+        <div style="display: flex;">
+          <div id="ChartBody">
+              <div id="DaChart" class="grid-container" style="width:0%; height:100%;">
+                
+              </div>
+          </div>
+          <div id="Sort" class="Fantasy">
+              <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
+              <br>
+              <select id="listSort" size="1"  onchange="makeList()">
+                <option value="New-Old">Sort By: Newest To Oldest</option>
+                <option value="Old-New">Sort By: Oldest To Newest</option>
+                <option value="A-Z">Sort By: A To Z</option>
+                <option value="Z-A">Sort By: Z To A</option>
+              </select>
+              <br>
+              <select id="listFilter" size="1" onchange="makeList()">
+                <option value="None">Filter By: None</option>
+                <option value="SinglePlayer">Filter By: Single Player Games</option>
+                <option value="LocalMultiplayer">Filter By: Local Multiplayer Games</option>
+                <option value="OnlineMultiplayer">Filter By: Online Multiplayer Games</option>
+              </select>
+              <br><br>
+              <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
+              <br><br>
+          </div>
         </div>
-        <div id="Sort" class="Fantasy">
-            <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
-            <br>
-            <select id="listSort" size="1"  onchange="makeList()">
-              <option value="New-Old">Sort By: Newest To Oldest</option>
-              <option value="Old-New">Sort By: Oldest To Newest</option>
-              <option value="A-Z">Sort By: A To Z</option>
-              <option value="Z-A">Sort By: Z To A</option>
-            </select>
-            <br>
-            <select id="listFilter" size="1" onchange="makeList()">
-              <option value="None">Filter By: None</option>
-              <option value="SinglePlayer">Filter By: Single Player Games</option>
-              <option value="LocalMultiplayer">Filter By: Local Multiplayer Games</option>
-              <option value="OnlineMultiplayer">Filter By: Online Multiplayer Games</option>
-            </select>
-            <br><br>
-            <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
-            <br><br>
-        </div>
-      </div>
+      </center>
     </div>
     <div id="GameBody" style="display: none;">
       <center>
