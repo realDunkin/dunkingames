@@ -531,10 +531,10 @@
             imgUrl = copyData.games[index].name + " Thumbnail";
             parsestring = "";
             if(copyData.games[index].isWorking){
-              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div><a class='text-container'>" + copyData.games[index].name + "</a></div>";
+              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100%' height='100%'><div><a class='text-container'>" + copyData.games[index].name + "</a></div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='150' height='150'><div><a class='text-container'><del>" + copyData.games[index].name + "</del></a></div>";  
+              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' alt=" + imgUrl + " width='100%' height='100%'><div><a class='text-container'><del>" + copyData.games[index].name + "</del></a></div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
