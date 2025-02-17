@@ -546,7 +546,7 @@
               parsestring = "<div class='grid-item' style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);' onclick='" + daUrl + "'><div class='text-container'>" + copyData.games[index].name + "</div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken' style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);'><del><div class='text-container-broken'>" + copyData.games[index].name + "</div></del>";  
+              parsestring = "<div class='grid-item-broken' style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);'><div class='text-container-broken'>" + copyData.games[index].name + "</div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
