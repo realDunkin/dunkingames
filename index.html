@@ -19,15 +19,15 @@
       display: grid;
       grid-template-columns: repeat(4, 150px);
       padding: 20px;
-      column-gap: 15px;
-      row-gap: 25px;
+      column-gap: 25px;
+      row-gap: 35px;
       justify-content: center;
     }
     .grid-item {
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
       position: relative;
-      width: 100%;
+      height: 100%;
       background-size: cover;
       background-size: 100% 100%;
       color: white;
@@ -58,6 +58,7 @@
     .text-container {
         background-color: rgba(0, 255, 128, 0.5);
         font-size: 20px;
+        height: 100%;
         font-weight: bold;
         padding: 10px;
     }
@@ -543,7 +544,7 @@
               parsestring = "<div class='grid-item' style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);' onclick='" + daUrl + "'><div class='text-container'>" + copyData.games[index].name + "</div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken'style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);'><del><div>class='text-container-broken'>" + copyData.games[index].name + "</div></del>";  
+              parsestring = "<div class='grid-item-broken' style='background-image: url(images/thumbnails/" + copyData.games[index].url + ".png);'><del><div class='text-container-broken'>" + copyData.games[index].name + "</div></del>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
