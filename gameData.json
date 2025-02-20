@@ -1189,6 +1189,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "You have a huge naval fleet, and you have to protect it from your enemy! Battleship War is a board game where you decipher the place of your opponent's fleet and try to sink them deep into the ocean. Meanwhile, your enemy will also try to guess the location of your fleet and send missiles. Hide your fleet well while destroy your opponent's fleet!"
+    },
+    {
+      "id": 85,
+      "data": {
+        "width": 1031,
+        "height": 580,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Tunnel Rush 2",
+      "url": "tunnel-rush-2",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Tunnel Rush 2 is a skill game where you ride fast into colorful 3D tunnels and experience the exhilarating kaleidoscope of hazards and treasures! Rotate the screen clockwise or anti-clockwise to move your ship and break through the obstacle that matches your ship's current color, otherwise your ship will crash. Collect as many diamonds as possible to upgrade your ship. The obstacles will become harder to pass with each level passed, so keep your focus on the screen and your fingers on the buttons! Can you finish Tunnel Rush 2 and unlock every upgrade?"
     }
   ],
   "webhooks": [
