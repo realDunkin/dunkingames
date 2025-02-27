@@ -1203,6 +1203,48 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Tunnel Rush 2 is a skill game where you ride fast into colorful 3D tunnels and experience the exhilarating kaleidoscope of hazards and treasures! Rotate the screen clockwise or anti-clockwise to move your ship and break through the obstacle that matches your ship's current color, otherwise your ship will crash. Collect as many diamonds as possible to upgrade your ship. The obstacles will become harder to pass with each level passed, so keep your focus on the screen and your fingers on the buttons! Can you finish Tunnel Rush 2 and unlock every upgrade?"
+    },
+    {
+      "id": 86,
+      "data": {
+        "width": 960,
+        "height": 540,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Paper.io 2",
+      "url": "paper-io-2",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Paper.io 2 is a .io game where you have to capture as much territory as possible by painting it. Paint the map in your own color to take over the Paper.io world! Look out for other players vying to claim your space."
+    },
+    {
+      "id": 87,
+      "data": {
+        "width": 960,
+        "height": 540,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Temple Run 2",
+      "url": "temple-run-2",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "The best endless runner game where action, strategy, and adventure collide! Join millions of players and take on the thrill of running, jumping, and escaping."
+    },
+    {
+      "id": 88,
+      "data": {
+        "width": 960,
+        "height": 540,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Duck Duck Clicker",
+      "url": "duck-duck-clicker",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Your goal is to pet the duck and dress it up with the coolest drip. Click on the duck at the center of the screen to earn Ducket$. You can see how much you've earned at the top of the screen. Just below that, you'll see two values: Duck Power is the amount of Ducket$ you earn per click, and the Autoducker is how much Ducket$ you earn automatically."
     }
   ],
   "webhooks": [
