@@ -1245,6 +1245,34 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Your goal is to pet the duck and dress it up with the coolest drip. Click on the duck at the center of the screen to earn Ducket$. You can see how much you've earned at the top of the screen. Just below that, you'll see two values: Duck Power is the amount of Ducket$ you earn per click, and the Autoducker is how much Ducket$ you earn automatically."
+    },
+    {
+      "id": 91,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "parkingfury.swf",
+        "gameType": "flash"
+      },
+      "name": "Parking Fury",
+      "url": "parking-fury",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Parking Fury, where you've got to drive around and park these cars as quickly as you can. Just don't get in a fender bender."
+    },
+    {
+      "id": 92,
+      "data": {
+        "width": 769,
+        "height": 911,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Pou",
+      "url": "pou",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Pou is your cute alien pet who LOVES to eat and play!"
     }
   ],
   "webhooks": [
