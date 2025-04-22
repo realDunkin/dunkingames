@@ -1273,6 +1273,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Pou is your cute alien pet who LOVES to eat and play!"
+    },
+    {
+      "id": 93,
+      "data": {
+        "width": 640,
+        "height": 480,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Crazy Cattle 3d",
+      "url": "crazy-cattle-3d",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Crazy Cattle 3D is an independent battle royale game where you play as an explosive sheep whose goal is to be the last sheep standing. Unlike traditional battle royale games that focus on weapons and resources, Crazy Cattle 3D's core gameplay revolves around physics-based movement, momentum, and strategic collisions. You navigate diverse terrains and eliminate other crazy sheep by bumping into them and knocking them off the map or into hazards. It's known for its simple premise, challenging gameplay, and often hilarious, chaotic outcomes."
     }
   ],
   "webhooks": [
