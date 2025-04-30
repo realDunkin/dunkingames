@@ -5,11 +5,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title id="title">Home - Dunkin's Games</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
       <script src="coi-serviceworker.js"></script>
   </head>
   <style>
-    
     .Fantasy {
       font-family: "Fantasy", Helvetica, sans-serif;
       color: rgb(255, 255, 255);
@@ -75,6 +75,10 @@
     }
     .menuButton:hover {
       color: #e6fff2;
+      transition: .2s all;
+    }
+    .fullscreenButton:hover{
+      background-color: #7acca2;
       transition: .2s all;
     }
     .keepAnim{
@@ -173,18 +177,6 @@
           
         </div>
       </center>
-      <div id="AfterGameWindow">
-        <center>
-          <strong>
-            <br><br>
-            <button id="FullscreenButton" class="Button" onclick="openFullscreen(false);" style="font-size: 25px; display: none;">Fullscreen</button>
-            <br><br>
-            <div id="DescriptionBox" class="daTbl" style="width:50%; height:25%;">
-              
-            </div>
-          </strong>
-        </center>
-      </div>
     </div>
     <div id="Footer">
       <br><br><br><br>
@@ -317,7 +309,6 @@
         document.getElementById("title").innerHTML = "Home - Dunkin's Games";
         document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
         if (document.getElementById("GAMEURL").value != ""){
-          document.getElementById("FullscreenButton").style.display = "none";
           document.getElementById("GameElement").remove();
           document.getElementById("DescriptionBox").innerHTML = "";
           document.getElementById("GAMEURL").value = "";
@@ -333,8 +324,7 @@
         document.getElementById("SuggestionButton").style.display = "none";
         document.getElementById("BugButton").style.display = "none";
         
-        if (document.getElementById("GAMEURL").value != ""){
-          document.getElementById("FullscreenButton").style.display = "none";
+        if(document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
           document.getElementById("DescriptionBox").innerHTML = "";
         }
@@ -584,7 +574,7 @@
           console.log("Matched");
           name = gameData.games[index].name;
           document.getElementById("title").innerHTML = name + " - Dunkin's Games";
-          document.getElementById("subTEXT").innerHTML = name;
+          document.getElementById("subTEXT").innerHTML = "";
           let parsestring = "";
           let descstring = "";
           if(gameData.games[index].isWorking){
@@ -601,12 +591,10 @@
                 console.log("This Nothing");
                 break;
             }
-            descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>" + gameData.games[index].description + "</td></tr></table>";
-            document.getElementById("FullscreenButton").style.display = "block";
+            descstring = "<div style='background-color: lightgray; width:" + gameData.games[index].data.width + "; height:50px; display: flex; justify-content: space-between;'><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div><div style='background-color: darkgray; width:640px; height:fit-content;'><br><a style='text-wrap: wrap;'>" + gameData.games[index].description + "</a><br></div>";
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
-            descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>This Game Is Currently Not Working, Check Back Later And See If It's Working Again!</td></tr></table>";
           }
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
@@ -614,7 +602,9 @@
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.firstChild;
           document.getElementById("GameWindow").appendChild(element);
-          document.getElementById("DescriptionBox").appendChild(descElement);
+          if(gameData.games[index].isWorking){
+            document.getElementById("DescriptionBox").appendChild(descElement);
+          }
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
