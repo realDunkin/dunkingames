@@ -312,6 +312,7 @@
           document.getElementById("GameElement").remove();
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
+          document.getElementById("GameWindow").innerHTML = "";
         }
         document.getElementById("MainText").scrollIntoView({ behavior: 'smooth'})
         makeList();
@@ -325,6 +326,7 @@
         
         if(document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
+          document.getElementById("GameWindow").innerHTML = "";
         }
         
         document.getElementById("GAMEURL").value = urlString;
@@ -589,7 +591,7 @@
                 console.log("This Nothing");
                 break;
             }
-            descstring = "<div style='background-color: lightgray; width:" + gameData.games[index].data.width + "; height:50px; display: flex; justify-content: space-between;'><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div><div style='background-color: darkgray; width:640px; height:fit-content;'><br><a style='text-wrap: wrap;'>" + gameData.games[index].description + "</a><br></div>";
+            descstring = "<div style='background-color: lightgray; width:" + gameData.games[index].data.width + "; height:50px; display: flex; justify-content: space-between;'><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div><div style='background-color: darkgray; width:" + gameData.games[index].data.width + "; height:fit-content;'><br><a style='text-wrap: wrap;'>" + gameData.games[index].description + "</a><br></div>";
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
