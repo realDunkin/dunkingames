@@ -310,7 +310,6 @@
         document.getElementById("subTEXT").innerHTML = "No Ads, Just Games!";
         if (document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
-          document.getElementById("DescriptionBox").innerHTML = "";
           document.getElementById("GAMEURL").value = "";
           document.getElementById("GAMETYPE").value = "";
         }
@@ -326,7 +325,6 @@
         
         if(document.getElementById("GAMEURL").value != ""){
           document.getElementById("GameElement").remove();
-          document.getElementById("DescriptionBox").innerHTML = "";
         }
         
         document.getElementById("GAMEURL").value = urlString;
@@ -602,9 +600,6 @@
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.firstChild;
           document.getElementById("GameWindow").appendChild(element);
-          if(gameData.games[index].isWorking){
-            document.getElementById("DescriptionBox").appendChild(descElement);
-          }
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
@@ -621,7 +616,7 @@
           document.getElementById("GameWindow").appendChild(element);
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.firstChild;
-          document.getElementById("DescriptionBox").appendChild(descElement);
+          document.getElementById("GameWindow").appendChild(descElement);
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
         }	
       }
