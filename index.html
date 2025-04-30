@@ -509,10 +509,10 @@
             imgUrl = copyData.games[index].name + " Thumbnail";
             parsestring = "";
             if(copyData.games[index].isWorking){
-              parsestring = "<div class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='150' height='150'><a class='text-container'>" + copyData.games[index].name + "</a></div>";
+              parsestring = "<div style='cursor:pointer;' class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='150' height='150'><a class='text-container'>" + copyData.games[index].name + "</a></div>";
             }
             else{
-              parsestring = "<div class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='150' height='150'><a class='text-container-broken'>" + copyData.games[index].name + "</a></div>";  
+              parsestring = "<div style='cursor:not-allowed;' class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='150' height='150'><a class='text-container-broken'>" + copyData.games[index].name + "</a></div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
@@ -589,7 +589,7 @@
                 console.log("This Nothing");
                 break;
             }
-            descstring = "<div style='background-color: lightgray; width:" + gameData.games[index].data.width + "; height:50px; display: flex; justify-content: space-between;'><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div><div style='background-color: darkgray; width:640px; height:fit-content;'><br><a style='text-wrap: wrap;'>" + gameData.games[index].description + "</a><br></div>";
+            descstring = "<div style='background-color: lightgray; width:" + gameData.games[index].data.width + "; height:50px; display: flex; justify-content: space-between;'><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div><div style='background-color: darkgray; width:640px; height:fit-content;'><br><a style='text-wrap: wrap;'>" + gameData.games[index].description + "</a><br></div>";
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
@@ -597,9 +597,12 @@
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
           element = doc.body.firstChild;
-          doc2 = parser.parseFromString(descstring, 'text/html');
-          descElement = doc2.body.firstChild;
           document.getElementById("GameWindow").appendChild(element);
+          if(gameData.games[index].isWorking){
+            doc2 = parser.parseFromString(descstring, 'text/html');
+            descElement = doc2.body.firstChild;
+            document.getElementById("GameWindow").appendChild(descElement);
+          }
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
