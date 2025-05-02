@@ -577,6 +577,7 @@
           document.getElementById("subTEXT").innerHTML = "";
           let parsestring = "";
           let descstring = "";
+          let tempwidth = 500;
           if(gameData.games[index].isWorking){
             switch (gameData.games[index].data.gameType){
               case "flash":
@@ -592,36 +593,34 @@
                 break;
             }
             tempDesc = gameData.games[index].description
-            if(tempDesc == ""){
-              tempDesc = "Description for " + name + " was not specified."
-            }
-            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div><br>";
-            descstring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + gameData.games[index].data.width + "; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
+            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
+            tempwidth = gameData.games[index].data.width;
           }
           else{
-            parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
+            parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350"><br><br><a style="color: white; font-size: 32px;">Sorry, ' + name + ' is not Working Currently...</a>';
           }
+          if(tempDesc == ""){
+            tempDesc = "Description for " + name + " was not specified."
+          }
+          descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
           element = doc.body.firstChild;
           document.getElementById("GameWindow").appendChild(element);
-          if(gameData.games[index].isWorking){
-            doc2 = parser.parseFromString(titlestring, 'text/html');
-            titleElement = doc2.body.firstChild;
-            document.getElementById("GameWindow").appendChild(titleElement);
-            doc3 = parser.parseFromString(descstring, 'text/html');
-            descElement = doc3.body.firstChild;
-            document.getElementById("GameWindow").appendChild(descElement);
-          }
+          doc2 = parser.parseFromString(titlestring, 'text/html');
+          titleElement = doc2.body.firstChild;
+          document.getElementById("GameWindow").appendChild(titleElement);
+          doc3 = parser.parseFromString(descstring, 'text/html');
+          descElement = doc3.body.firstChild;
+          document.getElementById("GameWindow").appendChild(descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done!");
         }
         else{
           console.log("Error");
-          descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Game Description</th></tr><tr><td style='font-size: 16px;'>Something Went Wrong. Either This Game URL Has Changed Or It Does Not Exist Anymore, Sorry About That!</td></tr></table>";
-          document.getElementById("title").innerHTML = "An Error Occured - Dunkin's Games";
-          document.getElementById("subTEXT").innerHTML = "<!> Error <!>";
+          descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Oops!</th></tr><tr><td style='font-size: 16px;'>Something went wrong. Either this game URL has changed or it does not exist anymore, sorry about that!</td></tr></table>";
+          document.getElementById("title").innerHTML = "Error - Dunkin's Games";
           parsestring = '<img id="GameElement" src="images/hmm.png" alt="Hmm..." width="500" height="500">';
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
