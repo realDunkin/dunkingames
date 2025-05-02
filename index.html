@@ -593,10 +593,10 @@
             }
             tempDesc = gameData.games[index].description
             if(tempDesc == ""){
-              tempDesc = "Description for " + name + " was not specified :/"
+              tempDesc = "Description for " + name + " was not specified."
             }
-            titlestring = "<div style='background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "; height:fit-content; display: flex; justify-content: space-between;'><strong><br><a style='height:50%; justify-content: left; padding: 15px 20px; text-wrap: wrap;'>" + name + "</a></strong><a style='height:50%; justify-content: right; padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'>❇️</a></div>";
-            descstring = "<div style='background-color: darkgray; width:" + gameData.games[index].data.width + "; height:fit-content;'><strong><br><a style='font-size: 18px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
+            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div><br>";
+            descstring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + gameData.games[index].data.width + "; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350">';
