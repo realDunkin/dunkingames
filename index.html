@@ -28,6 +28,7 @@
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
       height: 100%;
+      background-color: darkgray;
       color: white;
       text-align: center;
     }
@@ -39,6 +40,7 @@
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
       width: 100%;
+      background-color: gray;
       color: white;
       text-align: center;
     }
@@ -147,8 +149,8 @@
             </div>
           </center>
         </div>
-        <div id="Sort" class="Fantasy">
-            <input style="padding: 18px;" type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
+        <div style="padding: 18px;" id="Sort" class="Fantasy">
+            <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
             <br>
             <select id="listSort" size="1"  onchange="makeList()">
               <option value="New-Old">Sort By: Newest To Oldest</option>
@@ -509,10 +511,10 @@
             imgUrl = copyData.games[index].name + " Thumbnail";
             parsestring = "";
             if(copyData.games[index].isWorking){
-              parsestring = "<div style='background-color: darkgray; border-color: black; border-width: 5px; border-style: solid; cursor:pointer;' class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='100' height='100' style='padding: 15px;'><a>" + copyData.games[index].name + "</a></div>";
+              parsestring = "<div style='border-color: black; border-width: 5px; border-style: solid; cursor:pointer;' class='grid-item' onclick='" + daUrl + "'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='100' height='100' style='padding: 15px;'><a>" + copyData.games[index].name + "</a></div>";
             }
             else{
-              parsestring = "<div style='background-color: gray; border-color: black; border-width: 5px; border-style: solid; cursor:not-allowed;' class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='100' height='100' style='padding: 15px;'><del>" + copyData.games[index].name + "</del></div>";  
+              parsestring = "<div style='border-color: black; border-width: 5px; border-style: solid; cursor:not-allowed;' class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='100' height='100' style='padding: 15px;'><del>" + copyData.games[index].name + "</del></div>";  
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
