@@ -468,13 +468,13 @@
         parser = new DOMParser();
 
         doc = parser.parseFromString(parsestring, 'text/html');
-        element = doc.body.childNodes;
+        element = doc.innerHTMl;
 
         doc1 = parser.parseFromString(parsestring1, 'text/html');
-        element1 = doc1.body.childNodes;
+        element1 = doc1.innerHTMl;
 
         doc2 = parser.parseFromString(parsestring2, 'text/html');
-        element2 = doc2.body.childNodes;
+        element2 = doc2.innerHTMl;
 
         document.getElementById("DaMainMenu").appendChild(element);
         document.getElementById("DaMainMenu").appendChild(element1);
@@ -518,7 +518,7 @@
             }
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
-            element = doc.body.childNodes;
+            element = doc.innerHTMl;
             document.getElementById("DaChart").appendChild(element);
         }
       }
@@ -605,13 +605,13 @@
           descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
-          element = doc.body.childNodes;
+          element = doc.innerHTMl;
           document.getElementById("GameWindow").appendChild(element);
           doc2 = parser.parseFromString(titlestring, 'text/html');
-          titleElement = doc2.body.childNodes;
+          titleElement = doc2.innerHTMl;
           document.getElementById("GameWindow").appendChild(titleElement);
           doc3 = parser.parseFromString(descstring, 'text/html');
-          descElement = doc3.body.childNodes;
+          descElement = doc3.innerHTMl;
           document.getElementById("GameWindow").appendChild(descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
@@ -624,10 +624,10 @@
           parsestring = '<img id="GameElement" src="images/hmm.png" alt="Hmm..." width="500" height="500">';
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
-          element = doc.body.childNodes;
+          element = doc.innerHTMl;
           document.getElementById("GameWindow").appendChild(element);
           doc2 = parser.parseFromString(descstring, 'text/html');
-          descElement = doc2.body.childNodes;
+          descElement = doc2.innerHTMl;
           document.getElementById("GameWindow").appendChild(descElement);
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
         }	
