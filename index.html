@@ -590,14 +590,15 @@
             }
             tempwidth = gameData.games[index].data.width;
             for (let i = 0; i < gameData.games[index].tags.length - 1; i++) {
-              tagstring += "<button style='font-size: 12px;' onclick='viewFilter('" + gameData.games[index].tags + "');'>" + gameData.games[index].tags[i] +"</button>";
+              print("Got Tag Named: " + gameData.games[index].tags[i])
+              tagstring += "<button style='font-size: 12px;' onclick='viewFilter('" + gameData.games[index].tags[i] + "');'>" + gameData.games[index].tags[i] +"</button>";
             }
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350"><br><br><a style="color: white; font-size: 32px;">Sorry, ' + name + ' is not Working Currently...</a>';
           }
           titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
-          descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "</a><br><br><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><div>" + tagstring + "</div></div>"
+          descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "</a><br><br><strong><br><a style='font-size: 20px;'>Tags</a></strong><br><br><div>" + tagstring + "</div></div>"
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', titlestring);
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descstring);
