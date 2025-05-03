@@ -465,17 +465,6 @@
         }
         parsestring2 += '<br><br></div>'
 
-        parser = new DOMParser();
-
-        doc = parser.parseFromString(parsestring, 'text/html');
-        element = doc.body.innerHTMl;
-
-        doc1 = parser.parseFromString(parsestring1, 'text/html');
-        element1 = doc1.body.innerHTMl;
-
-        doc2 = parser.parseFromString(parsestring2, 'text/html');
-        element2 = doc2.body.innerHTMl;
-
         document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', parsestring);
         document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', parsestring1);
         document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', parsestring2);
@@ -516,9 +505,6 @@
             else{
               parsestring = "<div style='border-color: black; border-width: 5px; border-style: solid; cursor:not-allowed;' class='grid-item-broken'><img src='images/thumbnails/" + copyData.games[index].url + ".png' width='100' height='100' style='padding: 15px;'><del>" + copyData.games[index].name + "</del></div>";  
             }
-            parser = new DOMParser();
-            doc = parser.parseFromString(parsestring, 'text/html');
-            element = doc.body.innerHTMl;
             document.getElementById("DaChart").insertAdjacentHTML('beforeend', parsestring);
         }
       }
@@ -593,7 +579,7 @@
                 break;
             }
             tempDesc = gameData.games[index].description
-            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
+            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
             tempwidth = gameData.games[index].data.width;
           }
           else{
@@ -602,16 +588,9 @@
           if(tempDesc == ""){
             tempDesc = "Description for " + name + " was not specified."
           }
-          descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
-          parser = new DOMParser();
-          doc = parser.parseFromString(parsestring, 'text/html');
-          element = doc.body.innerHTMl;
+          descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
-          doc2 = parser.parseFromString(titlestring, 'text/html');
-          titleElement = doc2.body.innerHTMl;
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', titlestring);
-          doc3 = parser.parseFromString(descstring, 'text/html');
-          descElement = doc3.body.innerHTMl;
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descstring);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
@@ -622,12 +601,7 @@
           descstring = "<table class='daTbl'><tr><th style='font-size: 24px;'>Oops!</th></tr><tr><td style='font-size: 16px;'>Something went wrong. Either this game URL has changed or it does not exist anymore, sorry about that!</td></tr></table>";
           document.getElementById("title").innerHTML = "Error - Dunkin's Games";
           parsestring = '<img id="GameElement" src="images/hmm.png" alt="Hmm..." width="500" height="500">';
-          parser = new DOMParser();
-          doc = parser.parseFromString(parsestring, 'text/html');
-          element = doc.body.innerHTMl;
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
-          doc2 = parser.parseFromString(descstring, 'text/html');
-          descElement = doc2.body.innerHTMl;
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descstring);
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
         }	
