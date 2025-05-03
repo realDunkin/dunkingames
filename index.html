@@ -564,6 +564,7 @@
           let parsestring = "";
           let descstring = "";
           let tempwidth = 500;
+          let tempDesc = "Description for " + name + " was not specified."
           if(gameData.games[index].isWorking){
             switch (gameData.games[index].data.gameType){
               case "flash":
@@ -584,9 +585,6 @@
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350"><br><br><a style="color: white; font-size: 32px;">Sorry, ' + name + ' is not Working Currently...</a>';
-          }
-          if(tempDesc == ""){
-            tempDesc = "Description for " + name + " was not specified."
           }
           descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
