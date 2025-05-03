@@ -580,12 +580,12 @@
                 break;
             }
             tempDesc = gameData.games[index].description
-            titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
             tempwidth = gameData.games[index].data.width;
           }
           else{
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350"><br><br><a style="color: white; font-size: 32px;">Sorry, ' + name + ' is not Working Currently...</a>';
           }
+          titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
           descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "\n</a></div>"
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', titlestring);
