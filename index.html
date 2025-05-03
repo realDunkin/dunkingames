@@ -322,6 +322,7 @@
         document.getElementById("MainText").scrollIntoView({ behavior: 'smooth'})
         makeList();
       }
+
       function switchGameMenu(urlString){
         closeOverlayMenu();
         document.getElementById("MainBody").style.display = "none";
@@ -591,7 +592,8 @@
             tempwidth = gameData.games[index].data.width;
             for (let i = 0; i < gameData.games[index].tags.length; i++) {
               console.log("Got Tag Named: " + gameData.games[index].tags[i]);
-              tagstring += "<button style='font-size: 12px;' onclick='viewFilter('" + gameData.games[index].tags[i] + "');'>" + gameData.games[index].tags[i] +"</button>";
+              functext = 'viewFilter("' + gameData.games[index].tags[i] + '")'
+              tagstring += "<button style='font-size: 12px;' onclick='" + functext + "';'>" + gameData.games[index].tags[i] +"</button>";
             }
           }
           else{
