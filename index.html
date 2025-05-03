@@ -579,7 +579,9 @@
                 console.log("This Nothing");
                 break;
             }
-            tempDesc = gameData.games[index].description
+            if(gameData.games[index].description != ""){
+              tempDesc = gameData.games[index].description
+            }
             tempwidth = gameData.games[index].data.width;
           }
           else{
