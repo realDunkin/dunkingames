@@ -11806,14 +11806,14 @@ jukebox["Manager"]["prototype"] = {
     assert: function () {},
     show: function () {},
     mark: function () {},
-    _loadScript: function(url, callback) {
-        var script = document.createElement("script");
-        script.src = url;
-        script.onload = callback;
-        script.onerror = function() {
-            console.warn("Failed to load script: " + url);
-        };
-        document.head.appendChild(script);
+    _loadScript: function (url, callback) {
+      var script = document.createElement("script");
+      script.src = url;
+      script.onload = callback;
+      script.onerror = function () {
+        console.warn("Failed to load script: " + url);
+      };
+      document.head.appendChild(script);
     },
     _execModules: function () {
       for (
