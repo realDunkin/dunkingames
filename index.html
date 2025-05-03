@@ -589,8 +589,8 @@
               tempDesc = gameData.games[index].description
             }
             tempwidth = gameData.games[index].data.width;
-            for (let i = 0; i < gameData.games[index].tags.length - 1; i++) {
-              print("Got Tag Named: " + gameData.games[index].tags[i])
+            for (let i = 0; i < gameData.games[index].tags.length; i++) {
+              console.log("Got Tag Named: " + gameData.games[index].tags[i]);
               tagstring += "<button style='font-size: 12px;' onclick='viewFilter('" + gameData.games[index].tags[i] + "');'>" + gameData.games[index].tags[i] +"</button>";
             }
           }
