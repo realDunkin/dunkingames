@@ -476,9 +476,9 @@
         doc2 = parser.parseFromString(parsestring2, 'text/html');
         element2 = doc2.body.innerHTMl;
 
-        document.getElementById("DaMainMenu").appendChild(element);
-        document.getElementById("DaMainMenu").appendChild(element1);
-        document.getElementById("DaMainMenu").appendChild(element2);
+        document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', element);
+        document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', element1);
+        document.getElementById("DaMainMenu").insertAdjacentHTML('beforeend', element2);
       }
       function makeList(){
         clearList();
@@ -519,7 +519,7 @@
             parser = new DOMParser();
             doc = parser.parseFromString(parsestring, 'text/html');
             element = doc.body.innerHTMl;
-            document.getElementById("DaChart").appendChild(element);
+            document.getElementById("DaChart").insertAdjacentHTML('beforeend', element);
         }
       }
       function fullscreenchanged(event) {
@@ -606,13 +606,13 @@
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
           element = doc.body.innerHTMl;
-          document.getElementById("GameWindow").appendChild(element);
+          document.getElementById("GameWindow").insertAdjacentHTML('beforeend', element);
           doc2 = parser.parseFromString(titlestring, 'text/html');
           titleElement = doc2.body.innerHTMl;
-          document.getElementById("GameWindow").appendChild(titleElement);
+          document.getElementById("GameWindow").insertAdjacentHTML('beforeend', titleElement);
           doc3 = parser.parseFromString(descstring, 'text/html');
           descElement = doc3.body.innerHTMl;
-          document.getElementById("GameWindow").appendChild(descElement);
+          document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descElement);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
           console.log("Done.");
@@ -625,10 +625,10 @@
           parser = new DOMParser();
           doc = parser.parseFromString(parsestring, 'text/html');
           element = doc.body.innerHTMl;
-          document.getElementById("GameWindow").appendChild(element);
+          document.getElementById("GameWindow").insertAdjacentHTML('beforeend', element);
           doc2 = parser.parseFromString(descstring, 'text/html');
           descElement = doc2.body.innerHTMl;
-          document.getElementById("GameWindow").appendChild(descElement);
+          document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descElement);
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
         }	
       }
