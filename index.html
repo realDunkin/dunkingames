@@ -149,7 +149,7 @@
             </div>
           </center>
         </div>
-        <div style="padding: 18px;" id="Sort" class="Fantasy">
+        <div style="padding: 18px;" id="Sort">
             <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
             <br>
             <select id="listSort" size="1"  onchange="makeList()">
@@ -172,7 +172,7 @@
             <br><br>
             <center><a style="color: white; font-size: 18px">Favorite Games</a></center>
             <br>
-            <div id="FavoritesBody" style="height: 475px; border-color: black; border-width: 3.55px; border-style: solid; overflow-y: scroll; column-gap: 15px; padding: 15px 15px;">
+            <div id="FavoritesBody" style="height: 425px; border-color: black; border-width: 3.55px; border-style: solid; overflow-y: scroll; column-gap: 15px; padding: 15px 15px;">
 
             </div>
         </div>
@@ -379,7 +379,7 @@
         let = toAppend = ""
 
         if(allFaves.length >= 1){
-          toAppend += '<br><br><center><a style="color: red; font-size: 21px">No Games Favorited</a></center>'
+          toAppend += '<br><center><a style="color: red; font-size: 21px">No Games Favorited</a></center>'
         }
         else{
           for(let index2 in allFaves){
