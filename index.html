@@ -363,13 +363,18 @@
       }
       function clearFavs(){
         localStorage.setItem("favoriteGames", "")
+        tempFaves = localStorage.getItem("favoriteGames")
+
+        console.log(tempFaves)
         refreshFavs()
       }
       function refreshFavs(){
         document.getElementById("FavoritesBody").innerHTML = "";
 
         tempFaves = localStorage.getItem("favoriteGames")
+        console.log(tempFaves)
         allFaves = tempFaves.split(";")
+        console.log(allFaves)
 
         let = toAppend = ""
 
@@ -662,7 +667,7 @@
       fetch("gameData.json").then(response => response.json()).then(data => {
         gameData = data;
         makeMenuList();
-        refreshFavs()
+        refreshFavs();
         let urlLocation = window.location.href;
         urlLocation = urlLocation.split("/");
         if(urlLocation[urlLocation.length - 1].includes("#") === true){
