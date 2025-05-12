@@ -1301,6 +1301,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "The idea of Tasty Planet is simple. You control a tiny ball of grey goo which eats everything around it. The more it eats, the bigger it gets!"
+    },
+    {
+      "id": 95,
+      "data": {
+        "width": 728,
+        "height": 410,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "There Is No Game",
+      "url": "there-is-no-game",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "How can there be instructions when There Is No Game? But try using your mouse anyway. We also highly recommend that you don't play this game with sound on. You will not get hints from the narrator that will end up helping you progress further. If you ever get stuck, make sure not to search for anything out of the ordinary such as letters that look slightly askew. This will do nothing to help you progress through the game."
     }
   ],
   "webhooks": [
