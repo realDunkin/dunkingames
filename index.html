@@ -411,9 +411,9 @@
           }
         }
         localStorage.setItem("favoriteGames", newFaves)
-        tempFaves = localStorage.getItem("favoriteGames")
-        
-        allFaves2 = tempFaves.split(";")
+        tempFaves2 = localStorage.getItem("favoriteGames")
+
+        allFaves2 = tempFaves2.split(";")
         console.log(allFaves2)
 
         refreshFavs()
@@ -424,6 +424,8 @@
 
         let url = document.getElementById("GAMEURL").value;
         let alrThere = false
+        let newFaves = tempFaves
+
         if(url === ""){
           for(let index in allFaves){
             if(allFaves[index] == url){
@@ -431,12 +433,14 @@
             }
           }
           if(alrThere === false){
-            tempFaves += url + ";"
-            localStorage.setItem("favoriteGames", tempFaves)
+            urrrlll = url + ";"
+            newFaves += urrrlll
+            localStorage.setItem("favoriteGames", newFaves)
           }
         }
 
-        allFaves2 = tempFaves.split(";")
+        tempFaves2 = localStorage.getItem("favoriteGames")
+        allFaves2 = tempFaves2.split(";")
         console.log(allFaves2)
 
         refreshFavs()
