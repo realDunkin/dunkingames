@@ -149,7 +149,7 @@
             </div>
           </center>
         </div>
-        <div style="padding: 18px;" id="Sort">
+        <div id="MiscBody" style="padding: 18px; font-family: sans-serif;">
             <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
             <br>
             <select id="listSort" size="1"  onchange="makeList()">
@@ -170,7 +170,7 @@
             <br>
             <button class="Button-Broken" onclick="clearFavs();"> Clear Favorites</button>
             <br><br>
-            <center><a style="color: white; font-size: 18px">Favorite Games</a></center>
+            <center><a style="color: black; font-size: 18px">Favorite Games</a></center>
             <br>
             <div id="FavoritesBody" style="height: 425px; border-color: black; border-width: 3.55px; border-style: solid; overflow-y: scroll; column-gap: 15px; padding: 15px 15px;">
 
@@ -365,7 +365,7 @@
         localStorage.setItem("favoriteGames", "")
         tempFaves = localStorage.getItem("favoriteGames")
 
-        console.log(tempFaves)
+        console.log("Favorites Cleared")
         refreshFavs()
       }
       function refreshFavs(){
@@ -396,6 +396,50 @@
           }
         }
         document.getElementById("FavoritesBody").insertAdjacentHTML('beforeend', toAppend);
+      }
+      function removeFromFav(){
+        tempFaves = localStorage.getItem("favoriteGames")
+        allFaves = tempFaves.split(";")
+        let url = document.getElementById("GAMEURL").value;
+
+        let newAllFaves = allFaves.filter(item => item !== url);
+        let newFaves = ""
+
+        for(let index in newAllFaves){
+          if(newAllFaves[index] !== ""){
+            newFaves += newAllFaves[index] + ";"
+          }
+        }
+        localStorage.setItem("favoriteGames", newFaves)
+        tempFaves = localStorage.getItem("favoriteGames")
+        
+        allFaves2 = tempFaves.split(";")
+        console.log(allFaves2)
+
+        refreshFavs()
+      }
+      function addToFav(){
+        tempFaves = localStorage.getItem("favoriteGames")
+        allFaves = tempFaves.split(";")
+
+        let url = document.getElementById("GAMEURL").value;
+        let alrThere = false
+        if(url === ""){
+          for(let index in allFaves){
+            if(allFaves[index] == url){
+              alrThere = true
+            }
+          }
+          if(alrThere === false){
+            tempFaves += url + ";"
+            localStorage.setItem("favoriteGames", tempFaves)
+          }
+        }
+
+        allFaves2 = tempFaves.split(";")
+        console.log(allFaves2)
+
+        refreshFavs()
       }
       function surpriseMe(fromMenu){
         let urlList = [];
