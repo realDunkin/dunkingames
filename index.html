@@ -392,7 +392,7 @@
             }
             console.log(actualData)
             if(actualData !== ""){
-              onClickk = 'setURL("' + actualData.url + '")'
+              onClickk = "setURL('" + actualData.url + "')"
               toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; height: 100px; padding: 5px 5px;" class="grid-item" onclick="' + onClickk + '"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
             }
           }
