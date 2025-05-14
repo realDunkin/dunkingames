@@ -10,6 +10,22 @@
 
 		<title>IQBall</title>
 		<link rel="stylesheet" href="css/game.css" type="text/css" />
+
+		<script>
+			let wasMuted = false;
+			// To trigger the event Listener adBreakStart
+			document.addEventListener("adBreakStart", () => {
+				console.log("Ad Fake Started")	
+			});
+			// To trigger the event Listener  adBreakComplete
+			document.addEventListener("adBreakComplete", () => {
+				console.log("Ad skip complete!")
+			});
+			
+			function cmgAdBreakCall() {
+				console.log("No Ad!")
+			}
+		</script>
 		
 		<script type="text/javascript" src="lib/phaser.js"></script>
 		<script type="text/javascript" src="compressed/js/box2d.min.js"></script>
