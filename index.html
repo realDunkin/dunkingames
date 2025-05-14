@@ -27,10 +27,8 @@
     .grid-item {
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
-      height: 100%;
       background-color: darkgray;
       color: white;
-      text-align: center;
     }
     .grid-item:hover {
       background-color: #7acca2;
@@ -39,10 +37,8 @@
     .grid-item-broken {
       font-family: "Fantasy", Helvetica, sans-serif;
       font-size: 20px;
-      width: 100%;
       background-color: gray;
       color: white;
-      text-align: center;
     }
     .grid-item-broken:hover {
       background-color: #cc7a7e;
@@ -373,36 +369,42 @@
 
         tempFaves = localStorage.getItem("favoriteGames")
         console.log(tempFaves)
-        allFaves = tempFaves.split(";").reverse()
-        console.log(allFaves)
+        if(tempFaves !== null){
+          allFaves = tempFaves.split(";").reverse()
+          console.log(allFaves)
 
-        let = toAppend = ""
-        console.log(allFaves.length)
+          let = toAppend = ""
+          console.log(allFaves.length)
 
-        if(allFaves.length <= 1){
-          toAppend += '<br><center><a style="color: red; font-size: 21px">No Games Favorited!</a></center>'
-        }
-        else{
-          for(let index2 in allFaves){
-            let actualData = ""
-            for(let index in gameData.games) {
-              if(gameData.games[index].url === allFaves[index2]){
-                actualData = gameData.games[index]
+          if(allFaves.length <= 1){
+            toAppend += '<br><center><a style="color: red; font-size: 21px">No Games Favorited!</a></center>'
+          }
+          else{
+            for(let index2 in allFaves){
+              let actualData = ""
+              for(let index in gameData.games) {
+                if(gameData.games[index].url === allFaves[index2]){
+                  actualData = gameData.games[index]
+                }
               }
-            }
-            console.log(actualData)
-            if(actualData !== ""){
-              onClickk = "setURL('" + actualData.url + "')"
-              if(actualData.isWorking){
-                toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:pointer;" class="grid-item" onclick="' + onClickk + '"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
-              }
-              else{
-                toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:not-allowed;" class="grid-item-broken"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
+              console.log(actualData)
+              if(actualData !== ""){
+                onClickk = "setURL('" + actualData.url + "')"
+                if(actualData.isWorking){
+                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:pointer;" class="grid-item" onclick="' + onClickk + '"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
+                }
+                else{
+                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:not-allowed;" class="grid-item-broken"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
+                }
               }
             }
           }
+          document.getElementById("FavoritesBody").insertAdjacentHTML('beforeend', toAppend);
         }
-        document.getElementById("FavoritesBody").insertAdjacentHTML('beforeend', toAppend);
+        else{
+          localStorage.setItem("favoriteGames", "")
+          refreshFavs()
+        }
       }
       function checkIfFav(url){
         let alrThere = false
