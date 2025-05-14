@@ -1315,6 +1315,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "How can there be instructions when There Is No Game? But try using your mouse anyway. We also highly recommend that you don't play this game with sound on. You will not get hints from the narrator that will end up helping you progress further. If you ever get stuck, make sure not to search for anything out of the ordinary such as letters that look slightly askew. This will do nothing to help you progress through the game."
+    },
+    {
+      "id": 96,
+      "data": {
+        "width": 630,
+        "height": 420,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "IQ Ball",
+      "url": "iq-ball",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Your goal is to get the little purple IQ Ball critter to the target. To do this, you shoot out with his grabber and latch onto things to move him along towards his goal. The fewer the moves you use, the better!"
     }
   ],
   "webhooks": [

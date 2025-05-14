@@ -1,0 +1,5563 @@
+{
+	"height": 30,
+	"levels": [
+	{
+			"level": 0,
+			"sprites": [
+				{
+					"coolmath": "assets/images/background/BackSponsor.png",
+					"plainbg": "assets/images/background/background.jpg",
+					"menubg": "assets/images/background/mainmenu-bg.png",
+					"iqballTitle": "assets/images/iqball-title.png",
+					"transparent": "assets/images/transparent.png",
+					"transparent1": "assets/images/transparent1.png",
+					"hook": "assets/images/parts/Hook.png", 
+					"hand": "assets/images/parts/Hand.png", 
+					"ropeB": "assets/images/parts/RopeBlue.png",
+					"ropeDist": "assets/images/parts/ropedist_small.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+					"anchorA": "assets/images/parts/Anchor.png",
+					"anchorB": "assets/images/parts/Anchor.png",
+					"selectText": "assets/images/selecttext_new.png",
+					"mouse": "assets/images/others/mouse.png",
+					"clickDragText": "assets/images/clickdrag_new.png",
+					"framework": "assets/images/background/framework_1.png",
+					"film": "assets/images/sprites/menu/menu_bg.png",
+					"lock": "assets/images/sprites/menu/lock_trans.png",
+					"arrow": "assets/images/others/arrow.png",
+					"playerRopeTarget": "assets/images/parts/player-ropetarget.png",
+					"playNormal": "assets/images/Play01.png",
+					"playOver": "assets/images/Play02.png",
+					"playDown": "assets/images/Play03.png",
+					"front": "assets/images/front/Front_1.png",
+					"earth": "assets/images/earth/Earth_1.png",
+					"sky": "assets/images/sky/Sky_1.png",
+					"scene": "assets/images/scene/Back_1.png",
+					"click":"assets/images/click.png"
+				
+				}
+			],
+			"audio": [
+				{
+					"buttonClick": "assets/audio/ButtonClick.mp3",
+					"buttonOver": "assets/audio/ButtonOver_latest.mp3",
+					"fedoit": "assets/audio/ButtonOver.mp3",
+					"hookFly": "assets/audio/HookFly.mp3",
+					"hookHard": "assets/audio/HookHard_latest.mp3",
+					"hookSoft": "assets/audio/HookSoft_latest.mp3",
+					"music": "assets/audio/Music.mp3",
+					"setLevel": "assets/audio/SetLevel.mp3",
+					"winner": "assets/audio/Winner.mp3"
+				}
+			],
+
+			"atlas": [
+				{
+					"sunAnim": "assets/images/sprites/sunsprite.png",
+					"sunAnimJson": "assets/images/sprites/sunsprite.json",
+					"mouseAnim": "assets/images/sprites/mouse.png",
+					"mouseAnimJson": "assets/images/sprites/mouse.json",
+					"congratsAnim": "assets/images/sprites/congrats.png",
+					"congratsAnimJson": "assets/images/sprites/congrats.json",
+					"sparkAnim": "assets/images/sprites/spark.png",
+					"sparkAnimJson": "assets/images/sprites/spark.json",
+					"bubbleAnim": "assets/images/sprites/bubble.png",
+					"bubbleAnimJson": "assets/images/sprites/bubble.json",
+					"spikeAnim": "assets/images/sprites/spike.png",
+					"spikeAnimJson": "assets/images/sprites/spike.json"
+				}
+			] ,
+
+			"position": [
+				{
+					"clickX": "15",
+                    "clickY": "386"
+				}	
+			]
+		} ,
+		{
+			"level": 1,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"scene": "assets/images/scene/Back_1.png",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_1.png"
+					
+					
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+                  	"earthsprite": "assets/images/earth/Earth_1.png",
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"wiresoft1": "assets/images/parts/WireSoft.png",
+					"wiresoft2": "assets/images/parts/WireSoft2a.png",
+					"post": "assets/images/parts/PostWood.png",
+					"postWood1": "assets/images/parts/PostWood.png",
+					"tutorialTextsprite":"assets/images/tutorialText.png",
+					"tutorialTextDesktopsprite":"assets/images/tutorialTextDesktop.png",
+					"anchorA": "assets/images/parts/Anchor.png",
+					"anchorB": "assets/images/parts/Anchor.png",
+					"ropeB": "assets/images/parts/RopeBlue.png",
+					"ropeDist": "assets/images/parts/ropelevel_1.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+				    "frontsprite": "assets/images/front/Front_1.png",
+					"dist": "assets/images/parts/Distance1.png",
+					"weldPin": "assets/images/parts/WeldPin1.png",
+					"goalTextsprite":"assets/images/goalText.png"
+				}
+			],
+			"gameText": [
+				{
+					"goalText": "Goal: Grab the red target board with your spike",
+					"goalTextFont": "Tavridaad-bold",
+					"goalTextFontSize": "30",
+					"goalTextFill": "#ABA299",
+					"clickText": "Click",
+					"clickTextFont": "Tavridaad-bold",
+					"clickTextFontSize": "30",
+					"clickTextFill": "#302E76",
+					"levelText": "",
+					"levelTextFont": "Tavridaad-bold",
+					"levelTextFontSize": "30",
+					"levelTextFill": "#228B22"
+				}
+			],
+
+		
+			"position": [
+				{
+					"earthspriteX": "-18.00",	
+					"earthspriteY": "358.65",
+					"sceneX": "-66.35",
+					"sceneY": "32.65",
+					"frontspriteX": "-13.8",
+					"frontspriteY": "337.5",
+					"skyX": "72.55",
+					"skyY": "63.85",
+					"tutorialX": "99",
+					"tutorialY": "52",
+					"playerX": "324",
+					"playerY": "345",
+					"playerpullFactor": "0.10",
+					
+					"sunX" : "220",
+					"sunY" : "70",
+					"groundX": "315",
+					"groundY": "396.5",
+					"groundscaleX": "21.08",
+					"groundscaleY": "2.5",
+					"wiresoftX": "0.175",
+					"wiresoftY": "69.125",
+					"wiresoftscaleX": "0.4",
+					"wiresoftscaleY": "0.9",
+					"wiresoftangle": "-190.0",
+					
+					"wiresoft1X": "640.225",
+					"wiresoft1Y": "72.125",
+					"wiresoft1scaleX": "0.4",
+					"wiresoft1scaleY": "0.9",
+					"wiresoft1angle": "195.0",
+				
+					"wiresoft2X": "308.3",
+					"wiresoft2Y": "66.525",
+					"wiresoft2scaleX": "0.8",
+					"wiresoft2scaleY": "0.9",
+
+					"postX": "51.275",
+					"postY": "211.475",
+					"postWood1X": "580.275",
+					"postWood1Y": "211.475",
+					
+					"targetX": "334.5",
+					"targetY": "147.75",
+					"targetscaleX": "0.999",
+					"targetscaleY": "0.997",
+					"targetangle": "4.711",
+					
+					"weldPinX": "324.15",
+					"weldPinY": "63",
+					"weldPinscaleX": "1.0",
+					"weldPinscaleY": "1.0",
+					"weldPinangle":"0",
+					
+					"distX": "331.05",
+					"distY": "134.95",
+					
+					"distanchorAX": "332.65",
+					"distanchorAY": "68.45",
+					"distanchorAscaleX": "1.0",
+					"distanchorAscaleY": "1",
+					"distanchorAangle" : "-1.53",
+					"distanchorAlength": "66.5",
+					
+					"distanchorBX": "334.85",
+					"distanchorBY": "135.95",
+					"distanchorBscaleX": "0.999",
+					"distanchorBscaleY": "0.99355",
+					"distanchorBangle" : "-1.5",
+
+					"goalTextspriteX": "93",
+					"goalTextspriteY": "48",
+					"tutorialTextDesktopspriteX": "355",
+                    "tutorialTextDesktopspriteY": "205",
+					"tutorialTextspriteX": "220",
+                    "tutorialTextspriteY": "225",
+					
+					"clickX": "27",
+                    "clickY": "386"
+				
+					
+				}
+			]
+			} ,
+		{
+			"level": 2,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_2.png",
+					"scene": "assets/images/scene/Back_2.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"groundTriangle": "assets/images/ground/GroundTriangle.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+                    "earthsprite": "assets/images/earth/Earth_2.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"millHouse": "assets/images/parts/MillHouse.png",
+					"millWheel": "assets/images/parts/MillWheel.png",
+					"revoluteMill": "assets/images/parts/RevoluteMill.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+	 		        "frontsprite": "assets/images/front/Front_2.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-31.0",	
+					"earthspriteY": "90.3",
+					"sceneX": "-248",
+					"sceneY": "52",
+					"frontspriteX": "5",
+					"frontspriteY": "342.65",
+					"skyX": "28.0",
+					"skyY": "12",
+					"targetX": "600",
+					"targetY": "81.45",
+					"playerX": "30",
+					"playerY": "360",
+					"tutorialX": "99",
+					"tutorialY": "52",
+					"sunX" : "146",
+					"sunY" : "8",
+					"groundX": "315.25",
+					"groundY": "412.5",
+					"groundscaleX": "23.08",
+					"groundscaleY": "2.5",
+					"ground1X": "548.50",
+					"ground1Y": "240.05",
+					"ground1scaleX": "7.5",
+					"ground1scaleY": "9.9",
+					"ground2X": "535",
+					"ground2Y": "565",
+					"ground2scaleX": "7",
+					"ground2scaleY": "1",
+			
+					"hardBoxX": "330" ,
+					"hardBoxY": "-10",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox1X": "-22" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					
+					"hardBox2X": "645" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					
+					"groundTriangleX": "400.5",
+					"groundTriangleY": "127",
+					"groundTrianglescaleX": "1.25",
+					"groundTrianglescaleY": "1.250",
+					"groundTriangleangle": "90",
+					
+					
+					"groundArcX": "426",
+					"groundArcY": "371",
+					"groundArcangle" : "180",
+					
+					"revoluteMillX": "314",
+					"revoluteMillY": "187",
+					"revoluteMillvisible": "0",
+					
+					"millWheelX": "314",
+					"millWheelY": "187",
+
+					"millHouseX": "314",
+					"millHouseY": "247.9"
+				}
+			]
+		} ,
+		
+		{
+			"level": 3,
+			"ground": "ground",
+			
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_3.png",
+					"scene": "assets/images/scene/Back_3.png"
+					
+				}
+			],
+			"gameObjects": [
+				{
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"ground": "assets/images/ground/GroundBox.png",
+                   	"earthsprite": "assets/images/earth/Earth_3.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"transformer": "assets/images/parts/Transformer1.png",
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"wiresoft1": "assets/images/parts/WireSoft.png",
+					"post": "assets/images/parts/PostWood.png",
+					"post2": "assets/images/parts/PostWood2.png",
+					"caseWood": "assets/images/parts/CaseWood.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+					"weldPin": "assets/images/parts/WeldPin.png",
+					"weldPin1": "assets/images/parts/WeldPin.png",
+				    "frontsprite": "assets/images/front/Front_3.png",
+					"containerMetal": "assets/images/parts/ContainerMetal.png",
+					"containerMetal1": "assets/images/parts/ContainerMetal.png"
+				}
+			],
+			
+			"position": [
+				{
+					"earthspriteX": "-18.00",	
+					"earthspriteY": "360",
+					"sceneX": "-47.1",
+					"sceneY": "-10",
+					"scenescaleX": "1",
+					"scenescaleY": "1",
+					"frontspriteX": "-22",
+					"frontspriteY": "133.65",
+					"skyX": "68.58",
+					"skyY": "16.25",
+					"skyscaleX": "0.93",
+					"skyscaleY": "0.93",
+					"tutorialX": "99",
+					"tutorialY": "52",
+					"playerX": "120",
+					"playerY": "345",
+					"sunX" : "260",
+					"sunY" : "38.5",
+					"groundX": "315.25",
+					"groundY": "452.5",
+					"groundscaleX": "23.08",
+					"groundscaleY": "1.5",
+
+					"stoneBoxX": "315",
+					"stoneBoxY": "398.9",
+					"hardBox1X": "0" ,
+					"hardBox1Y": "235",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "14.999",
+					"hardBox2X": "645" ,
+					"hardBox2Y": "210.15",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "15.01",
+					"hardBoxX": "330" ,
+					"hardBoxY": "0",
+					"hardBoxscaleX": "22.999" ,
+					"hardBoxscaleY": "1",
+					"transformerX": "49.5",
+					"transformerY": "300.5",
+					"transformerscaleX":"0.39",
+					"transformerscaleY":"0.39",
+					"stoneBoxscaleX": "22",
+					"stoneBoxscaleY": "2.5",
+					"postX": "88.275",
+					"postY": "211.500",
+					"post2X": "376.8",
+					"post2Y": "178.625",
+					"post2scaleX": "0.71",
+					"post2scaleY": "0.71",
+					"wiresoftX": "-74.675",
+					"wiresoftY": "69.345",
+					"wiresoft1X": "242.375",
+					"wiresoft1Y": "111",
+					"wiresoft1scaleX": "1.08",
+					"wiresoft1scaleY": "1.13",
+					"wiresoft1angle": "19.02",
+					"containerMetalX": "508.225",
+					"containerMetalY": "212.2",
+					"containerMetal1X": "643.525",
+					"containerMetal1Y": "312.95",
+					"caseWoodX": "390.95",
+					"caseWoodY": "320",
+					"targetX": "468",
+					"targetY": "350",
+					"weldPinX": "625",
+					"weldPinY": "150",
+					"weldPin1X": "635",
+					"weldPin1Y": "315"
+					
+				}
+			]
+		} ,
+		
+		{
+			"level": 4,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_4.png",
+					"scene": "assets/images/scene/Back_4.png"
+					
+				}
+			],
+			"gameObjects": [
+				{
+			    "ground": "assets/images/ground/GroundBox.png",
+                "ground1": "assets/images/ground/GroundBox.png",
+				"ground2": "assets/images/ground/GroundBox.png",
+                "wiresoft": "assets/images/parts/WireSoft.png",
+                "wiresoft1": "assets/images/parts/WireSoft2.png",
+                "postStone": "assets/images/parts/PostStone.png",
+                "target": "assets/images/Target.png",
+                "eyeball": "assets/images/parts/Eye-Ball.png",
+                "wireMetal": "assets/images/parts/WireMetal.png",
+                "postMetal": "assets/images/parts/PostMetal.png",
+                "earthsprite": "assets/images/earth/Earth_4.png",
+                "player": "assets/images/parts/Head.png",
+                "frontsprite": "assets/images/front/Front_4.png",
+                "revolutePin": "assets/images/parts/RevolutePin.png"
+				}
+			],
+			
+			"position": [
+				{
+					"earthspriteX": "-45.25",	
+					"earthspriteY": "273",	
+					"sceneX": "-42.4",
+					"sceneY": "76.2",
+					"scenescaleX": "1.05",
+					"scenescaleY": "1.06",
+					"frontspriteX": "0",
+					"frontspriteY": "353.65",
+					"skyX": "31.2",
+					"skyY": "29.4",
+					"skyscaleX": "1.005",
+					"skyscaleY": "1",
+					"playerX": "64",
+					"playerY": "235",
+					"playerscaleX": "0.73",
+					"playerscaleY": "0.74",
+					"playerropeScale": "0.65",
+					"sunX" : "173",
+					"sunY" : "40",
+					"sunscaleX" : "0.75",
+					"sunscaleY" : "0.75",
+					"groundX": "31.5",
+					"groundY": "387.05",
+					"groundscaleX": "4.5",
+					"groundscaleY": "7.5",
+					"ground1X": "385.9",
+					"ground1Y": "440.9",
+					"ground1scaleX": "20.55",
+					"ground1scaleY": "7.70",
+					"ground1angle": "9.771",
+					"ground2X": "309.045",
+					"ground2Y": "86.99",
+					"ground2scaleX": "16.55",
+					"ground2scaleY": "0.35",
+					"ground2angle": "-6.2",
+
+					"postMetalX": "566.725",
+					"postMetalY": "237.00",
+					"postMetalscaleX": "0.68",
+					"postMetalscaleY": "0.69",
+					
+					"postStoneX": "41.275",
+					"postStoneY": "212.725",
+					"postStonescaleX": "0.85",
+					"postStonescaleY": "0.65",
+
+					"wiresoftX": "-113.005",
+					"wiresoftY": "120.425",
+					"wiresoftscaleX": "1",
+					"wiresoftscaleY": "0.7",
+					"wiresoft1X": "314.045",
+					"wiresoft1Y": "93.99",
+					"wiresoft1scaleX": "1",
+					"wiresoft1scaleY": "0.7",
+					"wiresoft1visible": "1",
+					"wiresoft1angle": "-6.1",
+
+
+					"wireMetalX": "673.575",
+					"wireMetalY": "68.0",
+					"wireMetalscaleX": "0.75",
+					"wireMetalscaleY": "0.60",
+				
+					"targetX": "543.35",
+					"targetY": "80.59",
+					"targetscaleX": "0.7",
+					"targetscaleY": "0.7",
+					"targetstatic": "1",
+					"revolutePinX": "536.25",
+					"revolutePinY": "61.6",
+					"revolutePinscaleX": "0.6",
+					"revolutePinscaleY": "0.6"
+			
+				}
+			]
+		} ,
+			
+		{
+			"level": 5,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_5.png",
+					"scene": "assets/images/scene/Back_5.png",
+					"earth": "assets/images/earth/Earth_5.png"
+					
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"stoneBox1": "assets/images/ground/StoneBox.png",
+					"stoneBox2": "assets/images/ground/StoneBox.png",
+					"stoneBox3": "assets/images/ground/StoneBox.png",
+					"stoneBox4": "assets/images/ground/StoneBox.png",
+					"stoneBox5": "assets/images/ground/StoneBox.png",
+					"stoneBox6": "assets/images/ground/StoneBox.png",
+					"stoneBox7": "assets/images/ground/StoneBox.png",
+					"stoneBox8": "assets/images/ground/StoneBox.png",
+					"stoneBox9": "assets/images/ground/StoneBox.png",
+					"stoneBox10": "assets/images/ground/StoneBox.png",
+					"stoneBox11": "assets/images/ground/StoneBox.png",
+					"stoneBox12": "assets/images/ground/StoneBox.png",
+					"stoneBox13": "assets/images/ground/StoneBox.png",
+					"stoneBox14": "assets/images/ground/StoneBox.png",
+					"stoneBox15": "assets/images/ground/StoneBox.png",
+					"stoneBox16": "assets/images/ground/StoneBox.png",
+					"stoneBox17": "assets/images/ground/StoneBox.png",
+					"postMetala": "assets/images/parts/PostMetal.png",
+					"postMetal1a": "assets/images/parts/PostMetal.png",
+					"wireMetal": "assets/images/parts/WireMetal.png",
+					"wireMetal1": "assets/images/parts/WireMetal.png",
+					"wireMetal2": "assets/images/parts/WireMetal.png",
+					"transformer": "assets/images/parts/Transformer.png",
+					"coach": "assets/images/parts/Coach.png",					
+					"coachWheel": "assets/images/parts/CoachWheel.png",
+					"coachWheel1": "assets/images/parts/CoachWheel.png",
+					"ropeDist": "assets/images/parts/ropedist_small2.png",
+					"dist1": "assets/images/parts/Distance1.png",
+					"dist": "assets/images/parts/Distance1.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+					"anchorA": "assets/images/parts/Anchor.png",
+					"anchorB": "assets/images/parts/Anchor.png",
+					"anchorA1": "assets/images/parts/Anchor.png",
+					"anchorB1": "assets/images/parts/Anchor.png",
+					"frontsprite": "assets/images/front/Front_5.png"
+				}
+			],
+			
+			"position": [
+				{
+					"earthX": "-3.55",	
+					"earthY": "184.5",
+					"sceneX": "-45.4",
+					"sceneY": "-24",
+					"frontspriteX": "-11.8",
+					"frontspriteY": "256.65",
+					"skyX": "93.8",
+					"skyY": "17",
+					
+					"playerX": "63.2",
+					"playerY": "126.5",
+					
+					"playerscaleX": "0.58",
+					"playerscaleY": "0.60",
+					"playerropeScale": "0.55",
+					
+					"sunX" : "437",
+					"sunY" : "32",
+					"sunscaleX" : "0.66",
+					"sunscaleY" : "0.66",
+
+					"groundX": "31.5",
+					"groundY": "379.75",
+					"groundscaleX": "4.5",
+					"groundscaleY": "7.5",
+
+					
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "235",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "14.999",
+					
+					"hardBox2X": "645" ,
+					"hardBox2Y": "210.15",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "15.01",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "0",
+					"hardBoxscaleX": "22.999" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox3X": "328",
+					"hardBox3Y": "423",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "1",
+
+					"stoneBoxX": "566",
+					"stoneBoxY": "366.5",
+					"stoneBoxscaleX": "4.0",
+					"stoneBoxscaleY": "2.75",
+					
+					"stoneBox1X": "416.3",
+					"stoneBox1Y": "327",
+					"stoneBox1scaleX": "2.70",
+					"stoneBox1scaleY": "5.65",
+					
+					"stoneBox2X": "408.5",
+					"stoneBox2Y": "332.5",
+					"stoneBox2scaleX": "2.55",
+					"stoneBox2scaleY": "5.05",
+					
+					"stoneBox3X": "150.5",
+					"stoneBox3Y": "396",
+					"stoneBox3scaleX": "31.0",
+					"stoneBox3scaleY": "0.85",
+					
+					"stoneBox4X": "150.5",
+					"stoneBox4Y": "400",
+					"stoneBox4scaleX": "31.0",
+					"stoneBox4scaleY": "0.85",
+					
+					"stoneBox5X": "118.5",
+					"stoneBox5Y": "321",
+					"stoneBox5scaleX": "13",
+					"stoneBox5scaleY": "1.25",
+					
+					"stoneBox6X": "52.5",
+					"stoneBox6Y": "262.7",
+					"stoneBox6scaleX": "3.58",
+					"stoneBox6scaleY": "5.06",
+					
+					"stoneBox7X": "88.3",
+					"stoneBox7Y": "265.5",
+					"stoneBox7scaleX": "2.56",
+					"stoneBox7scaleY": "2.5",
+
+					"stoneBox8X": "465.7",
+					"stoneBox8Y": "296",
+					"stoneBox8scaleX": "1.55",
+					"stoneBox8scaleY": "1.05",
+					
+					"stoneBox9X": "472.3",		
+					"stoneBox9Y": "340",
+					"stoneBox9scaleX": "2.55",
+					"stoneBox9scaleY": "2.05",
+
+					"stoneBox10X": "440.7",
+					"stoneBox10Y": "373.5",
+					"stoneBox10scaleX": "5.0",
+					"stoneBox10scaleY": "0.85",
+
+					"stoneBox11X": "123.5",
+					"stoneBox11Y": "363",
+					"stoneBox11scaleX": "14.0",
+					"stoneBox11scaleY": "1.25",
+			
+					"stoneBox12X": "281",
+					"stoneBox12Y": "283",
+					"stoneBox12scaleX": "2.71",
+					"stoneBox12scaleY": "3.65",
+
+					"stoneBox13X": "286",
+					"stoneBox13Y": "269",
+					"stoneBox13scaleX": "2.1",
+					"stoneBox13scaleY": "3.65",
+						
+					"stoneBox14X": "284",
+					"stoneBox14Y": "321",
+					"stoneBox14scaleX": "2.95",
+					"stoneBox14scaleY": "1.65",
+						
+					"stoneBox15X": "225.5",
+					"stoneBox15Y": "268.5",
+					"stoneBox15scaleX": "1.5",
+					"stoneBox15scaleY": "1.2",
+
+					"stoneBox16X": "210.05",
+					"stoneBox16Y": "298.5",
+					"stoneBox16scaleX": "1.5",
+					"stoneBox16scaleY": "1.2",
+
+					"stoneBox17X": "133.75",
+					"stoneBox17Y": "296",
+					"stoneBox17scaleX": "0.6",
+					"stoneBox17scaleY": "0.6",
+					
+					"postMetalaX": "32.0",
+					"postMetalaY": "121.45",
+					"postMetalascaleX": "0.24",
+					"postMetalascaleY": "0.25",
+					
+					"wireMetalX": "311.375",
+					"wireMetalY": "133.45",
+					"wireMetalscaleX": "2.31",
+					"wireMetalscaleY": ".60",
+					"wireMetalangle": "14.1",
+		
+					"wireMetal1X": "-33.275",
+					"wireMetal1Y": "63.15",
+					"wireMetal1scaleX": "0.5",
+					"wireMetal1scaleY": ".40",
+				
+					"postMetal1aX": "594.475",
+					"postMetal1aY": "260.45",
+					"postMetal1ascaleX": "0.24",
+					"postMetal1ascaleY": "0.25",
+
+					"wireMetal2X": "649.475",
+					"wireMetal2Y": "203.45",
+					"wireMetal2scaleX": "0.40",
+					"wireMetal2scaleY": ".60",
+
+					"transformerX": "63.475",
+					"transformerY": "163.05",
+					"transformerscaleX":"0.47",
+					"transformerscaleY":"0.50",
+
+					"distX": "331.05",
+					"distY": "134.95",
+					"dist1X": "331.05",
+					"dist1Y": "134.95",
+
+					"coachX": "103.20",
+					"coachY": "108.65",
+					"coachscaleX":"0.5",
+					"coachscaleY":"0.5",
+
+					"coachWheelX": "84.675",
+					"coachWheelY": "66.45",
+					"coachWheelscaleX":"0.6",
+					"coachWheelscaleY":"0.6",
+					
+					"distanchorAX": "84.675",
+					"distanchorAY": "66.45",
+					"distanchorAscaleX": "1",
+					"distanchorAscaleY": "1",
+					"distanchorAlength": "23",
+					"distanchorAangle" : "0",
+					"distanchorAvisible" : "1",
+
+					"coachWheel1X": "116.975",
+					"coachWheel1Y": "67.45",
+					"coachWheel1scaleX":"0.6",
+					"coachWheel1scaleY":"0.6",
+					
+					"distanchorBX": "87.675",
+					"distanchorBY": "93.45",
+					"distanchorBscaleX": "1",
+					"distanchorBscaleY": "1",
+					"distanchorBangle" : "0",
+					"distanchorBvisible" : "1",
+					
+					"dist1anchorAX": "116.675",
+					"dist1anchorAY": "66.45",
+					"dist1anchorAscaleX": "1",
+					"dist1anchorAscaleY": "1.0",
+					"dist1anchorAlength": "23.5",
+					"dist1anchorAangle" : "0",
+					"dist1anchorAvisible" : "1",
+
+					"dist1anchorBX": "124.675",
+					"dist1anchorBY": "94.05",
+					"dist1anchorBscaleX": "1",
+					"dist1anchorBscaleY": "1",
+					"dist1anchorBangle" : "0",
+					
+					"targetX": "350.35",
+					"targetY": "367.95",
+					"targetscaleX": "0.5",
+					"targetscaleY": "0.5"
+			
+				}
+			]
+		} ,
+
+		{
+			"level": 6,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"scenesprite": "assets/images/scene/Back_6.png",
+					"skysprite": "assets/images/sky/Sky_6.png",
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"ground4": "assets/images/ground/GroundBox.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					"groundArc2": "assets/images/ground/GroundArc.png",					
+					"groundArc3": "assets/images/ground/GroundArc.png",					
+					"groundArc4": "assets/images/ground/GroundArc.png",					
+					"groundArc5": "assets/images/ground/GroundArc.png",	
+					"earthsprite": "assets/images/earth/Earth_6.png",				
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"millHouse": "assets/images/parts/MillHouse.png",
+					"millWheel": "assets/images/parts/MillWheel.png",
+					"ballStone": "assets/images/parts/BallStone.png",
+					"ballStone1": "assets/images/parts/BallStone.png",
+					"ballStone2": "assets/images/parts/BallStone.png",
+					"ballStone3": "assets/images/parts/BallStone.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+					
+					"revoluteMill": "assets/images/parts/RevoluteMill.png",
+				
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"eyeball": "assets/images/parts/Eye-Ball.png",
+					"frontsprite": "assets/images/front/Front_6.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-5.0",	
+					"earthspriteY": "91.0",	
+					"earthspritescaleX": "1",	
+					"earthspritescaleY": "1",	
+					"scenespriteX": "-69",
+					"scenespriteY": "64",
+					"scenespritescaleX": "1.06",
+					"scenespritescaleY": "1",
+					"frontspriteX": "-28",
+					"frontspriteY": "325.65",
+					"frontspritescaleX": "1.1",
+					"frontspritescaleY": "1.2",
+					"skyspriteX": "17.05",
+					"skyspriteY": "27.05",
+					"skyspritescaleX": "1.01",
+					"skyspritescaleY": "1.005",
+					
+					"playerX": "62",
+					"playerY": "360",
+					"playerscaleX": "0.77",
+					"playerscaleY": "0.77",
+					
+					"tutorialX": "99",
+					"tutorialY": "52",
+					"sunX" : "86",
+					"sunY" : "46",
+					"sunscaleX" : "0.67",
+					"sunscaleY" : "0.67",
+
+					"groundX": "300",
+					"groundY": "389.15",
+					"groundscaleX": "23.08",
+					"groundscaleY": "2.5",
+
+					"ground1X": "548",
+					"ground1Y": "144.85",
+					"ground1scaleX": "4.84",
+					"ground1scaleY": "3.52",
+
+					"ground2X": "378.3",
+					"ground2Y": "146.05",
+					"ground2scaleX": "4.55",
+					"ground2scaleY": "3.6",
+					
+					"ground3X": "390.5",
+					"ground3Y": "344.85",
+					"ground3scaleX": "6.99",
+					"ground3scaleY": "7.49",
+
+					"ground4X": "611",
+					"ground4Y": "311.85",
+					"ground4scaleX": "1.2",
+					"ground4scaleY": "7.52",
+
+					"hardBoxX": "330" ,
+					"hardBoxY": "0",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-22" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "645" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"groundArcX": "453",
+					"groundArcY": "100.5",
+					"groundArcangle" : "0.",
+					"groundArcscaleX" : "0.8",
+					"groundArcscaleY" : "0.8",
+
+					"groundArc1X": "470",
+					"groundArc1Y": "100.5",
+					"groundArc1angle" : "90",
+					"groundArc1scaleX" : "0.8",
+					"groundArc1scaleY" : "0.79",
+
+
+					"groundArc2X": "586.9",
+					"groundArc2Y": "210",
+					"groundArc2angle" : "90",
+					"groundArc2scaleX" : "1.0",
+					"groundArc2scaleY" : "1.0",
+
+					"groundArc3X": "590",
+					"groundArc3Y": "340",
+					"groundArc3angle" : "180",
+					"groundArc3scaleX" : "1.0",
+					"groundArc3scaleY" : "1.0",
+
+					"groundArc4X": "278",
+					"groundArc4Y": "340",
+					"groundArc4angle" : "170",
+					"groundArc4scaleX" : "1.0",
+					"groundArc4scaleY" : "1.0",
+
+					"groundArc5X": "505",
+					"groundArc5Y": "342",
+					"groundArc5angle" : "-90",
+					"groundArc5scaleX" : "1.0",
+					"groundArc5scaleY" : "1.0",				
+
+					"groundBallX": "298.4",
+					"groundBallY": "245.9",
+					"groundBallscaleX" : "1.0",
+					"groundBallscaleY" : "1.0",
+					
+					"groundBall1X": "322.1",
+					"groundBall1Y": "104.7",
+					"groundBall1scaleX" : "1.0",
+					"groundBall1scaleY" : "1.0",
+					
+					"revoluteMillX": "207",
+					"revoluteMillY": "215",
+					"revoluteMillvisible": "0",
+					
+					"ballStoneX": "462.3",
+					"ballStoneY": "230.8",
+					"ballStonescaleX": "0.68",
+					"ballStonescaleY": "0.68",
+					
+					"ballStone1X": "463",
+					"ballStone1Y": "208.3",
+					"ballStone1scaleX": "0.65",
+					"ballStone1scaleY": "0.65",
+
+					"ballStone2X": "467",
+					"ballStone2Y": "181.8",
+					"ballStone2scaleX": "0.65",
+					"ballStone2scaleY": "0.65",
+
+					"ballStone3X": "463",
+					"ballStone3Y": "154.8",
+					"ballStone3scaleX": "0.65",
+					"ballStone3scaleY": "0.65",
+					
+					"targetX": "461",
+					"targetY": "131.8",
+					"targetscaleX": "0.72",
+					"targetscaleY": "0.72",
+
+					"millWheelX": "207",
+					"millWheelY": "215",
+					"millWheelscaleX": "0.70",
+					"millWheelscaleY": "0.70",
+					
+					"millHouseX": "210.275",
+					"millHouseY": "262.9",
+					"millHousescaleX": "0.70",
+					"millHousescaleY": "0.70"
+					
+				}
+			]
+		} ,
+		
+		{
+			"level": 7,
+			"ground": "ground",
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"scene": "assets/images/scene/Back_7.png",
+					"sky": "assets/images/sky/Sky_7.png",
+					"earth": "assets/images/earth/Earth_7.png",
+					"front": "assets/images/front/Front_7.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ballStone": "assets/images/parts/BallStone.png",
+					"ballWood": "assets/images/parts/BallWood.png",
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					"groundArc2": "assets/images/ground/GroundArc.png",					
+					"groundArc3": "assets/images/ground/GroundArc.png",					
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+					"groundBall2": "assets/images/ground/GroundBall.png",
+					"groundBall3": "assets/images/ground/GroundBall.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-30",	
+					"earthY": "330.0",
+					"sceneX": "-55",
+					"sceneY": "23",
+					"frontX": "-20",
+					"frontY": "343.65",
+					"skyX": "25.55",
+					"skyY": "15.0",
+					
+					"playerX": "45",
+					"playerY": "310",
+					
+					"sunX" : "219",
+					"sunY" : "48",
+					"sunscaleX" : "0.95",
+					"sunscaleY" : "0.95",
+
+					"groundX": "265",
+					"groundY": "423.95",
+					"groundscaleX": "25.08",
+					"groundscaleY": "3",
+
+					"ground1X": "62",
+					"ground1Y": "371.85",
+					"ground1scaleX": "9.78",
+					"ground1scaleY": "2.6",
+
+					"ground2X": "546",
+					"ground2Y": "370.85",
+					"ground2scaleX": "7.28",
+					"ground2scaleY": "2.52",
+					
+					"ground3X": "320",
+					"ground3Y": "371.85",
+					"ground3scaleX": "2.48",
+					"ground3scaleY": "2.62",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "0",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-22" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "645" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"groundArcX": "230",
+					"groundArcY": "367",
+					"groundArcangle" : "273",
+					"groundArcscaleX" : "1.07",
+					"groundArcscaleY" : "1.07",
+
+					"groundArc1X": "263",
+					"groundArc1Y": "367",
+					"groundArc1angle" : "180",
+					"groundArc1scaleX" : "1.0",
+					"groundArc1scaleY" : "1.0",
+
+
+					"groundArc2X": "380.9",
+					"groundArc2Y": "367",
+					"groundArc2angle" : "270",
+					"groundArc2scaleX" : "1.0",
+					"groundArc2scaleY" : "1.0",
+
+					"groundArc3X": "423",
+					"groundArc3Y": "367",
+					"groundArc3angle" : "180",
+					"groundArc3scaleX" : "1.0",
+					"groundArc3scaleY" : "1.0",
+
+					"groundBallX": "207.4",
+					"groundBallY": "346.7",
+					"groundBallscaleX" : "1.0",
+					"groundBallscaleY" : "1.0",
+					
+					"groundBall1X": "282.1",
+					"groundBall1Y": "346.7",
+					"groundBall1scaleX" : "1.0",
+					"groundBall1scaleY" : "1.0",
+
+					"groundBall2X": "358.9",
+					"groundBall2Y": "346.7",
+					"groundBall2scaleX" : "1.0",
+					"groundBall2scaleY" : "1.0",
+
+					"groundBall3X": "433.9",
+					"groundBall3Y": "346.7",
+					"groundBall3scaleX" : "1.0",
+					"groundBall3scaleY" : "1.0",
+
+					"ballStoneX": "180",
+					"ballStoneY": "320",
+					"ballStonescaleX": "1.1",
+					"ballStonescaleY": "1.1",
+
+					"ballWoodX": "465",
+					"ballWoodY": "310",
+					"ballWoodscaleX": "0.5",
+					"ballWoodscaleY": "0.5",
+					"ballWoodmass": "4.5",
+
+					"targetX": "588",
+					"targetY": "315",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+
+					
+				}
+			]
+		} ,
+		
+		{
+			"level": 8,
+			"ground": "ground",
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_8.png",
+					"scene": "assets/images/scene/Back_8.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+					"groundBall2": "assets/images/ground/GroundBall.png",
+					"groundBall3": "assets/images/ground/GroundBall.png",
+					"caseWood": "assets/images/parts/CaseWood.png",
+					"caseWood1": "assets/images/parts/CaseWood.png",
+					"caseMetal": "assets/images/parts/casemetal_8.png",
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"post": "assets/images/parts/PostWood.png",
+					"postWood1": "assets/images/parts/PostWood.png",
+					"earthsprite": "assets/images/earth/Earth_8.png",
+					"frontsprite": "assets/images/front/Front_8.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-16",	
+					"earthspriteY": "304.0",
+					"sceneX": "-114",
+					"sceneY": "34",
+					"frontspriteX": "0",
+					"frontspriteY": "342.65",
+					"skyX": "34.55",
+					"skyY": "30.05",
+					
+					"playerX": "350",
+					"playerY": "192",
+					
+					"sunX" : "137",
+					"sunY" : "27",
+
+					"groundX": "265",
+					"groundY": "400.95",
+					"groundscaleX": "25.28",
+					"groundscaleY": "3",
+
+					"groundBallX": "82.0",
+					"groundBallY": "480.95",
+					"groundBallscaleX": "11.75",
+					"groundBallscaleY": "5",
+
+					"groundBall1X": "242.55",
+					"groundBall1Y": "490.45",
+					"groundBall1scaleX": "11.25",
+					"groundBall1scaleY": "5",
+
+					"groundBall2X": "409.5",
+					"groundBall2Y": "490.25",
+					"groundBall2scaleX": "10.75",
+					"groundBall2scaleY": "5",
+
+					
+					"groundBall3X": "605.0",
+					"groundBall3Y": "466.95",
+					"groundBall3scaleX": "10.75",
+					"groundBall3scaleY": "3",
+
+					"wiresoftX": "313.3",
+					"wiresoftY": "85.525",
+					"wiresoftscaleX": "1.86",
+					"wiresoftscaleY": "1",
+
+					"postX": "51.275",
+					"postY": "227.475",
+					"postWood1X": "580.275",
+					"postWood1Y": "228.475",
+
+					
+					"caseWoodX": "371.8",
+					"caseWoodY": "295.7",
+					"caseWoodscaleX": "1.05",
+					"caseWoodscaleY": "1.05",
+					"caseWoodangle": "-5.8",
+					"caseWoodmass": "3.4",
+					"caseWoodfriction": "0.3",
+					"caseWoodrestitution": "0.1",
+					
+					"caseWood1X": "294.7",
+					"caseWood1Y": "291.6",
+					"caseWood1scaleX": "1.05",
+					"caseWood1scaleY": "1.05",
+					"caseWood1angle": "12.27",
+					"caseWood1mass": "3.4",
+					"caseWood1friction": "0.3",
+					"caseWood1restitution": "0.1",
+
+					"caseMetalX": "344.5",
+					"caseMetalY": "200",
+					"caseMetalscaleX": "1",
+					"caseMetalscaleY": "1",
+					"caseMetalangle": "5",
+
+					"targetX": "348",
+					"targetY": "470",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+
+					
+				}
+			]
+		} ,
+
+		{
+			"level": 9,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"scene": "assets/images/scene/Back_9.png",
+					"sky": "assets/images/sky/Sky_9.png",
+					"earth": "assets/images/earth/Earth_9.png",
+					"front": "assets/images/front/Front_9.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"stoneBox1": "assets/images/ground/StoneBox.png",
+					"stoneBox2": "assets/images/ground/StoneBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					
+					"ballWood": "assets/images/parts/BallWood.png",
+					"ballWood1": "assets/images/parts/BallWood.png",
+					"ballWood2": "assets/images/parts/BallWood.png",
+					"dist": "assets/images/parts/Distance1.png",
+					"dist1": "assets/images/parts/Distance1.png",
+					"dist2": "assets/images/parts/Distance1.png",
+					"beamMetal50": "assets/images/parts/BeamMetal50-level10.png",
+					"weldPin": "assets/images/parts/WeldPin.png",
+					"ropeDist": "assets/images/parts/ropelevel-9.png",
+					
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+					
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-12",	
+					"earthY": "262.0",
+					"sceneX": "-284",
+					"sceneY": "74",
+					"scenescaleX": "0.955",
+					"scenescaleY": "0.96",
+					"frontX": "-5",
+					"frontY": "354.65",
+					"skyX": "37.55",
+					"skyY": "27.85",
+					"skyscaleX": "0.969",
+					"skyscaleY": "1",
+					
+					"playerX": "20",
+					"playerY": "265",
+					"playerscaleX": "0.75",
+					"playerscaleY": "0.75",
+					"playerropeScale": "0.68",
+					
+					"sunX" : "154",
+					"sunY" : "51",
+					"sunscaleX" : "0.70",
+					"sunscaleY" : "0.70",
+
+					"groundX": "265",
+					"groundY": "447.95",
+					"groundscaleX": "1.08",
+					"groundscaleY": "1",
+
+					"stoneBoxX": "265",
+					"stoneBoxY": "406.95",
+					"stoneBoxscaleX": "25.08",
+					"stoneBoxscaleY": "1.2",
+
+					"stoneBox1X": "9.2",
+					"stoneBox1Y": "321.95",
+					"stoneBox1scaleX": "2.08",
+					"stoneBox1scaleY": "3.2",
+					
+					"stoneBox2X": "621",
+					"stoneBox2Y": "317.7",
+					"stoneBox2scaleX": "2.08",
+					"stoneBox2scaleY": "3.6",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-8",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+
+					"hardBox1X": "648" ,
+					"hardBox1Y": "210",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+
+					"hardBox2X": "-22" ,
+					"hardBox2Y": "235",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "14.999",
+					
+					"ballWoodX": "145",
+					"ballWoodY": "93",
+					"ballWoodscaleX": "0.43",
+					"ballWoodscaleY": "0.45",
+					"ballWoodmass": "4.0",
+					"ballWoodfriction": "0.00005",
+					"ballWoodrestitution": "0.00005",
+					"ballWoodangularDamping": "5",
+
+					"ballWood1X": "304",
+					"ballWood1Y": "93",
+					"ballWood1scaleX": "0.43",
+					"ballWood1scaleY": "0.45",
+					"ballWood1mass": "4.0",
+					"ballWood1friction": "0.00005",
+					"ballWood1restitution": "0.00005",
+					"ballWood1angularDamping": "5",
+
+					"ballWood2X": "470",
+					"ballWood2Y": "93",
+					"ballWood2scaleX": "0.43",
+					"ballWood2scaleY": "0.45",
+					"ballWood2mass": "4.0",
+					"ballWood1friction": "0.00005",
+					"ballWood1restitution": "0.00005",
+					"ballWood1angularDamping": "5",
+
+					"groundArcX": "48.5",
+					"groundArcY": "373.5",
+					"groundArcangle" : "268",
+					"groundArcscaleX" : "1.05",
+					"groundArcscaleY" : "1.05",
+					
+					"groundArc1X": "580",
+					"groundArc1Y": "373.5",
+					"groundArc1angle" : "178",
+					"groundArc1scaleX" : "1.05",
+					"groundArc1scaleY" : "1.05",
+
+					
+					"targetX": "615",
+					"targetY": "252",
+					"targetscaleX": "0.75",
+					"targetscaleY": "0.75",
+					
+					"distX": "331.05",
+					"distY": "134.95",
+					
+					"dist1X": "331.05",
+					"dist1Y": "134.95",
+
+					"dist2X": "331.05",
+					"dist2Y": "134.95",
+
+					"distanchorAX": "145.04",
+					"distanchorAY": "0.001",
+					"distanchorAangle": "0",
+					"distanchorAscaleX": "1.0",
+					"distanchorAscaleY": "1.0",
+					"distanchorAlength": "77.0",
+					
+					"distanchorBX": "145",
+					"distanchorBY": "77",
+					"distanchorBscaleX": "0.999",
+					"distanchorBscaleY": "0.99355",
+					"distanchorBangle" : "0",
+
+					"dist1anchorAX": "304.04",
+					"dist1anchorAY": "0.001",
+					"dist1anchorAangle": "0",
+					"dist1anchorAscaleX": "1.0",
+					"dist1anchorAscaleY": "1.0",
+					"dist1anchorAlength": "77",
+					
+					"dist1anchorBX": "304",
+					"dist1anchorBY": "77",
+					"dist1anchorBscaleX": "0.999",
+					"dist1anchorBscaleY": "0.99355",
+					"dist1anchorBangle" : "0",
+
+					"dist2anchorAX": "470.04",
+					"dist2anchorAY": "0.001",
+					"dist2anchorAangle": "0",
+					"dist2anchorAscaleX": "1.0",
+					"dist2anchorAscaleY": "1.0",
+					"dist2anchorAlength": "77",
+					
+					"dist2anchorBX": "470",
+					"dist2anchorBY": "77",
+					"dist2anchorBscaleX": "0.999",
+					"dist2anchorBscaleY": "0.99355",
+					"dist2anchorBangle" : "0",
+
+					"beamMetal50X": "584.74",
+					"beamMetal50Y": "250",
+					"beamMetal50scaleX": "0.78",
+					"beamMetal50scaleY": "0.74",
+					"beamMetal50angle": "-25",
+					"beamMetal50static": "1",
+					
+					"weldPinX": "583.5",
+					"weldPinY": "256.3",
+					"weldPinscaleX": "0.75",
+					"weldPinscaleY": "0.75"
+				
+
+				}
+			]
+		} ,	
+		
+		{
+			"level": 10,
+			"ground": "ground1",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"scene": "assets/images/scene/Back_10.png",
+					"sky": "assets/images/sky/Sky_10.png",
+					"earth": "assets/images/earth/Earth_10.png",
+					"front": "assets/images/front/Front_10.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"ground4": "assets/images/ground/GroundBox.png",
+					"ground5": "assets/images/ground/GroundBox.png",
+					"ground6": "assets/images/ground/GroundBox.png",
+					"ground7": "assets/images/ground/GroundBox.png",
+					"ground8": "assets/images/ground/GroundBox.png",
+					"ground9": "assets/images/ground/GroundBox.png",
+				
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"ballSoft": "assets/images/parts/BallSoft.png",
+					"beamMetal50": "assets/images/parts/BeamMetal50-level10.png",
+					"ropeDist": "assets/images/parts/ropelevel10.png",
+					"weldPin": "assets/images/parts/WeldPin.png",
+					"target": "assets/images/Target.png",
+					"dist": "assets/images/parts/Distance1.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-31",	
+					"earthY": "117.8",
+					"sceneX": "-76",
+					"sceneY": "-1",
+					"scenescaleX": "1.03",
+					"scenescaleY": "1.05",
+					"frontX": "-8",
+					"frontY": "355.65",
+					"skyX": "168.05",
+					"skyY": "7",
+					"skyscaleX": "1.03",
+					"skyscaleY": "1",
+					
+					
+					"playerX": "30",
+					"playerY": "150",
+					
+					"sunX" : "239",
+					"sunY" : "1",
+					"sunscaleX" : "0.60",
+					"sunscaleY" : "0.60",
+
+					"groundX": "10",
+					"groundY": "270",
+					"groundscaleX": "3.16",
+					"groundscaleY": "9",
+
+					"ground1X": "265",
+					"ground1Y": "434.95",
+					"ground1scaleX": "23.08",
+					"ground1scaleY": "3",
+
+					"ground2X": "598",
+					"ground2Y": "273.95",
+					"ground2scaleX": "3",
+					"ground2scaleY": "9",
+					
+					"ground3X": "486",				
+					"ground3Y": "248.95",
+					"ground3scaleX": "1.4",
+					"ground3scaleY": "6.39",
+					
+					"ground4X": "395",
+					"ground4Y": "294.95",
+					"ground4scaleX": "1.4",
+					"ground4scaleY": "6.6",
+					
+					"ground5X": "305",				
+					"ground5Y": "246.95",
+					"ground5scaleX": "1.4",
+					"ground5scaleY": "6.408",
+					
+					"ground6X": "216",
+					"ground6Y": "294.95",
+					"ground6scaleX": "1.4",
+					"ground6scaleY": "6.6",
+
+					"ground7X": "126.45",				
+					"ground7Y": "246.95",
+					"ground7scaleX": "1.45",
+					"ground7scaleY": "6.41",	
+
+					"ground8X": "293.5",
+					"ground8Y": "137.85",
+					"ground8scaleX": "12.6",
+					"ground8scaleY": "1.15",
+					"ground8angle": ".27",
+
+					"ground9X": "600.7",
+					"ground9Y": "138.65",
+					"ground9scaleX": "1.6",
+					"ground9scaleY": "1.15",
+
+					"groundBallX": "489.6",
+					"groundBallY": "139.5",
+					"groundBallscaleX" : "1.2",
+					"groundBallscaleY" : "1.2",
+
+					"groundBall1X": "570.7",
+					"groundBall1Y": "139.5",
+					"groundBall1scaleX" : "1.2",
+					"groundBall1scaleY" : "1.2",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"ballSoftX": "152.9",
+					"ballSoftY": "105.2",
+					"ballSoftscaleX": "0.60",
+					"ballSoftscaleY": "0.60",
+
+					"beamMetal50X": "103.2",
+					"beamMetal50Y": "100.0",
+					"beamMetal50scaleX": "1.1",
+					"beamMetal50scaleY": "1",
+					"beamMetal50static": "1",
+					"beamMetal50angle": "-25",
+
+					"weldPinX": "102.5",
+					"weldPinY": "110.25",
+					"weldPinscaleX": "1.1",
+					"weldPinscaleY": "1.1",
+					
+
+					"targetX": "534.0",
+					"targetY": "104.5",
+					"targetscaleX": "1.03",
+					"targetscaleY": "1.03",
+					"targetmass": "6",
+
+					"distX": "331.05",
+					"distY": "134.95",
+					
+					"distanchorAX": "533.4",
+					"distanchorAY": "0.001",
+					"distanchorAangle": "0",
+					"distanchorAscaleX": "1.0",
+					"distanchorAscaleY": "1.1",
+					"distanchorAlength": "78",
+					
+					"distanchorBX": "533.4",
+					"distanchorBY": "94.5",
+					"distanchorBscaleX": "0.999",
+					"distanchorBscaleY": "0.99355",
+					"distanchorBangle" : "0"
+				}
+			]
+		} ,
+		
+		{
+			"level": 11,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_11.png",
+					"scene": "assets/images/scene/Back_11.png"
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+
+					"castle": "assets/images/parts/Castle.png",
+					"brick": "assets/images/parts/Brick.png",
+					"earthsprite": "assets/images/earth/Earth_11.png",
+					"frontsprite": "assets/images/front/Front_11.png",
+					"brick1": "assets/images/parts/Brick.png",
+					"brick2": "assets/images/parts/Brick.png",
+					"brick3": "assets/images/parts/Brick.png",
+					"cannon": "assets/images/parts/CannonBall.png",
+					"cannonUp": "assets/images/parts/CannonUp.png",
+					"cannonUp1": "assets/images/parts/CannonUp.png",
+
+					"cannonDown": "assets/images/parts/CannonDown.png",
+
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"weldPin": "assets/images/parts/WeldPin1.png",
+					"weldPin1": "assets/images/parts/WeldPin1.png"
+
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-33.7",	
+					"earthspriteY": "360",
+					"sceneX": "-93",
+					"sceneY": "18",
+					"frontspriteX": "5",
+					"frontspriteY": "350.65",
+					"skyX": "38.55",
+					"skyY": "22",
+					"skyscaleX": "1.05",
+					"skyscaleY": "1.05",
+					
+					"playerX": "75",
+					"playerY": "366",
+					
+					"sunX" : "243",
+					"sunY" : "29",
+					"sunscaleX" : "0.94",
+					"sunscaleY" : "0.94",
+
+					"groundX": "35",
+					"groundY": "395.9",
+					"groundscaleX": "7.2",
+					"groundscaleY": "2.3",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					
+					"hardBox2X": "795" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					
+					"hardBox3X": "230" ,
+					"hardBox3Y": "428",
+					"hardBox3scaleX": "23" ,
+					"hardBox3scaleY": "1",
+
+
+					"stoneBoxX": "412",
+					"stoneBoxY": "400.8",
+					"stoneBoxscaleX": "18",
+					"stoneBoxscaleY": "2.6",
+					"stoneBoxangle": "0.6",
+					
+					"castleX" : "625.7",
+					"castleY" : "253",
+					"castlescaleX" : "1.25",
+					"castlescaleY" : "1.2",
+
+					"brickX" : "470.6",
+					"brickY" : "351",
+					"brickscaleX" : "1.1",
+					"brickscaleY" : "1.1",
+					"brickangle" : "0",
+
+					"brick1X" : "489.5",
+					"brick1Y" : "351.5",
+					"brick1scaleX" : "1.1",
+					"brick1scaleY" : "1.1",
+					"brick1angle" : "45.2",
+
+					"brick2X" : "639.3",
+					"brick2Y" : "140",
+					"brick2scaleX" : "1.2",
+					"brick2scaleY" : "1.2",
+					"brick2angle" : "0",
+					"brick2static" : "0",
+
+					"brick3X" : "611",
+					"brick3Y" : "133",
+					"brick3scaleX" : "1.2",
+					"brick3scaleY" : "1.2",
+					"brick3angle" : "-40.774",
+
+					"cannonX" : "129.8",
+					"cannonY" : "309.5",
+					"cannonscaleX" : "1.25",
+					"cannonscaleY" : "1.25",
+					"cannonangle" : "0",
+
+					"cannonUpX" : "130.9",
+					"cannonUpY" : "285",
+					"cannonUpscaleX" : "1.0",
+					"cannonUpscaleY" : "1.0",
+					"cannonUpangle" : "-45",
+
+			
+					"cannonDownX" : "153.9",
+					"cannonDownY" : "304.50",
+					"cannonDownscaleX" : "1.0",
+					"cannonDownscaleY" : "1.0",
+					"cannonDownangle" : "-45",
+
+					"weldPinX": "108.9",
+					"weldPinY": "295.50",
+					"weldPinscaleX": "0.74",
+					"weldPinscaleY": "0.74",
+					"weldPinvisible": "0",
+
+					"weldPin1X": "142.9",
+					"weldPin1Y": "320.60",
+					"weldPin1scaleX": "0.74",
+					"weldPin1scaleY": "0.74",
+					"weldPin1visible": "0",
+ 
+					"targetX": "568",
+					"targetY": "136",
+					"targetscaleX": "0.92",
+					"targetscaleY": "0.92"
+
+				}
+			]
+		} ,
+
+					
+		{
+			"level": 12,
+			"ground": "hardBox1",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_12.png",
+					"scene": "assets/images/scene/Back_12.png"
+					
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+					"groundBall2": "assets/images/ground/GroundBall.png",
+					"groundBall3": "assets/images/ground/GroundBall.png",
+					"groundBall4": "assets/images/ground/GroundBall.png",
+					"earthsprite": "assets/images/earth/Earth_12.png",
+					"balloon": "assets/images/parts/Balloon.png",					
+					"basket": "assets/images/parts/Basket_level12.png",					
+					"dist": "assets/images/parts/Distance1.png",
+					"dist1": "assets/images/parts/Distance1.png",
+					"ropeDist": "assets/images/parts/RopeDist_level12.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"frontsprite": "assets/images/front/Front_12.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-15",	
+					"earthspriteY": "218",
+					"earthspritescaleX": "0.98",
+					"earthspritescaleY": "0.98",
+					"sceneX": "-30.16",
+					"sceneY": "100",
+					"frontspriteX": "-14",
+					"frontspriteY": "256.65",
+					"frontspritescaleX": "1.05",
+					"frontspritescaleY": "1.05",
+					"skyX": "60.6",
+					"skyY": "43",
+					"skyscaleX": "0.89",
+					"skyscaleY": "0.88",
+					
+					"playerX": "10",
+					"playerY": "369",
+					"playerscaleX": "0.50",
+					"playerscaleY": "0.50",
+					"playerropeScale": "0.57",
+					"playerhookOffset": "35",
+					"playermass": "4.5",
+					"playerangularDamping": "20",
+				
+					"sunX" : "206",
+					"sunY" : "55",
+					"sunscaleX" : "0.63",
+					"sunscaleY" : "0.63",
+
+					"groundX": "28",
+					"groundY": "427",
+					"groundscaleX": "1",
+					"groundscaleY": "1",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1.15",
+				
+					"hardBox1X": "-18" ,
+					"hardBox1Y": "234",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"groundBallX": "312.4",
+					"groundBallY": "438.0",
+					"groundBallscaleX" : "14.6",
+					"groundBallscaleY" : "14.6",
+					
+					"groundBall1X": "511.2",
+					"groundBall1Y": "426.7",
+					"groundBall1scaleX" : "4.65",
+					"groundBall1scaleY" : "4.65",
+
+					"groundBall2X": "607.9",
+					"groundBall2Y": "430.7",
+					"groundBall2scaleX" : "4.4",
+					"groundBall2scaleY" : "4.4",
+
+					"groundBall3X": "100.0",
+					"groundBall3Y": "405.56",
+					"groundBall3scaleX" : "4.2",
+					"groundBall3scaleY" : "4.2",
+
+					"groundBall4X": "19.9",
+					"groundBall4Y": "422.7",
+					"groundBall4scaleX" : "4",
+					"groundBall4scaleY" : "4",
+
+					"balloonX": "55",
+					"balloonY": "60",
+					"balloonscaleX" : "0.90",
+					"balloonscaleY" : "0.90",
+
+					"basketX": "55",
+					"basketY": "137",
+					"basketscaleX" : "0.54",
+					"basketscaleY" : "0.55",
+
+					"distX": "9.05",
+					"distY": "5",
+					"distextendRope" : "1",
+					
+					"dist1X": "5",
+					"dist1Y": "50.7",
+					"dist1extendRope" : "1",
+
+
+					"distanchorAX": "17.60",
+					"distanchorAY": "65",
+					"distanchorAangle": "0",
+					"distanchorAscaleX": "0.9",
+					"distanchorAscaleY": "0.6",
+					"distanchorAlength": "80",
+					
+					"distanchorBX": "41.5",
+					"distanchorBY": "134.75",
+					"distanchorBscaleX": "0.7",
+					"distanchorBscaleY": "0.99355",
+					"distanchorBangle" : "0",
+
+					"dist1anchorAX": "92.474",
+					"dist1anchorAY": "64",
+					"dist1anchorAangle": "0",
+					"dist1anchorAscaleX": "0.9",
+					"dist1anchorAscaleY": "0.6",
+					"dist1anchorAlength": "80",
+					
+					"dist1anchorBX": "69.5",
+					"dist1anchorBY": "134.75",
+					"dist1anchorBscaleX": "0.999",
+					"dist1anchorBscaleY": "0.99355",
+					"dist1anchorBangle" : "0",
+
+
+					"targetX": "64.9",
+					"targetY": "138",
+					"targetscaleX": "0.64",
+					"targetscaleY": "0.64",
+					"targetmass":"6"
+
+				}
+			]
+		} ,
+		
+		{
+			"level": 13,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_13.png",
+					"scene": "assets/images/scene/Back_13.png"
+					
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"beamWood150": "assets/images/parts/BeamWood150.png",
+					"hummer": "assets/images/parts/Hummer.png",
+					"earthsprite": "assets/images/earth/Earth_13.png",
+					"frontsprite": "assets/images/front/Front_1.png",
+					"weldPin": "assets/images/parts/Weld.png",
+					"revolute": "assets/images/parts/Revolute.png",
+					"revolute": "assets/images/parts/Revolute.png",
+					"revolute": "assets/images/parts/Revolute.png",
+					"seeSawBase": "assets/images/parts/SeesawBase.png",
+					"plank": "assets/images/parts/Plank13.png",
+					"casewood2s": "assets/images/parts/CaseWood2.png",					
+					"revolute1": "assets/images/parts/RevoluteWheel.png",
+					"weldPin1": "assets/images/parts/Weld.png",
+
+					"target": "assets/images/Target.png",
+					
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-4",	
+					"earthspriteY": "358",
+					"sceneX": "-33",
+					"sceneY": "24",
+					"frontspriteX": "-5",
+					"frontspriteY": "338.65",
+					"skyX": "45.4",
+					"skyY": "38.9",
+					"skyscaleX": "1.04",
+					"skyscaleY": "1.04",
+					"scenescaleX": "0.9835",
+					"scenescaleY": "0.985",
+					
+					"playerX": "69",
+					"playerY": "360",
+					"playerscaleX": "1.0",
+					"playerscaleY": "1.0",
+					"playerropeScale": "1.0",
+				
+					"sunX" : "223",
+					"sunY" : "22",
+					"sunscaleX" : "0.95",
+					"sunscaleY" : "0.95",
+
+					"groundX": "220.5",
+					"groundY": "382.5",
+					"groundscaleX": "27.1",
+					"groundscaleY": "1.5",
+
+					"hummerX": "315",
+					"hummerY": "237",
+					"hummerscaleX": "1",
+					"hummerscaleY": "1",
+
+					
+					"beamWood150X": "315",
+					"beamWood150Y": "317.501",
+					"beamWood150scaleX": "1",
+					"beamWood150scaleY": "1",
+					"beamWood150mass": "1.2",
+					"beamWood150friction": "0.3",
+					"beamWood150restitution": "0.1",
+					
+					"weldPinX": "312.5",
+					"weldPinY": "245",
+					"weldPinscaleX": "1.0",
+					"weldPinscaleY": "1.0",
+					"weldPinangle":"0",
+					"weldPinvisible":"0",
+
+					"revoluteX": "314.9011",
+					"revoluteY": "357",
+					"revolutescaleX": "1.0",
+					"revolutescaleY": "1.0",
+					"revolutevisible": "0",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-20" ,
+					"hardBox1Y": "230",
+					"hardBox1angle": "-7",
+					
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "433",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+
+
+					"seeSawBaseX": "480.25",
+					"seeSawBaseY": "340",
+					"seeSawBasescaleX": "1.15",
+					"seeSawBasescaleY": "1.2",
+
+					"plankX": "521.65",
+					"plankY": "327.294",
+					"plankscaleX": "0.63",
+					"plankscaleY": "0.63",
+					"plankangle": "-5",
+					"plankmass": "1.3",
+					"plankfriction": "0.3",
+					"plankrestitution": "0.1",
+
+					
+					"revolute1X": "479.95",
+					"revolute1Y": "326.2",
+					
+					"casewood2sX": "603.95",
+					"casewood2sY": "316.45",
+					"casewood2sscaleX": "0.11",
+					"casewood2sscaleY": "0.11",
+					"casewood2sangle": "-80",
+
+					"weldPin1X": "603.15",
+					"weldPin1Y": "317.25001",
+					"weldPin1scaleX": "0.6",
+					"weldPin1scaleY": "0.6",
+					"weldPin1angle":"0",
+					"weldPin1visible":"0",
+					
+					"targetX": "580.4",
+					"targetY": "320",
+					"targetscaleX": "0.85",
+					"targetscaleY": "0.85",
+					"targetmass": "0.7",
+					"targetfriction": "0.3",
+					"targetrestitution": "0.1"
+
+
+				}
+			]
+		},
+
+
+				
+		{
+			"level": 14,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_14.png",
+					"scene": "assets/images/scene/Back_14.png",
+					"earth": "assets/images/earth/Earth_14.png",
+					"front": "assets/images/front/Front_14.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+				"wiresoft": "assets/images/parts/WireSoft.png",
+				"post": "assets/images/parts/PostWood.png",
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+
+					"brick1": "assets/images/parts/Brick.png",
+					"brick2": "assets/images/parts/Brick.png",
+					"brick3": "assets/images/parts/Brick.png",
+					"brick4": "assets/images/parts/Brick.png",
+					"brick5": "assets/images/parts/Brick.png",
+					"brick6": "assets/images/parts/Brick.png",
+					"brick7": "assets/images/parts/Brick.png",
+					"brick8": "assets/images/parts/Brick.png",
+					"brick9": "assets/images/parts/Brick.png",
+					
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-13",	
+					"earthY": "240",
+					"sceneX": "-106",
+					"sceneY": "56.5",
+					"scenescaleX": "1.085",
+					"scenescaleY": "1.035",
+					"frontX": "22",
+					"frontY": "343.65",
+					"skyX": "51.1",
+					"skyY": "29",
+					"skyscaleX": "1.03",
+					"skyscaleY": "1",
+					
+					"playerX": "39",
+					"playerY": "409",
+					
+					"sunX" : "180",
+					"sunY" : "22",
+					"sunscaleX" : "0.95",
+					"sunscaleY" : "0.95",
+
+					"groundX": "315",
+					"groundY": "410",
+					"groundscaleX": "20.4",
+					"groundscaleY": "1.5",
+
+					"ground1X": "187.7",
+					"ground1Y": "393",
+					"ground1scaleX": "9.1",
+					"ground1scaleY": "5.5",
+					"ground1angle": "-37.5",
+
+					"ground2X": "324.5",
+					"ground2Y": "293.5",
+					"ground2scaleX": "4.33",
+					"ground2scaleY": "3.5",
+					
+					"ground3X": "394.2",
+					"ground3Y": "358.5",
+					"ground3scaleX": "7.1",
+					"ground3scaleY": "3.5",
+					"ground3angle": "64",
+
+					"groundBallX": "261.4",
+					"groundBallY": "263.9",
+					"groundBallscaleX" : "1.65",
+					"groundBallscaleY" : "1.63",
+
+
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "443",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"wiresoftX": "729.3",
+					"wiresoftY": "100.525",
+					"wiresoftscaleX": "1",
+					"wiresoftscaleX": "1",
+
+					"postX": "582.275",
+					"postY": "244.475",
+
+					"post2X": "370.8",
+					"post2Y": "170.625",
+					"post2scaleX": "0.71",
+					"post2scaleY": "0.71",
+
+					
+					"brick1X" : "334.6",
+					"brick1Y" : "240",
+					"brick1scaleX" : "1.1",
+					"brick1scaleY" : "1.1",
+					"brick1angle" : "0",
+
+					"brick2X" : "334.6",
+					"brick2Y" : "223",
+					"brick2scaleX" : "1.1",
+					"brick2scaleY" : "1.1",
+					"brick2angle" : "0",
+
+					"brick3X" : "334.6",
+					"brick3Y" : "206",
+					"brick3scaleX" : "1.1",
+					"brick3scaleY" : "1.1",
+					"brick3angle" : "0",
+
+					"brick4X" : "334.6",
+					"brick4Y" : "189",
+					"brick4scaleX" : "1.1",
+					"brick4scaleY" : "1.1",
+					"brick4angle" : "0",
+
+					"brick5X" : "334.6",
+					"brick5Y" : "172",
+					"brick5scaleX" : "1.1",
+					"brick5scaleY" : "1.1",
+					"brick5angle" : "0",
+
+					"brick6X" : "334.6",
+					"brick6Y" : "155",
+					"brick6scaleX" : "1.1",
+					"brick6scaleY" : "1.1",
+					"brick6angle" : "0",
+
+					"brick7X" : "334.6",
+					"brick7Y" : "138",
+					"brick7scaleX" : "1.1",
+					"brick7scaleY" : "1.1",
+					"brick7angle" : "0",
+
+					"brick8X" : "334.6",
+					"brick8Y" : "122",
+					"brick8scaleX" : "1.1",
+					"brick8scaleY" : "1.1",
+					"brick8angle" : "0",
+
+					"brick9X" : "334.6",
+					"brick9Y" : "105",
+					"brick9scaleX" : "1.1",
+					"brick9scaleY" : "1.1",
+					"brick9angle" : "0",
+					
+					"targetX": "523.4",
+					"targetY": "372",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+
+				}
+			]
+		} ,
+
+				
+		{
+			"level": 15,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_15.png",
+					"scene": "assets/images/scene/Back_15.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"stoneBox1": "assets/images/ground/StoneBox.png",
+					"stoneBox2": "assets/images/ground/StoneBox.png",
+					"stoneBox3": "assets/images/ground/StoneBox.png",
+					"stoneBox4": "assets/images/ground/StoneBox.png",
+					"stoneArc": "assets/images/ground/StoneArc.png",
+					"stoneArc1": "assets/images/ground/StoneArc.png",
+					"stoneBall": "assets/images/ground/StoneBall.png",
+					"castle": "assets/images/parts/Castle.png",
+					"bridge": "assets/images/parts/Bridge.png",
+					"earthsprite": "assets/images/earth/Earth_15.png",
+					"frontsprite": "assets/images/front/Front_15.png",
+					"brick": "assets/images/parts/Brick.png",
+					"brick1": "assets/images/parts/Brick.png",
+					"brick2": "assets/images/parts/Brick.png",
+					"brick3": "assets/images/parts/Brick.png",
+					"brick4": "assets/images/parts/Brick.png",
+					"brick5": "assets/images/parts/Brick.png",
+					"revoluteCastle": "assets/images/parts/RevoluteCastle.png",
+
+					"plaitLink": "assets/images/parts/PlaitLink.png",
+					"plaitLink0": "assets/images/parts/PlaitLink.png",
+					"plaitLink1": "assets/images/parts/PlaitLink.png",
+					"plaitLink2": "assets/images/parts/PlaitLink.png",
+					"plaitLink3": "assets/images/parts/PlaitLink.png",
+					"plaitLink4": "assets/images/parts/PlaitLink.png",
+					"plaitLink5": "assets/images/parts/PlaitLink.png",
+					"plaitLink6": "assets/images/parts/PlaitLink.png",
+					"plaitLink7": "assets/images/parts/PlaitLink.png",
+					"plaitLink8": "assets/images/parts/PlaitLink.png",
+
+					"bow": "assets/images/parts/Bow.png",
+					"revolute0": "assets/images/parts/Revolute.png",
+					"revolute": "assets/images/parts/Revolute.png",
+					"revolute1": "assets/images/parts/Revolute.png",
+					"revolute2": "assets/images/parts/Revolute.png",
+					"revolute3": "assets/images/parts/Revolute.png",
+					"revolute4": "assets/images/parts/Revolute.png",
+					"revolute5": "assets/images/parts/Revolute.png",
+					"revolute6": "assets/images/parts/Revolute.png",
+					"revolute7": "assets/images/parts/Revolute.png",
+					"revolute8": "assets/images/parts/Revolute.png",
+					"revolute9": "assets/images/parts/Revolute.png",
+					"revolute10": "assets/images/parts/Revolute.png",
+
+					"weld": "assets/images/parts/Revolute.png",
+					"weld1": "assets/images/parts/Revolute.png",
+					"weld2": "assets/images/parts/Revolute.png",
+					"weld3": "assets/images/parts/Revolute.png",
+					"weld4": "assets/images/parts/Revolute.png",
+					
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-18.5",	
+					"earthspriteY": "324",
+					"earthspritescaleX": "1.02",	
+					"sceneX": "-94",
+					"sceneY": "14",
+					"scenescaleY": "0.92",
+					"frontspriteX": "-30",
+					"frontspriteY": "324.65",
+					"frontspritescaleX": "1.050",
+					"frontspritescaleY": "0.99",
+					"skyX": "20",
+					"skyY": "28",
+					"skyscaleX": "1.05",
+					"skyscaleY": "1.1",
+					
+					"playerX": "69",
+					"playerY": "349",
+					
+					"sunX" : "215",
+					"sunY" : "58.5",
+					"sunscaleX" : "0.9",
+					"sunscaleY" : "0.9",
+
+					"groundX": "208",
+					"groundY": "423",
+					"groundscaleX": "1",
+					"groundscaleY": "1",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"stoneBoxX": "328",
+					"stoneBoxY": "430.7",
+					"stoneBoxscaleX": "23.1" ,
+					"stoneBoxscaleY": "2.5",
+
+					"stoneBox1X": "502",
+					"stoneBox1Y": "362.35",
+					"stoneBox1scaleX": "9.49" ,
+					"stoneBox1scaleY": "2.5",
+					
+					"stoneBox2X": "80.9",
+					"stoneBox2Y": "370.3",
+					"stoneBox2scaleX": "4.7" ,
+					"stoneBox2scaleY": "3.1",
+
+					"stoneBox3X": "96.9",
+					"stoneBox3Y": "383.3",
+					"stoneBox3scaleX": "4.9" ,
+					"stoneBox3scaleY": "3.1",
+
+					
+					"stoneArcX": "340.3",
+					"stoneArcY": "374.3",
+					"stoneArcscaleX": "1.1" ,
+					"stoneArcscaleY": "1.1",
+					"stoneArcangle": "180",
+
+					"stoneArc1X": "190.2",
+					"stoneArc1Y": "377.2",
+					"stoneArc1scaleX": "1.1" ,
+					"stoneArc1scaleY": "1.1",
+					"stoneArc1angle": "-90",		
+
+					"stoneBallX": "158.3",
+					"stoneBallY": "337.3",
+					"stoneBallscaleX": "1" ,
+					"stoneBallscaleY": "1",
+
+					"castleX" : "566",
+					"castleY" : "228",
+					"castlescaleX" : "1.18",
+					"castlescaleY" : "1.1",
+
+					"brickX" : "492",
+					"brickY" : "124",
+					"brickscaleX" : "1.3",
+					"brickscaleY" : "1.2",
+					"brickangle" : "0",
+					"brickstatic" : "1",
+
+					"weld2X": "490.45",
+					"weld2Y": "126.45",
+					"weld2scaleX": "1.0",
+					"weld2scaleY": "1.0",
+					"weld2visible": "0",
+
+					
+					"brick2X" : "528",
+					"brick2Y" : "124",
+					"brick2scaleX" : "1.3",
+					"brick2scaleY" : "1.2",
+					"brick2angle" : "0",
+					"brick2static" : "1",
+
+					"brick3X" : "564",
+					"brick3Y" : "124",
+					"brick3scaleX" : "1.26",
+					"brick3scaleY" : "1.2",
+					"brick3angle" : "0",
+					"brick3static" : "1",
+
+					"brick4X" : "606",
+					"brick4Y" : "318",
+					"brick4scaleX" : "1.2",
+					"brick4scaleY" : "1.075",
+					"brick4angle" : "0",
+					"brick4static" : "1",
+
+					"brick5X" : "585",
+					"brick5Y" : "309",
+					"brick5scaleX" : "1.2",
+					"brick5scaleY" : "1.075",
+					"brick5angle" : "125.601",
+					"brick5static" : "1",
+
+					"bridgeX" : "367",
+					"bridgeY" : "242.39",
+					"bridgescaleX" : "1.0",
+					"bridgescaleY" : "1.0",
+					"bridgeangle" : "0",
+
+					"revoluteCastleX": "367.0",
+					"revoluteCastleY": "330.6",
+					"revoluteCastlescaleX": "0.6588",
+					"revoluteCastlescaleY": "0.6588",
+					"revoluteCastlevisible": "0",
+								
+					
+					"bowX" : "465.8",
+					"bowY" : "210.45",
+					"bowscaleX" : "0.81",
+					"bowscaleY" : "0.81",
+
+					"revolute0X": "465",
+					"revolute0Y": "208.65",
+					"revolute0scaleX": "1.0",
+					"revolute0scaleY": "1.0",
+					"revolute0visible": "0",
+
+					"plaitLink0X" : "464.2",
+					"plaitLink0Y" : "203.85",
+					"plaitLink0scaleX" : "0.50",
+					"plaitLink0scaleY" : "0.50",	
+
+
+
+					"revoluteX": "464.4",
+					"revoluteY": "199.35",
+					"revolutescaleX": "1.0",
+					"revolutescaleY": "1.0",
+					"revolutevisible": "0",
+
+					
+					"plaitLinkX" : "464.2",
+					"plaitLinkY" : "194.5",
+					"plaitLinkscaleX" : "0.60",
+					"plaitLinkscaleY" : "0.60",	
+
+					"revolute1X": "464.4",
+					"revolute1Y": "189.35",
+					"revolute1scaleX": "1.0",
+					"revolute1scaleY": "1.0",
+					"revolute1visible": "0",
+
+
+					"plaitLink1X" : "464.2",
+					"plaitLink1Y" : "183.5",
+					"plaitLink1scaleX" : "0.65",
+					"plaitLink1scaleY" : "0.65",	
+
+					"revolute2X": "464.4",
+					"revolute2Y": "178.45",
+					"revolute2scaleX": "1.0",
+					"revolute2scaleY": "1.0",
+					"revolute2visible": "0",
+
+
+					"plaitLink2X" : "464.2",
+					"plaitLink2Y" : "172.5",
+					"plaitLink2scaleX" : "0.70",
+					"plaitLink2scaleY" : "0.70",	
+
+
+					"revolute3X": "464.4",
+					"revolute3Y": "166.75",
+					"revolute3scaleX": "1.0",
+					"revolute3scaleY": "1.0",
+					"revolute3visible": "0",
+
+					"plaitLink3X" : "464.2",
+					"plaitLink3Y" : "160.6",
+					"plaitLink3scaleX" : "0.75",
+					"plaitLink3scaleY" : "0.75",	
+
+					"revolute4X": "464.4",
+					"revolute4Y": "154.65",
+					"revolute4scaleX": "1.0",
+					"revolute4scaleY": "1.0",
+					"revolute4visible": "0",
+
+					"plaitLink4X" : "464.2",
+					"plaitLink4Y" : "147.95",
+					"plaitLink4scaleX" : "0.80",
+					"plaitLink4scaleY" : "0.80",	
+
+
+					"revolute5X": "464.4",
+					"revolute5Y": "141.65",
+					"revolute5scaleX": "1.0",
+					"revolute5scaleY": "1.0",
+					"revolute5visible": "0",
+		
+					"plaitLink5X" : "464.2",
+					"plaitLink5Y" : "134.65",
+					"plaitLink5scaleX" : "0.85",
+					"plaitLink5scaleY" : "0.85",	
+
+
+					"revolute6X": "464.4",
+					"revolute6Y": "127.65",
+					"revolute6scaleX": "1.0",
+					"revolute6scaleY": "1.0",
+					"revolute6visible": "0",
+					
+					"plaitLink6X" : "464.2",
+					"plaitLink6Y" : "120.25",
+					"plaitLink6scaleX" : "0.90",
+					"plaitLink6scaleY" : "0.90",	
+
+
+					"revolute7X": "464.4",
+					"revolute7Y": "112.9",
+					"revolute7scaleX": "1.0",
+					"revolute7scaleY": "1.0",
+					"revolute7visible": "0",
+
+					
+					"plaitLink7X" : "464.4",
+					"plaitLink7Y" : "104",
+					"plaitLink7scaleX" : "0.95",
+					"plaitLink7scaleY" : "0.95",	
+
+					"revolute8X": "466.5",
+					"revolute8Y": "100.55",
+					"revolute8scaleX": "1.0",
+					"revolute8scaleY": "1.0",
+					"revolute8visible": "0",
+
+					"plaitLink8X" : "474.2",
+					"plaitLink8Y" : "99.65",
+					"plaitLink8scaleX" : "1.0",
+					"plaitLink8scaleY" : "1.0",	
+
+					
+					"weld1X": "471.45",
+					"weld1Y": "93.45",
+					"weld1scaleX": "1.0",
+					"weld1scaleY": "1.0",
+					"weld1visible": "0",
+					
+					"targetX": "546.4",
+					"targetY": "89",
+					"targetscaleX": "0.95",
+					"targetscaleY": "0.95"
+
+				}
+			]
+		} ,
+
+				
+		{
+			"level": 16,
+			"ground": "ground2",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_16.png",
+					"scene": "assets/images/scene/Back_16.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"ground4": "assets/images/ground/GroundBox.png",
+					"ground5": "assets/images/ground/GroundBox.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"stoneBox1": "assets/images/ground/StoneBox.png",
+
+					"caseWood": "assets/images/parts/CaseWood.png",
+					"brick": "assets/images/parts/Brick.png",
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"wiresoft2": "assets/images/parts/WireSoft2.png",
+
+					"post": "assets/images/parts/PostWood.png",
+					"transformer": "assets/images/parts/Transformer.png",
+
+					"seeSawBase": "assets/images/parts/SeesawBase.png",
+					"plank": "assets/images/parts/Plank.png",
+					"revolute": "assets/images/parts/RevoluteWheel.png",
+					"earthsprite": "assets/images/earth/Earth_16.png",
+					"frontsprite": "assets/images/front/Front_16.png",
+					"weldPin": "assets/images/parts/Weld.png",
+					
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-36",	
+					"earthspriteY": "136",
+					"earthspritescaleX": "1.06",
+					"earthspritescaleY": "1.05",
+					"sceneX": "-115",
+					"sceneY": "64",
+					"scenescaleX": "1.08",
+					"scenescaleY": "1.1",
+					"frontspriteX": "-17",
+					"frontspriteY": "324.65",
+					"frontspritescaleX": "1.05",
+					"frontspritescaleY": "1",
+					"skyX": "17.55",
+					"skyY": "18",
+					"skyscaleX": "1.057",
+					"skyscaleY": "1.05",
+					
+					"postX": "55",
+					"postY": "212.475",
+	
+					"playerX": "578",
+					"playerY": "126",
+					
+					"sunX" : "219",
+					"sunY" : "14",
+					"sunscaleX" : "1",
+					"sunscaleY" : "1",
+
+					"groundX": "228",
+					"groundY": "426.9",
+					"groundscaleX": "26.1",
+					"groundscaleY": "2.5",
+
+					"ground1X": "272",
+					"ground1Y": "388",
+					"ground1scaleX": "5.7",
+					"ground1scaleY": "4.5",
+
+					"ground2X": "106",
+					"ground2Y": "388.5",
+					"ground2scaleX": "6.3",
+					"ground2scaleY": "3.2",
+					"ground2angle": "-12.9957",
+
+					"ground3X": "530",
+					"ground3Y": "373",
+					"ground3scaleX": "8.3",
+					"ground3scaleY": "3.5",
+
+					"ground4X": "547",
+					"ground4Y": "370",
+					"ground4scaleX": "6.1",
+					"ground4scaleY": "4.5",
+					
+					"ground5X": "290.075",
+					"ground5Y": "34.05",
+					"ground5scaleX": "13.845",
+					"ground5scaleY": "0.5",
+					"ground5angle": "-9.6",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "433",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"groundBallX": "458",
+					"groundBallY": "318",
+					"groundBallscaleX" : "1.0",
+					"groundBallscaleY" : "1.0",
+
+					"stoneBoxX": "593.50",
+					"stoneBoxY": "230.05",
+					"stoneBoxscaleX": "2.5",
+					"stoneBoxscaleY": "6.2",
+					
+					"stoneBox1X": "569.5",
+					"stoneBox1Y": "236.1",
+					"stoneBox1scaleX": "2.5",
+					"stoneBox1scaleY": "6.3",
+					"stoneBox1angle": "15.5",
+								
+					"wiresoftX": "-82",
+					"wiresoftY": "66",
+					"wiresoftscaleX": "1",
+					"wiresoftscaleX": "1",
+
+					"wiresoft2X": "290.075",
+					"wiresoft2Y": "34.05",
+					"wiresoft2scaleX": "0.845",
+					"wiresoft2scaleY": "1.0",
+					"wiresoft2angle": "-10.2",
+
+					"transformerX": "26.475",
+					"transformerY": "320",
+					"transformerscaleX":"1.02",
+					"transformerscaleY":"0.96",
+
+					"caseWoodX": "230.05",
+					"caseWoodY": "293.5",
+					"caseWoodscaleX": "0.92",
+					"caseWoodscaleY": "0.92",
+
+					"seeSawBaseX": "314",
+					"seeSawBaseY": "293",
+					"seeSawBasescaleX": "1.75",
+					"seeSawBasescaleY": "1.95",
+
+					"plankX": "308",
+					"plankY": "266.61",
+					"plankscaleX": "1.0",
+					"plankscaleY": "1.0",
+					"plankangle": "22.2",
+					"plankmass": "1.3",
+					"plankfriction": "0.3",
+					"plankrestitution": "0.1",
+
+					"revoluteX": "308.1",
+					"revoluteY": "269.959",
+					"revolutescaleX": "1.6",
+					"revolutescaleY": "1.6",
+
+
+					"brickX" : "100",
+					"brickY" : "334",
+					"brickscaleX" : "1.2",
+					"brickscaleY" : "1.05",
+					"brickangle" : "-14",
+					"brickmass" : "8",
+
+					"weldPinX": "98.5",
+					"weldPinY": "340",
+					"weldPinscaleX": "1.0",
+					"weldPinscaleY": "1.0",
+					"weldPinangle":"0",
+					"weldPinvisible":"0",
+
+					
+					"targetX": "383.4",
+					"targetY": "372",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+
+				}
+			]
+		}  ,
+
+				
+		{
+			"level": 17,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_17.png",
+					"scene": "assets/images/scene/Back_17.png",
+					"earth": "assets/images/earth/Earth_17.png"
+								
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"ropeDist": "assets/images/parts/ropelevel10.png",
+					"ballTarget1": "assets/images/parts/BallTarget.png",
+					"ballTarget3": "assets/images/parts/BallTarget.png",
+					"ballTarget4": "assets/images/parts/BallTarget.png",
+					"ballTarget5": "assets/images/parts/BallTarget.png",
+					"ballTarget6": "assets/images/parts/BallTarget.png",
+					"ballTarget7": "assets/images/parts/BallTarget.png",
+					"ballTarget8": "assets/images/parts/BallTarget.png",
+					"ballTarget9": "assets/images/parts/BallTarget.png",
+					"ballTarget10": "assets/images/parts/BallTarget.png",
+					"ballTarget11": "assets/images/parts/BallTarget.png",
+					"ballTarget12": "assets/images/parts/BallTarget.png",
+					"ballTarget13": "assets/images/parts/BallTarget.png",
+					"ballTarget14": "assets/images/parts/BallTarget.png",
+					"ballTarget15": "assets/images/parts/BallTarget.png",
+					"ballTarget16": "assets/images/parts/BallTarget.png",
+					"target": "assets/images/parts/BallTarget.png",
+
+					"tardist1": "assets/images/parts/Distance1.png",
+					"tardist2": "assets/images/parts/Distance1.png",
+					"tardist3": "assets/images/parts/Distance1.png",
+					"tardist4": "assets/images/parts/Distance1.png",
+					"tardist5": "assets/images/parts/Distance1.png",
+					"tardist6": "assets/images/parts/Distance1.png",
+					"tardist7": "assets/images/parts/Distance1.png",
+					"tardist8": "assets/images/parts/Distance1.png",
+					"tardist9": "assets/images/parts/Distance1.png",
+					"tardist10": "assets/images/parts/Distance1.png",
+					"tardist11": "assets/images/parts/Distance1.png",
+					"tardist12": "assets/images/parts/Distance1.png",
+					"tardist13": "assets/images/parts/Distance1.png",
+					"tardist14": "assets/images/parts/Distance1.png",
+					"tardist15": "assets/images/parts/Distance1.png",
+					"tardist16": "assets/images/parts/Distance1.png",
+					"tardist17": "assets/images/parts/Distance1.png",
+					"tardist18": "assets/images/parts/Distance1.png",
+					"tardist19": "assets/images/parts/Distance1.png",
+					"tardist20": "assets/images/parts/Distance1.png",
+					"tardist21": "assets/images/parts/Distance1.png",
+					"tardist22": "assets/images/parts/Distance1.png",
+					"tardist23": "assets/images/parts/Distance1.png",
+					"tardist24": "assets/images/parts/Distance1.png",
+					"tardist25": "assets/images/parts/Distance1.png",
+					"tardist26": "assets/images/parts/Distance1.png",
+					"tardist27": "assets/images/parts/Distance1.png",
+					"tardist28": "assets/images/parts/Distance1.png",
+					"tardist29": "assets/images/parts/Distance1.png",
+					"tardist30": "assets/images/parts/Distance1.png",
+					"tardist31": "assets/images/parts/Distance1.png",
+					"tardist32": "assets/images/parts/Distance1.png",
+					"tardist33": "assets/images/parts/Distance1.png",
+					"tardist34": "assets/images/parts/Distance1.png",
+					"tardist35": "assets/images/parts/Distance1.png",
+					"tardist36": "assets/images/parts/Distance1.png",
+
+					"player": "assets/images/parts/Head.png",
+					"frontsprite": "assets/images/front/Front_17.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-15",	
+					"earthY": "390",
+					"sceneX": "-56",
+					"sceneY": "58",
+					"scenescaleX": "1.02",
+					"scenescaleY": "1.01",
+					"frontspriteX": "-2",
+					"frontspriteY": "359.95",
+					"frontspritescaleX": "1.01",
+					"frontspritescaleY": "1",
+					"skyX": "40.55",
+					"skyY": "30",
+					"skyscaleX": "1.02",
+					"skyscaleY": "1",
+					
+					"playerX": "315",
+					"playerY": "375",
+				     "playerropeScale":"1.0",
+					
+					"sunX" : "230",
+					"sunY" : "23",
+					"sunscaleX" : "1",
+					"sunscaleY" : "1",
+
+					"groundX": "320",
+					"groundY": "429",
+					"groundscaleX": "20.4",
+					"groundscaleY": "2.5",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-25",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "2",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "443",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"ballTarget1X": "60",
+					"ballTarget1Y": "60",
+					"ballTarget1scaleX": "1.0",
+					"ballTarget1scaleY": "1.0",
+					"ballTarget1mass": "0.6",
+					"ballTarget1friction": "0.3",
+					"ballTarget1restitution": "0.1",
+
+					"ballTarget2X": "210",
+					"ballTarget2Y": "60",
+					"ballTarget2scaleX": "1.0",
+					"ballTarget2scaleY": "1.0",
+					"ballTarget2mass": "0.6",
+					"ballTarget2friction": "0.3",
+					"ballTarget2restitution": "0.1",
+
+					"ballTarget3X": "360",
+					"ballTarget3Y": "60",
+					"ballTarget3scaleX": "1.0",
+					"ballTarget3scaleY": "1.0",
+					"ballTarget3mass": "0.6",
+					"ballTarget3friction": "0.3",
+					"ballTarget3restitution": "0.1",
+
+					"ballTarget4X": "510",
+					"ballTarget4Y": "60",
+					"ballTarget4scaleX": "1.0",
+					"ballTarget4scaleY": "1.0",
+					"ballTarget4mass": "0.6",
+					"ballTarget4friction": "0.3",
+					"ballTarget4restitution": "0.1",
+
+					"ballTarget5X": "135",
+					"ballTarget5Y": "135",
+					"ballTarget5scaleX": "1.0",
+					"ballTarget5scaleY": "1.0",
+					"ballTarget5mass": "0.6",
+					"ballTarget5friction": "0.3",
+					"ballTarget5restitution": "0.1",
+
+					"ballTarget6X": "285",
+					"ballTarget6Y": "135",
+					"ballTarget6scaleX": "1.0",
+					"ballTarget6scaleY": "1.0",
+					"ballTarget6mass": "0.6",
+					"ballTarget6friction": "0.3",
+					"ballTarget6restitution": "0.1",
+
+					"ballTarget7X": "435",
+					"ballTarget7Y": "135",
+					"ballTarget7scaleX": "1.0",
+					"ballTarget7scaleY": "1.0",
+					"ballTarget7mass": "0.6",
+					"ballTarget7friction": "0.3",
+					"ballTarget7restitution": "0.1",
+
+					"ballTarget8X": "585",
+					"ballTarget8Y": "135",
+					"ballTarget8scaleX": "1.0",
+					"ballTarget8scaleY": "1.0",
+					"ballTarget8mass": "0.6",
+					"ballTarget8friction": "0.3",
+					"ballTarget8restitution": "0.1",
+
+					"ballTarget9X": "60",
+					"ballTarget9Y": "210",
+					"ballTarget9scaleX": "1.0",
+					"ballTarget9scaleY": "1.0",
+					"ballTarget9mass": "0.6",
+					"ballTarget9friction": "0.3",
+					"ballTarget9restitution": "0.1",
+					
+					"ballTarget10X": "210",
+					"ballTarget10Y": "210",
+					"ballTarget10scaleX": "1.0",
+					"ballTarget10scaleY": "1.0",
+					"ballTarget10mass": "0.6",
+					"ballTarget10friction": "0.3",
+					"ballTarget10restitution": "0.1",
+
+					"ballTarget11X": "360",
+					"ballTarget11Y": "210",
+					"ballTarget11scaleX": "1.0",
+					"ballTarget11scaleY": "1.0",
+					"ballTarget11mass": "0.6",
+					"ballTarget11friction": "0.3",
+					"ballTarget11restitution": "0.1",
+
+					"ballTarget12X": "510",
+					"ballTarget12Y": "210",
+					"ballTarget12scaleX": "1.0",
+					"ballTarget12scaleY": "1.0",
+					"ballTarget12mass": "0.6",
+					"ballTarget12friction": "0.3",
+					"ballTarget12restitution": "0.1",
+				
+					"ballTarget13X": "135",
+					"ballTarget13Y": "285",
+					"ballTarget13scaleX": "1.0",
+					"ballTarget13scaleY": "1.0",
+					"ballTarget13mass": "0.6",
+					"ballTarget13friction": "0.3",
+					"ballTarget13restitution": "0.1",
+
+					"ballTarget14X": "285",
+					"ballTarget14Y": "285",
+					"ballTarget14scaleX": "1.0",
+					"ballTarget14scaleY": "1.0",
+					"ballTarget14mass": "0.6",
+					"ballTarget14friction": "0.3",
+					"ballTarget14restitution": "0.1",
+
+					"ballTarget15X": "435",
+					"ballTarget15Y": "285",
+					"ballTarget15scaleX": "1.0",
+					"ballTarget15scaleY": "1.0",
+					"ballTarget15mass": "0.6",
+					"ballTarget15friction": "0.3",
+					"ballTarget15restitution": "0.1",
+
+					"ballTarget16X": "585",
+					"ballTarget16Y": "285",
+					"ballTarget16scaleX": "1.0",
+					"ballTarget16scaleY": "1.0",
+					"ballTarget16mass": "0.6",
+					"ballTarget16friction": "0.3",
+					"ballTarget16restitution": "0.1",
+					
+					"tardist1anchorAX": "-5",
+					"tardist1anchorAY": "-5",
+					"tardist1anchorBX": "50",
+					"tardist1anchorBY": "50",
+					"tardist1anchorAlength": "75",
+					"tardist1extendRope": "1",
+					"tardist1frequency": "10",
+					
+					"tardist2anchorBX": "126",
+					"tardist2anchorBY": "0.01",
+					"tardist2anchorAX": "70",
+					"tardist2anchorAY": "50",
+					"tardist2anchorAlength": "75",
+					"tardist2extendRope": "1",
+					"tardist2frequency": "10",
+					
+					"tardist3anchorAX": "149",
+					"tardist3anchorAY": "0.01",
+					"tardist3anchorBX": "200",
+					"tardist3anchorBY": "50",
+					"tardist3anchorAlength": "75",
+					"tardist3extendRope": "1",
+					"tardist3frequency": "10",
+					
+					"tardist4anchorBX": "275",
+					"tardist4anchorBY": "0.01",
+					"tardist4anchorAX": "220",
+					"tardist4anchorAY": "50",
+					"tardist4anchorAlength": "75",
+					"tardist4extendRope": "1",
+					"tardist4frequency": "10",
+								
+					"tardist5anchorAX": "295",
+					"tardist5anchorAY": "0.01",
+					"tardist5anchorBX": "349",
+					"tardist5anchorBY": "50",
+					"tardist5anchorAlength": "75",
+					"tardist5extendRope": "1",
+					"tardist5frequency": "10",
+									
+					"tardist6anchorBX": "425",
+					"tardist6anchorBY": "0.01",
+					"tardist6anchorAX": "370",
+					"tardist6anchorAY": "50",
+					"tardist6anchorAlength": "75",
+					"tardist6extendRope": "1",
+					"tardist6frequency": "10",
+					
+					"tardist7anchorAX": "445",
+					"tardist7anchorAY": "0.01",
+					"tardist7anchorBX": "500",
+					"tardist7anchorBY": "50",
+					"tardist7anchorAlength": "75",
+					"tardist7extendRope": "1",
+					"tardist7frequency": "10",
+				
+					"tardist8anchorBX": "575",
+					"tardist8anchorBY": "0.01",
+					"tardist8anchorAX": "520",
+					"tardist8anchorAY": "50",
+					"tardist8anchorAlength": "75",
+					"tardist8extendRope": "1",
+					"tardist8frequency": "10",
+														
+					"tardist9anchorBX": "50",
+					"tardist9anchorBY": "70",
+					"tardist9anchorAX": "-5",
+					"tardist9anchorAY": "125",
+					"tardist9anchorAlength": "75",
+					"tardist9extendRope": "1",
+					"tardist9frequency": "10",
+										
+					"tardist10anchorAX": "70",
+					"tardist10anchorAY": "70",
+					"tardist10anchorBX": "125",
+					"tardist10anchorBY": "125",
+					"tardist10anchorAlength": "75",
+					"tardist10extendRope": "1",
+					"tardist10frequency": "10",
+				
+					"tardist11anchorBX": "200",
+					"tardist11anchorBY": "70",
+					"tardist11anchorAX": "145",
+					"tardist11anchorAY": "125",
+					"tardist11anchorAlength": "75",
+					"tardist11extendRope": "1",
+					"tardist11frequency": "10",
+					
+					"tardist12anchorAX": "220",
+					"tardist12anchorAY": "70",
+					"tardist12anchorBX": "275",
+					"tardist12anchorBY": "125",
+					"tardist12anchorAlength": "75",
+					"tardist12extendRope": "1",
+					"tardist12frequency": "10",
+					
+					"tardist13anchorAX": "295",
+					"tardist13anchorAY": "125",
+					"tardist13anchorBX": "349",
+					"tardist13anchorBY": "70",
+					"tardist13anchorAlength": "75",
+					"tardist13extendRope": "1",
+					"tardist13frequency": "10",
+					
+					"tardist14anchorAX": "370",
+					"tardist14anchorAY": "70",
+					"tardist14anchorBX": "425",
+					"tardist14anchorBY": "125",
+					"tardist14anchorAlength": "75",
+					"tardist14extendRope": "1",
+					"tardist14frequency": "10",
+					
+					"tardist15anchorAX": "445",
+					"tardist15anchorAY": "125",
+					"tardist15anchorBX": "500",
+					"tardist15anchorBY": "70",
+					"tardist15anchorAlength": "75",
+					"tardist15extendRope": "1",
+					"tardist15frequency": "10",
+					
+					"tardist16anchorAX": "520",
+					"tardist16anchorAY": "70",
+					"tardist16anchorBX": "575",
+					"tardist16anchorBY": "125",
+					"tardist16anchorAlength": "75",
+					"tardist16extendRope": "1",
+					"tardist16frequency": "10",
+						
+					"tardist17anchorAX": "595",
+					"tardist17anchorAY": "125",
+					"tardist17anchorBX": "650",
+					"tardist17anchorBY": "70",
+					"tardist17anchorAlength": "75",
+					"tardist17extendRope": "1",
+					"tardist17frequency": "10",
+					
+					"tardist18anchorAX": "-5",
+					"tardist18anchorAY": "145",
+					"tardist18anchorBX": "50",
+					"tardist18anchorBY": "200",
+					"tardist18anchorAlength": "75",
+					"tardist18extendRope": "1",
+					"tardist18frequency": "10",
+					
+					"tardist19anchorAX": "70",
+					"tardist19anchorAY": "200",
+					"tardist19anchorBX": "125",
+					"tardist19anchorBY": "145",
+					"tardist19anchorAlength": "75",
+					"tardist19extendRope": "1",
+					"tardist19frequency": "10",
+					
+					"tardist20anchorAX": "70",
+					"tardist20anchorAY": "200",
+					"tardist20anchorBX": "125",
+					"tardist20anchorBY": "145",
+					"tardist20anchorAlength": "75",
+					"tardist20extendRope": "1",
+					"tardist20frequency": "10",
+					
+					"tardist21anchorAX": "145",
+					"tardist21anchorAY": "145",
+					"tardist21anchorBX": "200",
+					"tardist21anchorBY": "200",
+					"tardist21anchorAlength": "75",
+					"tardist21extendRope": "1",
+					"tardist21frequency": "10",
+					
+					"tardist22anchorAX": "220",
+					"tardist22anchorAY": "200",
+					"tardist22anchorBX": "275",
+					"tardist22anchorBY": "145",
+					"tardist22anchorAlength": "75",
+					"tardist22extendRope": "1",
+					"tardist22frequency": "10",
+					
+					"tardist23anchorAX": "295",
+					"tardist23anchorAY": "145",
+					"tardist23anchorBX": "350",
+					"tardist23anchorBY": "200",
+					"tardist23anchorAlength": "75",
+					"tardist23extendRope": "1",
+					"tardist23frequency": "10",
+					
+					"tardist24anchorAX": "370",
+					"tardist24anchorAY": "200",
+					"tardist24anchorBX": "425",
+					"tardist24anchorBY": "145",
+					"tardist24anchorAlength": "75",
+					"tardist24extendRope": "1",
+					"tardist24frequency": "10",
+					
+					"tardist25anchorAX": "445",
+					"tardist25anchorAY": "145",
+					"tardist25anchorBX": "500",
+					"tardist25anchorBY": "200",
+					"tardist25anchorAlength": "75",
+					"tardist25extendRope": "1",
+					"tardist25frequency": "10",
+					
+					"tardist26anchorAX": "520",
+					"tardist26anchorAY": "200",
+					"tardist26anchorBX": "575",
+					"tardist26anchorBY": "145",
+					"tardist26anchorAlength": "75",
+					"tardist26extendRope": "1",
+					"tardist26frequency": "10",
+					
+					"tardist27anchorAX": "595",
+					"tardist27anchorAY": "145",
+					"tardist27anchorBX": "650",
+					"tardist27anchorBY": "200",
+					"tardist27anchorAlength": "75",
+					"tardist27extendRope": "1",
+					"tardist27frequency": "10",
+					
+					"tardist28anchorAX": "-5",
+					"tardist28anchorAY": "275",
+					"tardist28anchorBX": "50",
+					"tardist28anchorBY": "220",
+					"tardist28anchorAlength": "75",
+					"tardist28extendRope": "1",
+					"tardist28frequency": "10",
+					
+					"tardist29anchorAX": "70",
+					"tardist29anchorAY": "220",
+					"tardist29anchorBX": "125",
+					"tardist29anchorBY": "275",
+					"tardist29anchorAlength": "75",
+					"tardist29extendRope": "1",
+					"tardist29frequency": "10",
+					
+					"tardist30anchorAX": "145",
+					"tardist30anchorAY": "275",
+					"tardist30anchorBX": "200",
+					"tardist30anchorBY": "220",
+					"tardist30anchorAlength": "75",
+					"tardist30extendRope": "1",
+					"tardist30frequency": "10",
+					
+					"tardist31anchorAX": "220",
+					"tardist31anchorAY": "220",
+					"tardist31anchorBX": "275",
+					"tardist31anchorBY": "275",
+					"tardist31anchorAlength": "75",
+					"tardist31extendRope": "1",
+					"tardist31frequency": "10",
+					
+					"tardist32anchorAX": "295",
+					"tardist32anchorAY": "275",
+					"tardist32anchorBX": "350",
+					"tardist32anchorBY": "220",
+					"tardist32anchorAlength": "75",
+					"tardist32extendRope": "1",
+					"tardist32frequency": "10",
+					
+					"tardist33anchorAX": "370",
+					"tardist33anchorAY": "220",
+					"tardist33anchorBX": "425",
+					"tardist33anchorBY": "275",
+					"tardist33anchorAlength": "75",
+					"tardist33extendRope": "1",
+					"tardist33frequency": "10",
+					
+					"tardist34anchorAX": "445",
+					"tardist34anchorAY": "275",
+					"tardist34anchorBX": "500",
+					"tardist34anchorBY": "220",
+					"tardist34anchorAlength": "75",
+					"tardist34extendRope": "1",
+					"tardist34frequency": "10",
+					
+					"tardist35anchorAX": "520",
+					"tardist35anchorAY": "220",
+					"tardist35anchorBX": "575",
+					"tardist35anchorBY": "275",
+					"tardist35anchorAlength": "75",
+					"tardist35extendRope": "1",
+					"tardist35frequency": "10",
+					
+					"tardist36anchorAX": "595",
+					"tardist36anchorAY": "275",
+					"tardist36anchorBX": "650",
+					"tardist36anchorBY": "220",
+					"tardist36anchorAlength": "75",
+					"tardist36extendRope": "1",
+					"tardist36frequency": "10",
+						
+					"targetX": "210",
+					"targetY": "60",
+					"targetscaleX": "1.05",
+					"targetscaleY": "1.05",
+					"targetglow": "0"					
+
+				}
+			]
+		},
+			
+		{
+			"level": 18,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_18.png",
+					"scene": "assets/images/scene/Back_18.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"post": "assets/images/parts/PostWood.png",
+
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"wiresoft2": "assets/images/parts/WireSoft2.png",
+					"post2": "assets/images/parts/PostWood2.png",
+					"transformer": "assets/images/parts/Transformer.png",
+					"earthsprite": "assets/images/earth/Earth_1.png",
+					"frontsprite": "assets/images/front/Front_18.png",
+
+					"target": "assets/images/Target.png",
+					"revolutePin": "assets/images/parts/RevolutePin.png",
+					"player": "assets/images/parts/Head.png",
+					
+					"brickhuge1": "assets/images/parts/BrickHuge.png",
+					"brickhuge2": "assets/images/parts/BrickHuge.png",
+					"brickhuge3": "assets/images/parts/BrickHuge.png",
+					"brickhuge4": "assets/images/parts/BrickHuge.png",
+					"brickhuge5": "assets/images/parts/BrickHuge.png",
+					"brickhuge6": "assets/images/parts/BrickHuge.png",
+					
+					"weldwall1": "assets/images/parts/WeldWall.png",
+					"weldwall2": "assets/images/parts/WeldWall.png",
+					"weldwall3": "assets/images/parts/WeldWall.png",
+					"weldwall4": "assets/images/parts/WeldWall.png",
+					"weldwall5": "assets/images/parts/WeldWall.png",
+					"weldwall6": "assets/images/parts/WeldWall.png",
+					"weldwall7": "assets/images/parts/WeldWall.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-15",	
+					"earthspriteY": "325",
+					"sceneX": "-55",
+					"sceneY": "9",
+					"scenescaleX": "1.02",
+					"scenescaleY": "1.05",
+		
+					"frontspriteX": "-40",
+					"frontspriteY": "324.65",
+					"frontspritescaleX": "1.125",
+					"frontspritescaleY": "1.125",
+					"skyX": "50.55",
+					"skyY": "2",
+					"skyscaleX": "0.99",
+					"skyscaleY": "0.99",
+					
+					"playerX": "360",
+					"playerY": "226",
+					
+					"sunX" : "120",
+					"sunY" : "48",
+					"sunscaleX" : "0.9",
+					"sunscaleY" : "0.9",
+
+					"groundX": "315",
+					"groundY": "379",
+					"groundscaleX": "20.4",
+					"groundscaleY": "3.5",
+
+					"ground1X": "330.045",
+					"ground1Y": "155.99",
+					"ground1scaleX": "16.85",
+					"ground1scaleY": "0.4",
+					"ground1angle": "-15.8",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"hardBox3X": "328",
+					"hardBox3Y": "443",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"postX": "582.475",
+					"postY": "244.475",
+
+					"post2X": "65",
+					"post2Y": "275",
+					"post2scaleX": "1.1",
+					"post2scaleY": "1.15",
+
+					
+					"wiresoftX": "-74",
+					"wiresoftY": "228",
+					"wiresoftscaleX": "1",
+					"wiresoftscaleX": "1",
+
+					"wiresoft2X": "315.075",
+					"wiresoft2Y": "165.05",
+					"wiresoft2scaleX": "0.945",
+					"wiresoft2scaleY": "1.1",
+					"wiresoft2angle": "-15.8",
+
+					"transformerX": "40.475",
+					"transformerY": "281.8",
+					"transformerscaleX":"0.96",
+					"transformerscaleY":"1.0",
+
+					"weldwall1X" : "135.63",
+					"weldwall1Y" : "320",
+					"weldwall1scaleX" : "0.95",
+					"weldwall1scaleY" : "0.95",
+
+					"brickhuge1X" : "150",
+					"brickhuge1Y" : "318",
+					"brickhuge1scaleX" : "1",
+					"brickhuge1scaleY" : "1",
+					"brickhuge1angle" : "0",
+
+					"weldwall2X" : "135.63",
+					"weldwall2Y" : "305",
+					"weldwall2scaleX" : "1",
+					"weldwall2scaleY" : "1",
+					
+					"brickhuge2X" : "150",
+					"brickhuge2Y" : "300",
+					"brickhuge2scaleX" : "1",
+					"brickhuge2scaleY" : "1",
+					"brickhuge2angle" : "0",
+
+					"weldwall3X" : "135.63",
+					"weldwall3Y" : "290",
+					"weldwall3scaleX" : "1",
+					"weldwall3scaleY" : "1",
+
+					"brickhuge3X" : "150",
+					"brickhuge3Y" : "285",
+					"brickhuge3scaleX" : "1",
+					"brickhuge3scaleY" : "1",
+					"brickhuge3angle" : "0",
+
+					"weldwall4X" : "135.63",
+					"weldwall4Y" : "275",
+					"weldwall4scaleX" : "1",
+					"weldwall4scaleY" : "1",
+
+					"brickhuge4X" : "150",
+					"brickhuge4Y" : "270",
+					"brickhuge4scaleX" : "1",
+					"brickhuge4scaleY" : "1",
+					"brickhuge4angle" : "0",
+					
+					"weldwall5X" : "135.63",
+					"weldwall5Y" : "260",
+					"weldwall5scaleX" : "1",
+					"weldwall5scaleY" : "1",
+
+					"brickhuge5X" : "150",
+					"brickhuge5Y" : "255",
+					"brickhuge5scaleX" : "1",
+					"brickhuge5scaleY" : "1",
+					"brickhuge5angle" : "0",
+
+					"weldwall6X" : "135.63",
+					"weldwall6Y" : "245",
+					"weldwall6scaleX" : "1",
+					"weldwall6scaleY" : "1",
+
+					"brickhuge6X" : "150",
+					"brickhuge6Y" : "240",
+					"brickhuge6scaleX" : "1",
+					"brickhuge6scaleY" : "1",
+					"brickhuge6angle" : "0",
+
+					"weldwall7X" : "130.63",
+					"weldwall7Y" : "230",
+					"weldwall7scaleX" : "1",
+					"weldwall7scaleY" : "1",
+					
+					"targetX": "84.5",
+					"targetY": "238.4",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0",
+					
+					"revolutePinX": "78",
+					"revolutePinY": "225",
+					"revolutePinscaleX": "0.3",
+					"revolutePinscaleY": "0.3"
+
+					
+				}
+			]
+		} ,
+			
+		{
+			"level": 19,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_19.png",
+					"scene": "assets/images/scene/Back_19.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"ground4": "assets/images/ground/GroundBox.png",
+					"ground5": "assets/images/ground/GroundBox.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"car": "assets/images/parts/Car.png",
+					"carWheel": "assets/images/parts/CarWheel.png",
+					"carWheel1": "assets/images/parts/CarWheel.png",
+					"carDoor": "assets/images/parts/CarDoor.png",
+					"revoluteCarMinus": "assets/images/parts/Revolute.png",
+					"revoluteCarMinus1": "assets/images/parts/Revolute.png",
+					"revolute": "assets/images/parts/Revolute.png",
+					"revolute1": "assets/images/parts/Revolute.png",
+
+
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					
+					"beamWood50.14": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.13": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.12": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.11": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.10": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.9": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.8": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.7": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.6": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.5": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.4": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.3": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.2": "assets/images/parts/BeamWood50h.png",
+					"beamWood50.1": "assets/images/parts/BeamWood50h.png",
+					"beamWood50": "assets/images/parts/BeamWood50h.png",
+
+					"revoluteBridge": "assets/images/parts/Revolute.png",
+					"revoluteBridge1": "assets/images/parts/Revolute.png",
+					"revoluteBridge2": "assets/images/parts/Revolute.png",
+					"revoluteBridge3": "assets/images/parts/Revolute.png",
+					"revoluteBridge4": "assets/images/parts/Revolute.png",
+					"revoluteBridge5": "assets/images/parts/Revolute.png",
+					"revoluteBridge6": "assets/images/parts/Revolute.png",
+					"revoluteBridge7": "assets/images/parts/Revolute.png",
+					"revoluteBridge8": "assets/images/parts/Revolute.png",
+					"revoluteBridge9": "assets/images/parts/Revolute.png",
+					"revoluteBridge10": "assets/images/parts/Revolute.png",
+					"revoluteBridge11": "assets/images/parts/Revolute.png",
+					"revoluteBridge12": "assets/images/parts/Revolute.png",
+					"revoluteBridge13": "assets/images/parts/Revolute.png",
+					"revoluteBridge14": "assets/images/parts/Revolute.png",
+					"revoluteBridge15": "assets/images/parts/Revolute.png",
+					"earthsprite": "assets/images/earth/Earth_19.png",
+					"frontsprite": "assets/images/front/Front_19.png"
+					
+	
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-10",	
+					"earthspriteY": "105",
+					"earthspritescaleX": "1",	
+					"earthspritescaleY": "1.05",
+					"sceneX": "-289",
+					"sceneY": "-7",
+					"scenescaleX": "1.048",
+					"scenescaleY": "1.1",
+					"frontspriteX": "-22",
+					"frontspriteY": "244.65",
+					"frontspritescaleX": "1.05",
+					"frontspritescaleY": "1.08",
+					"skyX": "35.55",
+					"skyY": "30",
+					"skyscaleX": "1.05",
+					"skyscaleY": "1",
+					
+					"playerX": "312",
+					"playerY": "255",
+					"playerscaleX": "0.70",
+					"playerscaleY": "0.70",
+					
+					"sunX" : "192",
+					"sunY" : "20",
+					"sunscaleX" : "0.75",
+					"sunscaleY" : "0.75",
+
+					"groundX": "228",
+					"groundY": "390",
+					"groundscaleX": "26",
+					"groundscaleY": "2.5",
+
+					"ground1X": "34",
+					"ground1Y": "286.1",
+					"ground1scaleX": "2.4",
+					"ground1scaleY": "12",
+
+					"ground2X": "586",
+					"ground2Y": "291.4",
+					"ground2scaleX": "2.4",
+					"ground2scaleY": "12",
+
+					"ground3X": "192",
+					"ground3Y": "370",
+					"ground3scaleX": "8.5",
+					"ground3scaleY": "2.4",
+					"ground3angle": "-6.5",
+
+					"ground4X": "454",
+					"ground4Y": "367",
+					"ground4scaleX": "9.5",
+					"ground4scaleY": "2.4",
+					"ground4angle": "5",
+		
+					"groundArcX": "82.5",
+					"groundArcY": "335",
+					"groundArcscaleX": "1.0",
+					"groundArcscaleY": "1.0",
+					"groundArcangle": "-90",
+
+					"groundArc1X": "540",
+					"groundArc1Y": "327",
+					"groundArc1scaleX": "1.0",
+					"groundArc1scaleY": "1.0",
+					"groundArc1angle": "180",
+					
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox1X": "-20" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+				
+					"hardBox2X": "652" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+					
+					"carDoorX": "11",
+					"carDoorY": "82.8",
+					"carDoorscaleX": "0.75",
+					"carDoorscaleY": "0.35",
+					"carDoorangle": "-45",
+
+					"revoluteX": "10",
+					"revoluteY": "82",
+					"revolutescaleX": "0.5",
+					"revolutescaleY": "0.5",
+					"revolutevisible": "1",
+					
+					"revolute1X": "15",
+					"revolute1Y": "82",
+					"revolute1scaleX": "0.5",
+					"revolute1scaleY": "0.5",
+					"revolute1visible": "1",
+
+					"carX": "45" ,
+					"carY": "74.8",
+					"carscaleX": "0.70" ,
+					"carscaleY": "0.70",
+					"carangle": "0.910",
+					"carmass": "55",
+					
+					"carWheelX": "65" ,
+					"carWheelY": "96.5",
+					"carWheelscaleX": "0.75" ,
+					"carWheelscaleY": "0.75",
+
+					"carWheel1X": "15" ,
+					"carWheel1Y": "96.5",
+					"carWheel1scaleX": "0.75" ,
+					"carWheel1scaleY": "0.75",
+
+					"revoluteCarMinusX": "15",
+					"revoluteCarMinusY": "96",
+					"revoluteCarMinusscaleX": "1.0",
+					"revoluteCarMinusscaleY": "1.0",
+					"revoluteCarMinusvisible": "0",
+
+					"revoluteCarMinus1X": "65",
+					"revoluteCarMinus1Y": "96",
+					"revoluteCarMinus1scaleX": "1.0",
+					"revoluteCarMinus1scaleY": "1.0",
+					"revoluteCarMinus1visible": "0",
+		
+
+					"revoluteBridgeX": "70",
+					"revoluteBridgeY": "115",
+					"revoluteBridgescaleX": "1.0",
+					"revoluteBridgescaleY": "1.0",
+					"revoluteBridgevisible": "0",
+
+					"beamWood50X": "86",
+					"beamWood50Y": "112.0",
+					"beamWood50scaleX": "0.75",
+					"beamWood50scaleY": "0.7",
+					"beamWood50angle": "3.7",
+
+					"revoluteBridge1X": "103",
+					"revoluteBridge1Y": "114",
+					"revoluteBridge1scaleX": "1.0",
+					"revoluteBridge1scaleY": "1.0",
+					"revoluteBridge1visible": "0",
+
+					
+					"beamWood50.1X": "121",
+					"beamWood50.1Y": "112.1",
+					"beamWood50.1scaleX": "0.75",
+					"beamWood50.1scaleY": "0.7",
+					"beamWood50.1angle": "4.32",
+
+					"revoluteBridge2X": "136",
+					"revoluteBridge2Y": "115",
+					"revoluteBridge2scaleX": "1.0",
+					"revoluteBridge2scaleY": "1.0",
+					"revoluteBridge2visible": "0",
+					
+					"beamWood50.2X": "153",
+					"beamWood50.2Y": "112.6",
+					"beamWood50.2scaleX": "0.75",
+					"beamWood50.2scaleY": "0.7",
+					"beamWood50.2angle": "1.91",
+
+					"revoluteBridge3X": "169",
+					"revoluteBridge3Y": "115",
+					"revoluteBridge3scaleX": "1.0",
+					"revoluteBridge3scaleY": "1.0",
+					"revoluteBridge3visible": "0",
+					
+					"beamWood50.3X": "184.7",
+					"beamWood50.3Y": "113",
+					"beamWood50.3scaleX": "0.75",
+					"beamWood50.3scaleY": "0.7",
+					"beamWood50.3angle": "3",
+
+					"revoluteBridge4X": "201.8",
+					"revoluteBridge4Y": "115",
+					"revoluteBridge4scaleX": "1.0",
+					"revoluteBridge4scaleY": "1.0",
+					"revoluteBridge4visible": "0",
+
+					"beamWood50.4X": "217",
+					"beamWood50.4Y": "113.5",
+					"beamWood50.4scaleX": "0.75",
+					"beamWood50.4scaleY": "0.7",
+					"beamWood50.4angle": "2.45",
+					
+					"revoluteBridge5X": "235",	
+					"revoluteBridge5Y": "115",
+					"revoluteBridge5scaleX": "1.0",
+					"revoluteBridge5scaleY": "1.0",
+					"revoluteBridge5visible": "0",
+					
+					"beamWood50.5X": "250",		
+					"beamWood50.5Y": "114",
+					"beamWood50.5scaleX": "0.75",
+					"beamWood50.5scaleY": "0.7",
+					"beamWood50.5angle": "5.20",					
+					
+					"revoluteBridge6X": "268",	
+					"revoluteBridge6Y": "115",
+					"revoluteBridge6scaleX": "1.0",
+					"revoluteBridge6scaleY": "1.0",
+					"revoluteBridge6visible": "0",
+
+					
+					"beamWood50.6X": "283",		
+					"beamWood50.6Y": "114",
+					"beamWood50.6scaleX": "0.75",
+					"beamWood50.6scaleY": "0.7",
+					"beamWood50.6angle": "3.45",					
+
+					"revoluteBridge7X": "301",	
+					"revoluteBridge7Y": "115",
+					"revoluteBridge7scaleX": "1.0",
+					"revoluteBridge7scaleY": "1.0",
+					"revoluteBridge7visible": "0",
+
+					
+					"beamWood50.7X": "316",		
+					"beamWood50.7Y": "114",
+					"beamWood50.7scaleX": "0.75",
+					"beamWood50.7scaleY": "0.7",
+					"beamWood50.7angle": "0.2",					
+
+					"revoluteBridge8X": "334",	
+					"revoluteBridge8Y": "115",
+					"revoluteBridge8scaleX": "1.0",
+					"revoluteBridge8scaleY": "1.0",
+					"revoluteBridge8visible": "0",
+
+
+					"beamWood50.8X": "349",		
+					"beamWood50.8Y": "114.8",
+					"beamWood50.8scaleX": "0.75",
+					"beamWood50.8scaleY": "0.7",
+					"beamWood50.8angle": "-1.518",					
+
+					"revoluteBridge9X": "367",	
+					"revoluteBridge9Y": "115",
+					"revoluteBridge9scaleX": "1.0",
+					"revoluteBridge9scaleY": "1.0",
+					"revoluteBridge9visible": "0",
+
+					"beamWood50.9X": "382",		
+					"beamWood50.9Y": "115",
+					"beamWood50.9scaleX": "0.75",
+					"beamWood50.9scaleY": "0.7",
+					"beamWood50.9angle": "-3.5",					
+
+					"revoluteBridge10X": "397",	
+					"revoluteBridge10Y": "115",
+					"revoluteBridge10scaleX": "1.0",
+					"revoluteBridge10scaleY": "1.0",
+					"revoluteBridge10visible": "0",
+					
+					
+					"beamWood50.10X": "412",		
+					"beamWood50.10Y": "115.5",
+					"beamWood50.10scaleX": "0.75",
+					"beamWood50.10scaleY": "0.7",
+					"beamWood50.10angle": "-4.35",					
+
+					"revoluteBridge11X": "430",	
+					"revoluteBridge11Y": "115",
+					"revoluteBridge11scaleX": "1.0",
+					"revoluteBridge11scaleY": "1.0",
+					"revoluteBridge11visible": "0",
+
+					"beamWood50.11X": "445",		
+					"beamWood50.11Y": "115.8",
+					"beamWood50.11scaleX": "0.75",
+					"beamWood50.11scaleY": "0.7",
+					"beamWood50.11angle": "-3.0",					
+		
+					"revoluteBridge12X": "463",	
+					"revoluteBridge12Y": "115",
+					"revoluteBridge12scaleX": "1.0",
+					"revoluteBridge12scaleY": "1.0",
+					"revoluteBridge12visible": "0",
+
+					"beamWood50.12X": "479",		
+					"beamWood50.12Y": "115.9",
+					"beamWood50.12scaleX": "0.75",
+					"beamWood50.12scaleY": "0.7",
+					"beamWood50.12angle": "-4.107",					
+
+					"revoluteBridge13X": "496",	
+					"revoluteBridge13Y": "115",
+					"revoluteBridge13scaleX": "1.0",
+					"revoluteBridge13scaleY": "1.0",
+					"revoluteBridge13visible": "0",
+					
+					
+					"beamWood50.13X": "512",		
+					"beamWood50.13Y": "115.4",
+					"beamWood50.13scaleX": "0.75",
+					"beamWood50.13scaleY": "0.7",
+					"beamWood50.13angle": "-3.267",					
+
+					"revoluteBridge14X": "530.5",	
+					"revoluteBridge14Y": "116",
+					"revoluteBridge14scaleX": "1.0",
+					"revoluteBridge14scaleY": "1.0",
+					"revoluteBridge14visible": "0",
+					
+					"beamWood50.14X": "535",			
+					"beamWood50.14Y": "115",
+					"beamWood50.14scaleX": "0.7",
+					"beamWood50.14scaleY": "0.75",
+					"beamWood50.14angle": "-5.740",					
+
+					"revoluteBridge15X": "550.1",	
+					"revoluteBridge15Y": "116.2",
+					"revoluteBridge15scaleX": "1.0",
+					"revoluteBridge15scaleY": "1.0",
+					"revoluteBridge15visible": "0",
+					
+					"targetX": "39.4",
+					"targetY": "72",
+					"targetscaleX": "0.68",
+					"targetscaleY": "0.68",
+					"targetangle": "-0.68"
+
+				}
+			]
+		},
+
+	
+
+				
+		{
+			"level": 20,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_20.png",
+					"scene": "assets/images/scene/Back_20.png",
+					"earth": "assets/images/earth/Earth_20.png",
+					"front": "assets/images/front/Front_20.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					"stoneBox": "assets/images/ground/StoneBox.png",
+					"stoneArc": "assets/images/ground/StoneArc.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"ballWood": "assets/images/parts/BallWood.png",
+
+					
+					
+					"seeSawBase": "assets/images/parts/SeesawBase.png",
+					"plank": "assets/images/parts/Plank.png",
+
+					"revolute": "assets/images/parts/Revolute.png",
+					"revoluteBridge": "assets/images/parts/RevoluteWheel.png",
+					
+					
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-25",	
+					"earthY": "127",
+					"sceneX": "-227",
+					"sceneY": "12",
+					"scenescaleX": "1.015",
+					"scenescaleY": "1",
+					"frontX": "-54.8",
+					"frontY": "176.95",
+					"frontscaleX": "1.009",
+					"frontscaleY": "1.12",
+					"skyX": "137.55",
+					"skyY": "11",
+					"skyscaleX": "1.02",
+					"skyscaleY": "0.96",
+					
+					"playerX": "213",
+					"playerY": "140",
+					"playerscaleX": "0.96",
+					"playerscaleY": "0.96",
+					
+					"sunX" : "350",
+					"sunY" : "45",
+					"sunscaleX" : "0.75",
+					"sunscaleY" : "0.75",
+
+					"groundX": "300.5",
+					"groundY": "374",
+					"groundscaleX": "26.15",
+					"groundscaleY": "1.7",
+
+					"ground1X": "126",
+					"ground1Y": "252.5",
+					"ground1scaleX": "8.3",
+					"ground1scaleY": "6.5",
+
+					"ground2X": "136.7",
+					"ground2Y": "262.5",
+					"ground2scaleX": "8.6",
+					"ground2scaleY": "6.5",
+					"ground2angle": "0",
+
+					"stoneBoxX": "583.05",
+					"stoneBoxY": "275.05",
+					"stoneBoxscaleX": "2.5",
+					"stoneBoxscaleY": "8",
+
+					"stoneArcX": "580.00",
+					"stoneArcY": "137.00",
+					"stoneArcscaleX": "1.1",
+					"stoneArcscaleY": "1.1",
+					"stoneArcangle": "270",
+
+					"groundBallX": "251.6",
+					"groundBallY": "169.6",
+					"groundBallscaleX" : "1.0",
+					"groundBallscaleY" : "1.0",
+
+					"groundArcX": "276",
+					"groundArcY": "339",
+					"groundArcangle" : "-90",
+					"groundArcscaleX" : "1.1",
+					"groundArcscaleY" : "1.1",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-15" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "433",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"ballWoodX": "57",
+					"ballWoodY": "126",
+					"ballWoodscaleX": "0.94",
+					"ballWoodscaleY": "0.94",
+					"ballWoodmass": "51",
+
+									
+					"seeSawBaseX": "400",
+					"seeSawBaseY": "318",
+					"seeSawBasescaleX": "2",
+					"seeSawBasescaleY": "2",
+
+					"plankX": "403",
+					"plankY": "293",
+					"plankscaleX": "1.0",
+					"plankscaleY": "1.02",
+					"plankangle": "0",
+					"plankmass": "13",
+
+					
+					"revoluteX": "403",
+					"revoluteY": "290.959",
+					"revolutescaleX": "1",
+					"revolutescaleY": "1",
+					"revolutevisible": "0",
+				
+				
+					"targetX": "612.4",
+					"targetY": "146",
+					"targetscaleX": "0.9",
+					"targetscaleY": "0.9",
+					
+					"revoluteBridgeX": "393",
+					"revoluteBridgeY": "283.959",
+					"revoluteBridgescaleX": "1.75",
+					"revoluteBridgescaleY": "1.75"
+
+				}
+			]
+		},
+		
+		{
+			"level": 21,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_21.png",
+					"scene": "assets/images/scene/Back_21.png"
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"post": "assets/images/parts/PostWood.png",
+					"rail": "assets/images/parts/Rail.png",
+					"rail1": "assets/images/parts/Rail.png",
+					"train": "assets/images/parts/Train.png",
+					"carriage": "assets/images/parts/Carriage.png",
+					"trainWheel": "assets/images/parts/TrainWheel.png",
+					"trainWheel1": "assets/images/parts/TrainWheel.png",
+					"trainWheel2": "assets/images/parts/TrainWheel.png",
+					"trainWheel3": "assets/images/parts/TrainWheel.png",
+					"trainWheel4": "assets/images/parts/TrainWheel.png",
+
+					"revolute": "assets/images/parts/Revolute.png",
+					"revolute1": "assets/images/parts/Revolute.png",
+					"revoluteTrainMinus": "assets/images/parts/Revolute.png",
+					"revoluteTrainMinus1": "assets/images/parts/Revolute.png",
+					"revoluteTrainMinus2": "assets/images/parts/Revolute.png",
+					"revolute5": "assets/images/parts/Revolute.png",
+					"ballWood": "assets/images/parts/BallWood.png",
+					"earthsprite": "assets/images/earth/Earth_21.png",
+					"frontsprite": "assets/images/front/Front_21.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-27.55",	
+					"earthspriteY": "355",
+					"sceneX": "-72.35",
+					"sceneY": "-30.95",
+					
+					"frontspriteX": "-7.8",
+					"frontspriteY": "335.75",
+					
+					"skyX": "80.55",
+					"skyY": "15",
+					
+					"playerX": "500",
+					"playerY": "320",
+					
+					"sunX" : "200",
+					"sunY" : "25",
+					"sunscaleX" : "1.0",
+					"sunscaleY" : "1.0",
+
+					"postX": "590.25",
+					"postY": "230.15",
+
+					"railX": "496.99",
+					"railY": "350.75",
+					"railscaleX": "1.128",
+					"railscaleY": "1",
+
+					"rail1X": "154.70",
+					"rail1Y": "350.75",
+					"rail1scaleX": "1.359",
+					"rail1scaleY": "1",
+
+					"trainX": "169.60",
+					"trainY": "300.46",
+					"trainscaleX": "1.0",
+					"trainscaleY": "1",
+
+					"carriageX": "56.3",
+					"carriageY": "313.7",
+					"carriagescaleX": "1.0",
+					"carriagescaleY": "1",
+
+					"trainWheelX": "34.2",
+					"trainWheelY": "335.25",
+					"trainWheelscaleX": "0.5",
+					"trainWheelscaleY": "0.5",
+					  
+					"revoluteX": "34.2",
+					"revoluteY": "335.25",
+					"revolutescaleX": "1.0",
+					"revolutescaleY": "1.0",
+					"revolutevisible": "0",
+					"revolutemotor": "0",
+					"revolutespeed": "-0.5",
+					"revolutetorque": "10",
+				
+					"trainWheel1X": "80.29",
+					"trainWheel1Y": "335.25",
+					"trainWheel1scaleX": "0.5",
+					"trainWheel1scaleY": "0.5",          
+
+					"revolute1X": "80.29",
+					"revolute1Y": "335.25",
+					"revolute1scaleX": "1.0",
+					"revolute1scaleY": "1.0",
+					"revolute1visible": "0",
+					"revolute1motor": "0",
+					"revolute1speed": "-0.5",
+					"revolute1torque": "10",
+
+					"trainWheel2X": "134.05",
+					"trainWheel2Y": "329.9",
+					"trainWheel2scaleX": "0.6809",
+					"trainWheel2scaleY": "0.6809",
+
+					"trainWheel3X": "172.05",
+					"trainWheel3Y": "335.95",
+					"trainWheel3scaleX": "0.4392",
+					"trainWheel3scaleY": "0.4392",
+
+					"trainWheel4X": "195.55",
+					"trainWheel4Y": "335.85",
+					"trainWheel4scaleX": "0.4392",
+					"trainWheel4scaleY": "0.4392",
+
+					"revoluteTrainMinusX": "134.05",
+					"revoluteTrainMinusY": "330.0",
+					"revoluteTrainMinusscaleX": "1.0",
+					"revoluteTrainMinusscaleY": "1.0",
+					"revoluteTrainMinusvisible": "0",
+
+					"revoluteTrainMinus1X": "172.05",
+					"revoluteTrainMinus1Y": "335.85",
+					"revoluteTrainMinus1scaleX": "1.0",
+					"revoluteTrainMinus1scaleY": "1.0",
+					"revoluteTrainMinus1visible": "0",
+
+					"revoluteTrainMinus2X": "195.55",
+					"revoluteTrainMinus2Y": "335.85",
+					"revoluteTrainMinus2scaleX": "1.0",
+					"revoluteTrainMinus2scaleY": "1.0",
+					"revoluteTrainMinus2visible": "0",
+
+					"revolute5X": "108.75",
+					"revolute5Y": "319.75",
+					"revolute5scaleX": "1.0",
+					"revolute5scaleY": "1.0",
+					"revolute5visible": "0",
+					
+					"ballWoodX": "336",
+					"ballWoodY": "342.75",
+					"ballWoodscaleX": ".222",
+					"ballWoodscaleY": ".222",
+					"ballWoodmass": ".1",
+		
+					"groundX": "248",
+					"groundY": "392.9",
+					"groundscaleX": "26.1",
+					"groundscaleY": "2.5",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"targetX": "79.4",
+					"targetY": "298",
+					"targetscaleX": "0.95",
+					"targetscaleY": "0.95"
+
+				}
+			]
+		} ,
+
+				
+		{
+			"level": 22,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_22.png",
+					"scene": "assets/images/scene/Back_22.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"beamMetal200": "assets/images/parts/BeamMetal200h.png",
+					"beamMetal200.1": "assets/images/parts/BeamMetal200h.png",
+					"beamMetal200.2": "assets/images/parts/BeamMetal200h.png",
+					"beamMetal100": "assets/images/parts/BeamMetal100.png",
+					"beamMetal50": "assets/images/parts/BeamMetal50-level10.png",
+					"beamMetal150": "assets/images/parts/BeamMetal150h.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+
+					"ballRigid": "assets/images/parts/BallRigid.png",
+					"ballRigid1": "assets/images/parts/BallRigid.png",
+					"ballRigid2": "assets/images/parts/BallRigid.png",
+					"ballRigid3": "assets/images/parts/BallRigid.png",
+					"ballRigid4": "assets/images/parts/BallRigid.png",
+
+					"ballStone": "assets/images/parts/BallStone.png",
+					"ropeDist": "assets/images/parts/ropelevel10.png",
+					"dist": "assets/images/parts/Distance1.png",
+					"dist1": "assets/images/parts/Distance1.png",
+					"dist2": "assets/images/parts/Distance1.png",
+					"dist3": "assets/images/parts/Distance1.png",
+					"dist4": "assets/images/parts/Distance1.png",
+					"weld": "assets/images/parts/Anchor.png",
+					"weld1": "assets/images/parts/Anchor.png",
+					"weld2": "assets/images/parts/Anchor.png",
+					"weld3": "assets/images/parts/Anchor.png",
+					
+					"earthsprite": "assets/images/earth/Earth_22.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"frontsprite": "assets/images/front/Front_22.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-15",	
+					"earthspriteY": "332",
+					"sceneX": "-117",
+					"sceneY": "6.5",
+					"scenescaleX": "1.005",
+					"scenescaleY": "1",
+					"frontspriteX": "-5",
+					"frontspriteY": "339.65",
+					"skyX": "32.55",
+					"skyY": "12",
+					
+					"playerX": "30",
+					"playerY": "322.6",
+					
+					"sunX" : "160",
+					"sunY" : "22",
+					"sunscaleX" : "1",
+					"sunscaleY" : "1",
+
+					"groundX": "215",
+					"groundY": "398.4",
+					"groundscaleX": "15.6",
+					"groundscaleY": "2.5",
+					
+					"ground2X": "580",
+					"ground2Y": "419.5",
+					"ground2scaleX": "4.0",
+					"ground2scaleY": "4.0",
+
+					"ground1X": "478",
+					"ground1Y": "465.9",
+					"ground1scaleX": "4.0",
+					"ground1scaleY": "4.0",
+
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox1X": "-22" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"hardBox4X": "480",
+					"hardBox4Y": "80",
+					"hardBox4scaleX": "9.5" ,
+					"hardBox4scaleY": "0.6",
+
+					"beamMetal200X" : "538.25",
+					"beamMetal200Y" : "91.75",
+					"beamMetal200scaleX" : "1.0",
+					"beamMetal200scaleY" : "1.0",
+					"beamMetal200angle" : "0",
+					"beamMetal200static" : "0",
+					
+
+					"beamMetal200.1X" : "345.1",
+					"beamMetal200.1Y" : "91.75",
+					"beamMetal200.1scaleX" : "1.0",
+					"beamMetal200.1scaleY" : "1.0",
+					"beamMetal200.1angle" : "0",
+					"beamMetal200.1static" : "0",
+
+					"beamMetal200.2X" : "140.0",
+					"beamMetal200.2Y" : "144.65",
+					"beamMetal200.2scaleX" : "1.0",
+					"beamMetal200.2scaleY" : "1.0",
+					"beamMetal200.2angle" : "0.8",
+					"beamMetal200.2static" : "0",
+
+					"beamMetal50X" : "234.15",
+					"beamMetal50Y" : "178.8",
+					"beamMetal50scaleX" : "1.0",
+					"beamMetal50scaleY" : "1.0",
+					"beamMetal50angle" : "1.3",
+					"beamMetal50static": "1",
+
+					"beamMetal100X" : "273.9",
+					"beamMetal100Y" : "215.4",
+					"beamMetal100scaleX" : "0.989",
+					"beamMetal100scaleY" : "0.989",
+					"beamMetal100angle" : "-64.0594",
+					"beamMetal100static": "1",
+
+					"beamMetal150X" : "391",
+					"beamMetal150Y" : "237.65",
+					"beamMetal150scaleX" : "1.0",
+					"beamMetal150scaleY" : "1.0",
+					"beamMetal150angle" : "0.8",
+					"beamMetal150static": "1",
+
+					"ballRigidX" : "491",
+					"ballRigidY" : "210",
+					"ballRigidscaleX" : "1.0",
+					"ballRigidscaleY" : "1.0",
+
+					"ballRigid1X" : "460",
+					"ballRigid1Y" : "210",
+					"ballRigid1scaleX" : "1.0",
+					"ballRigid1scaleY" : "1.0",
+
+					"ballRigid2X" : "429",
+					"ballRigid2Y" : "210",
+					"ballRigid2scaleX" : "1.0",
+					"ballRigid2scaleY" : "1.0",
+					
+					"ballRigid3X" : "398",
+					"ballRigid3Y" : "210",
+					"ballRigid3scaleX" : "1.0",
+					"ballRigid3scaleY" : "1.0",
+					
+					"ballRigid4X" : "367",
+					"ballRigid4Y" : "210",
+					"ballRigid4scaleX" : "1.0",
+					"ballRigid4scaleY" : "1.0",
+
+					"weldX": "634.50",
+					"weldY": "88.5",
+					"weldscaleX": "1.0",
+					"weldscaleY": "1.0",
+					"weldvisible": "0",
+
+					"weld1X": "374",
+					"weld1Y": "90",
+					"weld1scaleX": "1.0",
+					"weld1scaleY": "1.0",
+					"weld1visible": "0",
+
+					"weld2X": "178",
+					"weld2Y": "146.75",
+					"weld2scaleX": "1.0",
+					"weld2scaleY": "1.0",
+					"weld2visible": "0",
+
+					"weld3X": "389.3",
+					"weld3Y": "234.10",
+					"weld3scaleX": "1.0",
+					"weld3scaleY": "1.0",
+					"weld3visible": "0",
+					
+					
+					"distX": "331.05",			
+					"distY": "134.95",
+					"dist1X": "331.05",			
+					"dist1Y": "134.95",
+					
+					"dist2X": "331.05",			
+					"dist2Y": "134.95",
+					"dist3X": "331.05",			
+					"dist3Y": "134.95",
+
+					
+					"distanchorAX": "491",
+					"distanchorAY": "95.8",
+					"distanchorAangle": "0.",
+					"distanchorAscaleX": "1.0",
+					"distanchorAscaleY": "1.0",
+					"distanchorAlength": "100.0",
+					
+					"distanchorBX": "491",
+					"distanchorBY": "195.8",
+					"distanchorBscaleX": "1.0",
+					"distanchorBscaleY": "1.0",
+					"distanchorBangle" : "0",
+
+					"dist1anchorAX": "460",
+					"dist1anchorAY": "95.8",
+					"dist1anchorAangle": "0.",
+					"dist1anchorAscaleX": "1.0",
+					"dist1anchorAscaleY": "1.0",
+					"dist1anchorAlength": "100.0",
+					
+					"dist1anchorBX": "460",
+					"dist1anchorBY": "195.8",
+					"dist1anchorBscaleX": "1.0",
+					"dist1anchorBscaleY": "1.0",
+					"dist1anchorBangle" : "0",
+
+
+					"dist2anchorAX": "429",
+					"dist2anchorAY": "95.8",
+					"dist2anchorAangle": "0.",
+					"dist2anchorAscaleX": "1.0",
+					"dist2anchorAscaleY": "1.0",
+					"dist2anchorAlength": "100.0",
+					
+					"dist2anchorBX": "429",
+					"dist2anchorBY": "195.8",
+					"dist2anchorBscaleX": "2.0",
+					"dist2anchorBscaleY": "2.0",
+					"dist2anchorBangle" : "0",					
+
+					"dist3anchorAX": "398",
+					"dist3anchorAY": "95.8",
+					"dist3anchorAangle": "0.",
+					"dist3anchorAscaleX": "1.0",
+					"dist3anchorAscaleY": "1.0",
+					"dist3anchorAlength": "100.0",
+					
+					"dist3anchorBX": "398",
+					"dist3anchorBY": "195.8",
+					"dist3anchorBscaleX": "1.0",
+					"dist3anchorBscaleY": "1.0",
+					"dist3anchorBangle" : "0",								
+
+					"dist4anchorAX": "367",
+					"dist4anchorAY": "95.8",
+					"dist4anchorAangle": "0.",
+					"dist4anchorAscaleX": "1.0",
+					"dist4anchorAscaleY": "1.0",
+					"dist4anchorAlength": "100.0",
+					
+					"dist4anchorBX": "367",
+					"dist4anchorBY": "195.8",
+					"dist4anchorBscaleX": "1.0",
+					"dist4anchorBscaleY": "1.0",
+					"dist4anchorBangle" : "0",								
+					
+					"ballStoneX": "482.05",
+					"ballStoneY": "365.5",
+					"ballStonescaleX": "1.8",
+					"ballStonescaleY": "1.8",
+					"ballStonestatic": "1",
+
+					"targetX": "230.25",
+					"targetY": "122.6",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+
+				}
+			]
+		} ,
+		{
+			"level": 23,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+			
+					"sky": "assets/images/sky/Sky_23.png",
+					"scene": "assets/images/scene/Back_23.png",
+					"earth": "assets/images/earth/Earth_23.png",
+					"front": "assets/images/front/Front_23.png"
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"ground2": "assets/images/ground/GroundBox.png",
+					"ground3": "assets/images/ground/GroundBox.png",
+					"ground4": "assets/images/ground/GroundBox.png",
+					"ground5": "assets/images/ground/GroundBox.png",
+					"ground6": "assets/images/ground/GroundBox.png",
+					"ground7": "assets/images/ground/GroundBox.png",
+					"ground8": "assets/images/ground/GroundBox.png",
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+
+					"groundArc": "assets/images/ground/GroundArc.png",
+					"groundArc1": "assets/images/ground/GroundArc.png",
+					"groundArc2": "assets/images/ground/GroundArc.png",
+					"groundArc3": "assets/images/ground/GroundArc.png",
+					"groundArc4": "assets/images/ground/GroundArc.png",
+					"groundArc5": "assets/images/ground/GroundArc.png",
+					"groundArc6": "assets/images/ground/GroundArc.png",
+					"groundArc7": "assets/images/ground/GroundArc.png",
+					"groundArc8": "assets/images/ground/GroundArc.png",
+
+					"groundBall": "assets/images/ground/GroundBall.png",
+					"groundBall1": "assets/images/ground/GroundBall.png",
+					"groundBall2": "assets/images/ground/GroundBall.png",
+					"groundBall3": "assets/images/ground/GroundBall.png",
+					"groundBall4": "assets/images/ground/GroundBall.png",
+					"groundBall5": "assets/images/ground/GroundBall.png",
+					"groundBall6": "assets/images/ground/GroundBall.png",
+					"groundBall7": "assets/images/ground/GroundBall.png",
+					"groundBall8": "assets/images/ground/GroundBall.png",
+					
+					"walkerbox": "assets/images/parts/WalkerBox.png",
+					"walkerleftleg": "assets/images/parts/WalkerLeftLeg.png",
+					"walkerrightleg": "assets/images/parts/WalkerRightLeg.png",
+					"walkerleftfoot": "assets/images/parts/WalkerLeftFoot.png",
+					"walkerrightfoot": "assets/images/parts/WalkerRightFoot.png",
+					"point": "assets/images/parts/point.png",					
+
+					"player": "assets/images/parts/Head.png",
+					
+					"ropeDist": "assets/images/parts/ropedist_small2.png",
+					"walkerSpider": "assets/images/parts/WalkerBox.png",
+					"target": "assets/images/Target.png",
+					"revolute0": "assets/images/parts/Revolute.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthX": "-15",	
+					"earthY": "100",
+					"sceneX": "-76.4",
+					"sceneY": "-118.5",
+					"scenescaleX": "1.005",
+					"scenescaleY": "0.999",
+					"frontX": "-23",
+					"frontY": "55.65",
+					"skyX": "119",
+					"skyY": "5.2",
+					
+					"playerX": "465",
+					"playerY": "79",
+					"playermass": "5.0",
+					"playerpullFactor": "0.00001",
+					"playerforceFactor":"1.2",
+					"playerangularDamping":"5.0",
+					
+					"sunX" : "280",
+					"sunY" : "2.2",
+					"sunscaleX" : "0.75",
+					"sunscaleY" : "0.75",
+
+					"groundX": "248",
+					"groundY": "421.95",
+					"groundscaleX": "26",
+					"groundscaleY": "2.5",
+
+					"ground1X": "435",
+					"ground1Y": "115",
+					"ground1scaleX": "16",
+					"ground1scaleY": "0.955",
+
+					"ground2X": "8",
+					"ground2Y": "251",
+					"ground2scaleX": "0.62",
+					"ground2scaleY": "10",
+	
+					"ground3X": "632",
+					"ground3Y": "258",
+					"ground3scaleX": "1.0",
+					"ground3scaleY": "10.5",
+
+					"ground4X": "24",
+					"ground4Y": "136",
+					"ground4scaleX": "2.2",
+					"ground4scaleY": "2.3",
+	
+					"ground5X": "20",
+					"ground5Y": "115",
+					"ground5scaleX": "6.9",
+					"ground5scaleY": "0.82",
+
+					"ground6X": "570",
+					"ground6Y": "169",
+					"ground6scaleX": "3.7",
+					"ground6scaleY": "3.3",
+
+					"ground7X": "504",
+					"ground7Y": "146",
+					"ground7scaleX": "7.2",
+					"ground7scaleY": "2",
+
+					"ground8X": "295",
+					"ground8Y": "140",
+					"ground8scaleX": "1.25",
+					"ground8scaleY": "2.2",
+					
+					"groundArcX": "74",
+					"groundArcY": "141.5",
+					"groundArcangle" : "0",
+					"groundArcscaleX" : "1.23",
+					"groundArcscaleY" : "1.23",
+		
+					"groundArc1X": "32",
+					"groundArc1Y": "185.5",
+					"groundArc1angle" : "0",
+					"groundArc1scaleX" : "1.2",
+					"groundArc1scaleY" : "1.2",
+
+					"groundArc2X": "326",
+					"groundArc2Y": "140",
+					"groundArc2angle" : "0",
+					"groundArc2scaleX" : "1.17",
+					"groundArc2scaleY" : "1.07",
+										
+					"groundArc3X": "265",
+					"groundArc3Y": "142",
+					"groundArc3angle" : "-270",
+					"groundArc3scaleX" : "1.2",
+					"groundArc3scaleY" : "1.2",
+
+					"groundArc4X": "380",
+					"groundArc4Y": "142",
+					"groundArc4angle" : "-270",
+					"groundArc4scaleX" : "1.2",
+					"groundArc4scaleY" : "1.2",
+
+					"groundArc5X": "500",
+					"groundArc5Y": "187",
+					"groundArc5angle" : "-270",
+					"groundArc5scaleX" : "1.07",
+					"groundArc5scaleY" : "1.07",
+		
+					"groundArc6X": "604",
+					"groundArc6Y": "228",
+					"groundArc6angle" : "-270",
+					"groundArc6scaleX" : "1.07",
+					"groundArc6scaleY" : "1.07",
+		
+					"groundArc7X": "604",
+					"groundArc7Y": "372",
+					"groundArc7angle" : "180",
+					"groundArc7scaleX" : "1.07",
+					"groundArc7scaleY" : "1.07",
+
+					"groundArc8X": "32",
+					"groundArc8Y": "370",
+					"groundArc8angle" : "-90",
+					"groundArc8scaleX" : "1.07",
+					"groundArc8scaleY" : "1.07",
+
+					"groundBallX": "128",
+					"groundBallY": "115.5",
+					"groundBallscaleX": "0.8",
+					"groundBallscaleY": "0.8",
+
+					"groundBall1X": "52.5",
+					"groundBall1Y": "161.5",
+					"groundBall1scaleX": "0.8",
+					"groundBall1scaleY": "0.8",	
+					
+					"groundBall2X": "284",
+					"groundBall2Y": "164.5",
+					"groundBall2scaleX": "0.83",
+					"groundBall2scaleY": "0.83",
+
+					"groundBall3X": "304",
+					"groundBall3Y": "164.5",
+					"groundBall3scaleX": "0.83",
+					"groundBall3scaleY": "0.83",
+
+					"groundBall4X": "404",
+					"groundBall4Y": "160.5",
+					"groundBall4scaleX": "0.92",
+					"groundBall4scaleY": "0.92",
+
+					"groundBall5X": "525",
+					"groundBall5Y": "205.5",
+					"groundBall5scaleX": "0.92",
+					"groundBall5scaleY": "0.92",
+
+					"groundBall6X": "196",
+					"groundBall6Y": "115.5",
+					"groundBall6scaleX": "0.92",
+					"groundBall6scaleY": "0.92",
+				
+					"hardBoxX": "350" ,
+					"hardBoxY": "-10",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					
+					"hardBox1X": "-30" ,
+					"hardBox1Y": "200",
+					"hardBox1scaleX": "0" ,
+					"hardBox1scaleY": "16",
+					
+					"hardBox2X": "658" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					
+					"hardBox3X": "378",
+					"hardBox3Y": "467",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"walkerSpiderX": "143.1",
+					"walkerSpiderY": "280",
+					"walkerSpiderscaleX": "1.0",
+					"walkerSpiderscaleY": "1.0",
+
+					"revolute0X": "139.8",
+					"revolute0Y": "286.05",
+					"revolute0scaleX": "1.0",
+					"revolute0scaleY": "1.0",
+					"revolute0visible": "0",
+
+					"targetX": "139.6",
+					"targetY": "300.0",
+					"targetscaleX": "1.0",
+					"targetscaleY": "1.0"
+				
+				}
+			]
+		},
+
+		{
+			"level": 24,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_24.png",
+					"scene": "assets/images/scene/Back_24.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+					"ground1": "assets/images/ground/GroundBox.png",
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"post": "assets/images/parts/PostWood.png",
+					"transformer": "assets/images/parts/Transformer1.png",
+					"earthsprite": "assets/images/earth/Earth_24.png",
+					"frontsprite": "assets/images/front/Front_24.png",
+					"vaseLeft": "assets/images/parts/VaseLeft.png",
+					"vaseRight": "assets/images/parts/VaseRight.png",
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+					"weldVase": "assets/images/parts/Weld.png"
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-15",	
+					"earthspriteY": "300",
+					"sceneX": "-37",
+					"sceneY": "53",
+					"scenescaleX": "1.01",
+					"scenescaleY": "1",
+					"frontspriteX": "-5",
+					"frontspriteY": "358.65",
+					"skyX": "24.55",
+					"skyY": "24",
+					
+					"playerX": "512",
+					"playerY": "409",
+					
+					"sunX" : "269",
+					"sunY" : "20",
+					"sunscaleX" : "0.75",
+					"sunscaleY" : "0.75",
+
+					"groundX": "248",
+					"groundY": "416.9",
+					"groundscaleX": "26.1",
+					"groundscaleY": "2.5",
+
+					"ground1X": "15.15",
+					"ground1Y": "417",
+					"ground1scaleX": "5.5",
+					"ground1scaleY": "6.18",
+					"ground1angle": "29.999",
+					
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"postX": "570.25",
+					"postY": "230.15",
+
+					"wiresoftX": "704.35",
+					"wiresoftY": "89.5",
+
+					"transformerX": "595.2",
+					"transformerY": "329.5",
+					"transformerscaleX":"0.338",
+					"transformerscaleY":"0.338",
+
+					"vaseLeftX": "165.2",
+					"vaseLeftY": "326",
+					"vaseLeftscaleX":"1.0",
+					"vaseLeftscaleY":"1.0",
+
+					"vaseRightX": "201.2",
+					"vaseRightY": "326",
+					"vaseRightscaleX":"1.0",
+					"vaseRightscaleY":"1.0",
+
+					"weldVaseX": "185",
+					"weldVaseY": "378",
+					"weldVasescaleX":"1.0",
+					"weldVasescaleY":"1.0",
+					"weldVasevisible":"0" ,
+		
+					"targetX": "176.4",
+					"targetY": "340",
+					"targetscaleX": "1.06",
+					"targetscaleY": "1.06"
+
+				}
+			]
+		} ,		
+		{
+			"level": 25,
+			"ground": "ground",
+
+			"sprites": [
+				{
+					"plainbg": "assets/images/background/background.jpg",
+					"sun": "sunAnim",
+					"sky": "assets/images/sky/Sky_25.png",
+					"scene": "assets/images/scene/Back_25.png"
+					
+
+				}
+			],
+			"gameObjects": [
+				{
+					"ground": "assets/images/ground/GroundBox.png",
+	
+
+					"hardBox": "assets/images/ground/HardBox.png",
+					"hardBox1": "assets/images/ground/HardBox.png",
+					"hardBox2": "assets/images/ground/HardBox.png",
+					"hardBox3": "assets/images/ground/HardBox.png",
+
+					"wiresoft": "assets/images/parts/WireSoft.png",
+					"wiresoft1": "assets/images/parts/WireSoft.png",
+					"wiresoft2": "assets/images/parts/WireSoft2a.png",
+					"ground5": "assets/images/ground/GroundBox.png",
+
+					"postMetal": "assets/images/parts/PostMetal.png",
+					"transformer": "assets/images/parts/Transformer.png",
+					"post2": "assets/images/parts/PostWood2.png",
+
+					"beamMetal200": "assets/images/parts/BeamMetal200h.png",
+					"caseWood": "assets/images/parts/CaseWood.png",
+	
+					"containerMetal": "assets/images/parts/ContainerMetal.png",
+					"containerMetal1": "assets/images/parts/ContainerMetal.png",
+					"containerMetal3": "assets/images/parts/ContainerMetal.png",
+					"containerMetal2": "assets/images/parts/ContainerMetal.png",
+					"containerMetal4": "assets/images/parts/ContainerMetal.png",
+					"caseWood1": "assets/images/parts/CaseWood.png",
+			
+					"earthsprite": "assets/images/earth/Earth_25.png",
+					"frontsprite": "assets/images/front/Front_25.png",
+					"weldPin": "assets/images/parts/WeldPin.png",
+
+					"target": "assets/images/Target.png",
+					"player": "assets/images/parts/Head.png",
+
+		
+					"car": "assets/images/parts/Car.png",
+					"carDoor": "assets/images/parts/CarDoor.png",
+					"carWheel": "assets/images/parts/CarWheel.png",
+					"carWheel1": "assets/images/parts/CarWheel.png",
+					"revoluteCarMinus": "assets/images/parts/Revolute.png",
+					"revoluteCarMinus1": "assets/images/parts/Revolute.png",
+					"weld": "assets/images/parts/Anchor.png"
+							
+
+				}
+			],
+
+			
+			"position": [
+				{
+					"earthspriteX": "-15",	
+					"earthspriteY": "334",
+					"sceneX": "-53",
+					"sceneY": "15",
+					"scenescaleX": "0.71",
+					"scenescaleY": "0.70",
+					
+					"frontspriteX": "3",
+					"frontspriteY": "96.65",
+					"frontspritescaleX": "0.703",
+					"frontspritescaleY": "0.71",
+					
+					"skyX": "49.95",
+					"skyY": "34.5",
+					"skyscaleX": "0.705",
+					"skyscaleY": "0.701",
+					
+					"playerX": "423",
+					"playerY": "124",
+					"playerscaleX": "0.69",
+					"playerscaleY": "0.69",
+					"playermass": "8.8",
+					"playerfriction": "0.9",
+					"playerrestitution": "0.1",
+					"playerangularDamping": "3.0",
+					"playerhookOffset": "100",
+					
+					"sunX" : "167",
+					"sunY" : "71",
+					"sunscaleX" : "0.68",
+					"sunscaleY" : "0.68",
+
+					"groundX": "235",
+					"groundY": "372.2",
+					"groundscaleX": "26.1",
+					"groundscaleY": "2.5",
+
+					"hardBoxX": "330" ,
+					"hardBoxY": "-5",
+					"hardBoxscaleX": "23" ,
+					"hardBoxscaleY": "1",
+					"hardBox1X": "-10" ,
+					"hardBox1Y": "230",
+					"hardBox1scaleX": "1" ,
+					"hardBox1scaleY": "16",
+					"hardBox2X": "648" ,
+					"hardBox2Y": "210",
+					"hardBox2scaleX": "1" ,
+					"hardBox2scaleY": "16",
+					"hardBox3X": "328",
+					"hardBox3Y": "427",
+					"hardBox3scaleX": "23.1" ,
+					"hardBox3scaleY": "2",
+
+					"postMetalX": "39",
+					"postMetalY": "206",
+					"postMetalscaleX": "0.50",
+					"postMetalscaleY": "0.515",
+					
+					"wiresoftX": "-200.4",
+					"wiresoftY": "42.25",
+					"wiresoftscaleX": "1.0",
+					"wiresoftscaleY": "1.0",
+					"wiresoftangle": "6.030",
+
+					"wiresoft1X": "582.3",
+					"wiresoft1Y": "105.5",
+					"wiresoft1scaleX": "0.98",
+					"wiresoft1scaleY": "0.9",
+					"wiresoft1angle": "-2.530",
+
+					"wiresoft2X": "75",
+					"wiresoft2Y": "116.5",
+					"wiresoft2scaleX": "1.1",
+					"wiresoft2scaleY": "0.5",
+					"wiresoft2angle": "-1.0",
+	
+					"transformerX": "18",
+					"transformerY": "292.25",
+					"transformerscaleX": "0.9",
+					"transformerscaleY": "0.96",
+
+					"containerMetalX": "440.05",
+					"containerMetalY": "175.9",
+					"containerMetalscaleX": "0.705",
+					"containerMetalscaleY": "0.64",
+
+					"containerMetal1X": "682.85",
+					"containerMetal1Y": "175.9",
+					"containerMetal1scaleX": "0.75",
+					"containerMetal1scaleY": "0.66",
+
+					"containerMetal2X": "725.85",
+					"containerMetal2Y": "246.9",
+					"containerMetal2scaleX": "0.75",
+					"containerMetal2scaleY": "0.67",
+
+					"containerMetal3X": "530.85",
+					"containerMetal3Y": "301.5",
+					"containerMetal3scaleX": "0.75",
+					"containerMetal3scaleY": "0.70",
+					
+					"containerMetal4X": "725.85",
+					"containerMetal4Y": "318.9",
+					"containerMetal4scaleX": "0.75",
+					"containerMetal4scaleY": "0.75",
+
+					"beamMetal200X" : "348.25",
+					"beamMetal200Y" : "304.75",
+					"beamMetal200scaleX" : "0.78",
+					"beamMetal200scaleY" : "0.80",
+					"beamMetal200angle" : "-25.30",
+					"beamMetal200static" : "1",
+
+					"ground1X": "310.25",
+					"ground1Y": "288.75",
+					"ground1scaleX": "0.15",
+					"ground1scaleY": "8.5",
+					"ground1angle": "69.99",
+
+					"ground2X": "459.25",
+					"ground2Y": "294.75",
+					"ground2scaleX": "0.15",
+					"ground2scaleY": "2.5",
+					"ground2angle": "72.99",
+					
+					"ground3X": "569.25",
+					"ground3Y": "250.75",
+					"ground3scaleX": "0.15",
+					"ground3scaleY": "2.5",
+					"ground3angle": "75.99",
+					
+					"ground5X": "209.045",
+					"ground5Y": "114.99",
+					"ground5scaleX": "15",
+					"ground5scaleY": "0.3",
+					"ground5angle": "-0.9",
+					
+					"caseWoodX": "398.95",
+					"caseWoodY": "299.75",
+					"caseWoodscaleX": "0.59",
+					"caseWoodscaleY": "0.59",
+
+					"caseWood1X": "140.95",
+					"caseWood1Y": "296.75",
+					"caseWood1scaleX": "0.45",
+					"caseWood1scaleY": "0.45",
+					"caseWood1mass": "0.76",
+					"caseWood1restitution": "0.1",
+					"caseWood1friction": "0.1",
+
+					"carDoorX": "95.95",
+					"carDoorY": "306.00",
+					"carDoorscaleX": "0.75",
+					"carDoorscaleY": "0.73",
+
+					"weldX": "98.95",
+					"weldY": "312.75",
+					"weldscaleX": "1.0",
+					"weldscaleY": "1.0",
+					"weldvisible": "0",
+
+
+					"post2X": "453.8",
+					"post2Y": "137.625",
+					"post2scaleX": "0.75",
+					"post2scaleY": "0.7",
+
+					"carX": "130" ,
+					"carY": "305.0",
+					"carscaleX": "0.70" ,
+					"carscaleY": "0.70",
+					"carangle": "0",
+					"carmass": "10",
+					"carrestitution": "0.4",
+					"carfriction": "0.2",
+					
+					"carWheelX": "147" ,
+					"carWheelY": "326",
+					"carWheelscaleX": "0.70" ,
+					"carWheelscaleY": "0.70",
+
+					"carWheel1X": "100" ,
+					"carWheel1Y": "326",
+					"carWheel1scaleX": "0.70" ,
+					"carWheel1scaleY": "0.70",
+
+					"revoluteCarMinusX": "100",
+					"revoluteCarMinusY": "326",
+					"revoluteCarMinusscaleX": "1.0",
+					"revoluteCarMinusscaleY": "1.0",
+					"revoluteCarMinusvisible": "0",
+
+					"revoluteCarMinus1X": "147",
+					"revoluteCarMinus1Y": "326",
+					"revoluteCarMinus1scaleX": "1.0",
+					"revoluteCarMinus1scaleY": "1.0",
+					"revoluteCarMinus1visible": "0",
+		
+					"targetX": "553.4",
+					"targetY": "127.9",
+					"targetscaleX": "1.05",
+					"targetscaleY": "1.05"
+
+				}
+			]
+		}  
+			
+	],
+	"version": 1
+}

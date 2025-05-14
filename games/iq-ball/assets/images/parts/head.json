@@ -1,0 +1,55 @@
+{
+"frames": [
+    {  "filename":"Head0",
+		"frame": {"x":0, "y":38, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadLeft",
+		"frame": {"x":0, "y":0, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadTopLeft",
+		"frame": {"x":35, "y":38, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadTop",
+		"frame": {"x":70, "y":38, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadTopRight",
+		"frame": {"x":70, "y":0, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadRight",
+		"frame": {"x":35, "y":76, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadBottomRight", 
+		"frame": {"x":70, "y":76, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {   "filename":"HeadBottom", 
+		"frame": {"x":35, "y":0, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	},
+    {     "filename":"HeadBottomLeft", 
+		"frame": {"x":0, "y":76, "w":34, "h":37},
+		"spriteSourceSize": {"x":0,"y":1,"w":35,"h":38},
+		"sourceSize": {"w":35,"h":38}
+	}
+
+],
+"meta": {
+	"image": "Head.png",
+	"size": {"w": 105, "h": 114},
+	"scale": "1"
+}
+}
