@@ -269,10 +269,10 @@
     {
       "id": 19,
       "data": {
-        "width": 640,
-        "height": 480,
-        "gameFile": "fireboy-&-watergirl-the-forest-temple.swf",
-        "gameType": "flash"
+        "width": 728,
+        "height": 546,
+        "gameFile": "",
+        "gameType": "html5"
       },
       "name": "Fireboy & Watergirl - The Forest Temple",
       "url": "fireboy-&-watergirl-the-forest-temple",
