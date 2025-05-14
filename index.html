@@ -404,10 +404,27 @@
         }
         document.getElementById("FavoritesBody").insertAdjacentHTML('beforeend', toAppend);
       }
-      function removeFromFav(){
+      function checkIfFav(url){
+        let alrThere = false
+        for(let index in allFaves){
+          if(allFaves[index] == url){
+            alrThere = true
+          }
+        }
+        return alrThere
+      }
+      function updateFavoriteButton(url){
+        let alrThere = checkIfFav(url)
+        if(alrThere){
+          document.getElementById("FavoriteGameButton").src = "images/favorited-icon.png"
+        }
+        else{
+          document.getElementById("FavoriteGameButton").src = "images/favorite-icon.png"
+        }
+      }
+      function removeFromFav(url){
         tempFaves = localStorage.getItem("favoriteGames")
         allFaves = tempFaves.split(";")
-        let url = document.getElementById("GAMEURL").value;
 
         let newAllFaves = allFaves.filter(item => item !== url);
         let newFaves = ""
@@ -425,25 +442,17 @@
 
         refreshFavs()
       }
-      function addToFav(){
+      function addToFav(url){
         tempFaves = localStorage.getItem("favoriteGames")
         allFaves = tempFaves.split(";")
 
-        let url = document.getElementById("GAMEURL").value;
-        let alrThere = false
+        let alrThere = checkIfFav(url)
         let newFaves = tempFaves
 
-        if(url !== ""){
-          for(let index in allFaves){
-            if(allFaves[index] == url){
-              alrThere = true
-            }
-          }
-          if(alrThere === false){
-            urrrlll = url + ";"
-            newFaves += urrrlll
-            localStorage.setItem("favoriteGames", newFaves)
-          }
+        if(alrThere === false){
+          urrrlll = url + ";"
+          newFaves += urrrlll
+          localStorage.setItem("favoriteGames", newFaves)
         }
 
         tempFaves2 = localStorage.getItem("favoriteGames")
@@ -451,6 +460,16 @@
         console.log(allFaves2)
 
         refreshFavs()
+      }
+      function pressFavorite(url){
+        let alrThere = checkIfFav(url)
+        if(alrThere){
+          removeFromFav(url)
+        }
+        else{
+          addToFav(url)
+        }
+        updateFavoriteButton(url)
       }
       function surpriseMe(fromMenu){
         let urlList = [];
@@ -670,6 +689,7 @@
           let tempwidth = 500;
           let tempDesc = "Description for " + name + " was not specified."
           let tagstring = ""
+          let fullscreenstring = "<img src='images/fullscreen-icon.png' width='35' height='35' style='padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'>"
           if(gameData.games[index].isWorking){
             switch (gameData.games[index].data.gameType){
               case "flash":
@@ -688,22 +708,26 @@
               tempDesc = gameData.games[index].description
             }
             tempwidth = gameData.games[index].data.width;
-            for (let i = 0; i < gameData.games[index].tags.length; i++) {
-              console.log("Got Tag Named: " + gameData.games[index].tags[i]);
-              functext = 'viewFilter("' + gameData.games[index].tags[i] + '")'
-              tagstring += "<button style='font-size: 12px;' onclick='" + functext + "';'>" + gameData.games[index].tags[i] +"</button>";
-            }
           }
           else{
+            fullscreenstring = ""
             parsestring = '<img id="GameElement" src="images/fixing.png" alt="Look At Him Go!" width="500" height="350"><br><br><a style="color: white; font-size: 32px;">Sorry, ' + name + ' is not Working Currently...</a>';
           }
-          titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + gameData.games[index].data.width + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><img src='images/fullscreen-icon.png' width='35' height='35' style=' padding: 15px 20px; cursor:pointer;' onclick='openFullscreen(false);' class='fullscreenButton'></div>";
+          for (let i = 0; i < gameData.games[index].tags.length; i++) {
+            console.log("Got Tag Named: " + gameData.games[index].tags[i]);
+            functext = 'viewFilter("' + gameData.games[index].tags[i] + '")'
+            tagstring += "<button style='font-size: 12px;' onclick='" + functext + "';'>" + gameData.games[index].tags[i] +"</button>";
+          }
+          funcFav = 'pressFavorite("' + url + '")'
+          titlestring = "<div style='border-color: black; border-width: 5px; border-style: solid; background-color: lightgray; font-size: 24px; width:" + tempwidth + "px; height:fit-content; display: flex; justify-content: space-between;'><strong style='padding: 15px 15px'><a style='text-wrap: wrap;'>" + name + "</a></strong><div style='display: flex;'><img src='' width='35' height='35' style='padding: 15px 20px; cursor:pointer;' onclick='" + funcFav + ";' class='fullscreenButton' id='FavoriteGameButton'>" + fullscreenstring + "</div></div>";
           descstring = "<br><br><div style='border-color: black; border-width: 5px; border-style: solid; background-color: darkgray; width:" + tempwidth + "px; height:fit-content;'><strong><br><a style='font-size: 20px;'>Description</a></strong><br><br><a style='text-wrap: wrap;'>" + tempDesc + "</a><br><br><strong><br><a style='font-size: 20px;'>Tags</a></strong><br><br><div>" + tagstring + "</div></div>"
+          
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', parsestring);
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', titlestring);
           document.getElementById("GameWindow").insertAdjacentHTML('beforeend', descstring);
           document.getElementById("GAMETYPE").value = gameData.games[index].data.gameType;
           document.getElementById("subTEXT").scrollIntoView({ behavior: 'smooth'})
+          updateFavoriteButton(url)
           console.log("Done.");
         }
         else{
