@@ -391,10 +391,10 @@
               if(actualData !== ""){
                 onClickk = "setURL('" + actualData.url + "')"
                 if(actualData.isWorking){
-                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:pointer;" class="grid-item" onclick="' + onClickk + '"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
+                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 250px; height: 100px; padding: 5px 5px; cursor:pointer;" class="grid-item" onclick="' + onClickk + '"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><div style="-ms-transform: translateY(40%); transform: translateY(40%);"><a style="padding: 35px">' + actualData.name + '</a></div><a width="0" height="0"></a></div><br>'
                 }
                 else{
-                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 350px; height: 100px; padding: 5px 5px; cursor:not-allowed;" class="grid-item-broken"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><a style="padding: 35px">' + actualData.name + '</a></div><br>'
+                  toAppend += '<div style="justify-content: space-between; border-color: black; border-width: 5px; border-style: solid; display: flex; width: 250px; height: 100px; padding: 5px 5px; cursor:not-allowed;" class="grid-item-broken"><img src="images/thumbnails/' + actualData.url + '.png" width="100" height="100"><div style="-ms-transform: translateY(40%); transform: translateY(40%);"><a style="padding: 35px">' + actualData.name + '</a></div><a width="0" height="0"></a></div><br>'
                 }
               }
             }
