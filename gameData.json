@@ -1329,6 +1329,34 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Your goal is to get the little purple IQ Ball critter to the target. To do this, you shoot out with his grabber and latch onto things to move him along towards his goal. The fewer the moves you use, the better!"
+    },
+    {
+      "id": 97,
+      "data": {
+        "width": 800,
+        "height": 600,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "2048",
+      "url": "2048",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "The goal is to get a single tile to be 2048. Get two of the same numbers next to each other and add them together using your arrow keys. Use the arrow keys to move your tiles in one direction or another"
+    },
+    {
+      "id": 98,
+      "data": {
+        "width": 1670,
+        "height": 911,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Parking Panic",
+      "url": "parking-panic",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Your goal is to move your red car to the exit. Move the other cars and trucks out of the way so that you can reach it. To move any car, click and drag it forward or backwards using your mouse."
     }
   ],
   "webhooks": [
