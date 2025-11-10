@@ -1357,6 +1357,20 @@
       "tags": ["SinglePlayer"],
       "isWorking": true,
       "description": "Your goal is to move your red car to the exit. Move the other cars and trucks out of the way so that you can reach it. To move any car, click and drag it forward or backwards using your mouse."
+    },
+    {
+      "id": 99,
+      "data": {
+        "width": 800,
+        "height": 550,
+        "gameFile": "",
+        "gameType": "html5"
+      },
+      "name": "Block Blast",
+      "url": "block-blast",
+      "tags": ["SinglePlayer"],
+      "isWorking": true,
+      "description": "Block Blast challenges you to achieve the highest score possible by clearing the rows and columns. The game ends when you can no longer place any new blocks. With every move, the pressure builds. The further you go, the more intense and satisfying the challenge becomes."
     }
   ],
   "webhooks": [
