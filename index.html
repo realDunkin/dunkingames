@@ -2,7 +2,7 @@
 <html>
   <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width= device-width, initial-scale= 1">
       <title id="title">Home - Dunkin's Games</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -105,7 +105,7 @@
       }
     }
   </style>
-  <body background="images/background.png">
+  <body background="images/background.png" style="margin: 0px; width: 100vw; height: 100vh; justify-content: center;">
     <img id="menuIcon" class="menuButton" onclick="openOverlayMenu()" src="images/menu-icon.png" width="50" height="50" style="position: fixed; z-index: 1; bottom: 2%; left: 1%; display: block;">
     <div id="Variables" style="display: none;">
       <input type="text" id="GAMEURL" value=""></input>
@@ -132,47 +132,50 @@
           <br><br>
           <a style="font-size: 32px;" href="#" onclick="showMainBody(false)">Dunkin's Games</a>
           <p id="subTEXT" style="font-size: 24px;"></p>
-          <br>
         </strong>
       </center>
     </div>
     <div id="MainBody" style="display: none;">
-      <div style="display: flex; justify-content: center;">
-        <div id="ChartBody">
-          <center style="border-color: black; border-width: 3.5px; border-style: solid; height: 650px; overflow-y: scroll;">
-            <div id="DaChart" class="grid-container">
-              
+      <center>
+        <div style="display: flex; justify-content: center;">
+          <div id="ChartBody">
+            <div style="border-color: black; border-width: 3.5px; border-style: solid; height: 650px; overflow-y: scroll;">
+              <div id="DaChart" class="grid-container">
+                
+              </div>
             </div>
-          </center>
-        </div>
-        <div id="MiscBody" style="padding: 18px; font-family: sans-serif;">
-            <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
-            <br>
-            <select id="listSort" size="1"  onchange="makeList()">
-              <option value="New-Old">Sort By: Newest To Oldest</option>
-              <option value="Old-New">Sort By: Oldest To Newest</option>
-              <option value="A-Z">Sort By: A To Z</option>
-              <option value="Z-A">Sort By: Z To A</option>
-            </select>
-            <br>
-            <select id="listFilter" size="1" onchange="makeList()">
-              <option value="None">Filter By: None</option>
-              <option value="SinglePlayer">Filter By: Single Player Games</option>
-              <option value="LocalMultiplayer">Filter By: Local Multiplayer Games</option>
-              <option value="OnlineMultiplayer">Filter By: Online Multiplayer Games</option>
-            </select>
-            <br><br>
-            <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
-            <br>
-            <button class="Button-Broken" onclick="clearFavs();"> Clear Favorites</button>
-            <br><br>
-            <center><a style="color: black; font-size: 18px">Favorite Games</a></center>
-            <br>
-            <div id="FavoritesBody" style="height: 425px; border-color: black; border-width: 3.55px; border-style: solid; overflow-y: scroll; column-gap: 15px; padding: 15px 15px;">
+          </div>
+          <div id="MiscBody" style="padding: 18px; font-family: sans-serif;">
+              <input type="text" id="searchBox" placeholder="Search Game..." onchange="makeList()"></input>
+              <br>
+              <select id="listSort" size="1"  onchange="makeList()">
+                <option value="New-Old">Sort By: Newest To Oldest</option>
+                <option value="Old-New">Sort By: Oldest To Newest</option>
+                <option value="A-Z">Sort By: A To Z</option>
+                <option value="Z-A">Sort By: Z To A</option>
+              </select>
+              <br>
+              <select id="listFilter" size="1" onchange="makeList()">
+                <option value="None">Filter By: None</option>
+                <option value="SinglePlayer">Filter By: Single Player Games</option>
+                <option value="LocalMultiplayer">Filter By: Local Multiplayer Games</option>
+                <option value="OnlineMultiplayer">Filter By: Online Multiplayer Games</option>
+              </select>
+              <br><br>
+              <button id="surpriseMe" class="Button" onclick="surpriseMe(false);">Surprise Me!</button>
+              <br>
+              <button class="Button-Broken" onclick="clearFavs();"> Clear Favorites</button>
+              <br><br>
+              <strong>
+              <center><a style="color: black; font-size: 18px">Favorite Games</a></center>
+              </strong>
+              <br>
+              <div id="FavoritesBody" style="height: 425px; border-color: black; border-width: 3.55px; border-style: solid; overflow-y: scroll; column-gap: 15px; padding: 15px 15px;">
 
-            </div>
+              </div>
+          </div>
         </div>
-      </div>
+      </center>
     </div>
     <div id="GameBody" style="display: none;">
       <center>
@@ -182,7 +185,6 @@
       </center>
     </div>
     <div id="Footer">
-      <br><br><br><br>
       <center>
         <strong>
           <a style="font-size: 12px;" href="https://github.com/realDunkin/dunkingames">Created and Maintained By realDunkin - I Don't Own Any Games Here - Want To Put Some Of These Games On Your Own Page?</a>
